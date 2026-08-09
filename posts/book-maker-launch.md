@@ -2,7 +2,7 @@
 
 *Tired of complex software? Discover how our new, privacy-first Book Maker lets you assemble professional-grade paperbacks and documents in minutes, for free, without ever sending your data to a server.*
 
-![FreeDailyPro Book Maker Featured Image](../images/book_maker_featured_v5.webp)
+![FreeDailyPro Book Maker Featured Image](../images/book-maker-launch.webp)
 
 [FreeDailyPro.com](https://freedailypro.com) is proud to announce a revolutionary way for authors to bring their stories to life. Imagine spending months pouring your heart into a manuscript, only to hit a brick wall when it’s time to format it. Most writers feel that sudden wave of frustration when page numbers won't align or the Table of Contents breaks.
 
