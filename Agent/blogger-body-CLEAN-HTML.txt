@@ -1,0 +1,42 @@
+<p><img src="cid:hero" alt="Free Book Maker for Authors – Turn chapters into a book draft" style="max-width:100%; height:auto;" /></p>
+
+<p>You know that feeling when the writing is finally done… and then the real headache begins?</p>
+<p>Dozens of chapter files. Some in Word, some in PDF, a couple of images. No proper Table of Contents. No front cover. No spine. Just a messy pile that somehow needs to become a clean book draft ready for review, beta readers, or KDP.</p>
+<p>Most solutions either cost money, force you to create an account, or quietly upload your unpublished manuscript to their servers. That is exactly why we built something different.</p>
+<p><a href="https://www.freedailypro.com">FreeDailyPro.com</a> -- Our free <a href="https://www.freedailypro.com/tool/book-maker">Book Maker</a> lets you assemble a complete book draft right inside your browser. Nothing leaves your device. No login required for normal use. Full privacy by design.</p>
+<h2>What You Can Do in Under Five Minutes</h2>
+<ul>
+<li>Drop in any mix of PDF, Word (.docx), plain text, or image files</li>
+<li>Give each section a proper chapter title</li>
+<li>Drag and drop to set the perfect order</li>
+<li>Automatically generate a clean Table of Contents and List of Images</li>
+<li>Add a front cover (using your title and author name) and optional spine</li>
+<li>Choose real book trim sizes or classic US Letter / A4</li>
+<li>Download a polished, ready-to-review book draft</li>
+</ul>
+<p>Everything runs client-side. Your manuscript never touches our servers. That means 100% privacy and full AI-policy compliance — critical when you are still writing the next bestseller or client project.</p>
+<h2>Why Authors and Editors Love It</h2>
+<p>Traditional formatting tools are either overkill or privacy nightmares. FreeDailyPro’s Book Maker sits in the sweet spot: powerful enough for professional drafts, simple enough that you can use it between writing sessions, and completely free for everyday work.</p>
+<p>It pairs perfectly with our other free tools — <a href="https://www.freedailypro.com/tool/compress-image">compress-image</a>, <a href="https://www.freedailypro.com/tool/word-counter">word-counter</a>, <a href="https://www.freedailypro.com/category/pdf-tools">PDF tools</a>, and <a href="https://www.freedailypro.com/tool/resume-builder">resume-builder</a> — all following the same privacy-first philosophy.</p>
+<h2>Privacy Is Not Optional When You Are Writing a Book</h2>
+<p>Your unfinished manuscript is valuable. It contains your original ideas, client work, or the next book that will carry your name. Uploading it to random “AI book generators” or cloud formatters is a risk most serious authors refuse to take.</p>
+<p>That is why every file tool on FreeDailyPro — including the Book Maker — processes everything inside your own browser. We never see your chapters. We never store them. We never train anything on them. The result is true privacy plus the freedom to create without signing up for yet another account.</p>
+<p>This same approach powers our entire free toolkit. Whether you need to compress images, merge PDFs, count words, or generate a resume, the data stays with you.</p>
+<h2>How to Get Your First Draft Ready Right Now</h2>
+<p>1. Open the <a href="https://www.freedailypro.com/tool/book-maker">Book Maker</a></p>
+<p>2. Enter book title and author name</p>
+<p>3. Upload your chapter files</p>
+<p>4. Title each chapter and reorder them</p>
+<p>5. (Optional) add cover and spine</p>
+<p>6. Click generate and download</p>
+<p>That is it. No account. No wait. No data leaving your browser.</p>
+<p>We are already preparing short YouTube walkthroughs so you can see every major tool in action before you even click.</p>
+<p><strong>Ready to turn your chapters into a clean book draft?</strong></p>
+<p>→ <a href="https://www.freedailypro.com/tool/book-maker">Launch the Free Book Maker now</a></p>
+<p>What extra feature would make this even more useful for your writing workflow? Drop your ideas via the feedback button on FreeDailyPro.com — your requests directly shape what we build next.</p>
+<p>Happy writing!</p>
+
+<p><em>Originally for FreeDailyPro.com — 200+ free browser-based tools. No login for most tools. Your data stays on your device.</em></p>
+
+labels: Free Tools, Book Maker, Authors, Privacy, No Signup Tools, Productivity, Free Online Tools
+#end

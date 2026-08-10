@@ -1,0 +1,56 @@
+============================================================
+BLOGGER POST-BY-EMAIL — CORRECT WAY (FIXED)
+============================================================
+
+PROBLEM YOU SAW:
+When you paste full HTML (with <!DOCTYPE>, <html>, <head> etc.) 
+Blogger often shows the raw code instead of rendering it.
+
+SOLUTION: Use ONE of the two clean methods below.
+
+--------------------------------------------------
+METHOD 1 (RECOMMENDED — most reliable)
+--------------------------------------------------
+1. Compose new email in Gmail
+2. To: kottalgi.2022.auto@blogger.com
+3. Subject exactly:
+   Turn Scattered Chapters into a Real Book Draft in Minutes — Free Tool for Authors
+
+4. ATTACH the image file:
+   Agent/images/book-maker-blogger-test.webp
+
+5. In the BODY of the email, paste ONLY the content from:
+   Agent/blogger-body-PLAIN.txt
+
+   (This is clean plain text — Blogger will format it nicely)
+
+6. Send
+
+--------------------------------------------------
+METHOD 2 (if you want richer formatting)
+--------------------------------------------------
+Same as above, but paste the content from:
+   Agent/blogger-body-CLEAN-HTML.txt
+
+IMPORTANT: This is a HTML *fragment* only (no DOCTYPE, no <html>, no <head>).
+Do NOT paste the old blogger-email-body.html full document.
+
+--------------------------------------------------
+AFTER SENDING
+--------------------------------------------------
+- Wait 30–90 seconds
+- Go to https://freedailypro.blogspot.com
+- Check the new post
+- If labels are missing, open the post in Blogger editor → Labels → add:
+  Free Tools, Book Maker, Authors, Privacy, No Signup Tools, Productivity, Free Online Tools
+- If the image appears as attachment only, you can drag it into the post body once.
+
+--------------------------------------------------
+FILES YOU NEED
+--------------------------------------------------
+- Image: Agent/images/book-maker-blogger-test.webp
+- Plain body (recommended): Agent/blogger-body-PLAIN.txt
+- Clean HTML fragment: Agent/blogger-body-CLEAN-HTML.txt
+
+Please try METHOD 1 first and tell me how it looks.
+Then we can fine-tune for the remaining posts.
