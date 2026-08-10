@@ -1,0 +1,29 @@
+BLOGGER EMAIL POSTING INSTRUCTIONS (First Test)
+================================================
+
+TO: kottalgi.2022.auto@blogger.com
+SUBJECT: Turn Scattered Chapters into a Real Book Draft in Minutes — Free Tool for Authors
+
+1. Open your Gmail (or any email client)
+2. Compose new email
+3. To: kottalgi.2022.auto@blogger.com
+4. Subject: Turn Scattered Chapters into a Real Book Draft in Minutes — Free Tool for Authors
+5. Attach the image: Agent/images/book-maker-blogger-test.webp
+6. Paste the content from blogger-email-body.html into the body (as HTML if possible)
+   OR paste the clean Markdown version and let Blogger convert
+7. At the very end of the body add these two lines:
+
+labels: Free Tools, Book Maker, Authors, Privacy, No Signup Tools, Productivity, Free Online Tools
+#end
+
+8. Send
+
+After sending, wait 30–60 seconds and check https://freedailypro.blogspot.com
+
+If the image does not appear automatically, Blogger may require you to re-upload or the attachment name will become the image. The official way is to attach the image.
+
+Alternative: After the post publishes as draft or live, you can edit it once to set the exact image and labels if needed.
+
+TITLE USED: Turn Scattered Chapters into a Real Book Draft in Minutes — Free Tool for Authors
+IMAGE: book-maker-blogger-test.webp (new varied image)
+CONTENT: Completely rewritten / varied from the original FreeDailyPro post (to avoid Google duplicate content)
