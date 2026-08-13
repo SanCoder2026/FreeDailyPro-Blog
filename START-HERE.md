@@ -75,5 +75,24 @@ https://github.com/SanCoder2026/FreeDailyPro-Blog/tree/main/Agent
 
 ---
 
+
+---
+
+## Permanent Web / Desktop URL (recommended)
+
+1. Enable **GitHub Pages** once:
+   - Go to https://github.com/SanCoder2026/FreeDailyPro-Blog/settings/pages
+   - Source = Deploy from a branch
+   - Branch = `main` / folder = `/ (root)`
+   - Save
+
+2. After ~1 minute your permanent bookmarkable URL is:
+
+   **https://sancoder2026.github.io/FreeDailyPro-Blog/**
+
+   (This serves the beautiful Agent Portal with one-click copy of the activation prompt)
+
+You can also download `index.html` from the repo and open it locally / pin it to desktop.
+
 **Tip:** Bookmark this START-HERE.md or pin the GitHub Agent folder.  
 In a new conversation just paste the short activation prompt above and continue from where we left off.
