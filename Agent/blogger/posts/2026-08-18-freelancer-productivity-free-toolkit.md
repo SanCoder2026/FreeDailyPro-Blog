@@ -2,7 +2,7 @@
 title: "Freelancers: Build a Free Productivity Stack That Actually Respects Client Privacy"
 schedule: 2026-08-18
 image: 2026-08-18-freelancer-productivity-free-toolkit.webp
-labels: freelancers, solopreneurs, free tools, FreeDailyPro, PDF tools, image tools, invoice, resume, productivity, remote work, privacy, no login, client side, free daily tools, browser tools, gig economy
+labels: freelancers, solopreneurs, free tools, FreeDailyPro, PDF tools, image tools, productivity, privacy, no login, remote work, client side, free daily tools, browser tools, resume, invoice
 description: Free productivity toolkit for freelancers. PDF, image, invoice and career tools that stay private in your browser. FreeDailyPro for solopreneurs.
 ---
 
