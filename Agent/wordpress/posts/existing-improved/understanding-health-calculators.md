@@ -1,5 +1,6 @@
 ---
 title: "Understanding Health Calculators: What They Really Measure (And What They Don’t)"
+subtitle: "What BMI, BMR, body fat, and calorie tools actually measure — and what free numbers cannot replace."
 platform: wordpress
 type: improved-existing
 image: ../images/existing-upgrade/understanding-health-calculators.webp

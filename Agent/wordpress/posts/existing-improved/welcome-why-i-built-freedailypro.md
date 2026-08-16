@@ -1,5 +1,6 @@
 ---
 title: "Welcome — Why I Built FreeDailyPro (And What You’ll Actually Get)"
+subtitle: "The good-faith story behind 200+ free browser tools — private for core file work, free for daily use."
 platform: wordpress
 type: improved-existing
 image: ../images/existing-upgrade/welcome-why-i-built-freedailypro.webp

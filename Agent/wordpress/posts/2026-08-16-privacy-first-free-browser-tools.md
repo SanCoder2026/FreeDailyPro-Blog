@@ -1,5 +1,6 @@
 ---
 title: "Your Files Never Need to Leave Your Browser — Free Private Tools for 2026"
+subtitle: "Free client-side tools that keep PDFs and photos on your device — no random uploads, no extra logins for everyday work."
 schedule: 2026-08-16
 platform: wordpress
 image: 2026-08-16-privacy-first-free-browser-tools.webp

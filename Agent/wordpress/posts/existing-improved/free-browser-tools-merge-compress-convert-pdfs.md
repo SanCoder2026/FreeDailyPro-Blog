@@ -1,5 +1,6 @@
 ---
 title: "Free Browser Tools to Merge, Compress, and Convert PDFs — Without Uploading Your Files"
+subtitle: "Merge, split, compress, and convert PDFs in your browser without sending files to a stranger’s server."
 platform: wordpress
 image: ../images/existing-upgrade/free-browser-tools-merge-compress-convert-pdfs.webp
 tags: [free PDF tools, merge PDF, compress PDF, convert PDF, FreeDailyPro, browser tools, privacy, no upload, client side, document tools, productivity, free daily tools, split PDF, PDF to Word, no login]

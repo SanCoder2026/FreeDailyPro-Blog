@@ -1,5 +1,6 @@
 ---
 title: "Freelancers: Build a Free Productivity Stack That Actually Respects Client Privacy"
+subtitle: "Build a free private freelancing stack for PDFs, images, and delivery that respects client privacy."
 schedule: 2026-08-18
 image: 2026-08-18-freelancer-productivity-free-toolkit.webp
 labels: freelancers, solopreneurs, free tools, FreeDailyPro, PDF tools, image tools, productivity, privacy, no login, remote work, client side, free daily tools, browser tools, resume, invoice

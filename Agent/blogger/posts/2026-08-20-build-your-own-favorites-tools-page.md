@@ -1,5 +1,6 @@
 ---
 title: "Create Your Own FreeDailyPro Page — Star Tools and Open Only What You Use"
+subtitle: "Create your own FreeDailyPro tools page by starring only what you use every day."
 schedule: 2026-08-20
 image: 2026-08-20-build-your-own-favorites-tools-page.webp
 labels: favorites, favourite tools, my tools, personal page, FreeDailyPro, free tools, productivity, star tools, browser tools, privacy, no login, free daily tools, PDF, image tools, custom toolkit

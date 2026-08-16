@@ -1,5 +1,6 @@
 ---
 title: "Free Tools for Students and Remote Workers Who Cannot Upload Everything"
+subtitle: "School and company-friendly free tools that work when cloud AI and installs are blocked."
 schedule: 2026-08-22
 platform: wordpress
 image: 2026-08-22-free-tools-for-students-and-remote-work.webp

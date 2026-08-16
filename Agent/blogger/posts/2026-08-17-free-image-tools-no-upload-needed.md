@@ -1,5 +1,6 @@
 ---
 title: "Free Image Tools That Never Upload Your Photos — Compress, Convert, Resize Privately"
+subtitle: "Free private image compress and convert tools that never need your photos on someone else’s server."
 schedule: 2026-08-17
 image: 2026-08-17-free-image-tools-no-upload-needed.webp
 labels: free image tools, compress image, convert image, FreeDailyPro, privacy, no upload, browser tools, photo tools, ecommerce, freelancers, free daily tools, client side, WebP, image compressor, productivity

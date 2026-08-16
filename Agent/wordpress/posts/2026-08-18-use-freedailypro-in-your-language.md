@@ -1,5 +1,6 @@
 ---
 title: "FreeDailyPro Speaks Your Language — Use Free Private Tools Without Translating Every Button"
+subtitle: "Switch FreeDailyPro into your language once and keep every free private tool feeling native."
 schedule: 2026-08-18
 platform: wordpress
 image: 2026-08-18-use-freedailypro-in-your-language.webp

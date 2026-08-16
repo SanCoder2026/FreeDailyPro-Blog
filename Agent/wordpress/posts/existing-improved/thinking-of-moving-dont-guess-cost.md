@@ -1,5 +1,6 @@
 ---
 title: "Thinking of Moving? Don’t Guess What It’ll Cost You — Free Relocation Tools"
+subtitle: "Free cost-of-living, moving cost, and checklist tools so relocation decisions start with real numbers."
 platform: wordpress
 image: ../images/existing-upgrade/thinking-of-moving-dont-guess-cost.webp
 tags: [moving cost, cost of living, relocation, FreeDailyPro, free tools, moving checklist, privacy, browser tools, productivity, no login, free daily tools, remote work, ZIP code, budget, planning]

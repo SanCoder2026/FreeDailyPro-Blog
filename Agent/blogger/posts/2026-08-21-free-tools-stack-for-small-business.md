@@ -1,5 +1,6 @@
 ---
 title: "The Free Tools Stack Every Small Business Can Start Using This Week"
+subtitle: "A free private document and image stack small businesses can adopt this week without new software installs."
 schedule: 2026-08-21
 image: 2026-08-21-free-tools-stack-for-small-business.webp
 labels: small business, free tools, FreeDailyPro, PDF, image tools, productivity, privacy, no login, browser tools, free daily tools, entrepreneurs, document tools, invoices, calculators, startups

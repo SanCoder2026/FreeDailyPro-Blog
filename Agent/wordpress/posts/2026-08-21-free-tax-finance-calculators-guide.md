@@ -1,5 +1,6 @@
 ---
 title: "Free Tax and Finance Calculators You Can Use Privately in Your Browser"
+subtitle: "US, UK, and India tax helpers plus finance calculators you can run freely in the browser."
 schedule: 2026-08-21
 platform: wordpress
 image: 2026-08-21-free-tax-finance-calculators-guide.webp

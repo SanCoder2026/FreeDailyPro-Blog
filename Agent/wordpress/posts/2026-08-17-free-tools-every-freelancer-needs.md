@@ -1,5 +1,6 @@
 ---
 title: "The Free Private Toolkit Every Freelancer Should Bookmark in 2026"
+subtitle: "A free private toolkit for proposals, contracts, images, and client delivery without risky upload sites."
 schedule: 2026-08-17
 platform: wordpress
 image: 2026-08-17-free-tools-every-freelancer-needs.webp

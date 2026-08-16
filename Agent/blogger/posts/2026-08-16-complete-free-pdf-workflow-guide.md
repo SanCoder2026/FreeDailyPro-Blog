@@ -1,5 +1,6 @@
 ---
 title: "The Only Free PDF Workflow You Need in 2026 — Merge, Split, Compress, Convert"
+subtitle: "One free private PDF workflow: merge, split, compress, convert — and keep documents on your device."
 schedule: 2026-08-16
 image: 2026-08-16-complete-free-pdf-workflow-guide.webp
 labels: free PDF tools, merge PDF, compress PDF, split PDF, FreeDailyPro, PDF to Word, browser PDF, privacy, no upload, document tools, freelancers, students, free daily tools, PDF workflow, productivity

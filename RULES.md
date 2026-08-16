@@ -31,6 +31,7 @@ draft: false
 ---
 ```
 - `subtitle` and `description` are different. Subtitle can be a bit longer; description is the short portal one-liner.
+- **`subtitle` is mandatory on every post** (site, Blogger, and WordPress). Single line, used as italic under the title for metadata. Never omit it. Never paste it again as a body paragraph.
 - Tags live ONLY in the `tags:` field. Never repeat them as a text paragraph in the body.
 
 ### Tags / Labels limits (CRITICAL)

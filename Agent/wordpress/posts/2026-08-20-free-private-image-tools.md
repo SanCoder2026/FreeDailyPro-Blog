@@ -1,5 +1,6 @@
 ---
 title: "Stop Uploading Photos Just to Compress Them — Free Private Image Tools"
+subtitle: "Compress, convert, and resize photos in your browser — free, private, and upload-free for core work."
 schedule: 2026-08-20
 platform: wordpress
 image: 2026-08-20-free-private-image-tools.webp

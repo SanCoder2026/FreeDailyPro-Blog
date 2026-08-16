@@ -1,5 +1,6 @@
 ---
 title: "Build Your Own FreeDailyPro Page — Star Tools and Open Only What You Use Daily"
+subtitle: "Star the free tools you use daily and open a personal page with zero clutter."
 schedule: 2026-08-19
 platform: wordpress
 image: 2026-08-19-build-your-favorites-tools-page.webp

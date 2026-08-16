@@ -1,5 +1,6 @@
 ---
 title: "FreeDailyPro Now Works in Your Language — Switch Once and Keep Every Free Tool"
+subtitle: "Use FreeDailyPro free tools in your preferred language without translating every button."
 schedule: 2026-08-19
 image: 2026-08-19-use-freedailypro-in-your-language.webp
 labels: language support, multi language, FreeDailyPro, free tools, localization, privacy, browser tools, no login, free daily tools, global, Spanish, French, German, Portuguese, Hindi
