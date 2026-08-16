@@ -26,7 +26,7 @@ description: "One-liner ≤ 150 characters total. Used for portals and meta desc
 date: YYYY-MM-DDTHH:MM:00
 author: "FreeDailyPro Team"
 image: "../images/YYYY-MM-DD-slug.webp"
-tags: [keyword1, keyword2, ... many relevant tags ...]
+tags: [keyword1, keyword2, keyword3, ... max 15 for Blogger, always comma + space]
 draft: false
 ---
 ```
@@ -39,7 +39,12 @@ draft: false
 - FreeDailyPro.com site posts may use more tags in frontmatter when needed, but **any content prepared for Blogger must have ≤ 15 labels**.
 - Prefer high-value tags: FreeDailyPro, free tools, privacy, main tool names, audience (freelancers, small business, etc.).
 - Never dump 20+ keyword spam tags. Quality over quantity.
-- When creating Blogger packages, the `labels:` / `tags:` line must contain **at most 15** comma-separated tags.
+- When creating Blogger packages, the `labels:` / `tags:` line must contain **at most 15** tags.
+- **Tag format (mandatory):** all tags must be **comma-separated with a space after each comma**.
+  - Correct: `tags: [free tools, privacy, FreeDailyPro, PDF tools, browser tools]`
+  - Also correct for Blogger labels line: `labels: free tools, privacy, FreeDailyPro, PDF tools, browser tools`
+  - Wrong: `tags: [free tools,privacy,FreeDailyPro]` (missing spaces after commas)
+  - Wrong: tags stuck together without commas
 
 ---
 
@@ -215,3 +220,39 @@ This rule is permanent and non-negotiable.
 8. No HTML email bodies that render as raw tags (user pastes clean text / light formatting).
 
 This section is permanent.
+
+---
+
+## 11. Never pad, never spam, never omit subtitle (CRITICAL — past mistakes)
+
+These rules exist because of real delivery bugs. Follow them every time.
+
+### 11.1 No repeated padding text
+- **Never** reach word-count targets by repeating the same sentence or paragraph.
+- **Never** append loops like “Explore FreeDailyPro at …” dozens of times.
+- If a draft is short, expand with **unique new sections** only (examples, workflows, FAQs, audience scenarios).
+- Before delivery, search the body for any sentence that appears more than twice. If found, delete the duplicates and rewrite.
+
+### 11.2 Subtitle is mandatory
+- Every post (site, Blogger, WordPress) **must** include a `subtitle:` field in frontmatter.
+- Subtitle = single line for italic display under the title / metadata.
+- Never omit subtitle.
+- Never paste the subtitle again as a body paragraph under the image.
+
+### 11.3 Tags format
+- Always **comma + space** between tags (see Tags / Labels limits above).
+- Max **15** tags for Blogger/WordPress packages.
+
+### 11.4 Pre-delivery checklist (run mentally every time)
+1. subtitle present?
+2. description present (≤150 chars)?
+3. body starts with linked FreeDailyPro.com -- ?
+4. no duplicated subtitle in body?
+5. no repeated padding sentences?
+6. tags ≤15 and comma-space separated?
+7. image topic-relevant + branded 1200×630 WebP <150kB?
+8. word count met with unique content only (600+ site / 1000+ Blogger-WordPress week)?
+9. live FreeDailyPro links + CTA + feedback request?
+
+If any item fails, fix before push.
+
