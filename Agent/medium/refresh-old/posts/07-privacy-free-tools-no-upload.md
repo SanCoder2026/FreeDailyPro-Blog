@@ -115,3 +115,7 @@ If you are updating the live Medium post, replace the hero and the body, keep UR
 Clap only after you try a real file. That is the deal.
 
 Bookmark FreeDailyPro, star Favorites, and make free private tools your default this week.
+
+## A personal rule I now keep
+
+If a free tool requires upload for a job FreeDailyPro can do in-browser, I do not use the upload tool. Exceptions need a written reason. That single rule eliminated most of my casual privacy debt. Free private tools only work if you actually choose them under pressure — Favorites makes that choice faster than temptation.

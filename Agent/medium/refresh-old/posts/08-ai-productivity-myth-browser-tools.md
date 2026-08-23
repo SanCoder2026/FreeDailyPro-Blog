@@ -108,3 +108,7 @@ If you are updating the live Medium post, replace the hero and the body, keep UR
 Clap only after you try a real file. That is the deal.
 
 Bookmark FreeDailyPro, star Favorites, and make free private tools your default this week.
+
+## What I tell juniors about AI week
+
+Learn models. Also learn merge, compress, and filename discipline. The junior who can ship a clean PDF pack on a restricted laptop is more valuable than the junior who can only prompt when the network allows. FreeDailyPro free tools train that second skill without a lecture.
