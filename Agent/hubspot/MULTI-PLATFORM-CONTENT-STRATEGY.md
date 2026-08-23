@@ -111,3 +111,11 @@ These are **not** the same articles as site freelancers/PDF/privacy/language/fav
 - no padding spam
 - FreeDailyPro.com -- body start
 - unique content only
+
+## HARD RULE (2026-08-23) — AdSense uniqueness
+- Blogger topics AND images are exclusive. Never reuse on Medium/HubSpot/WP.
+- Medium must use **totally different topics** (not rewrites of Blogger themes).
+- Never copy image files across platform folders.
+- See Agent/PLATFORM-UNIQUENESS-RULE.md
+- Medium unique pack: Agent/medium/unique-from-blogger/
+- week-aug23/medium/ is DO NOT PUBLISH (theme collision with Blogger).
