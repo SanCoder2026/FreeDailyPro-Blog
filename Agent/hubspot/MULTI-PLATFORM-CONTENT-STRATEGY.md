@@ -6,9 +6,9 @@
 |----------|------|----------|----------|
 | **Blogger** (freedailypro.blogspot.com) | **Ad revenue + SEO** | Yes (approved) | **#1 quality & uniqueness** |
 | **FreeDailyPro.com** blog | Canonical product SEO + future AdSense | Target | **#1 canonical for product topics** |
-| **HubSpot** | Traffic → FreeDailyPro tools (usage drive) | No | Supporting |
+| **HubSpot** (https://blog.freedailypro.com/) | Traffic → FreeDailyPro tools (usage drive) | No | Supporting |
 | **WordPress** | Traffic → FreeDailyPro tools | No | Supporting |
-| **Medium** | Traffic / brand / backlinks | No | Supporting |
+| **Medium** (https://medium.com/@FreeDailyPro) | Traffic / brand / backlinks | No | Supporting |
 
 Google generally prefers **one primary URL** per topic. Duplicate or near-duplicate AI-ish posts across many domains can dilute rankings and risk soft devaluation of weaker copies.
 

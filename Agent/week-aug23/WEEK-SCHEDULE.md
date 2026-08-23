@@ -48,5 +48,5 @@
 - FreeDailyPro.com: https://www.freedailypro.com/blog
 - Blogger: https://freedailypro.blogspot.com
 - WordPress: https://freedailypro.wordpress.com
-- HubSpot FreeDailyPro blog: NOT PROVIDED — please add
-- Medium FreeDailyPro: NOT PROVIDED — please add
+- HubSpot: https://blog.freedailypro.com/
+- Medium: https://medium.com/@FreeDailyPro
