@@ -8,7 +8,6 @@ image: ../images/2026-09-05-add-pdf-password-client-packs.webp
 labels: Add PDF Password, PDF password, FreeDailyPro, free tools, freelancers, privacy, browser tools, no login, compress PDF, merge PDF, client packs, proposals, contracts, free daily tools, PDF tools
 tags: [Add PDF Password, PDF password, FreeDailyPro, free tools, freelancers, privacy, browser tools, no login, compress PDF, merge PDF, client packs, proposals, contracts, free daily tools, PDF tools]
 ---
-
 ![Freelancers add PDF password free for client packs](../images/2026-09-05-add-pdf-password-client-packs.webp)
 
 *Lock proposals and contracts with free Add PDF Password — no Adobe seat and no mystery upload site.*

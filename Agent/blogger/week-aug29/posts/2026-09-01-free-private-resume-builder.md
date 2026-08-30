@@ -8,7 +8,6 @@ image: ../images/2026-09-01-free-private-resume-builder.webp
 labels: resume builder, job seekers, FreeDailyPro, free tools, career, privacy, PDF tools, browser tools, no login, cover letter, productivity, employment, compress PDF, word counter, free daily tools
 tags: [resume builder, job seekers, FreeDailyPro, free tools, career, privacy, PDF tools, browser tools, no login, cover letter, productivity, employment, compress PDF, word counter, free daily tools]
 ---
-
 ![Job Seekers: Build a Free Private Resume Without U](../images/2026-09-01-free-private-resume-builder.webp)
 
 *Create and polish free private resumes in the browser — then export clean PDFs without sketchy upload sites.*

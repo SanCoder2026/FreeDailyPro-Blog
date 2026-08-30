@@ -8,7 +8,6 @@ image: ../images/2026-08-31-free-qr-codes-local-business.webp
 labels: QR code, barcode, local business, FreeDailyPro, free tools, restaurant, retail, marketing, privacy, browser tools, no login, menus, payments, productivity, small business
 tags: [QR code, barcode, local business, FreeDailyPro, free tools, restaurant, retail, marketing, privacy, browser tools, no login, menus, payments, productivity, small business]
 ---
-
 ![Local Businesses: Free QR Codes That Actually Get ](../images/2026-08-31-free-qr-codes-local-business.webp)
 
 *Create free QR and barcode assets for tables, flyers, and packaging — then package them with free private PDFs.*
