@@ -13,7 +13,7 @@ tags: [FIRE calculator, retirement, 401k calculator, FreeDailyPro, finance, free
 
 *Explore free FIRE, 401(k), and related calculators privately — for education and planning questions, not financial advice.*
 
-[FreeDailyPro.com](https://www.freedailypro.com) --  
+[FreeDailyPro.com](https://www.freedailypro.com) --
 Retirement math should not require a sales call just to explore a scenario. Free calculators help you form better questions for a real advisor. FreeDailyPro free finance tools support private orientation — and they are not financial advice.
 
 Nothing here tells you what to invest in. Use free tools to understand order-of-magnitude scenarios, then talk to qualified professionals for decisions.
@@ -105,4 +105,3 @@ Open [FreeDailyPro.com](https://www.freedailypro.com) now, star Favorites for th
 Which free feature should we improve next for your workflow? Share feedback — FreeDailyPro is built for free daily productivity with privacy at the core.
 
 Thank you for reading. Free tools work best when they meet the work you already do.
-

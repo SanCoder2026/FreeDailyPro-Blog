@@ -13,7 +13,7 @@ tags: [developers, JSON formatter, regex tester, FreeDailyPro, free tools, brows
 
 *Format JSON, test regex, and hash strings with free private browser utilities — plus free file tools for tickets.*
 
-[FreeDailyPro.com](https://www.freedailypro.com) --  
+[FreeDailyPro.com](https://www.freedailypro.com) --
 Developers do not need another revolutionary platform for the tiny jobs that steal focus. Format this JSON. Test that regex. Hash a string. Decode a JWT fragment for debugging. Compress a screenshot for a ticket. Those jobs used to open twelve tabs of unknown quality.
 
 FreeDailyPro free developer utilities put them in one bookmark — free daily use for file volume, no login required for most everyday free use, client-side emphasis for core files.
@@ -105,4 +105,3 @@ Open [FreeDailyPro.com](https://www.freedailypro.com) now, star Favorites for th
 Which free feature should we improve next for your workflow? Share feedback — FreeDailyPro is built for free daily productivity with privacy at the core.
 
 Thank you for reading. Free tools work best when they meet the work you already do.
-

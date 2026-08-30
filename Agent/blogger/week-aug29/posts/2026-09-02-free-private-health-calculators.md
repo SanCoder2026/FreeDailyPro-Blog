@@ -13,7 +13,7 @@ tags: [health calculators, BMI calculator, BMR, FreeDailyPro, privacy, free tool
 
 *Free BMI, BMR, and related calculators for personal orientation — run privately in your browser. Not medical advice.*
 
-[FreeDailyPro.com](https://www.freedailypro.com) --  
+[FreeDailyPro.com](https://www.freedailypro.com) --
 Health numbers feel personal because they are. Free calculators should not require you to create an account and leave a trail just to estimate BMI or daily calorie needs for orientation. FreeDailyPro free health calculators run in the browser for personal exploration — and they are not medical advice.
 
 Use them for rough personal orientation only. Decisions about health belong with qualified professionals.
@@ -105,4 +105,3 @@ Open [FreeDailyPro.com](https://www.freedailypro.com) now, star Favorites for th
 Which free feature should we improve next for your workflow? Share feedback — FreeDailyPro is built for free daily productivity with privacy at the core.
 
 Thank you for reading. Free tools work best when they meet the work you already do.
-

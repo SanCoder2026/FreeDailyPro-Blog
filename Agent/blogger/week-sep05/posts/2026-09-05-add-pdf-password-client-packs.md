@@ -13,7 +13,7 @@ tags: [Add PDF Password, PDF password, FreeDailyPro, free tools, freelancers, pr
 
 *Lock proposals and contracts with free Add PDF Password — no Adobe seat and no mystery upload site.*
 
-[FreeDailyPro.com](https://www.freedailypro.com) --  
+[FreeDailyPro.com](https://www.freedailypro.com) --
 You finished the proposal. The numbers are clean. The scope is clear. Then a quiet doubt hits: this PDF still opens for anyone who intercepts the email thread.
 
 That doubt is rational. Client packs hold pricing, personal details, and unfinished strategy. Sending them wide open is a habit, not a standard. FreeDailyPro free [Add PDF Password](https://www.freedailypro.com/tool/pdf-password) exists so you can lock the file in the browser before you hit send — without an Adobe subscription and without trusting a random “encrypt PDF online” uploader.

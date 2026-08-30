@@ -13,7 +13,7 @@ tags: [resume builder, job seekers, FreeDailyPro, free tools, career, privacy, P
 
 *Create and polish free private resumes in the browser — then export clean PDFs without sketchy upload sites.*
 
-[FreeDailyPro.com](https://www.freedailypro.com) --  
+[FreeDailyPro.com](https://www.freedailypro.com) --
 Your resume is a map of your career. Uploading it to a random free builder that stores files “for convenience” is a strange way to start a job search. Free private resume tools exist so you can draft, refine, and export without treating your history as disposable data.
 
 FreeDailyPro free [Resume Builder](https://www.freedailypro.com/tool/resume-builder) helps you create a clean resume in the browser. Pair it with free PDF and text tools for cover letters and application packs. No login required for most everyday free use.
@@ -105,4 +105,3 @@ Open [FreeDailyPro.com](https://www.freedailypro.com) now, star Favorites for th
 Which free feature should we improve next for your workflow? Share feedback — FreeDailyPro is built for free daily productivity with privacy at the core.
 
 Thank you for reading. Free tools work best when they meet the work you already do.
-

@@ -296,3 +296,15 @@ First body paragraph...
 - Must match frontmatter `subtitle` character-for-character.
 - One time only — never repeat again later in the post.
 - This **replaces** the older “never put subtitle in body” rule for Blogger packages (that rule caused extra manual work when publishing).
+
+
+---
+
+## 17. Uniform spacing (CRITICAL — Blogger publish fix Aug 2026)
+
+- **Exactly one blank line** between paragraphs.
+- **Exactly one blank line** before each `##` heading.
+- **No** triple (or larger) blank gaps anywhere in the body.
+- After hero image: one blank line, then italic subtitle, then one blank line, then `FreeDailyPro.com --` body start.
+- No trailing spaces on lines. File ends with a single newline.
+- Do not mix single-spaced and double-spaced sections in the same post.
