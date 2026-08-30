@@ -265,3 +265,13 @@ If any item fails, fix before push.
 - Those thoughts stay in chat / schedule / audit docs only — **not** in post markdown body.
 - Before delivery, search the body for: `unique inventory`, `AdSense-quality`, `this article is written as a Blogger exclusive`, `not a rewrite of`, when used as meta justification for the agent (operational notes). Reader-facing differentiation of *topic* is fine; agent process notes are not.
 - Week-aug29 had 6 posts polluted with this section; it was deleted after manual Blogger publish. Do not reintroduce.
+
+---
+
+## 15. Hero image size for Blogger full content-width (CRITICAL — publish incident Aug 2026)
+
+- Always generate hero images at **exactly 1200 × 630** WebP, under **150 kB** (brand_image.py target).
+- **Do not** ship smaller “preview” or thumbnail sizes for post heroes. 1200px wide is the source of truth so Blogger can scale to full content-width without the author manually resizing.
+- In markdown: use plain `![alt](../images/....webp)` with **no** HTML `width`/`height` attributes that shrink the image.
+- Do not letterbox to odd sizes. Do not output 800×420 or other reduced dimensions for Blogger packages.
+- If a future Blogger theme needs a different canonical hero size, update this rule and brand_image.py together — never one-off resize per post.
