@@ -58,7 +58,7 @@ draft: false
    [FreeDailyPro.com](https://www.freedailypro.com) --
    ```
    (linked, so the site is visible from the very first word of the body).
-3. **NO duplicated subtitle** — Never repeat the subtitle text as an italic paragraph under the image. Subtitle exists only in frontmatter.
+3. **Subtitle in body (Blogger publish fix Aug 2026)** — After the hero image markdown line, put the subtitle on its **own line**, italicized with `*...*` (or `_..._`), matching the frontmatter `subtitle` **exactly**. This is required for Blogger packages so publish does not need a manual italic step. Still keep `subtitle` in frontmatter for metadata. Do **not** paste the subtitle a second time later in the body.
 4. **Hook** in the first 2–3 sentences — grab attention immediately.
 5. **Minimum 600 words**.
 6. **Energetic & positive** tone throughout.
@@ -275,3 +275,24 @@ If any item fails, fix before push.
 - In markdown: use plain `![alt](../images/....webp)` with **no** HTML `width`/`height` attributes that shrink the image.
 - Do not letterbox to odd sizes. Do not output 800×420 or other reduced dimensions for Blogger packages.
 - If a future Blogger theme needs a different canonical hero size, update this rule and brand_image.py together — never one-off resize per post.
+
+
+---
+
+## 16. Subtitle in markdown body for Blogger (CRITICAL — publish fix Aug 2026)
+
+Required body order after frontmatter:
+
+```
+![Alt text](../images/YYYY-MM-DD-slug.webp)
+
+*Exact subtitle text from frontmatter goes here as one italic line.*
+
+[FreeDailyPro.com](https://www.freedailypro.com) --
+First body paragraph...
+```
+
+- Italic with `*text*` or `_text_` (single line).
+- Must match frontmatter `subtitle` character-for-character.
+- One time only — never repeat again later in the post.
+- This **replaces** the older “never put subtitle in body” rule for Blogger packages (that rule caused extra manual work when publishing).
