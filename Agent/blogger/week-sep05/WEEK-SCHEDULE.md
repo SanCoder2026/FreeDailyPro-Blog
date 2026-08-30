@@ -1,13 +1,18 @@
 # Blogger week Sep 5–11, 2026 (AdSense exclusives)
 
-## Day 1 — TEST (awaiting approval)
-| Date | Topic | Status |
-|------|-------|--------|
-| 2026-09-05 | Product sellers: free private background remover | **READY — review this first** |
+## Day 1 — READY FOR REVIEW
+| Date | Topic | File | Words |
+|------|--------|------|------:|
+| **2026-09-05** | Freelancers: Add PDF Password free for client packs | `posts/2026-09-05-add-pdf-password-client-packs.md` | 1155 |
+
+**Primary tool:** `/tool/pdf-password` (Add PDF Password)  
+**Support:** compress-pdf, merge-pdf, word-to-pdf only  
+**Image:** `images/2026-09-05-add-pdf-password-client-packs.webp` (1200×630 WebP)
 
 ## Days 2–7
-Pending your approval of the Sep 5 test post. Will use completely new topics (not rewrites of site or prior Blogger posts).
+Pending approval of Day 1.
 
-## Locations
-- Posts: `Agent/blogger/week-sep05/posts/`
-- Images: `Agent/blogger/week-sep05/images/`
+## Notes
+- Background-remover draft removed (topic risk + replaced by this post)
+- No unlock-pdf links
+- Original content; not a rewrite of site/Blogger/week-aug29
