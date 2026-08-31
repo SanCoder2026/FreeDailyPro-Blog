@@ -1,0 +1,5302 @@
+{
+  "info": {
+    "name": "FreeDailyPro Public APIs",
+    "description": "REST + MCP APIs for FreeDailyPro's tools -- text, PDF, security, calculators, SEO/design, business documents, and planning. One API key, one shared usage pool across every category and both MCP endpoints.\n\nBefore you start: set the fdp_api_key variable in the FreeDailyPro environment (top right environment selector) to your own key from https://www.freedailypro.com/developers -- free tier is 20,000 calls/month, no credit card required. Billing, usage, and plan upgrades are all handled on freedailypro.com, not through Postman.\n\nRun \"Get Started\" > \"Health check\" first (no key needed), then \"Word count\" to confirm your key and environment are wired up.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Started",
+      "item": [
+        {
+          "name": "Health check (utility API, no key needed)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{utility_base}}/health",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "health"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Word count (your first real call)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/word-count",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "word-count"
+              ]
+            },
+            "description": "If this returns 401, paste your key into the fdp_api_key environment variable first -- get one free at https://www.freedailypro.com/developers",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"Hello from Postman! This call counts against your FreeDailyPro plan.\",\n  \"wordsPerMinute\": 200\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        }
+      ],
+      "description": "Run these two first. The health check needs no key; the word-count call proves your fdp_api_key and environment are wired up correctly."
+    },
+    {
+      "name": "PDF & Document Tools",
+      "item": [
+        {
+          "name": "Parse a PDF's fillable form fields",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{pdf_base}}/api/v1/fillable-forms/parse",
+              "host": [
+                "{{pdf_base}}"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "fillable-forms",
+                "parse"
+              ]
+            },
+            "description": "multipart/form-data. Attach a PDF with real AcroForm fields under the 'file' key.",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "src": []
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Fill a PDF form's fields",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{pdf_base}}/api/v1/fillable-forms/fill",
+              "host": [
+                "{{pdf_base}}"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "fillable-forms",
+                "fill"
+              ]
+            },
+            "description": "multipart/form-data. 'values' is a JSON string mapping field names to the values to fill in. Returns the filled PDF as binary.",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "src": []
+                },
+                {
+                  "key": "values",
+                  "value": "{\"fullName\":\"Jane Doe\"}",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Permanently redact areas of a PDF",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{pdf_base}}/api/v1/redact-pdf",
+              "host": [
+                "{{pdf_base}}"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "redact-pdf"
+              ]
+            },
+            "description": "multipart/form-data. 'boxes' maps page index -> array of {x,y,w,h} boxes in fractional page coordinates (0-1). Redaction is permanent -- content underneath is removed, not just covered.",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "src": []
+                },
+                {
+                  "key": "boxes",
+                  "value": "{\"0\":[{\"x\":0.1,\"y\":0.1,\"w\":0.5,\"h\":0.1}]}",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ],
+      "description": "Base URL: pdf_base (the main freedailypro.com domain, not the utility API). All three take a PDF file as multipart/form-data."
+    },
+    {
+      "name": "Text Utilities",
+      "item": [
+        {
+          "name": "Word/character count",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/word-count",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "word-count"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"The quick brown fox jumps over the lazy dog.\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Case converter",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/case-convert",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "case-convert"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"hello world\",\n  \"case\": \"titleCase\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "URL slug generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/slug",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "slug"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"10 Best Productivity Tips for 2027!\",\n  \"lowercase\": true\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Password generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/password",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "password"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"length\": 16,\n  \"uppercase\": true,\n  \"numbers\": true,\n  \"symbols\": true\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Lorem ipsum generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/lorem",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "lorem"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"paragraphs\": 2,\n  \"wordsPerParagraph\": 40\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Text reverser",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/reverse",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "reverse"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"Hello World\",\n  \"mode\": \"characters\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Text/line sorter",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/sort",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "sort"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"banana\\napple\\ncherry\",\n  \"order\": \"asc\",\n  \"mode\": \"lines\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Email address extractor",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/extract-emails",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "extract-emails"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"Contact us at hello@freedailypro.com or support@freedailypro.com\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "URL extractor",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/extract-urls",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "extract-urls"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"Visit https://www.freedailypro.com or http://example.com for more\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Find & replace",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/find-replace",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "find-replace"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"The cat sat on the mat\",\n  \"find\": \"cat\",\n  \"replace\": \"dog\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Readability score",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/readability",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "readability"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"This is a simple sentence. It is easy to read.\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Markdown to HTML",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/markdown-to-html",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "markdown-to-html"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"markdown\": \"# Hello\\n\\nThis is **bold** and this is *italic*.\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Fancy/stylized text",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/fancy",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "fancy"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"Hello\",\n  \"style\": \"bold\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Invisible character tools",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/invisible",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "invisible"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"mode\": \"generate\",\n  \"length\": 10\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "CSV parse/stringify",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/csv",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "csv"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"operation\": \"parse\",\n  \"text\": \"name,age\\nJane,30\\nJohn,25\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Text similarity ratio",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/similarity",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "similarity"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"a\": \"hello world\",\n  \"b\": \"hello there\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Citation formatter",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/citation",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "citation"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"style\": \"apa\",\n  \"authors\": \"Smith, J.\",\n  \"title\": \"A Study of Things\",\n  \"year\": \"2024\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Paper format checker",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/paper-format",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "paper-format"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"This is a sample paper about something interesting and worth reading.\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "ASCII art banner",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/ascii-art",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "ascii-art"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"HI\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Text diff (line-level)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/diff",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "diff"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"a\": \"line1\\nline2\\nline3\",\n  \"b\": \"line1\\nline2-edited\\nline3\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Emoji/unicode converter",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/emoji-unicode",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "emoji-unicode"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"operation\": \"toUnicode\",\n  \"value\": \"hi\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Product description writer",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/product-description",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "product-description"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Widget Pro\",\n  \"audience\": \"developers\",\n  \"benefits\": [\n    \"fast\",\n    \"reliable\",\n    \"affordable\"\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "User manual outline",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/user-manual",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "user-manual"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"product\": \"Widget Pro\",\n  \"tasks\": [\n    \"Unbox it\",\n    \"Turn it on\",\n    \"Connect to WiFi\"\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Invitation copy generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/invitation-copy",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "invitation-copy"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"event\": \"Birthday Party\",\n  \"host\": \"Sam\",\n  \"when\": \"2027-06-01 6pm\",\n  \"where\": \"123 Main St\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Menu outline generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/menu-outline",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "menu-outline"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"venue\": \"Cafe Luna\",\n  \"sections\": [\n    {\n      \"name\": \"Mains\",\n      \"items\": [\n        \"Burger\",\n        \"Pasta\"\n      ]\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Flyer outline generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/flyer-outline",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "flyer-outline"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"offer\": \"20% off everything\",\n  \"audience\": \"students\",\n  \"cta\": \"Visit us today\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Banner copy generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/text/banner-copy",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "text",
+                "banner-copy"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"Grand Opening This Weekend\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        }
+      ],
+      "description": "All 27 text endpoints (17 original + 10 new). Base URL: utility_base."
+    },
+    {
+      "name": "Developer & Security Utilities",
+      "item": [
+        {
+          "name": "Hash generator (MD5/SHA-1/SHA-256/etc)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/security/hash",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "security",
+                "hash"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"hello world\",\n  \"algorithm\": \"sha256\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "UUID generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/security/uuid",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "security",
+                "uuid"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"count\": 3\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Base64 encode/decode",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/security/base64",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "security",
+                "base64"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"hello world\",\n  \"action\": \"encode\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "JSON formatter & validator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/security/json-format",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "security",
+                "json-format"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"{\\\"a\\\":1,\\\"b\\\":2}\",\n  \"indent\": 2\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Regex tester",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/security/regex",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "security",
+                "regex"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"pattern\": \"\\\\\\\\d+\",\n  \"text\": \"I have 42 apples and 7 oranges\",\n  \"flags\": \"g\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "URL encode/decode",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/security/url",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "security",
+                "url"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"hello world & more\",\n  \"action\": \"encode\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Unix timestamp converter",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/security/timestamp",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "security",
+                "timestamp"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"input\": 1735689600\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Text diff checker",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/security/diff",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "security",
+                "diff"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"textA\": \"The quick fox\",\n  \"textB\": \"The quick brown fox\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Password strength checker",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/security/password-strength",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "security",
+                "password-strength"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"password\": \"Tr0ub4dor&3\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "HTML entity encode/decode",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/security/html-entities",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "security",
+                "html-entities"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"<div>Hello & welcome</div>\",\n  \"action\": \"encode\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Binary/ASCII/hex converter",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/security/binary-ascii",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "security",
+                "binary-ascii"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"Hi\",\n  \"action\": \"toBinary\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Cron expression parser",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/security/cron",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "security",
+                "cron"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"expression\": \"0 9 * * 1-5\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "JWT decoder",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/security/jwt-decode",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "security",
+                "jwt-decode"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"token\": \"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjM0NTY3ODkwIn0.dozjgNryP4J3jVmNHl0w5N_XgL0n3I9PlFUP0THsR8U\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "User-agent string parser",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/security/user-agent",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "security",
+                "user-agent"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"ua\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "CSS/JS minifier",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/security/minify",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "security",
+                "minify"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"code\": \"body {\\n  color: red;\\n}\",\n  \"type\": \"css\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "QR code generator (SVG)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/security/qr",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "security",
+                "qr"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"https://www.freedailypro.com\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Code128 barcode generator (SVG)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/security/barcode-code128",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "security",
+                "barcode-code128"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"HELLO123\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "HTTP status code lookup",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/security/http-status/404",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "security",
+                "http-status",
+                "404"
+              ]
+            },
+            "description": "GET, not POST. Omit the /404 to get the full reference list instead of one code."
+          },
+          "response": []
+        }
+      ],
+      "description": "All 16 endpoints (14 original + 2 new: QR and Code128 barcode). Base URL: utility_base."
+    },
+    {
+      "name": "Everyday Calculators",
+      "item": [
+        {
+          "name": "Percentage calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/percentage",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "percentage"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"operation\": \"percentageOf\",\n  \"a\": 25,\n  \"b\": 200\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Tip calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/tip",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "tip"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"bill\": 84.5,\n  \"tipPercent\": 18,\n  \"people\": 3\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "BMI calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/bmi",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "bmi"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"weight\": 70,\n  \"height\": 175,\n  \"unit\": \"metric\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Length converter",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/length",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "length"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"value\": 10,\n  \"from\": \"km\",\n  \"to\": \"mi\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Weight converter",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/weight",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "weight"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"value\": 70,\n  \"from\": \"kg\",\n  \"to\": \"lb\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Temperature converter",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/temperature",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "temperature"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"value\": 100,\n  \"from\": \"C\",\n  \"to\": \"F\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Loan calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/loan",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "loan"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"principal\": 250000,\n  \"annualRatePercent\": 6.5,\n  \"years\": 30\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Compound interest calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/compound-interest",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "compound-interest"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"principal\": 10000,\n  \"annualRatePercent\": 7,\n  \"years\": 20,\n  \"frequency\": \"monthly\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Discount calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/discount",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "discount"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"originalPrice\": 120,\n  \"discountPercent\": 25\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Simple interest calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/simple-interest",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "simple-interest"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"principal\": 5000,\n  \"annualRatePercent\": 4,\n  \"years\": 3\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Sales tax calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/sales-tax",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "sales-tax"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"amount\": 89.99,\n  \"taxPercent\": 8.25,\n  \"mode\": \"add\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Age calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/age",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "age"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"startDate\": \"1990-05-15\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Random number generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/random",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "random"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"min\": 1,\n  \"max\": 100,\n  \"count\": 5\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Daily water intake calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/water-intake",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "water-intake"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"weightKg\": 70,\n  \"activityLevel\": \"moderate\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Ideal weight calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/ideal-weight",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "ideal-weight"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"heightCm\": 175,\n  \"sex\": \"male\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GPA calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/gpa",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "gpa"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"courses\": [\n    {\n      \"grade\": 3.7,\n      \"credits\": 3\n    },\n    {\n      \"grade\": 4.0,\n      \"credits\": 4\n    }\n  ],\n  \"scale\": \"4.0\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "BMR calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/bmr",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "bmr"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"weightKg\": 70,\n  \"heightCm\": 175,\n  \"ageYears\": 30,\n  \"sex\": \"male\",\n  \"activity\": \"moderate\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Pregnancy due date calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/pregnancy-due-date",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "pregnancy-due-date"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"lastMenstrualPeriod\": \"2027-01-01\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "SIP investment calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/sip",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "sip"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"monthlyInvestment\": 500,\n  \"annualRatePercent\": 12,\n  \"years\": 15\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Timezone offset converter",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/timezone-offset",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "timezone-offset"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"utcIso\": \"2027-06-15T12:00:00Z\",\n  \"offset\": \"-05:00\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Body fat calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/body-fat",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "body-fat"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"sex\": \"male\",\n  \"heightCm\": 175,\n  \"waistCm\": 85,\n  \"neckCm\": 38\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Recipe scaler",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/recipe-scale",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "recipe-scale"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"ingredients\": [\n    {\n      \"name\": \"flour\",\n      \"amount\": 200,\n      \"unit\": \"g\"\n    }\n  ],\n  \"originalServings\": 4,\n  \"targetServings\": 6\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Roman numeral converter",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/roman",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "roman"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"direction\": \"toRoman\",\n  \"value\": 1994\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "File size converter",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/file-size",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "file-size"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"value\": 1500,\n  \"from\": \"MB\",\n  \"to\": \"GB\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Job experience calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/job-experience",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "job-experience"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"startIso\": \"2020-01-01\",\n  \"endIso\": \"2024-06-15\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Paycheck estimator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/paycheck",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "paycheck"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"grossAnnual\": 80000\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "FIRE number calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/fire",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "fire"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"annualSpend\": 40000\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "VAT/GST calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/vat-gst",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "vat-gst"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"amount\": 100,\n  \"ratePct\": 20\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Countdown to a date",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/countdown",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "countdown"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"isoTarget\": \"2027-01-01\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "401(k) growth projector",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/401k",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "401k"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"currentBalance\": 10000,\n  \"annualContribution\": 6000,\n  \"years\": 20\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "RMD (retirement) estimator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/rmd",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "rmd"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"accountBalance\": 500000,\n  \"age\": 75\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Self-employment tax calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/self-employment-tax",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "self-employment-tax"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"netProfit\": 60000\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "529 college savings projector",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/529",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "529"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"currentBalance\": 5000,\n  \"monthlyContribution\": 200,\n  \"years\": 10\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Social Security benefit ballpark",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/social-security",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "social-security"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"averageIndexedMonthlyEarnings\": 5000\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Student loan payoff calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/student-loan",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "student-loan"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"principal\": 30000,\n  \"annualRatePct\": 5,\n  \"monthlyPayment\": 400\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Amortization schedule",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/amortization",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "amortization"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"principal\": 200000,\n  \"annualRatePct\": 5,\n  \"months\": 360\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "US federal income tax estimator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/us-income-tax",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "us-income-tax"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"taxableIncome\": 75000\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "India income tax estimator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/india-income-tax",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "india-income-tax"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"income\": 800000\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "UK income tax estimator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/uk-tax",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "uk-tax"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"income\": 40000\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "US state flat-tax estimator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/state-tax",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "state-tax"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"income\": 60000,\n  \"ratePct\": 5\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "College cost inflation projector",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/converters/college-cost",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "converters",
+                "college-cost"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"annualCost\": 30000,\n  \"years\": 10\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        }
+      ],
+      "description": "All 41 calculator endpoints (22 original + 19 new). Base URL: utility_base."
+    },
+    {
+      "name": "SEO & Design Tools",
+      "item": [
+        {
+          "name": "Meta tag generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/seo/meta-tags",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "seo",
+                "meta-tags"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"FreeDailyPro - Free Tools\",\n  \"description\": \"200+ free browser tools, no login required.\",\n  \"url\": \"https://www.freedailypro.com\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Keyword density analyzer",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/seo/keyword-density",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "seo",
+                "keyword-density"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"Free tools are great. Everyone loves free tools that just work.\",\n  \"keyword\": \"free tools\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Hashtag generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/seo/hashtags",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "seo",
+                "hashtags"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"action\": \"generate\",\n  \"keywords\": [\n    \"productivity\",\n    \"free tools\"\n  ],\n  \"max\": 10\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Schema markup generator (JSON-LD)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/seo/schema",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "seo",
+                "schema"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"type\": \"faq\",\n  \"data\": {\n    \"questions\": [\n      {\n        \"q\": \"Is it free?\",\n        \"a\": \"Yes.\"\n      }\n    ]\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Color format converter",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/design/color-convert",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "design",
+                "color-convert"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"hex\": \"#3B82F6\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "WCAG contrast checker",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/design/contrast",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "design",
+                "contrast"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"foreground\": \"#000000\",\n  \"background\": \"#FFFFFF\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        }
+      ],
+      "description": "All 6 SEO + design endpoints (unchanged since original launch). Base URL: utility_base."
+    },
+    {
+      "name": "Business Documents",
+      "item": [
+        {
+          "name": "NDA draft generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/business/nda-draft",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "business",
+                "nda-draft"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"disclosingParty\": \"Acme Inc\",\n  \"receivingParty\": \"Contractor LLC\",\n  \"purpose\": \"consulting engagement\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Offer letter draft generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/business/offer-letter-draft",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "business",
+                "offer-letter-draft"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"candidate\": \"Jane Doe\",\n  \"company\": \"Acme Inc\",\n  \"title\": \"Software Engineer\",\n  \"salary\": \"120000\",\n  \"startDate\": \"2027-01-15\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Bill of sale draft generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/business/bill-of-sale-draft",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "business",
+                "bill-of-sale-draft"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"seller\": \"A\",\n  \"buyer\": \"B\",\n  \"item\": \"2019 Honda Civic\",\n  \"price\": \"12000\",\n  \"date\": \"2027-01-01\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Lease draft generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/business/lease-draft",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "business",
+                "lease-draft"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"landlord\": \"Owner LLC\",\n  \"tenant\": \"Jane Renter\",\n  \"address\": \"123 Main St, Apt 4\",\n  \"rent\": \"1500\",\n  \"start\": \"2027-01-01\",\n  \"end\": \"2027-12-31\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Promissory note draft generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/business/promissory-note-draft",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "business",
+                "promissory-note-draft"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"borrower\": \"A\",\n  \"lender\": \"B\",\n  \"amount\": \"5000\",\n  \"due\": \"2027-06-01\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Eviction notice draft generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/business/eviction-notice-draft",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "business",
+                "eviction-notice-draft"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"landlord\": \"Owner LLC\",\n  \"tenant\": \"Jane Renter\",\n  \"address\": \"123 Main St, Apt 4\",\n  \"date\": \"2027-01-01\",\n  \"days\": 30\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Power of attorney draft generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/business/poa-draft",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "business",
+                "poa-draft"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"principal\": \"Jane Doe\",\n  \"agent\": \"John Smith\",\n  \"powers\": \"financial decisions and property management\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Invention disclosure draft generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/business/invention-disclosure",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "business",
+                "invention-disclosure"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Smart Widget\",\n  \"inventor\": \"Jane Doe\",\n  \"problem\": \"widgets break too easily\",\n  \"solution\": \"reinforced casing design\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Contract pack generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/business/contract-pack",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "business",
+                "contract-pack"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"type\": \"services\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Invoice totals calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/business/invoice-totals",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "business",
+                "invoice-totals"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"lines\": [\n    {\n      \"description\": \"Consulting\",\n      \"qty\": 10,\n      \"unitPrice\": 150\n    }\n  ],\n  \"taxPct\": 8\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Receipt generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/business/receipt",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "business",
+                "receipt"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"merchant\": \"Acme Store\",\n  \"lines\": [\n    {\n      \"name\": \"Widget\",\n      \"qty\": 2,\n      \"unitPrice\": 15\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Expense rollup calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/business/expenses",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "business",
+                "expenses"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"items\": [\n    {\n      \"category\": \"travel\",\n      \"amount\": 250\n    },\n    {\n      \"category\": \"meals\",\n      \"amount\": 80\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Product margin calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/business/product-margin",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "business",
+                "product-margin"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"cost\": 20,\n  \"price\": 50\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Profit margin calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/business/profit-margin",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "business",
+                "profit-margin"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"cost\": 10,\n  \"price\": 25\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Marketplace fee calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/business/marketplace-fee",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "business",
+                "marketplace-fee"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"price\": 100,\n  \"feePct\": 15\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Shipping cost estimator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/business/shipping-estimate",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "business",
+                "shipping-estimate"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"weightKg\": 2,\n  \"ratePerKg\": 5\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Break-even calculator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/business/break-even",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "business",
+                "break-even"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"fixedCosts\": 10000,\n  \"price\": 50,\n  \"variableCost\": 30\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Government forms index",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/business/government-forms",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "business",
+                "government-forms"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"region\": \"US\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Startup name generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/business/startup-names",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "business",
+                "startup-names"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"seeds\": [\n    \"cloud\",\n    \"fast\"\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Resume outline generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/business/resume-outline",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "business",
+                "resume-outline"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Jane Doe\",\n  \"title\": \"Software Engineer\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        }
+      ],
+      "description": "All 20 endpoints -- new as of this batch. Base URL: utility_base."
+    },
+    {
+      "name": "Planning Tools",
+      "item": [
+        {
+          "name": "Event budget planner",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/planning/event-budget",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "planning",
+                "event-budget"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"guests\": 50,\n  \"costPerGuest\": 30\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Event checklist generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/planning/event-checklist",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "planning",
+                "event-checklist"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"eventType\": \"wedding\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Event schedule builder",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/planning/event-schedule",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "planning",
+                "event-schedule"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"startHour\": 10,\n  \"items\": [\n    {\n      \"title\": \"Ceremony\",\n      \"minutes\": 60\n    },\n    {\n      \"title\": \"Reception\",\n      \"minutes\": 180\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Guest list stats",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/planning/guest-list",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "planning",
+                "guest-list"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"guests\": [\n    {\n      \"name\": \"A\",\n      \"status\": \"yes\"\n    },\n    {\n      \"name\": \"B\",\n      \"status\": \"no\"\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Chore/task splitter",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/planning/chores",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "planning",
+                "chores"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"people\": [\n    \"Alex\",\n    \"Sam\"\n  ],\n  \"chores\": [\n    \"dishes\",\n    \"laundry\",\n    \"trash\"\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Trip itinerary splitter",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/planning/itinerary",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "planning",
+                "itinerary"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"days\": 3,\n  \"activities\": [\n    \"museum\",\n    \"beach\",\n    \"dinner\",\n    \"hiking\",\n    \"shopping\"\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Packing list generator",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/planning/packing-list",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "planning",
+                "packing-list"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nights\": 5,\n  \"climate\": \"hot\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Travel countdown with packing hints",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/planning/travel-countdown",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "planning",
+                "travel-countdown"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"departIso\": \"2027-06-01\",\n  \"nights\": 5,\n  \"climate\": \"hot\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Relocation checklist",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/planning/relocation-checklist",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "planning",
+                "relocation-checklist"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Cost-of-living comparison",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/planning/cost-of-living",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "planning",
+                "cost-of-living"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"fromIndex\": 100,\n  \"toIndex\": 85,\n  \"salary\": 80000\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Monthly budget planner",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/planning/monthly-budget",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "planning",
+                "monthly-budget"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"income\": 5000,\n  \"expenses\": [\n    {\n      \"name\": \"rent\",\n      \"amount\": 1500\n    },\n    {\n      \"name\": \"food\",\n      \"amount\": 500\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Grocery list normalizer",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/planning/grocery-list",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "planning",
+                "grocery-list"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"items\": [\n    {\n      \"name\": \"milk\",\n      \"qty\": 2\n    },\n    {\n      \"name\": \"bread\"\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Inventory rollup",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/planning/inventory",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "planning",
+                "inventory"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"items\": [\n    {\n      \"name\": \"widget\",\n      \"qty\": 10\n    },\n    {\n      \"name\": \"gadget\",\n      \"qty\": 5\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Bill splitter",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_base}}/v1/planning/split-bill",
+              "host": [
+                "{{utility_base}}"
+              ],
+              "path": [
+                "v1",
+                "planning",
+                "split-bill"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"total\": 120,\n  \"people\": 4\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        }
+      ],
+      "description": "All 14 endpoints -- new as of this batch. Base URL: utility_base."
+    },
+    {
+      "name": "MCP (Claude Desktop, Cursor, AI agents)",
+      "item": [
+        {
+          "name": "PDF MCP -- list available tools",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json, text/event-stream",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{pdf_mcp}}",
+              "host": [
+                "{{pdf_mcp}}"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 1,\n  \"method\": \"tools/list\",\n  \"params\": {}\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "description": "Same 3 PDF operations as the REST API, exposed as MCP tools for Claude Desktop, Cursor, and similar agents."
+          },
+          "response": []
+        },
+        {
+          "name": "PDF MCP -- call a tool",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json, text/event-stream",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{pdf_mcp}}",
+              "host": [
+                "{{pdf_mcp}}"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 2,\n  \"method\": \"tools/call\",\n  \"params\": {\n    \"name\": \"fill_pdf_form\",\n    \"arguments\": {\n      \"fileBase64\": \"<base64-encoded PDF here>\",\n      \"values\": {\n        \"fullName\": \"Jane Doe\"\n      }\n    }\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "description": "MCP takes file content as base64 in the request body, not multipart -- the difference from the REST version above."
+          },
+          "response": []
+        },
+        {
+          "name": "Utility MCP -- list available tools",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json, text/event-stream",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_mcp}}",
+              "host": [
+                "{{utility_mcp}}"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 1,\n  \"method\": \"tools/list\",\n  \"params\": {}\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "description": "All 127 utility-api endpoints (text, security, calculators, SEO/design, business, planning) exposed as MCP tools."
+          },
+          "response": []
+        },
+        {
+          "name": "Utility MCP -- call a tool",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "{{fdp_api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json, text/event-stream",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{utility_mcp}}",
+              "host": [
+                "{{utility_mcp}}"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 2,\n  \"method\": \"tools/call\",\n  \"params\": {\n    \"name\": \"generate_hash\",\n    \"arguments\": {\n      \"text\": \"hello world\",\n      \"algorithm\": \"sha256\"\n    }\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "description": "Same shared quota as every REST call above -- MCP and REST calls count against the same key, same limit."
+          },
+          "response": []
+        }
+      ],
+      "description": "Both endpoints use JSON-RPC 2.0 over HTTP. pdf_mcp covers PDF operations; utility_mcp covers everything else. Same X-API-Key, same shared quota as the REST folders above -- an MCP call and a REST call cost exactly the same."
+    }
+  ]
+}
