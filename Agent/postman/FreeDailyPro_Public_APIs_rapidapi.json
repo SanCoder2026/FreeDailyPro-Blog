@@ -91,14 +91,14 @@
               }
             ],
             "url": {
-              "raw": "https://www.freedailypro.com/api/v1/fillable-forms/parse",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/fillable-forms/parse",
               "host": [
-                "www",
-                "freedailypro",
-                "com"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
-                "api",
                 "v1",
                 "fillable-forms",
                 "parse"
@@ -131,14 +131,14 @@
               }
             ],
             "url": {
-              "raw": "https://www.freedailypro.com/api/v1/fillable-forms/fill",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/fillable-forms/fill",
               "host": [
-                "www",
-                "freedailypro",
-                "com"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
-                "api",
                 "v1",
                 "fillable-forms",
                 "fill"
@@ -176,14 +176,14 @@
               }
             ],
             "url": {
-              "raw": "https://www.freedailypro.com/api/v1/redact-pdf",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/redact-pdf",
               "host": [
-                "www",
-                "freedailypro",
-                "com"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
-                "api",
                 "v1",
                 "redact-pdf"
               ],

@@ -83,11 +83,12 @@
               }
             ],
             "url": {
-              "raw": "{{pdf_base}}/fillable-forms/parse",
+              "raw": "{{utility_base}}/v1/fillable-forms/parse",
               "host": [
-                "{{pdf_base}}"
+                "{{utility_base}}"
               ],
               "path": [
+                "v1",
                 "fillable-forms",
                 "parse"
               ]
@@ -118,11 +119,12 @@
               }
             ],
             "url": {
-              "raw": "{{pdf_base}}/fillable-forms/fill",
+              "raw": "{{utility_base}}/v1/fillable-forms/fill",
               "host": [
-                "{{pdf_base}}"
+                "{{utility_base}}"
               ],
               "path": [
+                "v1",
                 "fillable-forms",
                 "fill"
               ]
@@ -158,11 +160,12 @@
               }
             ],
             "url": {
-              "raw": "{{pdf_base}}/redact-pdf",
+              "raw": "{{utility_base}}/v1/redact-pdf",
               "host": [
-                "{{pdf_base}}"
+                "{{utility_base}}"
               ],
               "path": [
+                "v1",
                 "redact-pdf"
               ]
             },
