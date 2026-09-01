@@ -14,13 +14,17 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{utility_base}}/health",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/health",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "health"
-              ]
+              ],
+              "protocol": "https"
             }
           },
           "response": []
@@ -42,15 +46,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/word-count",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/word-count",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "word-count"
-              ]
+              ],
+              "protocol": "https"
             },
             "description": "If this returns 401, paste your key into the fdp_api_key environment variable first -- get one free at https://www.freedailypro.com/developers",
             "body": {
@@ -83,14 +91,19 @@
               }
             ],
             "url": {
-              "raw": "{{pdf_base}}/fillable-forms/parse",
+              "raw": "https://www.freedailypro.com/api/v1/fillable-forms/parse",
               "host": [
-                "{{pdf_base}}"
+                "www",
+                "freedailypro",
+                "com"
               ],
               "path": [
+                "api",
+                "v1",
                 "fillable-forms",
                 "parse"
-              ]
+              ],
+              "protocol": "https"
             },
             "description": "multipart/form-data. Attach a PDF with real AcroForm fields under the 'file' key.",
             "body": {
@@ -118,14 +131,19 @@
               }
             ],
             "url": {
-              "raw": "{{pdf_base}}/fillable-forms/fill",
+              "raw": "https://www.freedailypro.com/api/v1/fillable-forms/fill",
               "host": [
-                "{{pdf_base}}"
+                "www",
+                "freedailypro",
+                "com"
               ],
               "path": [
+                "api",
+                "v1",
                 "fillable-forms",
                 "fill"
-              ]
+              ],
+              "protocol": "https"
             },
             "description": "multipart/form-data. 'values' is a JSON string mapping field names to the values to fill in. Returns the filled PDF as binary.",
             "body": {
@@ -158,13 +176,18 @@
               }
             ],
             "url": {
-              "raw": "{{pdf_base}}/redact-pdf",
+              "raw": "https://www.freedailypro.com/api/v1/redact-pdf",
               "host": [
-                "{{pdf_base}}"
+                "www",
+                "freedailypro",
+                "com"
               ],
               "path": [
+                "api",
+                "v1",
                 "redact-pdf"
-              ]
+              ],
+              "protocol": "https"
             },
             "description": "multipart/form-data. 'boxes' maps page index -> array of {x,y,w,h} boxes in fractional page coordinates (0-1). Redaction is permanent -- content underneath is removed, not just covered.",
             "body": {
@@ -208,15 +231,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/word-count",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/word-count",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "word-count"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -247,15 +274,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/case-convert",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/case-convert",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "case-convert"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -286,15 +317,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/slug",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/slug",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "slug"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -325,15 +360,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/password",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/password",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "password"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -364,15 +403,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/lorem",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/lorem",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "lorem"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -403,15 +446,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/reverse",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/reverse",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "reverse"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -442,15 +489,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/sort",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/sort",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "sort"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -481,15 +532,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/extract-emails",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/extract-emails",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "extract-emails"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -520,15 +575,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/extract-urls",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/extract-urls",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "extract-urls"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -559,15 +618,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/find-replace",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/find-replace",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "find-replace"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -598,15 +661,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/readability",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/readability",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "readability"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -637,15 +704,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/markdown-to-html",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/markdown-to-html",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "markdown-to-html"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -676,15 +747,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/fancy",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/fancy",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "fancy"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -715,15 +790,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/invisible",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/invisible",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "invisible"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -754,15 +833,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/csv",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/csv",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "csv"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -793,15 +876,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/similarity",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/similarity",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "similarity"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -832,15 +919,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/citation",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/citation",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "citation"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -871,15 +962,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/paper-format",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/paper-format",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "paper-format"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -910,15 +1005,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/ascii-art",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/ascii-art",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "ascii-art"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -949,15 +1048,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/diff",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/diff",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "diff"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -988,15 +1091,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/emoji-unicode",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/emoji-unicode",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "emoji-unicode"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1027,15 +1134,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/product-description",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/product-description",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "product-description"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1066,15 +1177,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/user-manual",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/user-manual",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "user-manual"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1105,15 +1220,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/invitation-copy",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/invitation-copy",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "invitation-copy"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1144,15 +1263,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/menu-outline",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/menu-outline",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "menu-outline"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1183,15 +1306,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/flyer-outline",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/flyer-outline",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "flyer-outline"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1222,15 +1349,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/text/banner-copy",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/text/banner-copy",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "text",
                 "banner-copy"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1267,15 +1398,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/security/hash",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/security/hash",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "security",
                 "hash"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1306,15 +1441,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/security/uuid",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/security/uuid",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "security",
                 "uuid"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1345,15 +1484,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/security/base64",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/security/base64",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "security",
                 "base64"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1384,15 +1527,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/security/json-format",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/security/json-format",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "security",
                 "json-format"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1423,15 +1570,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/security/regex",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/security/regex",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "security",
                 "regex"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1462,15 +1613,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/security/url",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/security/url",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "security",
                 "url"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1501,15 +1656,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/security/timestamp",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/security/timestamp",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "security",
                 "timestamp"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1540,15 +1699,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/security/diff",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/security/diff",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "security",
                 "diff"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1579,15 +1742,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/security/password-strength",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/security/password-strength",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "security",
                 "password-strength"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1618,15 +1785,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/security/html-entities",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/security/html-entities",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "security",
                 "html-entities"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1657,15 +1828,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/security/binary-ascii",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/security/binary-ascii",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "security",
                 "binary-ascii"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1696,15 +1871,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/security/cron",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/security/cron",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "security",
                 "cron"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1735,15 +1914,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/security/jwt-decode",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/security/jwt-decode",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "security",
                 "jwt-decode"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1774,15 +1957,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/security/user-agent",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/security/user-agent",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "security",
                 "user-agent"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1813,15 +2000,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/security/minify",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/security/minify",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "security",
                 "minify"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1852,15 +2043,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/security/qr",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/security/qr",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "security",
                 "qr"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1891,15 +2086,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/security/barcode-code128",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/security/barcode-code128",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "security",
                 "barcode-code128"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -1925,16 +2124,20 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/security/http-status/404",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/security/http-status/404",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "security",
                 "http-status",
                 "404"
-              ]
+              ],
+              "protocol": "https"
             },
             "description": "GET, not POST. Omit the /404 to get the full reference list instead of one code."
           },
@@ -1963,15 +2166,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/percentage",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/percentage",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "percentage"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2002,15 +2209,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/tip",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/tip",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "tip"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2041,15 +2252,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/bmi",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/bmi",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "bmi"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2080,15 +2295,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/length",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/length",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "length"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2119,15 +2338,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/weight",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/weight",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "weight"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2158,15 +2381,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/temperature",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/temperature",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "temperature"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2197,15 +2424,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/loan",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/loan",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "loan"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2236,15 +2467,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/compound-interest",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/compound-interest",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "compound-interest"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2275,15 +2510,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/discount",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/discount",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "discount"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2314,15 +2553,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/simple-interest",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/simple-interest",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "simple-interest"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2353,15 +2596,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/sales-tax",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/sales-tax",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "sales-tax"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2392,15 +2639,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/age",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/age",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "age"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2431,15 +2682,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/random",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/random",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "random"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2470,15 +2725,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/water-intake",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/water-intake",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "water-intake"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2509,15 +2768,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/ideal-weight",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/ideal-weight",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "ideal-weight"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2548,15 +2811,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/gpa",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/gpa",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "gpa"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2587,15 +2854,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/bmr",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/bmr",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "bmr"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2626,15 +2897,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/pregnancy-due-date",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/pregnancy-due-date",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "pregnancy-due-date"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2665,15 +2940,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/sip",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/sip",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "sip"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2704,15 +2983,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/timezone-offset",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/timezone-offset",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "timezone-offset"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2743,15 +3026,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/body-fat",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/body-fat",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "body-fat"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2782,15 +3069,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/recipe-scale",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/recipe-scale",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "recipe-scale"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2821,15 +3112,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/roman",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/roman",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "roman"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2860,15 +3155,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/file-size",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/file-size",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "file-size"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2899,15 +3198,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/job-experience",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/job-experience",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "job-experience"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2938,15 +3241,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/paycheck",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/paycheck",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "paycheck"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -2977,15 +3284,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/fire",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/fire",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "fire"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3016,15 +3327,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/vat-gst",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/vat-gst",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "vat-gst"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3055,15 +3370,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/countdown",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/countdown",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "countdown"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3094,15 +3413,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/401k",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/401k",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "401k"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3133,15 +3456,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/rmd",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/rmd",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "rmd"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3172,15 +3499,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/self-employment-tax",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/self-employment-tax",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "self-employment-tax"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3211,15 +3542,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/529",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/529",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "529"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3250,15 +3585,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/social-security",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/social-security",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "social-security"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3289,15 +3628,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/student-loan",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/student-loan",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "student-loan"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3328,15 +3671,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/amortization",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/amortization",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "amortization"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3367,15 +3714,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/us-income-tax",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/us-income-tax",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "us-income-tax"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3406,15 +3757,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/india-income-tax",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/india-income-tax",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "india-income-tax"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3445,15 +3800,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/uk-tax",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/uk-tax",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "uk-tax"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3484,15 +3843,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/state-tax",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/state-tax",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "state-tax"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3523,15 +3886,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/converters/college-cost",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/converters/college-cost",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "converters",
                 "college-cost"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3568,15 +3935,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/seo/meta-tags",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/seo/meta-tags",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "seo",
                 "meta-tags"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3607,15 +3978,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/seo/keyword-density",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/seo/keyword-density",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "seo",
                 "keyword-density"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3646,15 +4021,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/seo/hashtags",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/seo/hashtags",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "seo",
                 "hashtags"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3685,15 +4064,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/seo/schema",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/seo/schema",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "seo",
                 "schema"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3724,15 +4107,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/design/color-convert",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/design/color-convert",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "design",
                 "color-convert"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3763,15 +4150,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/design/contrast",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/design/contrast",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "design",
                 "contrast"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3808,15 +4199,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/business/nda-draft",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/business/nda-draft",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "business",
                 "nda-draft"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3847,15 +4242,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/business/offer-letter-draft",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/business/offer-letter-draft",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "business",
                 "offer-letter-draft"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3886,15 +4285,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/business/bill-of-sale-draft",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/business/bill-of-sale-draft",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "business",
                 "bill-of-sale-draft"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3925,15 +4328,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/business/lease-draft",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/business/lease-draft",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "business",
                 "lease-draft"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -3964,15 +4371,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/business/promissory-note-draft",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/business/promissory-note-draft",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "business",
                 "promissory-note-draft"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4003,15 +4414,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/business/eviction-notice-draft",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/business/eviction-notice-draft",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "business",
                 "eviction-notice-draft"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4042,15 +4457,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/business/poa-draft",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/business/poa-draft",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "business",
                 "poa-draft"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4081,15 +4500,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/business/invention-disclosure",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/business/invention-disclosure",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "business",
                 "invention-disclosure"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4120,15 +4543,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/business/contract-pack",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/business/contract-pack",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "business",
                 "contract-pack"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4159,15 +4586,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/business/invoice-totals",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/business/invoice-totals",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "business",
                 "invoice-totals"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4198,15 +4629,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/business/receipt",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/business/receipt",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "business",
                 "receipt"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4237,15 +4672,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/business/expenses",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/business/expenses",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "business",
                 "expenses"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4276,15 +4715,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/business/product-margin",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/business/product-margin",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "business",
                 "product-margin"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4315,15 +4758,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/business/profit-margin",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/business/profit-margin",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "business",
                 "profit-margin"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4354,15 +4801,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/business/marketplace-fee",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/business/marketplace-fee",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "business",
                 "marketplace-fee"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4393,15 +4844,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/business/shipping-estimate",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/business/shipping-estimate",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "business",
                 "shipping-estimate"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4432,15 +4887,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/business/break-even",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/business/break-even",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "business",
                 "break-even"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4471,15 +4930,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/business/government-forms",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/business/government-forms",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "business",
                 "government-forms"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4510,15 +4973,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/business/startup-names",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/business/startup-names",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "business",
                 "startup-names"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4549,15 +5016,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/business/resume-outline",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/business/resume-outline",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "business",
                 "resume-outline"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4594,15 +5065,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/planning/event-budget",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/planning/event-budget",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "planning",
                 "event-budget"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4633,15 +5108,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/planning/event-checklist",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/planning/event-checklist",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "planning",
                 "event-checklist"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4672,15 +5151,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/planning/event-schedule",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/planning/event-schedule",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "planning",
                 "event-schedule"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4711,15 +5194,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/planning/guest-list",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/planning/guest-list",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "planning",
                 "guest-list"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4750,15 +5237,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/planning/chores",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/planning/chores",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "planning",
                 "chores"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4789,15 +5280,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/planning/itinerary",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/planning/itinerary",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "planning",
                 "itinerary"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4828,15 +5323,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/planning/packing-list",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/planning/packing-list",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "planning",
                 "packing-list"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4867,15 +5366,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/planning/travel-countdown",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/planning/travel-countdown",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "planning",
                 "travel-countdown"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4906,15 +5409,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/planning/relocation-checklist",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/planning/relocation-checklist",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "planning",
                 "relocation-checklist"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4945,15 +5452,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/planning/cost-of-living",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/planning/cost-of-living",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "planning",
                 "cost-of-living"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -4984,15 +5495,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/planning/monthly-budget",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/planning/monthly-budget",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "planning",
                 "monthly-budget"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -5023,15 +5538,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/planning/grocery-list",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/planning/grocery-list",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "planning",
                 "grocery-list"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -5062,15 +5581,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/planning/inventory",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/planning/inventory",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "planning",
                 "inventory"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -5101,15 +5624,19 @@
               }
             ],
             "url": {
-              "raw": "{{utility_base}}/v1/planning/split-bill",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/v1/planning/split-bill",
               "host": [
-                "{{utility_base}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
               ],
               "path": [
                 "v1",
                 "planning",
                 "split-bill"
-              ]
+              ],
+              "protocol": "https"
             },
             "body": {
               "mode": "raw",
@@ -5151,9 +5678,15 @@
               }
             ],
             "url": {
-              "raw": "{{pdf_mcp}}",
+              "raw": "https://www.freedailypro.com/mcp",
               "host": [
-                "{{pdf_mcp}}"
+                "www",
+                "freedailypro",
+                "com"
+              ],
+              "protocol": "https",
+              "path": [
+                "mcp"
               ]
             },
             "body": {
@@ -5191,9 +5724,15 @@
               }
             ],
             "url": {
-              "raw": "{{pdf_mcp}}",
+              "raw": "https://www.freedailypro.com/mcp",
               "host": [
-                "{{pdf_mcp}}"
+                "www",
+                "freedailypro",
+                "com"
+              ],
+              "protocol": "https",
+              "path": [
+                "mcp"
               ]
             },
             "body": {
@@ -5231,9 +5770,16 @@
               }
             ],
             "url": {
-              "raw": "{{utility_mcp}}",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/mcp",
               "host": [
-                "{{utility_mcp}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
+              ],
+              "protocol": "https",
+              "path": [
+                "mcp"
               ]
             },
             "body": {
@@ -5271,9 +5817,16 @@
               }
             ],
             "url": {
-              "raw": "{{utility_mcp}}",
+              "raw": "https://utility-api-production-ebf2.up.railway.app/mcp",
               "host": [
-                "{{utility_mcp}}"
+                "utility-api-production-ebf2",
+                "up",
+                "railway",
+                "app"
+              ],
+              "protocol": "https",
+              "path": [
+                "mcp"
               ]
             },
             "body": {
