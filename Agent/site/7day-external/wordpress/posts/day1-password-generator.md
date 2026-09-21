@@ -7,7 +7,8 @@ author: "FreeDailyPro Team"
 image: "/images/day1-password-generator.webp"
 tags: ["password generator", "workplace security", "browser tools", "FreeDailyPro"]
 draft: false
-platform_package: "blogger-medium-wordpress-hubspot"
+platform: "wordpress"
+platform_package: "7day-x4"
 day: 1
 primary_tool: "password-generator"
 ---

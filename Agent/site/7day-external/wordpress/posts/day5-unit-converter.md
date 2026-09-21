@@ -7,7 +7,8 @@ author: "FreeDailyPro Team"
 image: "/images/day5-unit-converter.webp"
 tags: ["unit converter", "travel tools", "shipping", "FreeDailyPro"]
 draft: false
-platform_package: "blogger-medium-wordpress-hubspot"
+platform: "wordpress"
+platform_package: "7day-x4"
 day: 5
 primary_tool: "unit-converter"
 ---

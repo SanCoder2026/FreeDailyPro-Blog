@@ -7,7 +7,8 @@ author: "FreeDailyPro Team"
 image: "/images/day7-hash-generator.webp"
 tags: ["hash generator", "SHA-256", "file integrity", "FreeDailyPro"]
 draft: false
-platform_package: "blogger-medium-wordpress-hubspot"
+platform: "wordpress"
+platform_package: "7day-x4"
 day: 7
 primary_tool: "hash-generator"
 ---

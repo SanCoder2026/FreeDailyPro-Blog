@@ -7,7 +7,8 @@ author: "FreeDailyPro Team"
 image: "/images/day6-grammar-checker.webp"
 tags: ["grammar checker", "email writing", "proofreading", "FreeDailyPro"]
 draft: false
-platform_package: "blogger-medium-wordpress-hubspot"
+platform: "wordpress"
+platform_package: "7day-x4"
 day: 6
 primary_tool: "grammar-checker"
 ---

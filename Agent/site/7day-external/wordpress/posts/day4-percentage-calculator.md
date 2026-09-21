@@ -7,7 +7,8 @@ author: "FreeDailyPro Team"
 image: "/images/day4-percentage-calculator.webp"
 tags: ["percentage calculator", "discounts", "raise calculator", "FreeDailyPro"]
 draft: false
-platform_package: "blogger-medium-wordpress-hubspot"
+platform: "wordpress"
+platform_package: "7day-x4"
 day: 4
 primary_tool: "percentage-calculator"
 ---

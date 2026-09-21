@@ -7,7 +7,8 @@ author: "FreeDailyPro Team"
 image: "/images/day3-word-counter.webp"
 tags: ["word counter", "freelance writing", "character count", "FreeDailyPro"]
 draft: false
-platform_package: "blogger-medium-wordpress-hubspot"
+platform: "wordpress"
+platform_package: "7day-x4"
 day: 3
 primary_tool: "word-counter"
 ---

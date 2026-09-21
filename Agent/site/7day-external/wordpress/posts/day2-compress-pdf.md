@@ -7,7 +7,8 @@ author: "FreeDailyPro Team"
 image: "/images/day2-compress-pdf.webp"
 tags: ["compress pdf", "email attachments", "pdf tools", "FreeDailyPro"]
 draft: false
-platform_package: "blogger-medium-wordpress-hubspot"
+platform: "wordpress"
+platform_package: "7day-x4"
 day: 2
 primary_tool: "compress-pdf"
 ---

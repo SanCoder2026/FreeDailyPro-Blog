@@ -1,43 +1,21 @@
-# 7-Day External Blog Package (Blogger · Medium · WordPress · HubSpot)
+# 28-Post External Blog Package (7 days × 4 platforms)
 
-Unique posts for **external platforms** — **not** duplicates of FreeDailyPro.com site blogs.
-Each day introduces **one tool** via a narrow real-world scenario.
+| Platform | Folder | Voice | Tools (Day 1–7) |
+|----------|--------|-------|-----------------|
+| **WordPress** | `wordpress/` | Structured how-to | password-generator, compress-pdf, word-counter, percentage-calculator, unit-converter, grammar-checker, hash-generator |
+| **Medium** | `medium/` | Practitioner essays | merge-pdf, invoice-generator, json-formatter, pdf-to-word, url-encoder, csv-converter, markdown-html-converter |
+| **Blogger** | `blogger/` | DIY / home-office | random-number-generator, image-to-pdf, document-scanner, remove-background, screenshot-tool, resume-builder, binary-ascii-converter |
+| **HubSpot** | `hubspot/` | Business / ops / HR | shipping-cost-estimator, cost-of-living-comparison, text-similarity-checker, diff-checker, audio-comparer, college-529-calculator, loan-calculator |
 
-## Branding (heroes) — DO NOT CHANGE
-- Bottom FreeDailyPro sticker only (`brand_image.py`)
-- **No** FreeDailyPro logo/name inside the scene or laptop UI
-
-## Publish calendar
-| Day | Date | File | Primary tool |
-|-----|------|------|----------------|
-| 1 | 2026-09-22 | day1-password-generator.md | password-generator |
-| 2 | 2026-09-23 | day2-compress-pdf.md | compress-pdf |
-| 3 | 2026-09-24 | day3-word-counter.md | word-counter |
-| 4 | 2026-09-25 | day4-percentage-calculator.md | percentage-calculator |
-| 5 | 2026-09-26 | day5-unit-converter.md | unit-converter |
-| 6 | 2026-09-27 | day6-grammar-checker.md | grammar-checker |
-| 7 | 2026-09-28 | day7-hash-generator.md | hash-generator |
-
-## Hero raw URLs
-Base: `https://raw.githubusercontent.com/SanCoder2026/FreeDailyPro-Blog/main/Agent/site/7day-external/images/`
-
-- day1: .../day1-password-generator.webp
-- day2: .../day2-compress-pdf.webp
-- day3: .../day3-word-counter.webp
-- day4: .../day4-percentage-calculator.webp
-- day5: .../day5-unit-converter.webp
-- day6: .../day6-grammar-checker.webp
-- day7: .../day7-hash-generator.webp
-
-## Platform tips
-- **Medium**: Paste content; set story title + subtitle; upload hero as featured image; keep FreeDailyPro links.
-- **WordPress**: Block editor; featured image 1200×630; tags from frontmatter; categories optional.
-- **Blogger**: HTML paste; Labels = tags; upload hero at top.
-- **HubSpot**: Blog editor; meta description ≤160 chars from frontmatter; featured image; personalize CTA modules carefully so body links stay intact.
-
-## Content rules (same as FreeDailyPro blog discipline)
-- 1000+ words where expanded; short paragraphs (3–6 lines)
+## Rules (all 28)
+- Unique content — **not** copies of FreeDailyPro.com site blogs and **not** cross-copied across platforms
+- One primary tool per post; related tool links + category/multitool link
 - Body starts with FreeDailyPro.com link
-- Primary + related tool links + category or multitool-apps link
-- Honest limitations; no invented stats; no thin listicles
-- Unique angles vs week-sep02 / week-sep05 site posts
+- 1000+ words; short paragraphs; honest limits
+- Heroes 1200×630 WebP — **bottom FreeDailyPro sticker only** (no in-scene branding)
+
+## Raw hero base
+`https://raw.githubusercontent.com/SanCoder2026/FreeDailyPro-Blog/main/Agent/site/7day-external/{platform}/images/{slug}.webp`
+
+## Suggested schedule
+Same day-of-week across platforms (Day 1 = 2026-09-22 … Day 7 = 2026-09-28), different tools per channel so social cross-posts do not collide.
