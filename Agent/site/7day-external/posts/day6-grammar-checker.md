@@ -107,3 +107,12 @@ If the document is a funding memo, a crisis response, or a public incident repor
 ## Measuring improvement without vanity
 
 Track outcomes that matter: fewer client clarifications about unclear asks, fewer “typo” reply-alls. Do not track “number of suggestions accepted” as a KPI—that optimizes for tool usage, not communication quality.
+
+
+## Reply-all culture and polish
+
+When a thread has twelve people, one typo multiplies. Spend the extra thirty seconds on FreeDailyPro’s [Grammar Checker](https://www.freedailypro.com/tool/grammar-checker) before reply-all. Also re-read the recipient list—tools do not catch “oops wrong thread.”
+
+## Signature blocks
+
+Signatures with job titles and legal disclaimers grow stale. Quarterly, paste the signature into the checker and into the [Word Counter](https://www.freedailypro.com/tool/word-counter) if your mobile clients truncate long footers. Keep contact data accurate; grammar is secondary to wrong phone numbers.

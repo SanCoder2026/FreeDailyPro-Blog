@@ -104,3 +104,18 @@ New tools often mean new accounts. After you verify the installer hash, create t
 ## Stay calm on mismatch
 
 Panic installs “because the team needs it today” are how bad binaries spread. A mismatch is a stop sign. Escalate, redownload, or wait for the vendor. Speed is not a virtue when the artifact is wrong.
+
+
+## CI idea for small teams
+
+Even without fancy supply-chain tooling, a README section “Verify downloads” with the expected SHA-256 raises the bar for contributors. Point them at the [Hash Generator](https://www.freedailypro.com/tool/hash-generator) for a zero-install option on Windows laptops that lack `sha256sum`.
+
+## Final checklist before install
+
+1. Official URL  
+2. HTTPS  
+3. Hash match  
+4. Code signature if provided  
+5. Password for new account via [Password Generator](https://www.freedailypro.com/tool/password-generator)  
+
+Five steps, fewer regrets.
