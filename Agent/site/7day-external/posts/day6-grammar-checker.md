@@ -116,3 +116,8 @@ When a thread has twelve people, one typo multiplies. Spend the extra thirty sec
 ## Signature blocks
 
 Signatures with job titles and legal disclaimers grow stale. Quarterly, paste the signature into the checker and into the [Word Counter](https://www.freedailypro.com/tool/word-counter) if your mobile clients truncate long footers. Keep contact data accurate; grammar is secondary to wrong phone numbers.
+
+
+## One-sentence standard
+
+If you cannot state the ask in one clear sentence after the greeting, revise before running the checker. Grammar on a muddy ask only polishes confusion.
