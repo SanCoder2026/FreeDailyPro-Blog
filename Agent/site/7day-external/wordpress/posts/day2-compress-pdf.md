@@ -4,14 +4,13 @@ subtitle: "When Gmail or Outlook rejects your attachment, fix the size in the br
 description: "Compress PDFs to hit email size caps like 25 MB or 2 MB using a free browser tool—no desktop suite required."
 date: 2026-09-23
 author: "FreeDailyPro Team"
-image: "/images/day2-compress-pdf.webp"
+image: "../images/day2-compress-pdf.webp"
 tags: ["compress pdf", "email attachments", "pdf tools", "FreeDailyPro"]
 draft: false
-platform: "wordpress"
-platform_package: "7day-x4"
-day: 2
-primary_tool: "compress-pdf"
 ---
+![Shrink a PDF to Fit Email Limits Without Paying for Desktop Software](../images/day2-compress-pdf.webp)
+
+*When Gmail or Outlook rejects your attachment, fix the size in the browser*
 
 [FreeDailyPro.com](https://www.freedailypro.com) -- Your PDF is ready. Gmail says the attachment is too large. Outlook has the same limit. The client will not take a cloud link. You need a smaller file in the next ten minutes—not a desktop publishing suite.
 

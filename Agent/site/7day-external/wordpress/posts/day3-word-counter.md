@@ -4,14 +4,13 @@ subtitle: "Freelancers and students who need exact counts before they submit"
 description: "Count words, characters, sentences, and reading time in the browser so client and school limits stop being a surprise."
 date: 2026-09-24
 author: "FreeDailyPro Team"
-image: "/images/day3-word-counter.webp"
+image: "../images/day3-word-counter.webp"
 tags: ["word counter", "freelance writing", "character count", "FreeDailyPro"]
 draft: false
-platform: "wordpress"
-platform_package: "7day-x4"
-day: 3
-primary_tool: "word-counter"
 ---
+![Hit Your Client Word Limit Without Guessing: A Free Word Counter Workflow](../images/day3-word-counter.webp)
+
+*Freelancers and students who need exact counts before they submit*
 
 [FreeDailyPro.com](https://www.freedailypro.com) -- The brief says 800 words. The newsletter cap is 1,200 characters. The abstract allows 250 words. Microsoft Word’s count and Google Docs’ count disagree with what the portal accepts. You need a neutral counter before you cut the wrong paragraph.
 

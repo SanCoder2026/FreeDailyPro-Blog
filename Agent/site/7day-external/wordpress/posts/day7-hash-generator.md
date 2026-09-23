@@ -4,14 +4,13 @@ subtitle: "MD5, SHA-1, and SHA-256 in the browser for one practical integrity ch
 description: "Generate file hashes to compare with published checksums so you know a download was not corrupted or swapped."
 date: 2026-09-28
 author: "FreeDailyPro Team"
-image: "/images/day7-hash-generator.webp"
+image: "../images/day7-hash-generator.webp"
 tags: ["hash generator", "SHA-256", "file integrity", "FreeDailyPro"]
 draft: false
-platform: "wordpress"
-platform_package: "7day-x4"
-day: 7
-primary_tool: "hash-generator"
 ---
+![Verify a Download With a Checksum Before You Install Anything](../images/day7-hash-generator.webp)
+
+*MD5, SHA-1, and SHA-256 in the browser for one practical integrity check*
 
 [FreeDailyPro.com](https://www.freedailypro.com) -- The project page publishes a SHA-256 checksum next to the download. Most people skip it. Skipping is how corrupted installers and mirror mistakes get run. You do not need a full security lab—you need one hash comparison.
 

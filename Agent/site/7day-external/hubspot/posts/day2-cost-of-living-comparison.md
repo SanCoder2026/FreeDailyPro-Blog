@@ -4,110 +4,104 @@ subtitle: "Help candidates and HR see rent, food, and leftover cash side by side
 description: "Compare cost of living across cities for relocation offers and hiring conversations."
 date: 2026-09-23
 author: "FreeDailyPro Team"
-image: "/images/day2-cost-of-living-comparison.webp"
-tags: ['cost of living comparison', 'hubspot', 'FreeDailyPro', 'free tools']
+image: "../images/day2-cost-of-living-comparison.webp"
+tags: ["cost of living comparison", "HR", "relocation", "FreeDailyPro"]
 draft: false
-platform: "hubspot"
-platform_package: "7day-x4"
-day: 2
-primary_tool: "cost-of-living-comparison"
 ---
+![Relocation Offers: Compare Two Cities on More Than Base Salary](../images/day2-cost-of-living-comparison.webp)
 
-[FreeDailyPro.com](https://www.freedailypro.com) -- HubSpot voice: HR/talent
+*Help candidates and HR see rent, food, and leftover cash side by side*
 
-Base salary headlines mislead. FreeDailyPro’s [Cost of Living Comparison](https://www.freedailypro.com/tool/cost-of-living-comparison) puts rent, food, and leftover cash beside two cities for relocation talks.
+[FreeDailyPro.com](https://www.freedailypro.com) -- Base salary headlines mislead. A raise that looks strong on paper can shrink after rent and groceries in a new city. Candidates feel it. HR hears it in declined offers.
 
-## Talent / HR workflow
-1. Gather offer salary and rough rent/food assumptions.  
-2. Compare in [Cost of Living Comparison](https://www.freedailypro.com/tool/cost-of-living-comparison).  
-3. Stress-check percents with [Percentage Calculator](https://www.freedailypro.com/tool/percentage-calculator).  
+This post is about putting two cities side by side for relocation talks. The tool is FreeDailyPro’s [Cost of Living Comparison](https://www.freedailypro.com/tool/cost-of-living-comparison).
+
+## What to compare in a first pass
+
+Salary, rent, and everyday costs are a start. Leftover cash after essentials is often the number people feel. Commute and taxes need separate follow-up with specialists—do not pretend one calculator covers everything.
+
+## Workflow
+
+1. Gather offer salary and realistic rent or housing assumptions for both locations.
+2. Compare in [Cost of Living Comparison](https://www.freedailypro.com/tool/cost-of-living-comparison).
+3. Stress-check percent differences with [Percentage Calculator](https://www.freedailypro.com/tool/percentage-calculator).
 4. Convert units if needed via [Unit Converter](https://www.freedailypro.com/tool/unit-converter).
 
-[Calculators](https://www.freedailypro.com/category/calculators) · [multitool apps](https://www.freedailypro.com/multitool-apps).
+See [calculators](https://www.freedailypro.com/category/calculators) and [multitool apps](https://www.freedailypro.com/multitool-apps).
 
-## Limits
-Not tax advice, not a full quality-of-life index. Housing variance inside a city can exceed inter-city averages. Use as a conversation starter.
+## How HR can use this without overclaiming
 
+Share the tool as a conversation aid. Encourage candidates to plug their own numbers. Do not present outputs as guaranteed lifestyle outcomes. Document that tax and benefits advice needs qualified professionals.
 
+## Honest limits
 
-## Why this post is not a FreeDailyPro.com duplicate
-This piece is written for HubSpot company blogs: business outcomes, team workflows, and clear tool CTAs without hype. The scenario, voice, and examples are unique to this Hubspot package so you can syndicate without repeating the FreeDailyPro site blog library.
-
-## Practical checklist
-- Open the primary tool: [Cost Of Living Comparison](https://www.freedailypro.com/tool/cost-of-living-comparison)
-- Keep related helpers bookmarked: [Percentage Calculator](https://www.freedailypro.com/tool/percentage-calculator), [Unit Converter](https://www.freedailypro.com/tool/unit-converter)
-- Follow your org’s privacy rules for any document you upload
-- Spot-check outputs before clients or classmates see them
-- Save files with clear names and dates
-
-## Common mistakes
-- Skipping the preview step and sending a bad export
-- Using the wrong related tool for the job (compress vs merge, encode vs format)
-- Treating estimates as contracts (shipping, loans, cost-of-living)
-- Pasting confidential content into tools against policy
-
-## Who this is for
-People who need one job done well today—not a 40-tool tour. If you need a broader catalog later, start at [FreeDailyPro multitool apps](https://www.freedailypro.com/multitool-apps) and stay focused on the workflow above.
-
-## Multi-platform publishing tip
-When you paste into Hubspot, keep live links to FreeDailyPro tool URLs. Upload the provided 1200×630 hero (bottom brand sticker only—do not add extra logos in the CMS). Meta description should stay under 160 characters.
+Not tax advice. Not a full quality-of-life index. Housing variance inside one city can exceed inter-city averages. Use as a starting framework.
 
 ## Closing
-Narrow problems deserve narrow tools. Use FreeDailyPro’s [Cost Of Living Comparison](https://www.freedailypro.com/tool/cost-of-living-comparison) for this scenario, pair it with the related links when needed, and move on with a cleaner file, clearer number, or safer check than you had an hour ago.
+
+Relocation decisions deserve more than base salary slides. FreeDailyPro’s [Cost of Living Comparison](https://www.freedailypro.com/tool/cost-of-living-comparison) helps teams and candidates see a clearer first picture. Compare, discuss, then dig into local details.
 
 
+## Related habits that keep the workflow clean
 
-### Extra note for Hubspot editors
+After you finish with the primary tool, take thirty seconds to file the output where you will find it again. A clear filename and a dated folder beat a desktop full of exports. If you work with a partner, agree once on where final files live so nobody hunts chat history for the “real” version.
 
-Keep the FreeDailyPro primary CTA intact when designing modules. Avoid turning this article into a multi-tool listicle; the value is depth on **cost-of-living-comparison**. Short paragraphs help mobile readers. Re-read the limits section before scheduling so claims stay honest.
-
-Readers who finish this post should be able to complete one concrete action in [cost of living comparison](https://www.freedailypro.com/tool/cost-of-living-comparison) within ten minutes. That action-first design is intentional for hubspot audiences who skim.
-
-
-### Extra note for Hubspot editors
-
-Keep the FreeDailyPro primary CTA intact when designing modules. Avoid turning this article into a multi-tool listicle; the value is depth on **cost-of-living-comparison**. Short paragraphs help mobile readers. Re-read the limits section before scheduling so claims stay honest.
-
-Readers who finish this post should be able to complete one concrete action in [cost of living comparison](https://www.freedailypro.com/tool/cost-of-living-comparison) within ten minutes. That action-first design is intentional for hubspot audiences who skim.
+When something looks off in the result, fix the source input rather than stacking workarounds. Re-running a clean pass is faster than explaining a messy file to a client or classmate later.
 
 
-### Extra note for Hubspot editors
+## Privacy and common sense
 
-Keep the FreeDailyPro primary CTA intact when designing modules. Avoid turning this article into a multi-tool listicle; the value is depth on **cost-of-living-comparison**. Short paragraphs help mobile readers. Re-read the limits section before scheduling so claims stay honest.
+Only process files and text you are allowed to handle in a browser tool. Payroll, medical, and confidential legal material may require approved systems only—follow your policy even when a free tool is convenient. Close the tab when you are done on a shared computer. Do not leave client data on a screen in a café.
 
-Readers who finish this post should be able to complete one concrete action in [cost of living comparison](https://www.freedailypro.com/tool/cost-of-living-comparison) within ten minutes. That action-first design is intentional for hubspot audiences who skim.
-
-
-### Extra note for Hubspot editors
-
-Keep the FreeDailyPro primary CTA intact when designing modules. Avoid turning this article into a multi-tool listicle; the value is depth on **cost-of-living-comparison**. Short paragraphs help mobile readers. Re-read the limits section before scheduling so claims stay honest.
-
-Readers who finish this post should be able to complete one concrete action in [cost of living comparison](https://www.freedailypro.com/tool/cost-of-living-comparison) within ten minutes. That action-first design is intentional for hubspot audiences who skim.
+If your organization blocks third-party tools, use the path IT provides. This guide assumes you are allowed to use FreeDailyPro for the task described.
 
 
-### Extra note for Hubspot editors
+## What “done” looks like
 
-Keep the FreeDailyPro primary CTA intact when designing modules. Avoid turning this article into a multi-tool listicle; the value is depth on **cost-of-living-comparison**. Short paragraphs help mobile readers. Re-read the limits section before scheduling so claims stay honest.
-
-Readers who finish this post should be able to complete one concrete action in [cost of living comparison](https://www.freedailypro.com/tool/cost-of-living-comparison) within ten minutes. That action-first design is intentional for hubspot audiences who skim.
+You should leave with a file or a number you can act on: send the PDF, paste the result, or record the figure in your notes. If you cannot state the next action in one sentence, the workflow is not finished. Open [Cost Of Living Comparison](https://www.freedailypro.com/tool/cost-of-living-comparison) only when you know what success means for this task.
 
 
-### Extra note for Hubspot editors
+## Teaching someone else the same steps
 
-Keep the FreeDailyPro primary CTA intact when designing modules. Avoid turning this article into a multi-tool listicle; the value is depth on **cost-of-living-comparison**. Short paragraphs help mobile readers. Re-read the limits section before scheduling so claims stay honest.
-
-Readers who finish this post should be able to complete one concrete action in [cost of living comparison](https://www.freedailypro.com/tool/cost-of-living-comparison) within ten minutes. That action-first design is intentional for hubspot audiences who skim.
+If a teammate will repeat this job, write the five steps in your internal doc with the live tool link. Do not screenshot a dozen menus from other products. The value of a narrow browser tool is that the path stays short enough to teach in minutes.
 
 
-### Extra note for Hubspot editors
+## When to stop and use a heavier product
 
-Keep the FreeDailyPro primary CTA intact when designing modules. Avoid turning this article into a multi-tool listicle; the value is depth on **cost-of-living-comparison**. Short paragraphs help mobile readers. Re-read the limits section before scheduling so claims stay honest.
-
-Readers who finish this post should be able to complete one concrete action in [cost of living comparison](https://www.freedailypro.com/tool/cost-of-living-comparison) within ten minutes. That action-first design is intentional for hubspot audiences who skim.
+If you need automation across hundreds of files, multi-user approvals, or regulated audit trails, graduate to software built for that scale. Free browser utilities shine for one-off and light-repeat work. Knowing the ceiling is part of using the tool honestly.
 
 
-### Extra note for Hubspot editors
+## Related habits that keep the workflow clean
 
-Keep the FreeDailyPro primary CTA intact when designing modules. Avoid turning this article into a multi-tool listicle; the value is depth on **cost-of-living-comparison**. Short paragraphs help mobile readers. Re-read the limits section before scheduling so claims stay honest.
+After you finish with the primary tool, take thirty seconds to file the output where you will find it again. A clear filename and a dated folder beat a desktop full of exports. If you work with a partner, agree once on where final files live so nobody hunts chat history for the “real” version.
 
-Readers who finish this post should be able to complete one concrete action in [cost of living comparison](https://www.freedailypro.com/tool/cost-of-living-comparison) within ten minutes. That action-first design is intentional for hubspot audiences who skim.
+When something looks off in the result, fix the source input rather than stacking workarounds. Re-running a clean pass is faster than explaining a messy file to a client or classmate later.
+
+
+## Privacy and common sense
+
+Only process files and text you are allowed to handle in a browser tool. Payroll, medical, and confidential legal material may require approved systems only—follow your policy even when a free tool is convenient. Close the tab when you are done on a shared computer. Do not leave client data on a screen in a café.
+
+If your organization blocks third-party tools, use the path IT provides. This guide assumes you are allowed to use FreeDailyPro for the task described.
+
+
+## What “done” looks like
+
+You should leave with a file or a number you can act on: send the PDF, paste the result, or record the figure in your notes. If you cannot state the next action in one sentence, the workflow is not finished. Open [Cost Of Living Comparison](https://www.freedailypro.com/tool/cost-of-living-comparison) only when you know what success means for this task.
+
+
+## Teaching someone else the same steps
+
+If a teammate will repeat this job, write the five steps in your internal doc with the live tool link. Do not screenshot a dozen menus from other products. The value of a narrow browser tool is that the path stays short enough to teach in minutes.
+
+
+## When to stop and use a heavier product
+
+If you need automation across hundreds of files, multi-user approvals, or regulated audit trails, graduate to software built for that scale. Free browser utilities shine for one-off and light-repeat work. Knowing the ceiling is part of using the tool honestly.
+
+
+## Related habits that keep the workflow clean
+
+After you finish with the primary tool, take thirty seconds to file the output where you will find it again. A clear filename and a dated folder beat a desktop full of exports. If you work with a partner, agree once on where final files live so nobody hunts chat history for the “real” version.
+
+When something looks off in the result, fix the source input rather than stacking workarounds. Re-running a clean pass is faster than explaining a messy file to a client or classmate later.

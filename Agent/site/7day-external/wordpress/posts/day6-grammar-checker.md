@@ -4,14 +4,13 @@ subtitle: "Quick grammar and clarity checks for messages that still need your vo
 description: "Run a free grammar check on emails and short drafts when a full writing suite is overkill or blocked at work."
 date: 2026-09-27
 author: "FreeDailyPro Team"
-image: "/images/day6-grammar-checker.webp"
+image: "../images/day6-grammar-checker.webp"
 tags: ["grammar checker", "email writing", "proofreading", "FreeDailyPro"]
 draft: false
-platform: "wordpress"
-platform_package: "7day-x4"
-day: 6
-primary_tool: "grammar-checker"
 ---
+![Polish a Short Email Before You Hit Send—Without a Writing Subscription](../images/day6-grammar-checker.webp)
+
+*Quick grammar and clarity checks for messages that still need your voice*
 
 [FreeDailyPro.com](https://www.freedailypro.com) -- The email is four paragraphs. You are not drafting a novel. A full writing subscription feels heavy, and some workplaces block consumer AI chat. You still want fewer typos and clearer sentences before a client sees the message.
 

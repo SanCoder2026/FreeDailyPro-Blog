@@ -4,14 +4,13 @@ subtitle: "Percent off, percent change, and “what percent of” in plain langu
 description: "Use a free percentage calculator for discounts, raises, and markups when you do not want to open a spreadsheet."
 date: 2026-09-25
 author: "FreeDailyPro Team"
-image: "/images/day4-percentage-calculator.webp"
+image: "../images/day4-percentage-calculator.webp"
 tags: ["percentage calculator", "discounts", "raise calculator", "FreeDailyPro"]
 draft: false
-platform: "wordpress"
-platform_package: "7day-x4"
-day: 4
-primary_tool: "percentage-calculator"
 ---
+![Sale Discounts and Raise Math Without Spreadsheet Anxiety](../images/day4-percentage-calculator.webp)
+
+*Percent off, percent change, and “what percent of” in plain language*
 
 [FreeDailyPro.com](https://www.freedailypro.com) -- “25% off $120” should be easy. So should “8% raise on $50,000.” Under time pressure, people misplace the base or confuse percent-of with percent-change. Spreadsheets feel heavy for a two-field question.
 

@@ -4,14 +4,13 @@ subtitle: "A browser-only workflow when IT will not let you install a password m
 description: "Create strong, unique work passwords in the browser when you cannot install a manager. Practical steps and honest limits."
 date: 2026-09-22
 author: "FreeDailyPro Team"
-image: "/images/day1-password-generator.webp"
+image: "../images/day1-password-generator.webp"
 tags: ["password generator", "workplace security", "browser tools", "FreeDailyPro"]
 draft: false
-platform: "wordpress"
-platform_package: "7day-x4"
-day: 1
-primary_tool: "password-generator"
 ---
+![How to Create Strong Work Passwords Without Installing Another App](../images/day1-password-generator.webp)
+
+*A browser-only workflow when IT will not let you install a password manager*
 
 [FreeDailyPro.com](https://www.freedailypro.com) -- Many offices block installers. You still need unique passwords for portals, vendor logins, and shared tools. A password manager is ideal, but it is not always allowed on a managed laptop.
 

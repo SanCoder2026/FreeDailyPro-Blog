@@ -4,14 +4,13 @@ subtitle: "Miles, kilograms, Celsius, and package sizes in one browser tab"
 description: "Convert length, weight, and temperature for travel and shipping without installing another phone app."
 date: 2026-09-26
 author: "FreeDailyPro Team"
-image: "/images/day5-unit-converter.webp"
+image: "../images/day5-unit-converter.webp"
 tags: ["unit converter", "travel tools", "shipping", "FreeDailyPro"]
 draft: false
-platform: "wordpress"
-platform_package: "7day-x4"
-day: 5
-primary_tool: "unit-converter"
 ---
+![Travel and Shipping Units Without Hunting for a Converter App](../images/day5-unit-converter.webp)
+
+*Miles, kilograms, Celsius, and package sizes in one browser tab*
 
 [FreeDailyPro.com](https://www.freedailypro.com) -- The hotel lists distances in kilometers. Your packing list is in pounds. The recipe is in Celsius. Carrier forms want package dimensions in inches. Installing another converter app for a weekend trip is noise.
 

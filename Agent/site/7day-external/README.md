@@ -1,21 +1,32 @@
-# 28-Post External Blog Package (7 days × 4 platforms)
+# 28-Post External Package (7 days × 4 platforms)
 
-| Platform | Folder | Voice | Tools (Day 1–7) |
-|----------|--------|-------|-----------------|
-| **WordPress** | `wordpress/` | Structured how-to | password-generator, compress-pdf, word-counter, percentage-calculator, unit-converter, grammar-checker, hash-generator |
-| **Medium** | `medium/` | Practitioner essays | merge-pdf, invoice-generator, json-formatter, pdf-to-word, url-encoder, csv-converter, markdown-html-converter |
-| **Blogger** | `blogger/` | DIY / home-office | random-number-generator, image-to-pdf, document-scanner, remove-background, screenshot-tool, resume-builder, binary-ascii-converter |
-| **HubSpot** | `hubspot/` | Business / ops / HR | shipping-cost-estimator, cost-of-living-comparison, text-similarity-checker, diff-checker, audio-comparer, college-529-calculator, loan-calculator |
+Same FreeDailyPro blog rules on every post. Platform folders only organize distribution targets.
 
-## Rules (all 28)
-- Unique content — **not** copies of FreeDailyPro.com site blogs and **not** cross-copied across platforms
-- One primary tool per post; related tool links + category/multitool link
-- Body starts with FreeDailyPro.com link
-- 1000+ words; short paragraphs; honest limits
-- Heroes 1200×630 WebP — **bottom FreeDailyPro sticker only** (no in-scene branding)
+## Body structure (mandatory — all platforms)
+```
+---
+title / subtitle / description / date / author / image / tags / draft
+---
+![Alt](../images/slug.webp)
 
-## Raw hero base
+*subtitle matching frontmatter exactly*
+
+[FreeDailyPro.com](https://www.freedailypro.com) -- main text...
+```
+
+## Platforms
+| Platform | Folder | Day 1–7 primary tools |
+|----------|--------|------------------------|
+| WordPress | `wordpress/` | password-generator, compress-pdf, word-counter, percentage-calculator, unit-converter, grammar-checker, hash-generator |
+| Medium | `medium/` | merge-pdf, invoice-generator, json-formatter, pdf-to-word, url-encoder, csv-converter, markdown-html-converter |
+| Blogger | `blogger/` | random-number-generator, image-to-pdf, document-scanner, remove-background, screenshot-tool, resume-builder, binary-ascii-converter |
+| HubSpot | `hubspot/` | shipping-cost-estimator, cost-of-living-comparison, text-similarity-checker, diff-checker, audio-comparer, college-529-calculator, loan-calculator |
+
+## Rules (locked — do not renegotiate)
+- Frontmatter includes **tags**
+- Body: **hero image** → **italic subtitle** → FreeDailyPro lead → content
+- 1000+ words; practical; honest limits; live tool links
+- Heroes: 1200×630, bottom FreeDailyPro sticker only
+
+## Hero URL pattern
 `https://raw.githubusercontent.com/SanCoder2026/FreeDailyPro-Blog/main/Agent/site/7day-external/{platform}/images/{slug}.webp`
-
-## Suggested schedule
-Same day-of-week across platforms (Day 1 = 2026-09-22 … Day 7 = 2026-09-28), different tools per channel so social cross-posts do not collide.
