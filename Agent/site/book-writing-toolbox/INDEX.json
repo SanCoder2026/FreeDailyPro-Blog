@@ -2,12 +2,11 @@
   "package": "book-writing-toolbox-5-posts",
   "tool": "book-writing-toolbox",
   "toolUrl": "https://www.freedailypro.com/tool/book-writing-toolbox",
+  "revised": "2026-09-23 \u2014 removed filler loops; human heroes; FreeDailyPro voice",
   "posts": [
     {
       "slug": "book-writing-toolbox-overview-blank-page-to-submission",
       "title": "Book Writing Toolbox: From Blank Page to Platform-Ready Files",
-      "wordCount": 1423,
-      "heroImage": "images/post1-overview.webp",
       "heroUrl": "https://raw.githubusercontent.com/SanCoder2026/FreeDailyPro-Blog/main/Agent/site/book-writing-toolbox/images/post1-overview.webp",
       "json": "posts/book-writing-toolbox-overview-blank-page-to-submission.json",
       "markdown": "posts/book-writing-toolbox-overview-blank-page-to-submission.md"
@@ -15,8 +14,6 @@
     {
       "slug": "publishing-platform-picker-kdp-ingramspark-bn-lulu",
       "title": "Why Your Book\u2019s Trim Size and ISBN Depend on the Platform You Pick",
-      "wordCount": 1301,
-      "heroImage": "images/post2-platforms.webp",
       "heroUrl": "https://raw.githubusercontent.com/SanCoder2026/FreeDailyPro-Blog/main/Agent/site/book-writing-toolbox/images/post2-platforms.webp",
       "json": "posts/publishing-platform-picker-kdp-ingramspark-bn-lulu.json",
       "markdown": "posts/publishing-platform-picker-kdp-ingramspark-bn-lulu.md"
@@ -24,8 +21,6 @@
     {
       "slug": "shunn-manuscript-onix-preflight-check",
       "title": "Shunn Format, ONIX, and Free Pre-flight: The Submission Layer Most Writers Skip",
-      "wordCount": 1317,
-      "heroImage": "images/post3-manuscript-preflight.webp",
       "heroUrl": "https://raw.githubusercontent.com/SanCoder2026/FreeDailyPro-Blog/main/Agent/site/book-writing-toolbox/images/post3-manuscript-preflight.webp",
       "json": "posts/shunn-manuscript-onix-preflight-check.json",
       "markdown": "posts/shunn-manuscript-onix-preflight-check.md"
@@ -33,8 +28,6 @@
     {
       "slug": "ebook-only-publishing-with-book-writing-toolbox",
       "title": "Ebook-Only Publishing Without Wading Through Print Settings",
-      "wordCount": 1213,
-      "heroImage": "images/post4-ebook-only.webp",
       "heroUrl": "https://raw.githubusercontent.com/SanCoder2026/FreeDailyPro-Blog/main/Agent/site/book-writing-toolbox/images/post4-ebook-only.webp",
       "json": "posts/ebook-only-publishing-with-book-writing-toolbox.json",
       "markdown": "posts/ebook-only-publishing-with-book-writing-toolbox.md"
@@ -42,12 +35,9 @@
     {
       "slug": "book-writing-toolbox-vs-vellum-atticus-reedsy",
       "title": "Book Writing Toolbox vs Vellum, Atticus, and Reedsy Studio",
-      "wordCount": 1827,
-      "heroImage": "images/post5-comparison.webp",
       "heroUrl": "https://raw.githubusercontent.com/SanCoder2026/FreeDailyPro-Blog/main/Agent/site/book-writing-toolbox/images/post5-comparison.webp",
       "json": "posts/book-writing-toolbox-vs-vellum-atticus-reedsy.json",
       "markdown": "posts/book-writing-toolbox-vs-vellum-atticus-reedsy.md"
     }
-  ],
-  "competitorPricingSourcesNote": "Verified via public 2026 pages: Vellum commonly ~$199.99 ebooks / ~$249.99 Press Mac-only one-time; Atticus ~$147 one-time cross-platform; Reedsy Studio free core + optional paid add-ons. Recheck vendor sites before publish."
+  ]
 }

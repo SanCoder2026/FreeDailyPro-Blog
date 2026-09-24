@@ -1,6 +1,7 @@
 ---
 title: "Why Your Book’s Trim Size and ISBN Depend on the Platform You Pick"
-description: "KDP, IngramSpark, B&N Press, and Lulu disagree on ISBN, margins, and trim sizes. See how Book Writing Toolbox’s platform picker encodes those rules."
+subtitle: "KDP, IngramSpark, B&N Press, and Lulu disagree—here is how the platform picker keeps you honest."
+description: "KDP, IngramSpark, B&N Press, and Lulu disagree on ISBN, margins, and trim. See how Book Writing Toolbox’s platform picker encodes those rules."
 date: 2026-09-24
 author: "FreeDailyPro Team"
 image: "../images/post2-platforms.webp"
@@ -11,100 +12,83 @@ draft: false
 ---
 ![Why Your Book’s Trim Size and ISBN Depend on the Platform You Pick](../images/post2-platforms.webp)
 
-*KDP, IngramSpark, B&N Press, and Lulu disagree on ISBN, margins, and trim sizes. See how Book Writing Toolbox’s platform picker encodes those rules.*
+*KDP, IngramSpark, B&N Press, and Lulu disagree—here is how the platform picker keeps you honest.*
 
 [FreeDailyPro.com](https://www.freedailypro.com) --
+You formatted a beautiful PDF for Amazon. Then a friend said, “Also put it on IngramSpark.” Suddenly the free ISBN does not travel, the gutter math is different, and your cover spine is the wrong width. Same novel. New geometry. New invoice.
 
-Most writers learn the hard way that “print-ready PDF” is not a universal file type. Amazon KDP, IngramSpark, Barnes & Noble Press, and Lulu each ship with their own trim catalogs, margin rules, and ISBN policies. Format for one while planning to upload to another, and you can buy a cover redesign you did not need.
+FreeDailyPro’s free [Book Writing Toolbox](https://www.freedailypro.com/tool/book-writing-toolbox) treats that as a first-class problem. The publishing platform picker is not a label—it rewires trim lists, margin math, ISBN guidance, and which fields even appear.
 
-Book Writing Toolbox’s publishing platform picker exists for that reason. You choose Amazon KDP, IngramSpark, Barnes & Noble Press, Lulu, Draft2Digital, Apple Books, Kobo Writing Life, or Default—and the tool filters trim sizes, recalculates margin math in the real typeset render, updates ISBN guidance, and hides fields that platform does not use.
+## Three differences that actually cost money
 
-## The differences that actually cost money
+Writers argue about fonts. Upload portals argue about rules.
 
-Three differences show up again and again in rejected uploads and rushed reformats.
+- **ISBN:** KDP, Barnes & Noble Press, and Lulu can offer free platform-exclusive ISBNs. IngramSpark does not—you buy your own or pay IngramSpark’s fee (commonly discussed around $25–$49). Print that exclusive number on bookmarks, then try wholesale, and you will redo marketing materials.
+- **Trim size:** Barnes & Noble Press uses a fixed list and rejects custom sizes. Other platforms are more flexible; the tool allows custom entry when the platform allows it.
+- **Margins:** KDP scales gutter with page count. IngramSpark and Lulu use a flat 0.5in model. Barnes & Noble Press uses flat margins with a larger inside margin (0.5in framing, 0.75in inside).
 
-- ISBN: KDP, Barnes & Noble Press, and Lulu can offer free platform-exclusive ISBNs. IngramSpark does not—you buy your own ISBN or pay IngramSpark’s ISBN fee (commonly discussed in the $25–$49 range depending on their current offer).
-- Trim size: Barnes & Noble Press uses a fixed list and does not accept custom trim sizes. Other platforms are more flexible; custom entry exists in the tool for sizes not on a built-in list when the platform allows it.
-- Margins: KDP scales gutter margin with page count. IngramSpark and Lulu use a flat 0.5in margin model. Barnes & Noble Press uses flat margins with a larger inside margin (0.5in overall framing with 0.75in inside).
-
-Those are not preference settings. They are submission rules. A PDF that clears one storefront can fail another without a single word of the novel changing.
+A PDF that clears one storefront can fail another without changing a single sentence of prose.
 
 ## Amazon KDP
 
-On KDP, the tool exposes 15 real trim sizes and applies page-count-scaled gutter margin in the typeset render. Free platform-exclusive ISBN is available in KDP’s model; that ISBN is exclusive to Amazon’s channels, which is a distribution trade-off you should decide consciously—not discover after you have printed marketing materials with the wrong number.
+KDP in the tool exposes **15 real trim sizes** and **page-count-scaled gutter** in the typeset render. Free platform-exclusive ISBN is available—and exclusive to Amazon’s channels. That exclusivity is a distribution decision, not a footnote.
 
-If KDP is your only target for now, pick KDP early so Preview and Pre-flight check the margins you will actually upload. Long books feel gutter changes more than short ones; skim the middle of a long chapter in Preview before you lock trim.
+If year one is Amazon-only, pick KDP early so Preview and Pre-flight check the margins you will upload. Long books feel gutter changes more than short ones; skim the middle of a long chapter in free Preview before you lock trim.
 
 ## IngramSpark
 
-IngramSpark is the platform writers often add second, when they want wider wholesale reach. Margin expectation in the tool is a flat 0.5in. There is no free ISBN path here: you bring your own or purchase through IngramSpark. Writers who formatted only for KDP’s free ISBN sometimes only learn this when metadata intake asks for a number they do not own for that channel.
+IngramSpark is often the second storefront—wider wholesale reach, different paperwork. Margin expectation in the tool is a **flat 0.5in**. There is **no free ISBN**: bring your own or purchase through IngramSpark.
 
-If IngramSpark is in the plan, run Pre-flight with IngramSpark selected before you spend design hours on a spine that assumes different geometry. Wholesale paths also make ONIX-style metadata discipline more important later.
+Writers who only ever used KDP’s free ISBN meet this wall in metadata intake. If IngramSpark is in the plan, select it and run free Pre-flight before you pay a designer for a spine that assumes different page count math.
 
 ## Barnes & Noble Press
 
-Barnes & Noble Press uses flat margins (0.5in, with 0.75in inside) and a fixed trim size list—no custom sizes. Free platform-exclusive ISBN is available. The fixed trim list is the gotcha: if you designed a custom size for another vendor, B&N Press will not meet you halfway.
+B&N Press uses **flat margins (0.5in, 0.75in inside)** and a **fixed trim list—no custom sizes**. Free platform-exclusive ISBN is available. The trap is the fixed list: a clever custom size from another vendor will not magically become valid here.
 
-Pick B&N Press in the tool if that storefront matters; the trim list will only show what they accept. That filtering is more useful than a generic “print PDF” button that pretends every catalog is the same.
+Pick B&N Press in the tool if that channel matters. The filtered trim list is more useful than a generic “print PDF” button that pretends every catalog is identical.
 
 ## Lulu
 
-Lulu uses a flat 0.5in margin model and free platform-exclusive ISBN. For many authors it is a straightforward print option. The platform picker still matters because “straightforward” is not identical to KDP’s gutter math or B&N’s fixed list.
+Lulu uses a **flat 0.5in margin** and **free platform-exclusive ISBN**. For many authors it feels straightforward. “Straightforward” still is not KDP’s gutter model or B&N’s fixed list—so select Lulu before Pre-flight when Lulu is the destination.
 
-If you use Lulu for a short print run or a specific product type, select Lulu before Pre-flight so the checks match that destination.
+## Ebook-only: Draft2Digital, Apple Books, Kobo Writing Life
 
-## Ebook-only platforms: Draft2Digital, Apple Books, Kobo Writing Life
+These paths do not need trim size, spine width, or print margins. Select Draft2Digital, Apple Books, or Kobo Writing Life and the tool shifts to ebook behavior: print-only sections (trim, spine, back cover) **hide** instead of lingering as unused form fields.
 
-These paths do not need trim size, spine width, or print margins. Selecting Draft2Digital, Apple Books, or Kobo Writing Life switches the tool to ebook-oriented behavior: print-only sections such as trim size, spine, and back cover hide instead of lingering as unused form fields.
+You still write chapters, still add alt text to images, still run free Pre-flight—but checks focus on EPUB realities, not paperback gutters.
 
-That is the right mental model for pure ebook projects. You still write chapters, still attach images with alt text, still run Pre-flight—but the checks focus on what an EPUB pipeline cares about.
+## What the picker actually changes
 
-## What picking a platform changes inside the tool
-
-1. Trim size list filters to supported sizes (or custom entry when allowed).
-2. Margin math in the real typeset render updates to that platform’s rules.
-3. ISBN guidance updates—free exclusive options versus buy-your-own messaging.
+1. Trim size list filters to supported sizes (or custom when allowed).
+2. Margin math in the real typeset render updates.
+3. ISBN guidance updates—free exclusive vs buy-your-own.
 4. Irrelevant fields hide so you are not filling territorial or print-only metadata for a channel that ignores it.
 
-You can switch platforms mid-book without losing chapters. The text stays. The rules layer changes. Re-run Preview and Pre-flight after a switch; do not assume last week’s green check still applies.
+You can switch platforms mid-book without losing chapters. The text stays; the rules layer changes. Re-run Preview and Pre-flight after every switch. Re-export Cover Preview too—spine width follows page count and margin assumptions.
 
-## A practical decision order
+## A decision order that saves money
 
-If you only need Amazon for year one, start on KDP and ship. If you know you want IngramSpark for bookstores, decide ISBN ownership early—before you print business cards with a platform-exclusive number. If you are ebook-only, pick an ebook platform and ignore print geometry entirely.
+If you only need Amazon for year one, start on KDP and ship. If you want bookstores via IngramSpark, decide ISBN ownership early—before business cards carry a platform-exclusive number. If you are pure ebook, pick an ebook platform and ignore print geometry.
 
-The expensive mistake is not picking “wrong.” It is typesetting as if all platforms shared one PDF.
+Keep a short project note of which ISBN is exclusive to which storefront. Mixing exclusive and owned identifiers is a classic launch-week mess.
 
-When you switch platforms, re-export Cover Preview as well as the interior. Spine width depends on page count and paper assumptions that change when margin and trim change.
+The expensive mistake is not picking the “wrong” platform. It is typesetting as if all platforms shared one PDF.
 
-Keep a short note in your project of which ISBN is exclusive to which storefront. Mixing exclusive and owned identifiers is a common metadata mess at launch.
+## A story writers tell too often
 
-When you switch platforms, re-export Cover Preview as well as the interior. Spine width depends on page count and paper assumptions that change when margin and trim change.
+An author formats for KDP’s free ISBN, prints 200 bookmarks, then adds IngramSpark for bookstore reach. IngramSpark wants an ISBN the author does not own for that channel. The bookmarks are wrong. The cover spine is wrong because page count shifted with margin rules. The novel did not change. The file stack did.
 
-Keep a short note in your project of which ISBN is exclusive to which storefront. Mixing exclusive and owned identifiers is a common metadata mess at launch.
+The platform picker exists so that story is optional. Select the storefront before you fall in love with a spine width.
 
-When you switch platforms, re-export Cover Preview as well as the interior. Spine width depends on page count and paper assumptions that change when margin and trim change.
+## How to use the picker without overthinking
 
-Keep a short note in your project of which ISBN is exclusive to which storefront. Mixing exclusive and owned identifiers is a common metadata mess at launch.
+If you are drafting, Default is fine. The moment you design a cover or order a proof, pick the real platform. If you plan two print channels, run Pre-flight twice—once per platform—and keep two dated PDF folders. Do not overwrite KDP-green files with IngramSpark-green files of the same name.
 
-When you switch platforms, re-export Cover Preview as well as the interior. Spine width depends on page count and paper assumptions that change when margin and trim change.
+Ebook-only authors should not feel guilty for ignoring print. Selecting Draft2Digital, Apple Books, or Kobo Writing Life is a valid full path, not a half setting.
 
-Keep a short note in your project of which ISBN is exclusive to which storefront. Mixing exclusive and owned identifiers is a common metadata mess at launch.
+## FreeDailyPro angle: free checks before paid files
 
-When you switch platforms, re-export Cover Preview as well as the interior. Spine width depends on page count and paper assumptions that change when margin and trim change.
-
-Keep a short note in your project of which ISBN is exclusive to which storefront. Mixing exclusive and owned identifiers is a common metadata mess at launch.
-
-When you switch platforms, re-export Cover Preview as well as the interior. Spine width depends on page count and paper assumptions that change when margin and trim change.
-
-Keep a short note in your project of which ISBN is exclusive to which storefront. Mixing exclusive and owned identifiers is a common metadata mess at launch.
-
-When you switch platforms, re-export Cover Preview as well as the interior. Spine width depends on page count and paper assumptions that change when margin and trim change.
-
-Keep a short note in your project of which ISBN is exclusive to which storefront. Mixing exclusive and owned identifiers is a common metadata mess at launch.
-
-When you switch platforms, re-export Cover Preview as well as the interior. Spine width depends on page count and paper assumptions that change when margin and trim change.
-
-Keep a short note in your project of which ISBN is exclusive to which storefront. Mixing exclusive and owned identifiers is a common metadata mess at launch.
+Preview and Pre-flight stay free and unlimited. That matters when you are comparing platforms: you can flip the picker, re-render, and learn the cost of a decision without buying a credit pack for every experiment. Pay when the destination is real and the checklist is green.
 
 **[Open Book Writing Toolbox and pick your platform](https://www.freedailypro.com/tool/book-writing-toolbox)**
 

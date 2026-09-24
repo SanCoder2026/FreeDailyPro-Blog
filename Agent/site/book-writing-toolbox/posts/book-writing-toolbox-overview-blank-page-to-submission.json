@@ -1,6 +1,7 @@
 {
   "slug": "book-writing-toolbox-overview-blank-page-to-submission",
   "title": "Book Writing Toolbox: From Blank Page to Platform-Ready Files",
+  "subtitle": "Write, preview, and pre-flight a real book in the browser—before you spend a download credit.",
   "description": "Write, preview, and pre-flight a real book in the browser—with platform-specific trim, margins, and ISBN—before spending a download credit.",
   "publishedAt": "2026-09-23T12:00:00.000Z",
   "readTime": 8,
@@ -18,182 +19,169 @@
   "content": [
     {
       "type": "paragraph",
-      "text": "You finish the manuscript. Then the real paperwork starts: trim size, inside margin, gutter that grows with page count, ISBN rules that change by platform, cover spine width that only exists once you know how many pages you have. Most writers hit that wall after the writing is done—when they are tired and least patient with specs."
+      "text": "You type “The End,” then stare at a mess of questions that have nothing to do with character arcs. What trim size? Which margin? Does this platform give you a free ISBN—or charge you for one? Your manuscript is done. The storefront paperwork is just getting started."
     },
     {
       "type": "paragraph",
-      "text": "Book Writing Toolbox on FreeDailyPro is a free browser tool aimed at that stretch of the journey. You write chapters in a real rich-text editor, pick the platform you actually plan to use, preview a real typeset render for free, run a free pre-flight check against that platform’s rules, and download when you are ready. No install. No account required to write or preview."
+      "text": "FreeDailyPro’s free [Book Writing Toolbox](https://www.freedailypro.com/tool/book-writing-toolbox) is built for that stretch. Write chapters in a real rich-text editor in the browser, pick the platform you actually plan to use, preview a real typeset render for free, run a free pre-flight check, and download when you are ready. No install. No account required to write or preview."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "The problem is not “formatting.” It is platform math"
+      "text": "The wall after “The End”"
     },
     {
       "type": "paragraph",
-      "text": "Generic formatters treat “print book” as one shape. Real self-publishing is not one shape. Amazon KDP, IngramSpark, Barnes & Noble Press, and Lulu disagree on free ISBN policy, margin rules, and which trim sizes they will accept. Ebook-only routes like Draft2Digital, Apple Books, and Kobo Writing Life do not care about trim size at all."
+      "text": "Most writers assume “print-ready PDF” means one file shape. It does not. Amazon KDP, IngramSpark, Barnes & Noble Press, and Lulu disagree on free ISBN policy, margin rules, and which trim sizes they accept. Ebook routes like Draft2Digital, Apple Books, and Kobo Writing Life ignore trim size entirely."
     },
     {
       "type": "paragraph",
-      "text": "If you typeset for one platform’s defaults and later decide to expand distribution, you can end up rebuilding margins and cover files. That rebuild is avoidable if platform rules sit at the front of the workflow instead of the end."
-    },
-    {
-      "type": "paragraph",
-      "text": "Writers often discover this after a cover designer has already delivered a wraparound file. Spine width depends on page count; page count depends on trim and margins. Change the storefront rules late, and you pay twice—once for the interior, once for the jacket."
+      "text": "If you typeset for one platform’s defaults and later expand distribution, you can pay twice—once for the interior, again for the cover spine. Platform rules belong at the front of the workflow, not the night before launch."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "The workflow, in order"
-    },
-    {
-      "type": "paragraph",
-      "text": "Here is the path the tool is built around. You do not have to do every step on day one, but this is the logical order when you want a submission-ready file."
+      "text": "A real workflow you can follow"
     },
     {
       "type": "list",
       "ordered": true,
       "items": [
         "Pick a publishing platform—or leave Default if you are still deciding. You can switch later without losing chapters.",
-        "Set up covers and identifiers as the platform requires. ISBN guidance updates with the platform you chose.",
-        "Write in chapters using the rich-text editor: headings, bold/italic/underline, lists, tables, images with alt text, scene breaks.",
-        "Toggle front and back matter as needed for your edition.",
-        "Run free, unlimited Preview—a real typeset render, watermarked, not a vague mockup.",
-        "Run free, unlimited Pre-flight Check—real render plus real EPUB build checks against the selected platform.",
-        "Download what you need: clean PDF/manuscript via credits when required; EPUB path has its own free rules described below."
+        "Set up covers and identifiers. ISBN guidance updates with the platform you chose.",
+        "Write in chapters: headings, bold/italic/underline, lists, tables, images with alt text, scene breaks.",
+        "Toggle front and back matter for your edition.",
+        "Run free, unlimited Preview—a real typeset render with a watermark, not a vague mockup.",
+        "Run free, unlimited Pre-flight Check—real render plus real EPUB build against the selected platform.",
+        "Download: clean PDF/manuscript via the credit pool when you need them; EPUB follows its own free rules below."
       ]
     },
     {
+      "type": "heading",
+      "level": 2,
+      "text": "What the editor actually is"
+    },
+    {
       "type": "paragraph",
-      "text": "That order is deliberate. Preview before Pre-flight when you want to judge typography. Pre-flight before purchase when you want the checklist against storefront rules. Download last."
+      "text": "This is a real chapter editor, not a plain text box. You get formatting tools authors actually use, plus multi-project support under My Books. Drafts autosave locally in the browser on your device."
+    },
+    {
+      "type": "paragraph",
+      "text": "Privacy note, said honestly: drafts stay local while you write. Preview, Pre-flight, and Download send content briefly so the server can do real typesetting; nothing is stored afterward by design. Treat that like any typesetting step—do not paste secrets that do not belong in a manuscript. Local autosave is per device, so move important drafts carefully if you switch machines."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "What you actually type into"
+      "text": "Platform picker: the real differentiator"
     },
     {
       "type": "paragraph",
-      "text": "The editor is a real chapter editor, not a plain textarea. You get bold, italic, underline, headings, lists, tables, images with alt text, and scene breaks. Multi-project support under My Books lets you keep more than one title open; drafts autosave locally in the browser per device."
-    },
-    {
-      "type": "paragraph",
-      "text": "That last point matters for privacy habits: your drafts live on the device while you write. When you Preview, Pre-flight, or Download, content is sent briefly so the server can do real typesetting; nothing is stored afterward according to the tool’s design. Treat that like any cloud typesetting step—do not paste secrets you would never put in a manuscript."
-    },
-    {
-      "type": "paragraph",
-      "text": "If you work across two computers, remember local autosave is per device. Export or copy critical drafts when you migrate machines. Free browser tools trade account sync for less signup friction; plan for that trade."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Platform picker is the differentiator"
-    },
-    {
-      "type": "paragraph",
-      "text": "The publishing platform picker is not a decorative dropdown. Choosing Amazon KDP, IngramSpark, Barnes & Noble Press, Lulu, Draft2Digital, Apple Books, Kobo Writing Life—or Default—changes real behavior."
+      "text": "The platform picker is not decoration. Choosing Amazon KDP, IngramSpark, Barnes & Noble Press, Lulu, Draft2Digital, Apple Books, Kobo Writing Life—or Default—changes live behavior."
     },
     {
       "type": "list",
       "ordered": false,
       "items": [
-        "Trim size lists filter to what that platform actually supports (including custom entry when the platform allows it).",
-        "Margin math in the real typeset render follows that platform’s rules—for example KDP’s page-count-scaled gutter versus flat margins on other platforms.",
-        "ISBN guidance updates: free platform-exclusive ISBN where it exists, or a clear note that you must buy your own (IngramSpark).",
-        "Irrelevant fields hide for platforms that do not use them."
+        "Trim size lists filter to what that platform supports (custom entry when allowed).",
+        "Margin math in the real typeset render follows that platform’s rules.",
+        "ISBN guidance updates: free platform-exclusive where it exists, or buy-your-own messaging for IngramSpark.",
+        "Irrelevant fields hide so you are not filling print-only metadata for an ebook path."
       ]
     },
     {
       "type": "paragraph",
-      "text": "KDP currently exposes 15 real trim sizes and page-count-scaled gutter margins, with free platform-exclusive ISBN. IngramSpark uses a flat 0.5in margin and does not offer a free ISBN—you buy your own or pay IngramSpark’s ISBN fee (commonly discussed around $25–$49 depending on their offer). Barnes & Noble Press uses flat margins (0.5in, 0.75in inside), a fixed trim list with no custom sizes, and free platform-exclusive ISBN. Lulu uses flat 0.5in margins and free platform-exclusive ISBN. Ebook-only platforms drop print geometry entirely."
+      "text": "**KDP:** 15 real trim sizes, page-count-scaled gutter, free platform-exclusive ISBN. **IngramSpark:** flat 0.5in margin, no free ISBN (buy your own or pay IngramSpark’s fee, commonly discussed around $25–$49). **Barnes & Noble Press:** flat margins (0.5in, 0.75in inside), fixed trim list—no custom sizes—free platform-exclusive ISBN. **Lulu:** flat 0.5in margin, free platform-exclusive ISBN. **Ebook-only platforms:** print geometry drops away."
     },
     {
       "type": "tip",
-      "text": "If you are still shopping platforms, start on Default, write freely, then switch the picker before Pre-flight so checks match the storefront you will actually use."
+      "text": "Write on Default if you are still deciding. Switch the picker before Pre-flight so checks match the storefront you will actually use."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Free Preview and free Pre-flight—unlimited"
+      "text": "Free Preview and free Pre-flight"
     },
     {
       "type": "paragraph",
-      "text": "Preview is free and unlimited. It is a real typeset render with a watermark—not a thumbnail guess. Pre-flight Check is also free and unlimited. It runs a real render and a real EPUB build, then checks trim size, page count, margin, ISBN, cover resolution, EPUB file size, and accessibility signals against the selected platform."
+      "text": "Preview is free and unlimited—a real typeset render with a watermark. Pre-flight is free and unlimited too: real render, real EPUB build, checks for trim size, page count, margin, ISBN, cover resolution, EPUB file size, and accessibility signals against the selected platform."
     },
     {
       "type": "paragraph",
-      "text": "That combination is meant to catch expensive mistakes before you spend a download credit. If Pre-flight complains about cover resolution or margin, fix it while the download is still free to refuse."
-    },
-    {
-      "type": "paragraph",
-      "text": "Cover Preview shows a real connected front + spine + back wraparound (watermarked). Looking at the spine after a trim change is not vanity—it is how you avoid a jacket that no longer fits the book block."
+      "text": "That is the concrete benefit: catch problems before you spend a download credit. Cover Preview shows a real connected front + spine + back wraparound (watermarked). After a trim change, look at the spine—jackets that no longer fit the book block are an expensive surprise."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Exports that submission pipelines actually use"
+      "text": "Exports that match real gates"
     },
     {
-      "type": "paragraph",
-      "text": "On the file side, you can export Shunn Standard Manuscript Format as .docx and .pdf for agent and publisher submissions—12pt Times New Roman, double-spaced, 1in margins, real running head, honest word count. ONIX metadata export is available for retailers and distributors. EPUB 3 export is real; EPUB Accessibility 1.1 / WCAG AA is claimed only when every image has alt text."
-    },
-    {
-      "type": "paragraph",
-      "text": "Those exports sit beside the print PDF path rather than replacing it. Querying agents? Shunn. Feeding a distributor? ONIX. Selling wide as ebook? EPUB. Printing on demand? Platform-aware PDF after Pre-flight."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Pricing, said plainly"
-    },
-    {
-      "type": "paragraph",
-      "text": "Writing, Preview, Pre-flight, and watermarked work stay free in the sense described above. Book PDF and manuscript downloads share one credit pool: $6.99 for 1, $17.99 for 3, $49.99 for 10. EPUB is always free and unlimited; only watermark removal requires the EPUB & Manuscript Pass ($3.99 for unlimited clean EPUB + manuscript downloads for 24 hours). EPUB never costs a download credit the way print PDF does."
-    },
-    {
-      "type": "paragraph",
-      "text": "That split matters if you are ebook-first: you can iterate on EPUB without burning the same credit pool you might save for a print PDF later."
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Shunn Standard Manuscript Format** as .docx and .pdf for agents and publishers: 12pt Times New Roman, double-spaced, 1in margins, real running head, honest word count.",
+        "**ONIX metadata** for retailers and distributors, filled from title, author, ISBN, publisher, and related fields you already entered.",
+        "**EPUB 3** with real semantic structure. EPUB Accessibility 1.1 / WCAG AA is claimed only when every image has alt text—an honest, checkable rule."
+      ]
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Who this overview is for"
+      "text": "Pricing without the fog"
     },
     {
       "type": "paragraph",
-      "text": "If you need InDesign-level design systems and a huge library of interior themes, this is not pretending to replace a multi-year desktop suite. If you need a free browser path from chapters to platform-aware files—with honest free preview and pre-flight—Book Writing Toolbox is built for that job."
+      "text": "Writing, Preview, Pre-flight, and watermarked work stay free as described. Book PDF and manuscript downloads share one credit pool: **$6.99 for 1**, **$17.99 for 3**, **$49.99 for 10**. EPUB is always free and unlimited. Only watermark removal needs the **EPUB & Manuscript Pass ($3.99 for 24 hours)** of unlimited clean EPUB + manuscript downloads. EPUB never burns a print PDF credit."
     },
     {
       "type": "paragraph",
-      "text": "Start with one chapter, pick the platform you actually intend to use, and run Preview once so you see the typeset result before you care about downloads."
+      "text": "Ebook-first authors can iterate on EPUB without draining the print pool. Print authors should Pre-flight until green, then buy credits once."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Who this is for"
     },
     {
       "type": "paragraph",
-      "text": "A practical habit: name each My Books project after the working title and the platform target, even if you later switch platforms. Clear names prevent uploading last year’s PDF by mistake during launch week."
+      "text": "If you need a massive library of boutique interior themes, a mature desktop suite may still win. If you want a free browser path from chapters to platform-aware files—with unlimited free preview and pre-flight—Book Writing Toolbox is built for that job."
     },
     {
       "type": "paragraph",
-      "text": "When Pre-flight fails, fix issues in order—trim and margins first, then ISBN and cover resolution, then EPUB size and image alt text. That order matches how most platform uploaders reject files in the wild."
+      "text": "Name projects clearly (title + target platform). Fix Pre-flight issues in order: trim and margins, then ISBN and cover resolution, then EPUB size and alt text. Switch platforms anytime—the text stays; re-run Preview and Pre-flight before you spend credits."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "A day-in-the-life path (first book)"
     },
     {
       "type": "paragraph",
-      "text": "You can switch platforms mid-book without losing chapters. The text stays; the rules layer changes. Always re-run Preview and Pre-flight after a switch before you spend credits."
+      "text": "Morning: open My Books, create a project named after the working title, leave platform on Default, and dump chapter drafts from wherever they lived—notes app, Word, email to yourself. Use the rich-text editor to restore headings and scene breaks so the book is not one endless blob."
     },
     {
       "type": "paragraph",
-      "text": "A practical habit: name each My Books project after the working title and the platform target, even if you later switch platforms. Clear names prevent uploading last year’s PDF by mistake during launch week."
+      "text": "Afternoon: pick KDP if that is your year-one plan. Set trim. Add a placeholder cover if you have one. Run free Preview and actually scroll the middle of the book—not only chapter one. Gutter and page count surprises hide in long chapters."
     },
     {
       "type": "paragraph",
-      "text": "When Pre-flight fails, fix issues in order—trim and margins first, then ISBN and cover resolution, then EPUB size and image alt text. That order matches how most platform uploaders reject files in the wild."
+      "text": "Evening: run free Pre-flight. Fix whatever it flags. Do not buy credits until the checklist is green. If you only need an EPUB for beta readers, export free EPUB and skip the print pool entirely."
     },
     {
       "type": "paragraph",
-      "text": "You can switch platforms mid-book without losing chapters. The text stays; the rules layer changes. Always re-run Preview and Pre-flight after a switch before you spend credits."
+      "text": "That rhythm—write free, preview free, pre-flight free, pay only for clean production files—is the economic point of the tool."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What FreeDailyPro’s free tools promise here"
     },
     {
       "type": "paragraph",
-      "text": "A practical habit: name each My Books project after the working title and the platform target, even if you later switch platforms. Clear names prevent uploading last year’s PDF by mistake during launch week."
+      "text": "No login required to write or preview. Client-side draft autosave while you work. When typesetting must be real, content goes to the server briefly, then is not stored afterward by design. That is the same privacy posture FreeDailyPro aims for across free browser tools: useful without an account, honest about the steps that need a render engine."
+    },
+    {
+      "type": "paragraph",
+      "text": "YouTube walkthroughs for individual tools are on the roadmap so you can see clicks, not only read about them. Until then, the free Preview is the best teacher—open it early, not the night before upload."
     },
     {
       "type": "toolLink",

@@ -1,6 +1,7 @@
 ---
 title: "Ebook-Only Publishing Without Wading Through Print Settings"
-description: "Publish ebook-only with Book Writing Toolbox: free unlimited EPUB, honest accessibility rules, and free pre-flight without wading through print settings."
+subtitle: "Free unlimited EPUB, honest accessibility rules, and pre-flight that ignores gutters you do not need."
+description: "Publish ebook-only with Book Writing Toolbox: free unlimited EPUB, honest accessibility rules, and free pre-flight without print settings clutter."
 date: 2026-09-26
 author: "FreeDailyPro Team"
 image: "../images/post4-ebook-only.webp"
@@ -11,102 +12,79 @@ draft: false
 ---
 ![Ebook-Only Publishing Without Wading Through Print Settings](../images/post4-ebook-only.webp)
 
-*Publish ebook-only with Book Writing Toolbox: free unlimited EPUB, honest accessibility rules, and free pre-flight without wading through print settings.*
+*Free unlimited EPUB, honest accessibility rules, and pre-flight that ignores gutters you do not need.*
 
 [FreeDailyPro.com](https://www.freedailypro.com) --
+You only want an ebook. The formatter still asks about trim size, spine width, cover bleed, and gutter. You answer questions that will never touch a reflowable file—then wonder why the process feels heavier than the book.
 
-If you are publishing ebook only, print settings are noise. Trim size, spine width, cover bleed, and gutter math do not apply—yet many formatters still make you walk past those fields like a theme park queue you never asked to join.
+FreeDailyPro’s free [Book Writing Toolbox](https://www.freedailypro.com/tool/book-writing-toolbox) has a real ebook path. Select **Draft2Digital**, **Apple Books**, or **Kobo Writing Life** and print-only sections hide instead of lingering as unused form fields. Ebook-only intent is first-class, not an afterthought.
 
-Book Writing Toolbox has a real ebook-oriented path. Selecting Draft2Digital, Apple Books, or Kobo Writing Life switches behavior for ebook work. Print-only sections such as trim size, spine, and back cover hide rather than sit around unused. You can also aim the tool at ebook-only work directly when that is all you need.
+## Print UI for a digital book is the real pain
 
-## The real pain: print UI for a digital book
+E-readers reflow text. They do not care that your fantasy novel almost fit a 6×9 trade paperback. They care about structure, navigation, images that still make sense on a small screen, and files that validate.
 
-Ebook readers reflow text. They do not care that your fantasy novel almost fit a 6×9 trade paperback. What they care about is structure, navigation, images that still make sense on a small screen, and files that validate.
+When a tool assumes print first, authors waste evenings on settings that never affect the EPUB. Worse, “solving” print problems can leave odd defaults when the file finally goes digital.
 
-When a tool assumes print first, authors waste time answering questions that will never affect the EPUB. Worse, they may “solve” print problems that create odd defaults when the file is finally exported for digital stores.
+## Ebook mode, practically
 
-## Ebook-only mode, practically
+Choose Draft2Digital, Apple Books, or Kobo Writing Life. Print-only controls—trim size, spine, back cover—**hide**. You keep the full chapter editor: headings, lists, tables, images with alt text, scene breaks. You keep multi-project **My Books** with local browser autosave.
 
-Choose Draft2Digital, Apple Books, or Kobo Writing Life in the platform picker and the tool moves into ebook-focused mode. Print-only controls hide. You keep the chapter editor—headings, lists, tables, images with alt text, scene breaks—and you keep multi-project My Books with local autosave.
+You still write like a writer. You simply stop babysitting a spine. Front and back matter still matter for ebooks—title logic, copyright, about-the-author—without pretending those pages need a wraparound jacket.
 
-You still write like a writer. You simply stop babysitting a spine. Front and back matter still matter for ebooks—title page logic, copyright, about-the-author—without pretending those pages need a wraparound jacket.
+Drafts autosave locally per device. Preview, Pre-flight, and Download send content briefly for real typesetting, then nothing is stored afterward by design. Same privacy model as the rest of FreeDailyPro’s free browser tools: useful without an account, honest about the brief server step.
 
 ## What the EPUB actually is
 
-Export is real EPUB 3 with real semantic structure—not a pile of styled divs pretending to be a book. That matters for navigation, accessibility tooling, and long-term store compatibility.
+Export is real **EPUB 3** with real semantic structure—not a pile of styled divs pretending to be a book. That matters for navigation, accessibility tooling, and store compatibility.
 
-EPUB Accessibility 1.1 / WCAG AA is available as an honest claim only when every image has alt text. That condition is intentional. Many tools either ignore accessibility or advertise it whether or not the file qualifies. Here the rule is checkable: missing alt text means you do not get to claim that bar.
+**EPUB Accessibility 1.1 / WCAG AA** is claimed only when **every image has alt text**. That condition is intentional. Many tools either ignore accessibility or advertise it whether or not the file qualifies. Here the rule is checkable: missing alt text means you do not get to claim that bar.
 
-> **Tip:** Add alt text when you insert the image. Future you at 1 a.m. will not remember what figure 3 was for.
+> **Tip:** Write alt text when you insert the image. Launch-night-you will not remember what figure 3 was for.
 
-## Pricing for ebook-only authors
+## Pricing that favors ebook authors
 
-EPUB is always free and unlimited. It does not consume the print PDF/manuscript credit pool. Watermarked preview paths stay available while you iterate. When you need watermark-free EPUB (and manuscript downloads under the pass rules), the EPUB & Manuscript Pass is $3.99 for unlimited clean EPUB + manuscript downloads for 24 hours.
+**EPUB is always free and unlimited.** It does not consume the print PDF/manuscript credit pool. Watermarked preview stays available while you iterate.
 
-Compare that to book PDF/manuscript credits ($6.99 / 1, $17.99 / 3, $49.99 / 10), which matter when you also produce print. Pure ebook authors can stay on the free EPUB track and only buy the pass when a clean file is due to a store or collaborator.
+When you need watermark-free EPUB (and manuscript downloads under the pass rules), the **EPUB & Manuscript Pass is $3.99 for 24 hours** of unlimited clean EPUB + manuscript downloads.
+
+Print PDF/manuscript credits (**$6.99 / 1**, **$17.99 / 3**, **$49.99 / 10**) matter when you also produce print. Pure ebook authors can stay on the free EPUB track and only buy the pass when a clean file is due to a store or collaborator.
 
 ## Pre-flight still matters—just scoped differently
 
-Pre-flight Check remains free and unlimited in ebook-only mode. Checks focus on EPUB-relevant issues: file size, image accessibility, cover resolution, and related digital constraints—not print gutter drama you do not have.
+Pre-flight Check stays free and unlimited. In ebook mode it focuses on digital checks: file size, image accessibility, cover resolution, and related EPUB constraints—not print gutter drama you do not have.
 
-Run it before you pay for watermark removal. If accessibility or cover resolution fails, fix the project, re-run Pre-flight, then buy the pass window when you are actually ready to deliver clean files.
+Run it before you pay for watermark removal. Fix issues, re-run, then open the pass window when you are actually ready to deliver clean files.
 
 ## A simple ebook-only workflow
 
 1. Create a My Books project and write chapters in the rich-text editor.
-2. Select Draft2Digital, Apple Books, or Kobo Writing Life (or ebook-only intent).
+2. Select Draft2Digital, Apple Books, or Kobo Writing Life.
 3. Add alt text to every image.
 4. Preview for free as needed.
 5. Run free Pre-flight until digital checks pass.
 6. Export free EPUB; use the $3.99 pass only when you need clean watermark-free downloads.
 
-You still get manuscript export if an agent wants Shunn format—even when the commercial plan is ebook-first. Digital-first does not mean agent-hostile.
+You can still export **Shunn manuscript format** if an agent wants double-spaced pages—even when the commercial plan is ebook-first. Digital-first is not agent-hostile.
 
 ## Who should stay ebook-only (for now)
 
-First-time authors testing demand, newsletter lead magnets, serials, and projects where print unit economics do not work yet. You can add print later by switching platform targets and re-running Pre-flight; chapters are not locked to one mode forever.
+First books testing demand, newsletter lead magnets, serials, and projects where print unit economics do not work yet. You can add print later: switch the platform picker to a print target, rebuild cover expectations, and treat Pre-flight as a new checklist—not a formality. Chapters are not locked forever.
 
-One more practical note: storefronts still have their own content guidelines beyond file validity. Passing Pre-flight means the file is built sanely for the selected path—not that every retailer will accept every presentation choice. Read the store’s current help pages before you schedule a launch.
+Passing Pre-flight means the file is built sanely for the selected path. It does not replace each store’s content guidelines. Read the store’s current help pages before you schedule a launch. Keep image sources larger than the ebook needs; it is easier to optimize down than to invent detail that was never captured.
 
-If you later add print, switch the platform picker to KDP or another print target, rebuild cover expectations, and treat Pre-flight as a new checklist—not a formality.
+## Why ebook-only is a smart first launch
 
-Keep image source files larger than the ebook needs; it is easier to optimize down than to invent detail that was never captured.
+Print has inventory psychology even when it is print-on-demand: trim debates, spine anxiety, proof shipping time. Ebook-only lets you test cover copy, price, and read-through with less geometry. If demand appears, add print later with eyes open.
 
-If you later add print, switch the platform picker to KDP or another print target, rebuild cover expectations, and treat Pre-flight as a new checklist—not a formality.
+Book Writing Toolbox supports that sequence. Chapters stay. Platform picker changes. Pre-flight becomes a new list—not a ritual you fake.
 
-Keep image source files larger than the ebook needs; it is easier to optimize down than to invent detail that was never captured.
+## Accessibility is part of craft now
 
-If you later add print, switch the platform picker to KDP or another print target, rebuild cover expectations, and treat Pre-flight as a new checklist—not a formality.
+Alt text is not only compliance theater. Screen reader users are readers. The tool’s honest rule—accessibility claims only when every image has alt text—keeps you from shipping a file that boasts a standard it does not meet. Write alt text like a caption for someone who cannot see the figure.
 
-Keep image source files larger than the ebook needs; it is easier to optimize down than to invent detail that was never captured.
+## Free EPUB economics
 
-If you later add print, switch the platform picker to KDP or another print target, rebuild cover expectations, and treat Pre-flight as a new checklist—not a formality.
-
-Keep image source files larger than the ebook needs; it is easier to optimize down than to invent detail that was never captured.
-
-If you later add print, switch the platform picker to KDP or another print target, rebuild cover expectations, and treat Pre-flight as a new checklist—not a formality.
-
-Keep image source files larger than the ebook needs; it is easier to optimize down than to invent detail that was never captured.
-
-If you later add print, switch the platform picker to KDP or another print target, rebuild cover expectations, and treat Pre-flight as a new checklist—not a formality.
-
-Keep image source files larger than the ebook needs; it is easier to optimize down than to invent detail that was never captured.
-
-If you later add print, switch the platform picker to KDP or another print target, rebuild cover expectations, and treat Pre-flight as a new checklist—not a formality.
-
-Keep image source files larger than the ebook needs; it is easier to optimize down than to invent detail that was never captured.
-
-If you later add print, switch the platform picker to KDP or another print target, rebuild cover expectations, and treat Pre-flight as a new checklist—not a formality.
-
-Keep image source files larger than the ebook needs; it is easier to optimize down than to invent detail that was never captured.
-
-If you later add print, switch the platform picker to KDP or another print target, rebuild cover expectations, and treat Pre-flight as a new checklist—not a formality.
-
-Keep image source files larger than the ebook needs; it is easier to optimize down than to invent detail that was never captured.
-
-If you later add print, switch the platform picker to KDP or another print target, rebuild cover expectations, and treat Pre-flight as a new checklist—not a formality.
-
-Keep image source files larger than the ebook needs; it is easier to optimize down than to invent detail that was never captured.
+Because EPUB never costs a download credit, you can send updated files to an editor, a sensitivity reader, or a street team without watching a credit counter. Save the $3.99 pass for the day a storefront or collaborator needs a clean, watermark-free package. That is a calmer way to publish than buying a $100+ formatter before you know if chapter two works.
 
 **[Format an ebook in Book Writing Toolbox](https://www.freedailypro.com/tool/book-writing-toolbox)**
 
