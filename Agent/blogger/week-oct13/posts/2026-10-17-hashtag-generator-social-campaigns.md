@@ -119,3 +119,11 @@ If you found this on Blogger, test the generator on one real caption today. If y
 Open [Hashtag Generator](https://www.freedailypro.com/tool/hashtag-generator) with the theme of your next post. Build a short honest tag set. Publish. Notice whether relevance feels better than stuffing.
 
 What social workflow should FreeDailyPro support next for creators and small brands? Tell us one concrete friction. Free tools get better when readers report honestly. You’ve got this—relevant tags beat random volume.
+
+## Platform-specific habits
+
+Instagram, LinkedIn, and TikTok treat tags differently in culture and limits. Generate a pool, then prune per platform rather than blasting one list everywhere. Mix broad discovery tags with niche community tags—five perfect niche tags often beat twenty generic ones.
+
+## Brand safety
+
+Avoid tags attached to controversies you did not research. A generator suggests strings; it does not know this week’s discourse. Spot-check unfamiliar tags before a campaign launch.

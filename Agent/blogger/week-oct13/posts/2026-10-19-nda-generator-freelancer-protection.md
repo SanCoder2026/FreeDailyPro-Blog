@@ -115,3 +115,11 @@ If you found this on Blogger, draft a practice NDA with fictional parties first 
 Open [NDA Generator](https://www.freedailypro.com/tool/nda-generator) before your next sensitive conversation. Draft. Review. Decide whether you need counsel. Share materials only after the paper matches the risk.
 
 What freelancer paperwork step should FreeDailyPro support next? Tell us one concrete friction. Free tools get better when readers report honestly. You’ve got this—clear agreements beat hopeful handshakes.
+
+## Templates are starting points
+
+An NDA generator drafts structure. Jurisdiction, definition of confidential information, and residual knowledge clauses may need a lawyer for real risk. Do not treat a free template as custom counsel.
+
+## When to insist before kickoff
+
+Share pricing freely; share unreleased product specs only after signatures. If a client refuses any confidentiality paper on a sensitive build, price the risk or decline. Your portfolio can wait for safer work.

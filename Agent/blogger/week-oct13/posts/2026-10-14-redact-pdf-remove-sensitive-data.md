@@ -99,3 +99,11 @@ If you found this on Blogger, use the live links and test with a non-production 
 Open [Redact PDF](https://www.freedailypro.com/tool/redact-pdf) with a file that still carries more personal data than the recipient needs. Mark carefully. Download a clean version. Send only that. Notice how much calmer the share feels when you know the underlying content is gone.
 
 What should FreeDailyPro build next for privacy-sensitive document workflows? Tell us one concrete pain. Free tools get better when readers report friction honestly. You’ve got this—careful redaction beats clever cover-ups.
+
+## A redaction rehearsal before client work
+
+Practice on a dummy PDF with fake account numbers before you touch a real file. Confirm that black boxes are burned in (not just black highlight annotations someone can delete). Open the result in a second reader and try to select text under the redaction. If you can copy a SSN, you did not redact—you decorated.
+
+## Team handoff rules
+
+Who redacts, who double-checks, who sends. Write the three names for your team. Redaction errors are rarely technical; they are process gaps where “I thought you removed page 4” becomes a breach report.

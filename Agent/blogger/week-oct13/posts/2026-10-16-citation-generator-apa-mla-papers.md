@@ -119,3 +119,11 @@ If you found this on Blogger, try the generator on one real assignment tonight. 
 Open [Citation Generator](https://www.freedailypro.com/tool/citation-generator) with three sources from your current paper. Build the list. Paste. Verify. Finish the bibliography without the usual spiral.
 
 What student writing friction should FreeDailyPro solve next? Tell us one concrete request. Free tools get better when readers report honestly. You’ve got this—clean citations free the rest of the paper.
+
+## Professor expectations still win
+
+If the syllabus says APA 7, do not freestyle Chicago because a generator default looked pretty. Generate, then skim every entry against the handbook example for that source type—website vs journal vs book chapter.
+
+## What generators get wrong
+
+Missing retrieval dates, wrong container titles, and mangled author lists are common when the paste was messy. The tool formats; you verify. Keep DOIs when they exist. Prefer official PDFs over random HTML mirrors when both exist.

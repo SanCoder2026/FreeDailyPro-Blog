@@ -98,3 +98,15 @@ If you found this on Blogger, test the calculator with one real product today. S
 Open [Profit Margin Calculator](https://www.freedailypro.com/tool/profit-margin-calculator) with a product you already sell. Enter honest cost. Read the margin. Adjust if needed. Then check fees with [Marketplace Fee Calculator](https://www.freedailypro.com/tool/marketplace-fee-calculator). Decide with numbers, not hope.
 
 What pricing workflow should FreeDailyPro support next for makers and sellers? Tell us one concrete friction. Free tools get better when readers report honestly. You’ve got this—clear margin beats clever guesswork.
+
+## Cost stacks people forget
+
+Packaging, payment processing, returns reserve, and your own time all sit under “cost” whether a calculator has a field for them or not. If the tool asks for COGS, decide whether COGS means materials only or fully loaded cost. Label your assumption in a note next to the price.
+
+## Marketplace vs direct sales
+
+A 40% margin on your own site can become thin after marketplace fees. Run the number twice: once for direct checkout, once with fee estimates from your channel. FreeDailyPro’s ecommerce calculators can sit beside Profit Margin when fees matter.
+
+## When not to race to the bottom
+
+If your product is handmade or specialized, matching the cheapest listing can erase the reason customers buy from you. Margin math should include brand positioning, not only survival price.
