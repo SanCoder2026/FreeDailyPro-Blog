@@ -110,3 +110,7 @@ A 40% margin on your own site can become thin after marketplace fees. Run the nu
 ## When not to race to the bottom
 
 If your product is handmade or specialized, matching the cheapest listing can erase the reason customers buy from you. Margin math should include brand positioning, not only survival price.
+
+## One number to write on a sticky note
+
+After you run FreeDailyPro’s Profit Margin Calculator, write the price you will actually charge and the margin percent next to the SKU. That sticky note beats a spreadsheet tab you will not open at the craft fair. Update it when costs jump—shipping cardboard is not free forever.
