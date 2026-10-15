@@ -146,6 +146,10 @@ Keep three anonymized sample outputs that represent your best work for this work
 
 Run a non-critical sample end-to-end once per quarter so muscle memory stays current when the live UI shifts. Note any new buttons in your SOP the same day.
 
+## Final reminder
+
+Clear names, second-device preview, and an honest limit statement will save more pain than any extra feature chase.
+
 ## Next step
 
 Open https://www.freedailypro.com/tool/income-tax-calculator and complete one real task from your queue today.
