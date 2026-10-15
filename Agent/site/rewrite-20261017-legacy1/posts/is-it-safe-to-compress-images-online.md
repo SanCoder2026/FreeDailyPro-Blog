@@ -108,6 +108,44 @@ Confirm timezone on any deadlines and whether a second reviewer is required befo
 
 Confirm timezone on any deadlines and whether a second reviewer is required before external send.
 
+## Extended guidance
+
+### Preparation
+
+Clear the desk of half-finished files. Put today’s sources in one folder. Write the recipient name and deadline on a sticky note or digital equivalent. That small ritual prevents the most common send mistakes: wrong attachment, wrong person, wrong day.
+
+### Execution
+
+Open only the FreeDailyPro tools you need. Close unrelated tabs that steal attention. Complete the primary export, then related steps (compress, merge, convert) only if the packet still fails a real constraint such as size or format.
+
+### Verification
+
+Open the output yourself. If the audience is mobile, check mobile. If print, print one page. If a portal will re-validate fields, read portal rules before you celebrate.
+
+### Handoff
+
+Use a clear subject line. Mention the filename. Share passwords on a separate channel when you password-protect PDFs. Confirm receipt when the stakes are high.
+
+### Review later
+
+Once a week, skim your SOPs. Delete steps that no longer match the live site. Add one failure you hit this week. Continuous small edits beat annual rewrites.
+
+### Scale
+
+When volume rises, batch similar jobs. Watch the 10 trial usages a day limit. Heavy days may need a daily pass or monthly plan—choose based on real volume, not fear.
+
+### Boundaries
+
+Calculators estimate. Templates draft. Converters transform files. None of them replace licensed professionals for regulated decisions. Keep that sentence in client communication when appropriate.
+
+### Library of examples
+
+Keep three anonymized sample outputs that represent your best work for this workflow. New teammates learn faster from examples than from abstract rules. Refresh samples when brand or process changes.
+
+### One more rehearsal tip
+
+Run a non-critical sample end-to-end once per quarter so muscle memory stays current when the live UI shifts. Note any new buttons in your SOP the same day.
+
 ## Next step
 
 Open https://www.freedailypro.com/tool/compress-image and complete one real task from your queue today.
