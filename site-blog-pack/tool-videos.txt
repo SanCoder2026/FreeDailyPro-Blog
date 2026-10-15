@@ -1,0 +1,202 @@
+# tool-id<TAB>video-id<TAB>title. Embed with {{youtube VIDEOID | caption}}
+social-media-formatter	wGC6PHLbfug	How to Resize Images for Instagram Facebook YouTube Free Online
+audio-merger	4p7PyYX44IQ	How to Merge Audio Files Online Free – Combine Multiple Clips
+audio-scrambler	eX69XU9oBq8	How to Disguise Voice Online Free – Pitch Shift Audio Scrambler
+silence-remover	z5CAZByzcc4	How to Remove Silence from Audio Online Free – Auto Trim Quiet Parts
+audio-trimmer	pc4DDk1feTg	How to Trim Audio Online Free – Cut Start & End Points
+audio-speed-changer	GtmKMHN9lrs	How to Change Audio Speed Online Free – No Pitch Change
+noise-remover	oq6x3PDBaP8	How to Remove Background Noise from Audio Online Free
+audio-comparer	KZVe2ILAUD4	How to Compare Two Audio Files Online Free – Similarity Percentage
+audio-converter	Ux4d3tMWQx4	How to Convert Audio Files Online Free – MP3 WAV OGG M4A FLAC
+audio-compressor	PNMa1yxUO7A	How to Compress Audio Files Online Free – Reduce Size by Bitrate
+audio-normalizer	WG-hQcqm-as	How to Normalize Audio Volume Online Free – Even Out Loud & Quiet Parts
+mesh-3d-converter	VmKe3Isdqh8	How to Convert 3D mesh Files from STL, OBJ, PLY to GLB Free, online & no-login
+stl-ascii-binary-converter	oF-8Cve25zc	How to Convert STL Files ASCII to Binary Online Free
+mesh-3d-viewer	ajU8DQk_IcQ	How to View & Inspect 3D Mesh Files STL OBJ PLY Online Free
+logo-maker	KRoAYZz2kOs	How to Make a Logo Free Online No Signup
+font-pairing-tool	veh-VoRz4ZU	How to Find Perfect Font Pairings Free Online
+box-shadow-generator	A1SRVXhvtfE	How to Generate CSS Box Shadow Free Online Live Preview
+favicon-generator	EJuIqMKqCMs	How to Generate Favicon from Image Free Online
+clip-path-generator	Eby6qlJTJZU	How to Generate CSS Clip-Path Shapes Free Online
+color-palette	QYe_8G_2wqs	How to Generate Color Palettes Free Online Harmony Modes
+color-converter	Kuyt4omoYSg	How to Convert HEX RGB HSL Colors Free Online Instantly
+contrast-checker	PQPgG-NnfcM	How to Check Color Contrast WCAG AA AAA Free Online
+border-radius-generator	qiZ2M9QBi7I	How to Generate CSS Border Radius Free Online Live Preview
+business-card	Nx-N-fj2cBo	How to Design a Business Card Online Free – Download PNG Instantly
+url-encoder	8FTtgAMeQ0o	How to Encode Decode URL Free Online Query Strings
+uuid-generator	CuyJw3t7968	How to Generate UUID Free Online Random Unique Keys
+timestamp-converter	teolDVEdr00	How to Convert Unix Timestamp to Date Free Online
+http-status-reference	DBbL5oDIYlU	How to Look Up Any HTTP Status Code Meaning Free
+html-entity-converter	eHapvRmyxdk	How to Encode Decode HTML Entities Free Online
+markdown-html-converter	CD-b3DUxTYc	How to Convert Markdown to HTML & HTML to Markdown Free
+cron-builder	wB-eCjP3maU	How to Build Cron Expressions with Plain English Free
+binary-ascii-converter	qyFwDp8WN9A	How to Convert Text to Binary Hex ASCII Online Free
+base64	ed_mQLhJbFI	How to Encode & Decode Base64 Online Free No Signup
+unit-converter	i01IkvYUEVo	How to Convert Units Free Online Length Weight Temperature
+timezone-converter	tVKF3qXDDsU	How to Convert Time Zones Free Online Instantly
+roman-numeral-converter	Jrmgcqn_jJw	How to Convert Numbers to Roman Numerals Free Online
+file-size-converter	6w3VEt_OhdE	How to Convert File Size Units Bytes KB MB GB TB Free
+csv-converter	M9Rssk9Dl3o	How to Convert Excel to CSV and CSV to Excel Free
+currency-converter	vNEXKbjYyV0	How to Convert Currencies with Daily Exchange Rates Free
+tip-calculator	HbvcuUiGoVg	How to Calculate Tip and Split Bill Free Online
+random-number-generator	buvkdsqCW5w	How to Generate Random Numbers Free Online No Duplicates
+recipe-scaler	VO1t_Lh3GRc	How to Scale a Recipe Up or Down Free Online
+percentage-calculator	7JpF4u4BMl4	How to Calculate Percentage of a Number & % Change Free
+mortgage-calculator	p5KPFr4KYm0	How to Calculate Mortgage Payments Free Online No Signup
+job-experience-calculator	FtITWJlgVKM	How to Calculate Total Work Experience in Years Months Days Free
+age-calculator	-Bx_BtrzFy0	How to Calculate Exact Age from Birth Date Free Online
+gpa-calculator	jp3UFGlj77M	How to Calculate Your GPA Free Online from Courses & Credits
+college-529-calculator	R7KsDhi6cp8	How to Calculate Monthly 529 College Savings Free Online
+college-cost-calculator	ic0HTrpsHc8	How to Calculate Total College Cost Net of Aid Free Online
+document-scanner	fILxNjJP3ZY	How to Scan Documents from Photos Free Online
+government-forms-hub	p33ZFOO5OOI	How to Get Official W-4, W-9, 1099-NEC Forms Free Online
+bill-of-sale-generator	Z7VI6WZvueE	How to Create a Bill of Sale Online Free – Download Word or PDF
+contract-templates	rRqb0AP3flI	How to Create a Service Agreement Contract Online Free – Word or PDF
+employment-offer-letter	uIwIFt2SxqU	How to Create an Employment Offer Letter Online Free – Internship or Permanent
+expense-tracker	4Wn1vw-Rl9w	How to Track Expenses Online Free – Budget & Category Breakdown
+lease-agreement-generator	j7_PbtuSfkU	How to Create a Residential Lease Agreement Free Online
+invoice-generator	9XjEtjnQ9YY	How to Create Professional Invoices Free Online in Seconds
+power-of-attorney-generator	CalVXZtvIFA	How to Create a Power of Attorney Document Free Online
+nda-generator	AQQ3YmjiVbc	How to Create a Mutual NDA Agreement Free Online
+promissory-note-generator	e_M3W3wr66I	How to Create a Promissory Note for a Personal Loan Free Online
+resume-builder	tqvSUfYwPQE	How to Create an ATS-Friendly Resume Free Online
+receipt-maker	ZcIMsQLhVKY	How to Make a Professional Receipt Free Online PDF
+emoji-picker	HMhO1yS49Zs	How to Search & Copy Emoji Free Online | FreeDailyPro.com
+emoji-unicode-converter	WmGKI6vwXTo	How to Convert Emoji to Unicode & HTML Free Online
+add-page-numbers	Ln7FMyj0x20	How to Add Page Numbers to PDF Free Online | FreeDailyPro.com
+monthly-budget-planner	gPZQHr_xRAc	How to Track Monthly Income & Expenses Free Online | FreeDailyPro.com
+shopping-list-planner	E7JOrJoQAm8	How to Make a Shopping List with Budget Tracker Free Online
+travel-budget-planner	LJVvZX2ETD8	How to Plan Travel Budget Free Online – Trip Cost Calculator
+screenshot-tool	lBBMlLTJYMw	How to Capture & Annotate Screenshots Free Online
+camera-capture	qMZFDYLCLfg	How to Capture Webcam Photo Online Free | FreeDailyPro.com
+voice-recorder	JhCXL31yaIQ	How to Record Voice Online Free | FreeDailyPro.com
+yt-thumbnail	lDBgQDbgHmY	How to Download YouTube Thumbnails Free Online | FreeDailyPro.com
+bulk-image	KcN1A1BAUqk	How to Batch Process Multiple Images Free Online
+collage-maker	ScfAdTfCIdE	How to Make a Photo Collage Free Online | FreeDailyPro.com
+color-picker-image	njX53TSw5mA	How to Pick Any Color from an Image Free Online | FreeDailyPro.com
+compress-image	cr7KoCPKvCg	How to Compress Images Free Online with a Guaranteed Size Reduction | FreeDailyPro.com
+convert-image	vHFSmxgaxAU	How to Convert Image Formats JPG PNG WebP GIF Free Online
+image-filters	dU_eP-19CKk	How to Add Filters & Effects to Images Free Online | FreeDailyPro.com
+image-to-svg	6AWOeiibaZk	How to Convert Image to SVG Free Online | FreeDailyPro.com
+meme-generator	iWPx1v6eR_Y	How to Make Memes Free Online with Top & Bottom Text | FreeDailyPro.com
+passport-photo	Q7Sx8-jE-w4	How to Make Passport & Visa Photos Free Online
+flip-rotate-image	U7b1g2XugT8	How to Flip & Rotate Images Free Online | FreeDailyPro.com
+sprite-sheet-tool	zmLP5t8sXPo	How to Make & Split Sprite Sheets Online Free No Signup
+invitation-card-maker	CHqcfo6aFyo	How to Make Invitation Cards Free Online | FreeDailyPro.com
+mockup-generator	eLgHCBuT9Pk	How to Create Device Mockups Free Online No Signup
+startup-name-generator	QYFm6WXAeO0	How to Generate Startup Name Ideas Free Online | FreeDailyPro.com
+gradient-generator	nZ3ZOrWL5pQ	How to Create CSS Gradients Free Online
+vat-calculator	uyIXIa0bLoQ	How to Calculate VAT Online Free \u2013 UK EU & Global Rates | FreeDailyPro.com
+bmi-calculator	SogofBA7ENk	How to Calculate BMI & Daily Calories Free Online
+compound-interest	JTzRc7TqI8o	How to Calculate Compound Interest Free Online | FreeDailyPro.com
+discount-calculator	Cdv1ekk0Sis	How to Calculate Discount & Sale Price Free Online | FreeDailyPro.com
+fire-calculator	M5_7LXMIGtE	How to Calculate Your FIRE Number & Years to Financial Independence
+loan-calculator	ar1i9hJwVXQ	How to Calculate Loan EMI & Monthly Payment Free Online | FreeDailyPro.com
+paycheck-calculator	jNpP2-R9-eM	How to Calculate Take-Home Pay & Paycheck After Taxes Free
+profit-margin-calculator	zSn4ypgmorc	How to Calculate Profit Margin & Markup Free Online | FreeDailyPro.com
+rmd-calculator	TAmWl14zasw	How to Calculate Required Minimum Distribution (RMD) Free Online | FreeDailyPro.com
+sip-calculator	SlstGKCWhhE	How to Calculate SIP Future Value Free Online
+social-security-calculator	kaQQXB72ZOE	How to Estimate Social Security Benefits Free Online | FreeDailyPro.com
+student-loan-calculator	rkTFl7HrnCk	How to Calculate Student Loan Repayment Free Online | FreeDailyPro.com
+break-even-calculator	ted-3WI8kPo	How to Calculate Break-Even Point Free Online | FreeDailyPro.com
+401k-calculator	sE03pQnC9Sc	How to Use 401(k) Calculator Free Online | FreeDailyPro.com
+marketplace-fee-calculator	Yk1ivqIkHGc	How to Calculate Marketplace Fees & Net Profit Free | FreeDailyPro.com
+event-budget-planner	r5NlRghvFVk	How to Plan Event Budget & Track Spending Free | FreeDailyPro.com
+product-description-writer	rNClwJySf3c	How to Write Product Descriptions Fast Free | FreeDailyPro.com
+shipping-cost-estimator	3tZD_qTh0Sw	How to Estimate Shipping Costs Free Online
+event-checklist-planner	mCxI8Q6kBpM	How to Create Event Checklist & Timeline Free | FreeDailyPro.com
+event-day-schedule	O1dOYsmn8so	How to Build Event Day-Of Schedule Free | FreeDailyPro.com
+invention-disclosure-worksheet	koB11wbTS60	How to Create Invention Disclosure Worksheet Free | FreeDailyPro.com
+eviction-notice-generator	HDr9TKm5EQI	How to Create an Eviction Notice Online Free \u2013 Pay Rent or Quit | FreeDailyPro.com
+ocr-tool	Q1WWHH9P0-8	How to Extract Text from Image Free OCR | FreeDailyPro.com
+zip-unzip	EdMCrV1uUUo	How to ZIP & UnZIP Files Free Online | FreeDailyPro.com
+json-formatter	8qndJoI2HFQ	How to Format Validate & Beautify JSON YAML Free | FreeDailyPro.com
+css-js-minifier	w-nM8zPJ-iQ	How to Minify CSS and JavaScript Free Online | FreeDailyPro.com
+ascii-art-generator	knX3VOJhhuo	How to Create ASCII Art from Text Free Online
+catalog-maker	HK72jnNM8yA	How to Make a Product Catalog PDF Free Online
+compare-pdf	f-QHfStX3Po	How to Compare Two PDF Files Free Online | FreeDailyPro.com
+compress-pdf	XZDDliVHrLY	How to Compress PDF File Size Free Online
+crop-pdf	IQB9dwWbjEc	How to Crop PDF Pages Free Online
+excel-to-pdf	uHlSx5_uZ6o	How to Convert Excel Spreadsheet to Readable PDF Table Free
+extract-pdf	XZ3ghDwxXf4	How to Extract Specific Pages or Text from PDF Free Online
+fillable-forms	spu6o1Ou7Oc	How to Fill PDF Form Fields Online Free – Text Checkbox Dropdown
+html-to-pdf	JqeVfUR3J-g	How to Convert HTML to PDF Free Online – Paste Code & Download
+image-to-pdf	VeWJoEkv8Kk	How to Convert Images to PDF Free Online \u2013 JPG PNG Multi-Image | FreeDailyPro.com
+magazine-maker	AEV2y69z1t0	How to Make a Magazine PDF Free Online \u2013 Cover, TOC & Articles | FreeDailyPro.com
+merge-pdf	0FjbjU4eDVw	How to Merge PDF Files Free Online \u2013 Combine Multiple PDFs | FreeDailyPro.com
+resize-crop	RLVYl39EfcQ	How to Resize & Crop Images Free Online
+webp-converter	Xm4c2TGRZow	How to Convert Images to WebP Free Online
+banner-sign-maker	j5Qcc08JSpA	How to Make Banners & Signs Free Online
+brochure-flyer-maker	xQdq45H9Vnc	How to Make Brochures & Flyers Free Online | FreeDailyPro.com
+menu-card-maker	a5lyb_NP-QQ	How to Make Restaurant Menu Cards Free Online | FreeDailyPro.com
+pdf-to-word	K61zcnXg6sU	How to Convert PDF to Word Free Online – Editable DOCX
+pdf-watermark	g65Ab2hXV-I	How to Add Watermark to PDF Free Online \u2013 Text Stamp All Pages | FreeDailyPro.com
+redact-pdf	PsNyMsdgdqw	How to Redact PDF Free Online \u2013 True Permanent Removal | FreeDailyPro.com
+repair-pdf	T7f0XAhH6Oo	How to Repair Corrupted PDF Free Online \u2013 Recover Broken Files | FreeDailyPro.com
+pdf-to-jpg	WUw3lpbCV9E	How to Convert PDF to JPG Free Online – High Quality Images
+rotate-pdf	eqHPb2W0e_I	How to Rotate PDF Pages Free Online \u2013 Fix Sideways PDFs | FreeDailyPro.com
+sign-pdf	bP3uV1CNIwM	How to Sign a PDF Free Online \u2013 Draw Signature & Place Fields | FreeDailyPro.com
+cost-of-living-comparison	XcaHWWGlKCY	How to Compare Cost of Living Between Two Cities Free Online | FreeDailyPro.com
+moving-cost-estimator	mbsNH-Hh85M	How to Estimate Moving Costs by Home Size & Distance Free Online | FreeDailyPro.com
+relocation-checklist-planner	pCbBo-fCQAM	How to Plan Your Move with a Free Relocation Checklist & Timeline | FreeDailyPro.com
+email-extractor	kzsTTF8gsvI	How to Extract Email Addresses from Any Text Free Online
+meta-tag-gen	6dX4YGIZEdc	How to Generate SEO Meta Tags Free Online | FreeDailyPro.com
+keyword-density	MNucDZebBDI	How to Check Keyword Density in Your Content Free Online | FreeDailyPro.com
+robots-sitemap	F5J-eaNCJnQ	How to Generate Robots.txt & XML Sitemap Free Online | FreeDailyPro.com
+schema-generator	X7BBN4vDtHs	How to Generate Schema Markup JSON-LD Free Online | FreeDailyPro.com
+url-extractor	pbC7N9Jp7r0	How to Extract All URLs from Text or HTML Free Online | FreeDailyPro.com
+diff-checker	Hty9FvUCOS0	How to Compare Two Texts or Code Side by Side Free Online | FreeDailyPro.com
+hash-generator	7vHVmGVIeWA	How to Generate SHA-256 & MD5 Hashes Free Online
+jwt-decoder	OhUnKjmiP48	How to Decode JWT Tokens Free Online
+password-generator	LrkYLI-EnRs	How to Generate Strong Secure Passwords Free Online | FreeDailyPro.com
+password-strength	qrmfDS4gqlA	How to Generate & Check Password Strength Free Online
+avatar-builder	I4L9KC-9wZo	How to Build a Custom Avatar Online Free – No Photo Needed
+gst-calculator	zOgKD95cdng	How to Calculate GST Online Free \u2013 CGST SGST India | FreeDailyPro.com
+india-income-tax	40kGdVGmmwY	How to Compare India Old vs New Tax Regime Free | FreeDailyPro.com
+income-tax-calculator	UvcrEE6Swwc	How to Calculate US Income Tax Online Free – Federal State FICA
+sales-tax-calculator	4qfHuNiEn6Y	How to Calculate US Sales Tax Free Online | FreeDailyPro.com
+self-employment-tax	ZTtLN2qo5NA	How to Calculate Self-Employment Tax Free Online | FreeDailyPro.com
+uk-tax-calculator	ID2y6oBsqgw	How to Calculate UK Income Tax & National Insurance Free | FreeDailyPro.com
+state-tax-calculator	uRiqzi4ARPY	How to Estimate State Income Tax by State Free | FreeDailyPro.com
+citation-generator	kIdCSeCYAzM	How to Generate APA MLA Chicago Harvard Citations Free
+reading-level-checker	ZMZUaB_LLJ4	How to Check Reading Level & Flesch Score Free Online
+text-similarity-checker	uzoT0aEeOys	How to Check Text Similarity Overlapping Phrases Free Online
+text-reverser	y-EuITaTR0A	How to Reverse Text Remove Duplicate Words Lines Free Online
+text-sorter	3RBVLZEmo8g	How to Sort Text Lines Alphabetically or by Length Free Online
+travel-countdown-planner	-f1KN3d570w	How to Plan Pre-Trip Tasks & Countdown Days Until Departure Free
+word-counter	AVCllh6Nih8	How to Count Words, Characters & Reading Time Online Free
+travel-itinerary-planner	PMZ_Hf1vUP8	How to Build a Day-by-Day Travel Itinerary Free Online
+travel-packing-list	De6dCE_A3f4	How to Make a Travel Packing Checklist Free Online
+compress-video	j2eUOdBo3bk	How to Compress Video Online Free – Reduce File Size
+video-to-gif	P9s4XBNSB10	How to Convert Video to GIF Online Free
+trim-video	0MNpfjMKweo	How to Trim & Cut Video Online Free
+convert-video	zqpLPhmyj9E	How to Convert Video Format Online Free – MP4 WebM MOV
+merge-video	-HjR7V5ceA0	How to Merge Videos Online Free – Combine Multiple Clips
+screen-recorder	DEwAYXXSJ-c	How to Record Your Screen Online Free – Browser Screen Recorder
+thumbnail-gen	wGXvbaUKqQI	How to Generate Video Thumbnails Free Online \u2013 Frame Capture Tool | FreeDailyPro.com
+caption-generator	OGI6yqaI1oU	How to Generate AI Social Media Captions Free
+case-converter	qv3ivSaFGY8	How to Convert Text Case Online Free
+fancy-font-generator	H7MsRQ4kJlo	How to Generate Fancy Unicode Fonts for Bios Free
+regex-tester	MbNCq9Bat5A	How to Test Regex Online Free – Live Match Highlight
+grammar-checker	bMWHXqeygUg	How to Check Grammar and Spelling Free Online
+hashtag-generator	x7-e6_ut-Sk	How to Generate Hashtags for Social Media Free Online
+body-fat-calculator	gDEpxN9HkiA	How to Calculate Body Fat Percentage Free Online
+ideal-weight-calculator	z1CXmb95Z94	How to Calculate Ideal Body Weight Free Online
+pregnancy-due-date	fapbkFRo_ns	How to Calculate Pregnancy Due Date Free Online
+water-intake-calculator	qyFt9XvLAA4	How to Calculate Daily Water Intake Free Online
+inventory-tracker	3T-BdlZM2bI	How to Track Home Inventory with Low Stock Alerts Free Online
+pdf-to-excel	dGgPVkXxdII	How to Convert PDF Tables to Excel Free Online
+pdf-password	qBJKvkcI298	How to Password Protect a PDF Free Online – Encrypt PDF
+organize-pdf	TZTL_wd-NJY	How to Reorder or Remove PDF Pages Free Online with Previews
+find-replace	ZRbu9e3kDO4	How to Find and Replace Text with Regex Free Online
+paper-format-checker	f4VPRP4U4iM	How to Check APA MLA Chicago Paper Format Free Online
+lorem-ipsum	HmIveDK3fiU	How to Generate Lorem Ipsum Placeholder Text Free Online
+invisible-text-generator	AIYW2os7qxE	How to Generate Invisible Text for Blank Bios & Messages Free
+user-agent-parser	-iWoAjyeKOY	How to Parse User-Agent Strings Free Online – Browser OS Device
+text-paraphraser	4NQaC_Th79E	How to Paraphrase & Rewrite Text Free Online
+slug-generator	SZ5roXw5GsU	How to Generate Clean URL Slugs Free Online – SEO Friendly
+subtitle-adder	6bjDBJzod6I	How to Add Subtitles to a Video Free Online
+og-preview	mC6zWTTMtv4	How to Preview Open Graph & Twitter Cards Free Online
+document-assembler	Lp5L3YhS8-w	How to Combine PDF Word & Images into One Document Free
+calorie-calculator	SogofBA7ENk	How to Calculate BMI & Daily Calories Free Online
+book-writing-toolbox	C2e9b_ROuk8	How to Make a Complete Book from Chapters PDF Word Free Online

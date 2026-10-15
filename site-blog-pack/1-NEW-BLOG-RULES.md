@@ -119,6 +119,14 @@ No sections or sentences about uniqueness, "AdSense-quality", SEO strategy, "why
 - Each post gets its own image. Never reuse an image between posts.
 - Alt text is written for the image, not copied from the title.
 
+## Videos (mandatory)
+If the primary tool (or another listed tool) has a YouTube video, embed it. The site rejects a new post whose primary tool has a video but no embed.
+- Syntax, on its own line with a blank line before and after, after the opening paragraphs and before the first `##` section: `{{youtube VIDEOID | Short caption}}`. VIDEOID is the 11-character id from `site-blog-pack/tool-videos.txt` (tool id, video id, title). Never paste an iframe or a youtube.com URL.
+- Caption: 3 to 8 words naming what the video shows ("Split PDF by page range"). No "free".
+- Primary tool first. Add a second video only when another listed tool has one and the section really uses that tool. Maximum 3 per post.
+- The site shows the video as a 16:9 picture capped at about 600 px wide, centered in the text column; the player loads only when a reader clicks it and stays the same size. Write the sentence before the video so it introduces it ("The clip below shows the page-range step"), and do not describe it as fullscreen or add a second link to the same video.
+- If a tool has no video yet, say nothing about one. Tools still waiting for videos are listed in `Agent/site/handoff/VIDEOS.md`. When a video for one of them is published, send its id as described there and add the embed to new posts about that tool.
+
 ## 11. Allowed ids
 Category ids (`topic`): pdf-tools, image-tools, video-tools, audio-tools, text-tools, converters, tax-calculators, finance-calculators, health-calculators, qr-tools, business-tools, design-tools, security-tools, seo-tools, file-tools, 3d-tools, ecommerce-tools, travel-tools, event-tools, animation-tools, household-tools, college-tools, relocation-tools, marketing-design-tools, ai-studio, guides.
 Persona ids: marketing, content-writer, web-designer, legal, real-estate, hr, freelancer, small-business, personal-finance, developer, student, event-planner, traveler.

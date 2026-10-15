@@ -231,6 +231,35 @@ smart-encoder
 meme-video-generator
 fbx-converter
 
+text-cleaner
+number-to-words
+morse-code-translator
+sql-formatter
+curl-converter
+subnet-calculator
+chmod-calculator
+string-escape
+unlock-pdf
+remove-pdf-pages
+exif-remover
+image-splitter
+mute-video
+rotate-video
+video-speed-changer
+reverse-video
+ringtone-maker
+volume-booster
+quote-generator
+purchase-order-generator
+packing-slip-generator
+final-grade-calculator
+email-signature-generator
+listing-photo-pack
+label-sheet-maker
+seller-pricing-desk
+site-launch-kit
+brand-kit
+paper-submission-desk
 # workflows
 extracting-a-table-from-a-scan
 sharing-a-presentation-as-pdf

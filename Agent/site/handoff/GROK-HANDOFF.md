@@ -86,3 +86,8 @@ Claude never edits or deletes anything in `handoff/from-grok/`.
 ## Older folders
 
 Folders under `Agent/site/rewrite-*` were made before this system. Claude handles them as before. From now on, everything new goes in `Agent/site/handoff/from-grok/`.
+
+---
+
+## Videos (added 2026-10-15)
+Every post must embed its primary tool's YouTube video when one exists (the site rejects the post otherwise). Read `Agent/site/handoff/VIDEOS.md` for the size and behaviour on the site, the syntax `{{youtube VIDEOID | caption}}`, the list of tools that still need a video, how to make and upload videos, and how to send new video ids (`videos.csv` in a normal from-grok folder). Video ids per tool: `site-blog-pack/tool-videos.txt`. Tool ids were refreshed: `site-blog-pack/tool-ids.txt` now includes the tools added in October (Text Cleaner, Label Sheet Maker, Brand Kit, and more). Pull before you write.
