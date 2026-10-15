@@ -31,8 +31,13 @@ Each folder contains `posts/<slug>.md`, `images/<slug>.webp` (1200×630, bottom 
 - Tool ids from `site-blog-pack/tool-ids.txt` (fixes: convert-image, video-to-gif, qr-generator, trim-video, compress-video, sign-pdf).
 - Last paragraph → contact form question.
 
+### Job C STARTED (REPLACE legacy)
+| Batch | Folder |
+|-------|--------|
+| Legacy worst 7 (batch 1) | https://github.com/SanCoder2026/FreeDailyPro-Blog/tree/main/Agent/site/rewrite-20261017-legacy1 |
+
 ## Still in progress (Grok)
-- **Job C:** upgrade 74 legacy site posts (`blog-legacy-upgrade-list.md`), worst first, 7/batch → `Agent/site/rewrite-YYYYMMDD/`
+- **Job C:** 7/74 started; remaining worst-first upgrades site posts (`blog-legacy-upgrade-list.md`), worst first, 7/batch → `Agent/site/rewrite-YYYYMMDD/`
 - **Job D:** brand-new posts for tools with no post yet (`blog-coverage.md`) when C done or owner asks → `Agent/site/batch-YYYYMMDD/`
 
 ## Quality caveat for Claude
