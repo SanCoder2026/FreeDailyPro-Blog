@@ -1,0 +1,5 @@
+posts=2
+password-generator-new-accounts.md: words=1065
+pdf-to-jpg-slides-from-packet.md: words=1133
+shared_long=0 shorts=0
+images=2 webp 1200x630 under150KB bottom-stripe-only
