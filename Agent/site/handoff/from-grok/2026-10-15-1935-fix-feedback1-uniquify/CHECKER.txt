@@ -1,0 +1,11 @@
+shared_long=36
+compress-pdf.md: 1014
+csv-converter.md: 1027
+diff-checker.md: 1040
+grammar-checker.md: 1050
+hash-generator.md: 1036
+merge-pdf.md: 1052
+redact-pdf-remove-sensitive-data.md: 1042
+resume-builder.md: 1034
+unit-converter.md: 1032
+word-counter.md: 1056
