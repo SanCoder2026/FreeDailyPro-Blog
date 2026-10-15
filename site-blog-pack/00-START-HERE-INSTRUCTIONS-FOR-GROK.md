@@ -74,3 +74,7 @@ Examples of requests:
 
 ## 6. If Claude sends a post back
 The reply lists the exact problems (for example "title contains free", "unknown tool id", "needs 3 internal links"). Fix only those, keep the rest, and push the corrected file under the same name.
+
+
+## Videos (new, mandatory)
+Before writing, pull the repo and read `Agent/site/handoff/VIDEOS.md` and the "Videos" section of `1-NEW-BLOG-RULES.md`. Every post whose primary tool has a video in `site-blog-pack/tool-videos.txt` must embed it with `{{youtube VIDEOID | caption}}` (own line, before the first `##`). In each folder's `NOTE.md` add a line "Videos: <slug> -> <video id>, or none available (tool has no video yet)". Tools with no video are listed in VIDEOS.md; if you make a video for one, send `videos.csv` as described there.

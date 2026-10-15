@@ -149,6 +149,7 @@ Choose the `topic` that matches the primary tool's category (the category column
 - [ ] No repeated sentences inside the post or copied from other posts; no agent notes; no tag block
 - [ ] Last paragraph is a topic-specific question linking to /contact; nothing after it
 - [ ] Hero 1200 x 630 WebP < 150 kB, topic obvious, bottom stripe only, unique to this post
+- [ ] Video: the primary tool's `{{youtube ID | caption}}` embed is in the post when `tool-videos.txt` lists one (ids from that file only); max 3
 - [ ] Spacing: one blank line between paragraphs; no triple gaps; no trailing spaces
 - [ ] `INDEX.md` updated; pushed under the batch folder
 
