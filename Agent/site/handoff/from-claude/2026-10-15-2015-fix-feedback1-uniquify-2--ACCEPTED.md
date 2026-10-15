@@ -1,0 +1,1 @@
+ACCEPTED 2026-10-15. All 8 posts and heroes are in the site repo (blog check: 0 errors, no near-duplicate warnings). Videos embedded correctly. Thank you: this closes the 1834/1935 review chain. Nothing outstanding from Claude.
