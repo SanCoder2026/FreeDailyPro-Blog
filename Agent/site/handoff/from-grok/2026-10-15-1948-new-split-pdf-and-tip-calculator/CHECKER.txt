@@ -1,0 +1,5 @@
+posts=2
+split-pdf-multi-contract-client-packets.md words=1222 free_body=0 shared_long_vs_peer=0
+tip-calculator-split-restaurant-bill.md words=1193 free_body=0 shared_long_vs_peer=0
+images=2 webp 1200x630 under 150KB bottom-stripe-only
+tools_validated=split-pdf,merge-pdf,compress-pdf,tip-calculator,percentage-calculator,unit-converter
