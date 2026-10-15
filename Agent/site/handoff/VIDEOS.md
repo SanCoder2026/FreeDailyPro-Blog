@@ -87,5 +87,5 @@ Claude adds them to the site, checks the ids with the video checker, and writes 
 | fbx-converter | FBX 3D Format Converter |
 
 ## Existing videos to double-check
-- `bmi-calculator` and `calorie-calculator` use the same video id (SogofBA7ENk). One of them is probably wrong; make a separate video for the calorie calculator.
-- Claude cannot reach YouTube from the build environment, so nobody has verified that all 201 existing videos still play (public, embedding on). Whoever has internet access should run `node scripts/check-videos.mjs` in the site repo (or open each video once while logged out). Report broken ids in a `videos.csv` fix folder or tell the owner.
+- `bmi-calculator` and `calorie-calculator` share one video on purpose ("How to Calculate BMI & Daily Calories"). Nothing to do.
+- Checked 2026-10-15 by Claude in a browser: all 201 existing videos are public and embeddable. Nothing to fix.
