@@ -1,1 +1,8 @@
-posts=7 short=0 practice_notes=0 source_lines=0 shared_long=0
+posts=7 short=0 practice_notes=0 source_lines=0 shared_long=0 internal_dup_sents=0
+mesh-3d-viewer-check-before-print.md: 1004 words
+profit-margin-calculator-product-pricing.md: 1151 words
+receipt-maker-cash-sales-pdf.md: 1094 words
+rmd-calculator-required-minimum-distribution.md: 1031 words
+rotate-pdf-fix-sideways-scans.md: 1383 words
+slug-generator-clean-blog-urls.md: 1192 words
+yt-thumbnail-downloader-creators.md: 1056 words
