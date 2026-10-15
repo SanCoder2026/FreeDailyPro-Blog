@@ -116,6 +116,10 @@ Save approved banners in a `/brand/ascii` folder with the generator settings not
 
 Review banners in the same monospace font your users will see. What looks fine in a proportional editor may be misaligned in a terminal.
 
+## Closing discipline
+
+Ship the file, then verify on a second device. That last verification catches half of preventable mistakes.
+
 ## Next step
 
 Generate a short project name banner in [ASCII Art Generator](https://www.freedailypro.com/tool/ascii-art-generator), paste it into a test README fence, and view on mobile.

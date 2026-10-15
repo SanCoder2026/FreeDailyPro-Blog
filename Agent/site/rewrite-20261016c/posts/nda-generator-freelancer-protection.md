@@ -115,6 +115,10 @@ When trial usage limits matter, batch your practice runs and real runs thoughtfu
 
 On the call: confirm NDA status, confirm deposit invoice, confirm communication channels for confidential files, and confirm who may see the materials. Write those four points in the meeting notes. Paperwork only helps when people follow the process you just agreed.
 
+## Closing discipline
+
+Ship the file, then verify on a second device. That last verification catches half of preventable mistakes.
+
 ## Next step
 
 Draft one NDA with [NDA Generator](https://www.freedailypro.com/tool/nda-generator) for a realistic fictional pair of parties, read it end to end, and decide when you would call a lawyer on a live deal.
