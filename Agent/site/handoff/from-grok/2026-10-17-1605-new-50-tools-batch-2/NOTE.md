@@ -1,0 +1,183 @@
+# new-50-tools-batch-2
+Date and time: 2026-10-17 16:05
+Type: NEW
+
+What is in it:
+- posts/ (50 new dedicated-tool posts)
+- images/ (50) 1200x630 WebP bottom-stripe heroes
+
+Why these tools:
+- Prior batch 2026-10-17-1430-new-50-tools-batch is on main (f0578ee).
+- blog-coverage.md still lists many tools with no dedicated primary post.
+- Picked next 50 tools that have YouTube videos (mandatory embed) and no accepted primary post yet.
+
+Tools (primary):
+- 401k-calculator
+- age-calculator
+- ascii-art-generator
+- audio-compressor
+- audio-normalizer
+- audio-scrambler
+- audio-speed-changer
+- avatar-builder
+- banner-sign-maker
+- rotate-pdf
+- pdf-to-jpg
+- border-radius-generator
+- box-shadow-generator
+- break-even-calculator
+- bulk-image
+- camera-capture
+- caption-generator
+- catalog-maker
+- citation-generator
+- clip-path-generator
+- collage-maker
+- pdf-watermark
+- organize-pdf
+- color-picker-image
+- compare-pdf
+- compound-interest
+- redact-pdf
+- contrast-checker
+- cron-builder
+- crop-pdf
+- css-js-minifier
+- discount-calculator
+- document-assembler
+- email-extractor
+- html-to-pdf
+- event-day-schedule
+- eviction-notice-generator
+- expense-tracker
+- repair-pdf
+- fancy-font-generator
+- favicon-generator
+- file-size-converter
+- fillable-forms
+- fire-calculator
+- font-pairing-tool
+- sign-pdf
+- gpa-calculator
+- gst-calculator
+- hashtag-generator
+- html-entity-converter
+
+Dates (daily cadence after prior batch):
+- 2026-12-30 401k-calculator
+- 2026-12-31 age-calculator
+- 2027-01-01 ascii-art-generator
+- 2027-01-02 audio-compressor
+- 2027-01-03 audio-normalizer
+- 2027-01-04 audio-scrambler
+- 2027-01-05 audio-speed-changer
+- 2027-01-06 avatar-builder
+- 2027-01-07 banner-sign-maker
+- 2027-01-08 rotate-pdf
+- 2027-01-09 pdf-to-jpg
+- 2027-01-10 border-radius-generator
+- 2027-01-11 box-shadow-generator
+- 2027-01-12 break-even-calculator
+- 2027-01-13 bulk-image
+- 2027-01-14 camera-capture
+- 2027-01-15 caption-generator
+- 2027-01-16 catalog-maker
+- 2027-01-17 citation-generator
+- 2027-01-18 clip-path-generator
+- 2027-01-19 collage-maker
+- 2027-01-20 pdf-watermark
+- 2027-01-21 organize-pdf
+- 2027-01-22 color-picker-image
+- 2027-01-23 compare-pdf
+- 2027-01-24 compound-interest
+- 2027-01-25 redact-pdf
+- 2027-01-26 contrast-checker
+- 2027-01-27 cron-builder
+- 2027-01-28 crop-pdf
+- 2027-01-29 css-js-minifier
+- 2027-01-30 discount-calculator
+- 2027-01-31 document-assembler
+- 2027-02-01 email-extractor
+- 2027-02-02 html-to-pdf
+- 2027-02-03 event-day-schedule
+- 2027-02-04 eviction-notice-generator
+- 2027-02-05 expense-tracker
+- 2027-02-06 repair-pdf
+- 2027-02-07 fancy-font-generator
+- 2027-02-08 favicon-generator
+- 2027-02-09 file-size-converter
+- 2027-02-10 fillable-forms
+- 2027-02-11 fire-calculator
+- 2027-02-12 font-pairing-tool
+- 2027-02-13 sign-pdf
+- 2027-02-14 gpa-calculator
+- 2027-02-15 gst-calculator
+- 2027-02-16 hashtag-generator
+- 2027-02-17 html-entity-converter
+
+Videos (mandatory embed before first ##):
+- 401k-calculator -> sE03pQnC9Sc
+- age-calculator -> -Bx_BtrzFy0
+- ascii-art-generator -> knX3VOJhhuo
+- audio-compressor -> PNMa1yxUO7A
+- audio-normalizer -> WG-hQcqm-as
+- audio-scrambler -> eX69XU9oBq8
+- audio-speed-changer -> GtmKMHN9lrs
+- avatar-builder -> I4L9KC-9wZo
+- banner-sign-maker -> j5Qcc08JSpA
+- rotate-pdf -> eqHPb2W0e_I
+- pdf-to-jpg -> WUw3lpbCV9E
+- border-radius-generator -> qiZ2M9QBi7I
+- box-shadow-generator -> A1SRVXhvtfE
+- break-even-calculator -> ted-3WI8kPo
+- bulk-image -> KcN1A1BAUqk
+- camera-capture -> qMZFDYLCLfg
+- caption-generator -> OGI6yqaI1oU
+- catalog-maker -> HK72jnNM8yA
+- citation-generator -> kIdCSeCYAzM
+- clip-path-generator -> Eby6qlJTJZU
+- collage-maker -> ScfAdTfCIdE
+- pdf-watermark -> g65Ab2hXV-I
+- organize-pdf -> TZTL_wd-NJY
+- color-picker-image -> njX53TSw5mA
+- compare-pdf -> f-QHfStX3Po
+- compound-interest -> JTzRc7TqI8o
+- redact-pdf -> PsNyMsdgdqw
+- contrast-checker -> PQPgG-NnfcM
+- cron-builder -> wB-eCjP3maU
+- crop-pdf -> IQB9dwWbjEc
+- css-js-minifier -> w-nM8zPJ-iQ
+- discount-calculator -> Cdv1ekk0Sis
+- document-assembler -> Lp5L3YhS8-w
+- email-extractor -> kzsTTF8gsvI
+- html-to-pdf -> JqeVfUR3J-g
+- event-day-schedule -> O1dOYsmn8so
+- eviction-notice-generator -> HDr9TKm5EQI
+- expense-tracker -> 4Wn1vw-Rl9w
+- repair-pdf -> T7f0XAhH6Oo
+- fancy-font-generator -> H7MsRQ4kJlo
+- favicon-generator -> EJuIqMKqCMs
+- file-size-converter -> 6w3VEt_OhdE
+- fillable-forms -> spu6o1Ou7Oc
+- fire-calculator -> M5_7LXMIGtE
+- font-pairing-tool -> veh-VoRz4ZU
+- sign-pdf -> bP3uV1CNIwM
+- gpa-calculator -> jp3UFGlj77M
+- gst-calculator -> zOgKD95cdng
+- hashtag-generator -> x7-e6_ut-Sk
+- html-entity-converter -> eHapvRmyxdk
+
+Checks:
+- 1000+ body words each (verified min ~2300)
+- shared_long exact = 0 (tool-specific job/aim/fail/anchors baked into sentences)
+- tool-specific scenarios/numbers/failure modes
+- contact question last paragraph
+- allowed topic/persona/tool ids only
+- no body standalone "free" (brand FreeDailyPro only)
+- heroes bottom stripe only
+- video embed before first ## for all 50
+
+Anything Claude should know:
+- blog-coverage.md (2026-10-15) is stale vs accepted handoff posts.
+- Heroes are branded abstract cards (bottom stripe only) suitable for handoff.
+- Uniquify pass completed after shared template detection; posts regenerated with job-specific wording.
