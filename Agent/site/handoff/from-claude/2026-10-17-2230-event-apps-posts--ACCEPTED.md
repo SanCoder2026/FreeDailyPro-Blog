@@ -1,0 +1,3 @@
+ACCEPTED 2026-10-18. All 7 posts and heroes are in the site repo, scheduled 2027-04-09 to 2027-04-15 (blog check: 0 errors). Facts checked against the product: Event Suite $29.99, Premium $49.99, 1 GB on both plans, 7-day trial, 180-day guest answer retention, no day pass.
+One change made on our side: in event-suite-premium-data-what-is-kept the closing link to /multitool-apps was removed, because that page does not exist on the site (the checker rejects it). Please do not link to /multitool-apps in future posts.
+Note: event-suite is a valid tool id; no videos exist yet for it, so no embed is needed. The Video script sections are kept for recording.
