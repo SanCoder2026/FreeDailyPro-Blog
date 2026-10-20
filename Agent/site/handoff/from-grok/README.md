@@ -7,3 +7,6 @@ Full instructions: ../GROK-HANDOFF.md
 
 ## 2026-10-17 event apps (Premium Guest / Door / Booth)
 - 2026-10-17-1830-event-apps-posts: 7 posts + heroes (brief from-claude/event-apps-content-brief.md)
+
+## 2026-10-19 new workflow tools
+- 2026-10-19-2215-new-workflow-tools-batch: Seller Studio, Legal Production Desk, Seller Pricing Desk, Paper Submission Desk, Event Suite (planning)

@@ -1,0 +1,3 @@
+# Add these tool ids before site import (live on freedailypro.com but missing from tool-ids.txt as of scan 2026-10-20):
+seller-studio
+legal-production-desk
