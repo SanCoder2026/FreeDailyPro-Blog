@@ -1,0 +1,6 @@
+# Live on freedailypro.com but missing from tool-ids.txt (scan 2026-10-20):
+bates-numbering
+cover-letter-maker
+bank-statement-to-csv
+certificate-maker
+# custom-qr already in tool-ids

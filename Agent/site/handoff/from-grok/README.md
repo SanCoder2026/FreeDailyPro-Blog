@@ -10,3 +10,6 @@ Full instructions: ../GROK-HANDOFF.md
 
 ## 2026-10-19 new workflow tools
 - 2026-10-19-2215-new-workflow-tools-batch: Seller Studio, Legal Production Desk, Seller Pricing Desk, Paper Submission Desk, Event Suite (planning)
+
+## 2026-10-20 new five tools
+- 2026-10-20-2200-new-five-tools-batch: bates-numbering, cover-letter-maker, bank-statement-to-csv, custom-qr, certificate-maker
