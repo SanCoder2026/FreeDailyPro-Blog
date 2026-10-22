@@ -1,0 +1,4 @@
+# Live tools used as primary but missing from tool-ids.txt (2026-10-21):
+epub-maker
+name-badge-maker
+# qr-scanner, magazine-maker, email-signature-generator already in tool-ids

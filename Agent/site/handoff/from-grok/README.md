@@ -13,3 +13,6 @@ Full instructions: ../GROK-HANDOFF.md
 
 ## 2026-10-20 new five tools
 - 2026-10-20-2200-new-five-tools-batch: bates-numbering, cover-letter-maker, bank-statement-to-csv, custom-qr, certificate-maker
+
+## 2026-10-21 new five tools
+- 2026-10-21-2000-new-five-tools-batch: qr-scanner, magazine-maker, epub-maker, name-badge-maker, email-signature-generator
