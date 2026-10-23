@@ -16,3 +16,6 @@ Full instructions: ../GROK-HANDOFF.md
 
 ## 2026-10-21 new five tools
 - 2026-10-21-2000-new-five-tools-batch: qr-scanner, magazine-maker, epub-maker, name-badge-maker, email-signature-generator
+
+## 2026-10-22 new five tools
+- 2026-10-22-2230-new-five-tools-batch: epub-checker, etsy-listing-checker, calendar-invite-maker, book-spine-calculator, business-days-calculator

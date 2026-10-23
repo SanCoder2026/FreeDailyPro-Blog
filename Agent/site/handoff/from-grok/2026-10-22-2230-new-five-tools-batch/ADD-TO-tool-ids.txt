@@ -1,0 +1,6 @@
+# Live primary tools not yet in tool-ids.txt (2026-10-22):
+epub-checker
+etsy-listing-checker
+calendar-invite-maker
+book-spine-calculator
+business-days-calculator
