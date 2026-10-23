@@ -1,0 +1,6 @@
+# Live primary tools missing from tool-ids.txt (2026-10-23):
+acx-audiobook-checker
+isbn-checker
+digital-download-packager
+blind-cv-redactor
+copyright-page-maker
