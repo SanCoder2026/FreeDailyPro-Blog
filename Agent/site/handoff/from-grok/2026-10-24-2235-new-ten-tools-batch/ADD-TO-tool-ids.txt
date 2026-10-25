@@ -1,0 +1,12 @@
+# Live primary tools to add to tool-ids.txt (2026-10-24):
+exhibit-stamper
+agenda-builder
+book-page-estimator
+badge-pass-maker
+guest-manager
+low-content-interior-maker
+booth-layout-planner
+rental-application-maker
+# already in tool-ids.txt:
+# label-sheet-maker
+# ringtone-maker
