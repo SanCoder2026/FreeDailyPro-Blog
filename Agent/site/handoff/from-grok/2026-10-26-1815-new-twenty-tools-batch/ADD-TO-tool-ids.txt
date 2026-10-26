@@ -1,0 +1,22 @@
+# Live primary tools to add to tool-ids.txt (2026-10-26):
+catering-quantity-calculator
+expense-capture-sheet
+focus-stage-timer
+giveaway-winner-picker
+heic-to-jpg
+json-csv-converter
+kdp-description-formatter
+mail-merge-pdf
+manuscript-formatter
+pdf-bookmarks-editor
+seating-chart-planner
+timesheet-generator
+# already in tool-ids.txt:
+# brand-kit
+# final-grade-calculator
+# grocery-list-planner
+# image-splitter
+# listing-photo-pack
+# packing-slip-generator
+# purchase-order-generator
+# quote-generator
