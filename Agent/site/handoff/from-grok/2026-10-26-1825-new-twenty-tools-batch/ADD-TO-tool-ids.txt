@@ -1,0 +1,22 @@
+# Live primary tools to add to tool-ids.txt (2026-10-26):
+exhibitor-booth-tracker
+booth-manager
+agenda-cue-sheet-builder
+book-interior-maker
+vendor-quote-manager
+giveaway-branding-manager
+marketing-materials-manager
+profit-expense-manager
+accommodation-manager
+arrivals-departures-board
+dietary-access-summary
+event-closure-report-maker
+event-landing-page-generator
+event-profit-ledger
+event-report-generator
+event-tax-summary
+invite-calendar-maker
+audio-to-subtitles
+# already in tool-ids.txt:
+# chmod-calculator
+# curl-converter

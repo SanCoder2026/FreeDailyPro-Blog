@@ -25,3 +25,6 @@ Full instructions: ../GROK-HANDOFF.md
 
 ## 2026-10-24 new ten tools
 - 2026-10-24-2235-new-ten-tools-batch: 10 posts (exhibit-stamper through rental-application-maker)
+
+## 2026-10-26 new twenty tools
+- 2026-10-26-1825-new-twenty-tools-batch: 20 posts (event suite managers + book interior + audio subtitles + chmod + curl)
