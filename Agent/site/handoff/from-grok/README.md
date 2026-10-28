@@ -28,3 +28,6 @@ Full instructions: ../GROK-HANDOFF.md
 
 ## 2026-10-26 new twenty tools
 - 2026-10-26-1825-new-twenty-tools-batch: 20 posts (event suite managers + book interior + audio subtitles + chmod + curl)
+
+## 2026-10-27 new twenty tools
+- 2026-10-27-2030-new-twenty-tools-batch: 20 posts (video/image/pdf/dev/text/business/tax)

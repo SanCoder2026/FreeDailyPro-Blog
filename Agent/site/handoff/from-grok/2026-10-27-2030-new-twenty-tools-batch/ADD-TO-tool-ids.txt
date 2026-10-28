@@ -1,0 +1,13 @@
+# Live primary tools to add to tool-ids.txt (2026-10-27):
+markdown-editor
+pay-stub-generator
+proposal-builder
+open-house-sign-in-sheet
+resume-keyword-matcher
+online-timer
+print-royalty-calculator
+invitation-automator
+# already in tool-ids.txt:
+# mute-video reverse-video rotate-video exif-remover remove-pdf-pages
+# sql-formatter morse-code-translator number-to-words menu-card-maker
+# site-launch-kit monthly-budget-planner self-employment-tax
