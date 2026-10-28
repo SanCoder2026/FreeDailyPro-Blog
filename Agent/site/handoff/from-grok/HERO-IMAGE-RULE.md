@@ -1,15 +1,15 @@
-# FreeDailyPro Hero Image Rule — ORIGINAL STANDARD (locked)
+# FreeDailyPro Hero Image Rule — OWNER ORIGINAL STANDARD (locked)
 
-**Source of truth (your original rules, before any Grok drift):**
-- `RULES.md` §5 Image Rules (repo root / blog-agent)
-- `site-blog-pack/1-NEW-BLOG-RULES.md` §10 Hero image
-- `site-blog-pack/00-START-HERE-INSTRUCTIONS-FOR-GROK.md` point 8
+**Do not invent a new standard.** This file only restates what you already published before Claude/Grok drift.
 
-**Gold example that matches the standard:**
-`from-grok/2026-10-15-1905-new-pdf-to-jpg-and-password-generator/images/password-generator-new-accounts.webp`  
-(person at a home desk, laptop + phone, password task obvious; bottom FreeDailyPro stripe only)
+## Source of truth (in order)
+1. `site-blog-pack/1-NEW-BLOG-RULES.md` §10 Hero image (effective 2026-10-15)
+2. `RULES.md` / `Agent/RULES.md` §5 Image Rules
+3. `BLOG-RULES.md` §3 Hero image rules (do not change) — pipeline uses **bottom sticker** via `brand_image.py`
+4. Gold accepted example:  
+   `from-grok/2026-10-15-1905-new-pdf-to-jpg-and-password-generator/images/password-generator-new-accounts.webp`
 
-Claude’s first hero note (2026-10-15-1935 CHANGES) only required *shipping* a 1200×630 WebP <150 kB when a post had no image. It did **not** replace or weaken the content rules below.
+Claude’s early ACCEPTED/CHANGES notes only asked to *ship* a missing 1200×630 WebP. They did **not** replace topic-relevance or branding rules.
 
 ---
 
@@ -18,57 +18,86 @@ Claude’s first hero note (2026-10-15-1935 CHANGES) only required *shipping* a 
 - **Under 150 kB**
 - Filename = post slug: `<slug>.webp`
 - **One unique image per post** — never reuse across posts
+- `imageAlt` describes what is **visible**, not a copy of the title
 
 ## 2. People (prefer humans)
-- Prefer real people in the scene
+- Prefer people in a real workflow
 - Variety: women, men, older adults, groups as needed
 - Natural, positive expression when suitable
-- Attire and setting match the blog theme (office / home / outdoor / worksite / studio)
+- Attire and setting match the theme (office / home / studio / outdoor / worksite)
 
-## 3. Topic relevance is MANDATORY (CRITICAL) — do not skip
+## 3. Topic relevance is MANDATORY (CRITICAL)
+From your RULES.md §5 — do not weaken:
+
 - The image **MUST clearly show what the blog is about**
 - **Not** a generic smiling person
-- **Not** a random stock photo that could fit any post
-- **Not** abstract UI / neon tech / teal-only graphics as the whole hero
-- Include **visible indicators** of the tool/task:
-  - Tool UI on screen (PDF pages, image editor, invoices, browser tabs, code/SQL, menu card, etc.)
-  - Related props (folders labeled PDF, camera, product photos, packing slip, seating chart, audio gear, etc.)
-  - Setting that matches the subject (freelancer desk, creative studio, warehouse, event floor, kitchen for catering, etc.)
-- Clothing, background, and persona must fit the topic
+- **Not** random stock that could fit any post
+- **Not** abstract UI / neon “AI tech” as the whole hero
+- Include **visible indicators**:
+  - Tool UI on screen (PDF pages, editor panels, invoices, browser tabs, SQL, menu card, etc.), **and/or**
+  - Related props (PDF folder, camera, product photos, packing slip, seating chart, audio gear, etc.), **and/or**
+  - Setting that matches the subject
+- Clothing, background, persona fit the topic
 - **If the image could fit any blog, it is wrong — regenerate until the topic is obvious at a glance**
 
-## 4. Branding — bottom stripe only
-Apply `Agent/scripts/brand_hero.py` (or identical pixel layout):
-- Dark bottom bar only (~48 px)
-- Logo **F.** in **#4FD8C4**
-- Text **FreeDailyPro.com** — **only the first F teal**, rest white
-- **No** logo floating in the scene
-- **No** top-left / full-height side bar logo
-- **No** third-party logos, watermarks, or copyright text
-- **No** title text baked into the photo
+## 4. Branding — bottom sticker only
+**Canonical sticker script (owner original):**  
+`Agent/scripts/brand_image.py`  
+Assets: `Agent/scripts/branding/logo_f_icon.png` (+ fonts when valid)
 
-## 5. Pipeline (every hero)
+What the sticker does (original Aug 2026 design):
+- Cover-crop to 1200×630
+- Bottom **gradient** dark strip (~78 px)
+- Real **F. icon** + text **FreeDailyPro.com** (first **F** `#4FD8C4`, rest white)
+- Thin **teal hairline** at the very bottom edge
+- **No** logo inside the photo scene
+- **No** top-left / full-height side bar
+- **No** third-party logos or watermarks
+- **No** title/slogan painted into the photo
+
+`Agent/scripts/brand_hero.py` is a **later simplified** lockup (flat 48 px bar + drawn circle F).  
+**Prefer `brand_image.py`.** Do not treat the simplified script as a reason to skip topic-relevance.
+
+## 5. Pipeline (every hero — do not deviate)
 ```
-1. Generate or source a TOPIC-SPECIFIC photoreal scene
-   (person doing THIS tool’s real task + props/UI visible)
-2. python Agent/scripts/brand_hero.py SOURCE.jpg images/<slug>.webp
-3. Verify: 1200x630, <150KB, bottom stripe + F. + FreeDailyPro.com
-4. Confirm: topic obvious at a glance (fail if generic)
-5. Write imageAlt describing what is visible (not a copy of the title)
+1. Create a TOPIC-SPECIFIC photoreal scene
+   person doing THIS tool’s real task + props/UI visible
+   (prompt must NOT put FreeDailyPro logo in the scene)
+
+2. Apply the owner sticker:
+   python3 Agent/scripts/brand_image.py SOURCE.jpg images/<slug>.webp
+
+3. Verify all of:
+   - 1200×630 WebP < 150 kB
+   - bottom sticker only (F. icon + FreeDailyPro.com)
+   - topic obvious at a glance (fail if generic / reusable on another post)
+   - unique to this slug
 ```
 
 ## 6. Forbidden (automatic reject)
-- Generic picsum / random stock that does not show the tool task
+- Generic picsum / stock with no tool task
 - Reusing one photo for multiple slugs
-- Abstract “AI tech” panels as the full hero
-- Stripe missing, wrong size, ≥150 KB
-- Logo inside the scene or top-left brand mark
-- Title / slogan painted on the image
+- Abstract-only “tech panel” heroes
+- Missing sticker, wrong size, ≥150 kB
+- Logo baked into the scene **and** sticker
+- Top-left brand mark or full-height teal side bar
+- “Fixed” by only adding a dark bar to a still-generic photo
 
 ## 7. Self-check before commit
 - [ ] 1200×630 WebP < 150 kB  
-- [ ] Bottom stripe only with teal F. + FreeDailyPro.com  
+- [ ] Bottom sticker via `brand_image.py` (icon + FreeDailyPro.com + teal hairline)  
 - [ ] Person (or clear hands) doing **this** task  
 - [ ] Tool UI or topic props visible  
 - [ ] Could **not** swap this image onto an unrelated post  
 - [ ] Unique to this slug  
+
+## 8. Live-site hero fixes
+If replacing live `/blog/{slug}.webp` files:
+- New folder: `from-grok/YYYY-MM-DD-HHMM-hero-image-fixes/`
+- `images/{slug}.webp` named exactly as live slug
+- `APPLY-MAP.md` with slug + **blog title** + live URL
+- Regenerate **scene first** when the live hero is abstract/generic; do not only re-stripe
+
+---
+
+*Keep this file aligned with RULES.md / 1-NEW-BLOG-RULES.md. Change only when the owner asks.*

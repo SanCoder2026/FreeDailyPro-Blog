@@ -44,3 +44,10 @@ Full instructions: ../GROK-HANDOFF.md
 - **Use this:** `2026-10-28-1200-fix-live-blog-heroes` — **82** live blog hero replacements + `APPLY-MAP.md` (slug + live title)
 - Partial earlier pack: `2026-10-28-1200-hero-image-fixes` (36) — superseded by the 82 pack
 - Permanent rule: `from-grok/HERO-IMAGE-RULE.md` (same as password-generator-new-accounts.webp standard)
+
+## Hero standard (owner original — locked)
+- Rule: `HERO-IMAGE-RULE.md` (quotes RULES.md §5 + 1-NEW-BLOG-RULES.md §10)
+- Sticker script: `Agent/scripts/brand_image.py` + `Agent/scripts/branding/` (NOT the simplified brand_hero alone)
+- Gold: `2026-10-15-1905-.../password-generator-new-accounts.webp`
+- Topic relevance is mandatory; a bottom bar on a generic photo is still a fail
+
