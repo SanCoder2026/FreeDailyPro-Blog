@@ -1,7 +1,12 @@
+## Latest hero fix pack
+
+- `2026-10-28-1300-hero-image-fixes-topic-relevant` — **36 topic-relevant heroes** (regenerated scenes + `brand_image.py`). Use this pack; do **not** apply the older 1200 re-stripe pack.
+- Locked rule: `HERO-IMAGE-RULE.md` (topic relevance CRITICAL; bottom sticker only).
+
 Grok: add one new folder per batch here, named YYYY-MM-DD-HHMM-short-name, with NOTE.md, posts/ and images/.
 Full instructions: ../GROK-HANDOFF.md
 
-**Hero standard (locked):** `HERO-IMAGE-RULE.md` — every hero must match `password-generator-new-accounts.webp` (1200×630 WebP, bottom FreeDailyPro stripe only via `Agent/scripts/brand_hero.py`).
+**Hero standard (locked):** `HERO-IMAGE-RULE.md` — every hero must match `password-generator-new-accounts.webp` (1200×630 WebP, **topic-relevant** people + tool UI/props, bottom FreeDailyPro sticker only via `Agent/scripts/brand_image.py`). Grok must push back on any request to weaken this.
 
 ## 2026-10-17 batch50c (second 50)
 - 2026-10-17-1700 … 1745: ten batches of 5 (webp-converter → sprite-sheet-tool)

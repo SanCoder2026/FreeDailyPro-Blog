@@ -1,0 +1,326 @@
+[
+  {
+    "slug": "api-video-audio-image-expansion",
+    "title": "FreeDailyPro API Adds Video, Audio and Image Processing",
+    "h1": "FreeDailyPro API Adds Video, Audio and Image Processing",
+    "live_url": "https://www.freedailypro.com/blog/api-video-audio-image-expansion",
+    "hero_file": "images/api-video-audio-image-expansion.webp",
+    "apply_path_on_site": "/blog/api-video-audio-image-expansion.webp",
+    "bytes": 27802
+  },
+  {
+    "slug": "book-writing-toolbox",
+    "title": "Chapters to a KDP-Ready Book, One Pre-flight at a Time",
+    "h1": "Chapters to a KDP-Ready Book, One Pre-flight at a Time",
+    "live_url": "https://www.freedailypro.com/blog/book-writing-toolbox",
+    "hero_file": "images/book-writing-toolbox.webp",
+    "apply_path_on_site": "/blog/book-writing-toolbox.webp",
+    "bytes": 17758
+  },
+  {
+    "slug": "bulk-image-batch-processing",
+    "title": "Process Dozens of Images at Once: Bulk Image Tools for Real Work",
+    "h1": "Process Dozens of Images at Once: Bulk Image Tools for Real Work",
+    "live_url": "https://www.freedailypro.com/blog/bulk-image-batch-processing",
+    "hero_file": "images/bulk-image-batch-processing.webp",
+    "apply_path_on_site": "/blog/bulk-image-batch-processing.webp",
+    "bytes": 53396
+  },
+  {
+    "slug": "compare-pdf-document-differences",
+    "title": "Compare Two PDFs Side by Side and Spot Contract Changes Fast",
+    "h1": "Compare Two PDFs Side by Side and Spot Contract Changes Fast",
+    "live_url": "https://www.freedailypro.com/blog/compare-pdf-document-differences",
+    "hero_file": "images/compare-pdf-document-differences.webp",
+    "apply_path_on_site": "/blog/compare-pdf-document-differences.webp",
+    "bytes": 57096
+  },
+  {
+    "slug": "compound-interest-sip-calculators",
+    "title": "See Compound Growth Clearly: Compound Interest and SIP Tools",
+    "h1": "See Compound Growth Clearly: Compound Interest and SIP Tools",
+    "live_url": "https://www.freedailypro.com/blog/compound-interest-sip-calculators",
+    "hero_file": "images/compound-interest-sip-calculators.webp",
+    "apply_path_on_site": "/blog/compound-interest-sip-calculators.webp",
+    "bytes": 54582
+  },
+  {
+    "slug": "contract-templates-free-drafts",
+    "title": "Start Contracts Faster With Templates: NDA, Lease and More",
+    "h1": "Start Contracts Faster With Templates: NDA, Lease and More",
+    "live_url": "https://www.freedailypro.com/blog/contract-templates-free-drafts",
+    "hero_file": "images/contract-templates-free-drafts.webp",
+    "apply_path_on_site": "/blog/contract-templates-free-drafts.webp",
+    "bytes": 57596
+  },
+  {
+    "slug": "corporate-safe-tools",
+    "title": "Getting Document Work Done When Chat Assistants Are Blocked",
+    "h1": "Getting Document Work Done When Chat Assistants Are Blocked",
+    "live_url": "https://www.freedailypro.com/blog/corporate-safe-tools",
+    "hero_file": "images/corporate-safe-tools.webp",
+    "apply_path_on_site": "/blog/corporate-safe-tools.webp",
+    "bytes": 55628
+  },
+  {
+    "slug": "favorites-your-own-tools-page",
+    "title": "Build Your Own FreeDailyPro Page With Just the Tools You Love",
+    "h1": "Build Your Own FreeDailyPro Page With Just the Tools You Love",
+    "live_url": "https://www.freedailypro.com/blog/favorites-your-own-tools-page",
+    "hero_file": "images/favorites-your-own-tools-page.webp",
+    "apply_path_on_site": "/blog/favorites-your-own-tools-page.webp",
+    "bytes": 52882
+  },
+  {
+    "slug": "free-audio-tools-voice-memos-podcast-cleanup",
+    "title": "Audio Tools: From Voice Memos to Podcast Cleanup",
+    "h1": "Audio Tools: From Voice Memos to Podcast Cleanup",
+    "live_url": "https://www.freedailypro.com/blog/free-audio-tools-voice-memos-podcast-cleanup",
+    "hero_file": "images/free-audio-tools-voice-memos-podcast-cleanup.webp",
+    "apply_path_on_site": "/blog/free-audio-tools-voice-memos-podcast-cleanup.webp",
+    "bytes": 50374
+  },
+  {
+    "slug": "free-browser-tools-no-install-needed",
+    "title": "10 Browser Tools That Save You From Installing Software",
+    "h1": "10 Browser Tools That Save You From Installing Software",
+    "live_url": "https://www.freedailypro.com/blog/free-browser-tools-no-install-needed",
+    "hero_file": "images/free-browser-tools-no-install-needed.webp",
+    "apply_path_on_site": "/blog/free-browser-tools-no-install-needed.webp",
+    "bytes": 40460
+  },
+  {
+    "slug": "free-household-budgeting-and-grocery-tools",
+    "title": "Household Budgeting, Grocery and Family Planning Tools",
+    "h1": "Household Budgeting, Grocery and Family Planning Tools",
+    "live_url": "https://www.freedailypro.com/blog/free-household-budgeting-and-grocery-tools",
+    "hero_file": "images/free-household-budgeting-and-grocery-tools.webp",
+    "apply_path_on_site": "/blog/free-household-budgeting-and-grocery-tools.webp",
+    "bytes": 62460
+  },
+  {
+    "slug": "free-legal-document-templates-guide",
+    "title": "How to Create an NDA, Lease or Power of Attorney Online",
+    "h1": "How to Create an NDA, Lease or Power of Attorney Online",
+    "live_url": "https://www.freedailypro.com/blog/free-legal-document-templates-guide",
+    "hero_file": "images/free-legal-document-templates-guide.webp",
+    "apply_path_on_site": "/blog/free-legal-document-templates-guide.webp",
+    "bytes": 28542
+  },
+  {
+    "slug": "free-menu-invitation-and-print-design-tools",
+    "title": "Menu, Invitation and Print Design Tools",
+    "h1": "Menu, Invitation and Print Design Tools",
+    "live_url": "https://www.freedailypro.com/blog/free-menu-invitation-and-print-design-tools",
+    "hero_file": "images/free-menu-invitation-and-print-design-tools.webp",
+    "apply_path_on_site": "/blog/free-menu-invitation-and-print-design-tools.webp",
+    "bytes": 68224
+  },
+  {
+    "slug": "free-pdf-toolkit-everyday-workflow",
+    "title": "The PDF Toolkit for Your Everyday Work",
+    "h1": "The PDF Toolkit for Your Everyday Work",
+    "live_url": "https://www.freedailypro.com/blog/free-pdf-toolkit-everyday-workflow",
+    "hero_file": "images/free-pdf-toolkit-everyday-workflow.webp",
+    "apply_path_on_site": "/blog/free-pdf-toolkit-everyday-workflow.webp",
+    "bytes": 47972
+  },
+  {
+    "slug": "free-relocation-and-moving-tools",
+    "title": "Tools for Relocating or Moving to a New City",
+    "h1": "Tools for Relocating or Moving to a New City",
+    "live_url": "https://www.freedailypro.com/blog/free-relocation-and-moving-tools",
+    "hero_file": "images/free-relocation-and-moving-tools.webp",
+    "apply_path_on_site": "/blog/free-relocation-and-moving-tools.webp",
+    "bytes": 52794
+  },
+  {
+    "slug": "free-tools-for-college-students",
+    "title": "Tools for College Students (and the Parents Paying for It)",
+    "h1": "Tools for College Students (and the Parents Paying for It)",
+    "live_url": "https://www.freedailypro.com/blog/free-tools-for-college-students",
+    "hero_file": "images/free-tools-for-college-students.webp",
+    "apply_path_on_site": "/blog/free-tools-for-college-students.webp",
+    "bytes": 66134
+  },
+  {
+    "slug": "free-tools-for-freelancers-and-solopreneurs",
+    "title": "Freelancers: Stop Paying for Tools You Rarely Use",
+    "h1": "Freelancers: Stop Paying for Tools You Rarely Use",
+    "live_url": "https://www.freedailypro.com/blog/free-tools-for-freelancers-and-solopreneurs",
+    "hero_file": "images/free-tools-for-freelancers-and-solopreneurs.webp",
+    "apply_path_on_site": "/blog/free-tools-for-freelancers-and-solopreneurs.webp",
+    "bytes": 59804
+  },
+  {
+    "slug": "free-tools-for-personal-finance-planning",
+    "title": "Tools for Planning Your Own Finances",
+    "h1": "Tools for Planning Your Own Finances",
+    "live_url": "https://www.freedailypro.com/blog/free-tools-for-personal-finance-planning",
+    "hero_file": "images/free-tools-for-personal-finance-planning.webp",
+    "apply_path_on_site": "/blog/free-tools-for-personal-finance-planning.webp",
+    "bytes": 49346
+  },
+  {
+    "slug": "free-tools-for-small-business-owners",
+    "title": "Tools for Running a Small Business",
+    "h1": "Tools for Running a Small Business",
+    "live_url": "https://www.freedailypro.com/blog/free-tools-for-small-business-owners",
+    "hero_file": "images/free-tools-for-small-business-owners.webp",
+    "apply_path_on_site": "/blog/free-tools-for-small-business-owners.webp",
+    "bytes": 61846
+  },
+  {
+    "slug": "free-tools-for-writers",
+    "title": "A Writer's Toolkit: Tools for Long-Form Work",
+    "h1": "A Writer's Toolkit: Tools for Long-Form Work",
+    "live_url": "https://www.freedailypro.com/blog/free-tools-for-writers",
+    "hero_file": "images/free-tools-for-writers.webp",
+    "apply_path_on_site": "/blog/free-tools-for-writers.webp",
+    "bytes": 58034
+  },
+  {
+    "slug": "free-travel-and-event-planning-tools",
+    "title": "Tools for Planning a Trip or an Event",
+    "h1": "Tools for Planning a Trip or an Event",
+    "live_url": "https://www.freedailypro.com/blog/free-travel-and-event-planning-tools",
+    "hero_file": "images/free-travel-and-event-planning-tools.webp",
+    "apply_path_on_site": "/blog/free-travel-and-event-planning-tools.webp",
+    "bytes": 53844
+  },
+  {
+    "slug": "guide-to-free-health-calculators",
+    "title": "A Practical Guide to Health Calculators: BMI, Calories and More",
+    "h1": "A Practical Guide to Health Calculators: BMI, Calories and More",
+    "live_url": "https://www.freedailypro.com/blog/guide-to-free-health-calculators",
+    "hero_file": "images/guide-to-free-health-calculators.webp",
+    "apply_path_on_site": "/blog/guide-to-free-health-calculators.webp",
+    "bytes": 30284
+  },
+  {
+    "slug": "jwt-decoder-debug-tokens",
+    "title": "Decode JWTs Instantly in Your Browser for Auth Debugging",
+    "h1": "Decode JWTs Instantly in Your Browser for Auth Debugging",
+    "live_url": "https://www.freedailypro.com/blog/jwt-decoder-debug-tokens",
+    "hero_file": "images/jwt-decoder-debug-tokens.webp",
+    "apply_path_on_site": "/blog/jwt-decoder-debug-tokens.webp",
+    "bytes": 55262
+  },
+  {
+    "slug": "language-support-multiple-languages",
+    "title": "FreeDailyPro Now Speaks Your Language",
+    "h1": "FreeDailyPro Now Speaks Your Language",
+    "live_url": "https://www.freedailypro.com/blog/language-support-multiple-languages",
+    "hero_file": "images/language-support-multiple-languages.webp",
+    "apply_path_on_site": "/blog/language-support-multiple-languages.webp",
+    "bytes": 35988
+  },
+  {
+    "slug": "magazine-maker-launch",
+    "title": "Your Newsletter Doesn't Have to Look Like a Newsletter",
+    "h1": "Your Newsletter Doesn't Have to Look Like a Newsletter",
+    "live_url": "https://www.freedailypro.com/blog/magazine-maker-launch",
+    "hero_file": "images/magazine-maker-launch.webp",
+    "apply_path_on_site": "/blog/magazine-maker-launch.webp",
+    "bytes": 63532
+  },
+  {
+    "slug": "mesh-3d-converter",
+    "title": "Converting 3D Print Files Between STL, OBJ, and PLY",
+    "h1": "Converting 3D Print Files Between STL, OBJ, and PLY",
+    "live_url": "https://www.freedailypro.com/blog/mesh-3d-converter",
+    "hero_file": "images/mesh-3d-converter.webp",
+    "apply_path_on_site": "/blog/mesh-3d-converter.webp",
+    "bytes": 57314
+  },
+  {
+    "slug": "moving-cost-estimator",
+    "title": "What a Local or Long-Distance Move Might Cost",
+    "h1": "What a Local or Long-Distance Move Might Cost",
+    "live_url": "https://www.freedailypro.com/blog/moving-cost-estimator",
+    "hero_file": "images/moving-cost-estimator.webp",
+    "apply_path_on_site": "/blog/moving-cost-estimator.webp",
+    "bytes": 18512
+  },
+  {
+    "slug": "online-timer",
+    "title": "Online Timer With 10 Minute and Pomodoro Presets, No Signup",
+    "h1": "Online Timer With 10 Minute and Pomodoro Presets, No Signup",
+    "live_url": "https://www.freedailypro.com/blog/online-timer",
+    "hero_file": "images/online-timer.webp",
+    "apply_path_on_site": "/blog/online-timer.webp",
+    "bytes": 11952
+  },
+  {
+    "slug": "pay-stub-generator",
+    "title": "Make a Pay Stub From the Rates You Actually Withhold",
+    "h1": "Make a Pay Stub From the Rates You Actually Withhold",
+    "live_url": "https://www.freedailypro.com/blog/pay-stub-generator",
+    "hero_file": "images/pay-stub-generator.webp",
+    "apply_path_on_site": "/blog/pay-stub-generator.webp",
+    "bytes": 18316
+  },
+  {
+    "slug": "publishing-platform-picker-kdp-ingramspark-bn-lulu",
+    "title": "Why Your Book\u2019s Trim Size and ISBN Depend on the Platform You Pick",
+    "h1": "Why Your Book\u2019s Trim Size and ISBN Depend on the Platform You Pick",
+    "live_url": "https://www.freedailypro.com/blog/publishing-platform-picker-kdp-ingramspark-bn-lulu",
+    "hero_file": "images/publishing-platform-picker-kdp-ingramspark-bn-lulu.webp",
+    "apply_path_on_site": "/blog/publishing-platform-picker-kdp-ingramspark-bn-lulu.webp",
+    "bytes": 27468
+  },
+  {
+    "slug": "removed-login-requirement-file-tools",
+    "title": "You No Longer Need to Sign In for Any Tool, Including File-Based Ones",
+    "h1": "You No Longer Need to Sign In for Any Tool, Including File-Based Ones",
+    "live_url": "https://www.freedailypro.com/blog/removed-login-requirement-file-tools",
+    "hero_file": "images/removed-login-requirement-file-tools.webp",
+    "apply_path_on_site": "/blog/removed-login-requirement-file-tools.webp",
+    "bytes": 40840
+  },
+  {
+    "slug": "retirement-calculators-explained",
+    "title": "What Social Security, 401(k) and FIRE Calculators Tell You",
+    "h1": "What Social Security, 401(k) and FIRE Calculators Tell You",
+    "live_url": "https://www.freedailypro.com/blog/retirement-calculators-explained",
+    "hero_file": "images/retirement-calculators-explained.webp",
+    "apply_path_on_site": "/blog/retirement-calculators-explained.webp",
+    "bytes": 45662
+  },
+  {
+    "slug": "safe-alternatives-to-chatgpt-for-document-work",
+    "title": "Safe Alternatives to ChatGPT for Document Work",
+    "h1": "Safe Alternatives to ChatGPT for Document Work",
+    "live_url": "https://www.freedailypro.com/blog/safe-alternatives-to-chatgpt-for-document-work",
+    "hero_file": "images/safe-alternatives-to-chatgpt-for-document-work.webp",
+    "apply_path_on_site": "/blog/safe-alternatives-to-chatgpt-for-document-work.webp",
+    "bytes": 38128
+  },
+  {
+    "slug": "shunn-manuscript-onix-preflight-check",
+    "title": "Shunn Format, ONIX and Pre-flight: The Step Writers Skip",
+    "h1": "Shunn Format, ONIX and Pre-flight: The Step Writers Skip",
+    "live_url": "https://www.freedailypro.com/blog/shunn-manuscript-onix-preflight-check",
+    "hero_file": "images/shunn-manuscript-onix-preflight-check.webp",
+    "apply_path_on_site": "/blog/shunn-manuscript-onix-preflight-check.webp",
+    "bytes": 25972
+  },
+  {
+    "slug": "vendor-quote-comparison",
+    "title": "Compare Vendor Quotes Without Picking Only the Cheapest",
+    "h1": "Compare Vendor Quotes Without Picking Only the Cheapest",
+    "live_url": "https://www.freedailypro.com/blog/vendor-quote-comparison",
+    "hero_file": "images/vendor-quote-comparison.webp",
+    "apply_path_on_site": "/blog/vendor-quote-comparison.webp",
+    "bytes": 21158
+  },
+  {
+    "slug": "where-to-get-official-tax-employment-forms",
+    "title": "Where to Find Official W-4, W-9 and I-9 Forms",
+    "h1": "Where to Find Official W-4, W-9 and I-9 Forms",
+    "live_url": "https://www.freedailypro.com/blog/where-to-get-official-tax-employment-forms",
+    "hero_file": "images/where-to-get-official-tax-employment-forms.webp",
+    "apply_path_on_site": "/blog/where-to-get-official-tax-employment-forms.webp",
+    "bytes": 30552
+  }
+]
