@@ -1,74 +1,74 @@
-# HERO IMAGE RULE (LOCKED — DO NOT DEVIATE)
+# FreeDailyPro Hero Image Rule — ORIGINAL STANDARD (locked)
 
-This rule is mandatory for every Grok (and any agent) blog hero from 2026-10-28 forward.
+**Source of truth (your original rules, before any Grok drift):**
+- `RULES.md` §5 Image Rules (repo root / blog-agent)
+- `site-blog-pack/1-NEW-BLOG-RULES.md` §10 Hero image
+- `site-blog-pack/00-START-HERE-INSTRUCTIONS-FOR-GROK.md` point 8
 
-## Gold standard
-- Post: `from-grok/2026-10-15-1905-new-pdf-to-jpg-and-password-generator/posts/password-generator-new-accounts.md`
-- Image: `password-generator-new-accounts.webp`
-- Live: https://www.freedailypro.com/blog/password-generator-new-accounts.webp
+**Gold example that matches the standard:**
+`from-grok/2026-10-15-1905-new-pdf-to-jpg-and-password-generator/images/password-generator-new-accounts.webp`  
+(person at a home desk, laptop + phone, password task obvious; bottom FreeDailyPro stripe only)
 
-If a new hero does not match this standard, it is **rejected**.
+Claude’s first hero note (2026-10-15-1935 CHANGES) only required *shipping* a 1200×630 WebP <150 kB when a post had no image. It did **not** replace or weaken the content rules below.
 
-## Required output
-| Property | Value |
-|----------|-------|
-| Size | **1200 × 630** exactly |
-| Format | **WebP** |
-| Max file size | **< 150 KB** |
-| Content | Realistic **people-in-context** photo (or clear tool-in-use scene). Not abstract blobs, not text posters, not pure UI screenshots as the only content. |
-| Branding | **Bottom stripe only** (see below). Nothing else. |
+---
 
-## Required branding (bottom stripe only)
-Use **only** `Agent/scripts/brand_hero.py`. Do not hand-draw a different bar. Do not invent a new logo lockup.
+## 1. Size & file
+- Exactly **1200 × 630** WebP
+- **Under 150 kB**
+- Filename = post slug: `<slug>.webp`
+- **One unique image per post** — never reuse across posts
 
-The script applies:
-1. Cover-crop resize to 1200×630
-2. Dark full-width bar: height **48px**, color RGB **(20, 28, 36)**
-3. Left teal accent: **8px** wide, color **#4FD8C4** / RGB (79, 216, 196)
-4. Teal circle (~28px) with dark **F**
-5. Text **FreeDailyPro.com** — first **F** teal, remainder white
-6. WebP quality step-down until size **< 150KB**
+## 2. People (prefer humans)
+- Prefer real people in the scene
+- Variety: women, men, older adults, groups as needed
+- Natural, positive expression when suitable
+- Attire and setting match the blog theme (office / home / outdoor / worksite / studio)
 
-### Forbidden (automatic reject)
-- No bottom stripe
-- Dark bar without FreeDailyPro.com text / F circle
-- Floating F logo on the photo body without the dark bar
-- Full-height teal side bar
-- Top watermark / diagonal watermark
-- Wrong dimensions (not 1200×630)
-- File ≥ 150KB after branding
-- Overwriting brand_hero.py colors or layout “for this batch”
+## 3. Topic relevance is MANDATORY (CRITICAL) — do not skip
+- The image **MUST clearly show what the blog is about**
+- **Not** a generic smiling person
+- **Not** a random stock photo that could fit any post
+- **Not** abstract UI / neon tech / teal-only graphics as the whole hero
+- Include **visible indicators** of the tool/task:
+  - Tool UI on screen (PDF pages, image editor, invoices, browser tabs, code/SQL, menu card, etc.)
+  - Related props (folders labeled PDF, camera, product photos, packing slip, seating chart, audio gear, etc.)
+  - Setting that matches the subject (freelancer desk, creative studio, warehouse, event floor, kitchen for catering, etc.)
+- Clothing, background, and persona must fit the topic
+- **If the image could fit any blog, it is wrong — regenerate until the topic is obvious at a glance**
 
-## Process (every new blog hero)
-1. Obtain a suitable base photo (people in context preferred).
-2. Run:
-   ```bash
-   python3 Agent/scripts/brand_hero.py INPUT.jpg OUTPUT.webp
-   ```
-3. Verify: 1200×630, dark bar, teal F circle, FreeDailyPro.com visible, size < 150KB.
-4. Name the file to match the post slug: `{post-slug}.webp`
-5. Place under the batch `images/` folder and set frontmatter `image: "../images/{post-slug}.webp"`
+## 4. Branding — bottom stripe only
+Apply `Agent/scripts/brand_hero.py` (or identical pixel layout):
+- Dark bottom bar only (~48 px)
+- Logo **F.** in **#4FD8C4**
+- Text **FreeDailyPro.com** — **only the first F teal**, rest white
+- **No** logo floating in the scene
+- **No** top-left / full-height side bar logo
+- **No** third-party logos, watermarks, or copyright text
+- **No** title text baked into the photo
 
-## Process (fixing live heroes)
-1. Download live `/blog/{slug}.webp`
-2. If incomplete brand marks sit in the bottom ~90px, crop them off the source first
-3. Run the same `brand_hero.py`
-4. Ship in a `from-grok/YYYY-MM-DD-HHMM-hero-image-fixes/` folder with `APPLY-MAP.md` (slug + title + live URL + file)
-
-## Script location
-`Agent/scripts/brand_hero.py` (canonical). The pixel layout must stay identical to this file.
-
-## Self-check before commit
-```bash
-python3 - <<'PY'
-from PIL import Image
-from pathlib import Path
-p = Path("images/SOME.webp")
-im = Image.open(p).convert("RGB")
-assert im.size == (1200, 630)
-assert p.stat().st_size < 150_000
-assert im.getpixel((600, 620))[0] < 50   # dark bottom
-assert im.getpixel((3, 620))[1] > 150    # teal left accent
-print("hero OK", p)
-PY
+## 5. Pipeline (every hero)
 ```
+1. Generate or source a TOPIC-SPECIFIC photoreal scene
+   (person doing THIS tool’s real task + props/UI visible)
+2. python Agent/scripts/brand_hero.py SOURCE.jpg images/<slug>.webp
+3. Verify: 1200x630, <150KB, bottom stripe + F. + FreeDailyPro.com
+4. Confirm: topic obvious at a glance (fail if generic)
+5. Write imageAlt describing what is visible (not a copy of the title)
+```
+
+## 6. Forbidden (automatic reject)
+- Generic picsum / random stock that does not show the tool task
+- Reusing one photo for multiple slugs
+- Abstract “AI tech” panels as the full hero
+- Stripe missing, wrong size, ≥150 KB
+- Logo inside the scene or top-left brand mark
+- Title / slogan painted on the image
+
+## 7. Self-check before commit
+- [ ] 1200×630 WebP < 150 kB  
+- [ ] Bottom stripe only with teal F. + FreeDailyPro.com  
+- [ ] Person (or clear hands) doing **this** task  
+- [ ] Tool UI or topic props visible  
+- [ ] Could **not** swap this image onto an unrelated post  
+- [ ] Unique to this slug  
