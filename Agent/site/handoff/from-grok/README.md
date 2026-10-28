@@ -31,3 +31,6 @@ Full instructions: ../GROK-HANDOFF.md
 
 ## 2026-10-27 new twenty tools
 - 2026-10-27-2030-new-twenty-tools-batch: 20 posts (video/image/pdf/dev/text/business/tax)
+
+## 2026-10-28 hero image fixes (live site)
+- 2026-10-28-1200-hero-image-fixes: **36** replacement heroes for live blogs missing the standard bottom brand bar. See APPLY-MAP.md (slug + title + live URL). Rule locked in HERO-IMAGE-RULE.md.
