@@ -39,3 +39,8 @@ Full instructions: ../GROK-HANDOFF.md
 - **PRIMARY:** `2026-10-28-1200-fix-live-blog-heroes` — **82** replacement heroes for non-standard/missing live blog heroes. Use `APPLY-MAP.md` (slug + title + live URL).
 - Subset also under `2026-10-28-1200-hero-image-fixes` (36 stripe-only rebrands). Prefer the **82** folder.
 - Permanent rule: `HERO-IMAGE-RULE.md`
+
+## 2026-10-28 hero image fixes
+- **Use this:** `2026-10-28-1200-fix-live-blog-heroes` — **82** live blog hero replacements + `APPLY-MAP.md` (slug + live title)
+- Partial earlier pack: `2026-10-28-1200-hero-image-fixes` (36) — superseded by the 82 pack
+- Permanent rule: `from-grok/HERO-IMAGE-RULE.md` (same as password-generator-new-accounts.webp standard)
