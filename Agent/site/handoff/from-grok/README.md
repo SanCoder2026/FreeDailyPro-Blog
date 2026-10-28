@@ -1,7 +1,9 @@
 ## Latest hero fix pack
 
-- `2026-10-28-1300-hero-image-fixes-topic-relevant` — **36 topic-relevant heroes** (regenerated scenes + `brand_image.py`). Use this pack; do **not** apply the older 1200 re-stripe pack.
-- Locked rule: `HERO-IMAGE-RULE.md` (topic relevance CRITICAL; bottom sticker only).
+- `2026-10-28-2015-hero-image-fixes` — **7 heroes** fixed after full live audit (floating F, abstract, exact/near-duplicate reuse). Prefer this for the listed slugs.
+- Prior: `2026-10-28-1300-hero-image-fixes-topic-relevant` (36) already on live.
+- Locked rule: `HERO-IMAGE-RULE.md` (topic relevance CRITICAL; bottom sticker only via `brand_image.py`).
+
 
 Grok: add one new folder per batch here, named YYYY-MM-DD-HHMM-short-name, with NOTE.md, posts/ and images/.
 Full instructions: ../GROK-HANDOFF.md

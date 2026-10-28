@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "mail-merge-letters-and-certificates-from-csv",
+    "title": "Mail-Merge Letters and Certificates From a CSV",
+    "live_url": "https://www.freedailypro.com/blog/mail-merge-letters-and-certificates-from-csv",
+    "hero_file": "images/mail-merge-letters-and-certificates-from-csv.webp",
+    "apply_path": "/blog/mail-merge-letters-and-certificates-from-csv.webp"
+  },
+  {
+    "slug": "plan-event-one-shared-project-event-suite",
+    "title": "Plan Any Event in One Shared Project",
+    "live_url": "https://www.freedailypro.com/blog/plan-event-one-shared-project-event-suite",
+    "hero_file": "images/plan-event-one-shared-project-event-suite.webp",
+    "apply_path": "/blog/plan-event-one-shared-project-event-suite.webp"
+  },
+  {
+    "slug": "install-event-apps-iphone-android",
+    "title": "Install the Event Apps on iPhone and Android",
+    "live_url": "https://www.freedailypro.com/blog/install-event-apps-iphone-android",
+    "hero_file": "images/install-event-apps-iphone-android.webp",
+    "apply_path": "/blog/install-event-apps-iphone-android.webp"
+  },
+  {
+    "slug": "one-link-per-exhibitor-trade-show-floor",
+    "title": "One Link per Exhibitor: Running a Trade Show Floor",
+    "live_url": "https://www.freedailypro.com/blog/one-link-per-exhibitor-trade-show-floor",
+    "hero_file": "images/one-link-per-exhibitor-trade-show-floor.webp",
+    "apply_path": "/blog/one-link-per-exhibitor-trade-show-floor.webp"
+  },
+  {
+    "slug": "freedailypro-vs-tinywow-privacy-and-free-tier-compared",
+    "title": "FreeDailyPro vs TinyWow: Privacy and Usage Limits Compared",
+    "live_url": "https://www.freedailypro.com/blog/freedailypro-vs-tinywow-privacy-and-free-tier-compared",
+    "hero_file": "images/freedailypro-vs-tinywow-privacy-and-free-tier-compared.webp",
+    "apply_path": "/blog/freedailypro-vs-tinywow-privacy-and-free-tier-compared.webp"
+  },
+  {
+    "slug": "run-stage-countdown-and-focus-rounds",
+    "title": "Run a Stage Countdown or Focus Work Rounds",
+    "live_url": "https://www.freedailypro.com/blog/run-stage-countdown-and-focus-rounds",
+    "hero_file": "images/run-stage-countdown-and-focus-rounds.webp",
+    "apply_path": "/blog/run-stage-countdown-and-focus-rounds.webp"
+  },
+  {
+    "slug": "capture-event-receipts-against-budget",
+    "title": "Capture Event Receipts Against the Budget Line",
+    "live_url": "https://www.freedailypro.com/blog/capture-event-receipts-against-budget",
+    "hero_file": "images/capture-event-receipts-against-budget.webp",
+    "apply_path": "/blog/capture-event-receipts-against-budget.webp"
+  }
+]
