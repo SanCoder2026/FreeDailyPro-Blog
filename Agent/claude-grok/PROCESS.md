@@ -11,7 +11,8 @@ Agreed with the owner (Santosh), 29 Oct 2026. Claude's suggestions are folded in
 - Grok writes briefs to `Agent/claude-grok/from-grok/`.
 - Claude writes reports to `Agent/claude-grok/from-claude/`.
 - Claude records the last file it pulled, so only new files are read. Pull marker: a dated name; do not rewrite or delete old files, add new ones.
-- Blog drafts and hero packs stay in `Agent/site/handoff/` (unchanged).
+- **Claude talks only to Grok.** Anything meant for the blog bot (hero lists, text-fix notes, rule changes) goes into `from-claude/` and the Orchestrator passes it on. Claude does not write into the blog handoff folders.
+- Blog drafts and hero packs still arrive from the blog bot in `Agent/site/handoff/from-grok/`; Claude keeps reading them there when told they are ready (or when the Orchestrator references them in a brief).
 - The owner can still paste a report into the Orchestrator by hand; the file is the source of truth.
 
 ## Daily cadence

@@ -1,6 +1,6 @@
 # Claude ⇄ Grok Orchestrator channel
 
-Separate from the blog handoff (`Agent/site/handoff/`). Blog posts and hero images keep using that folder. **This folder is only for coordination between the Growth Orchestrator (Grok) and Claude (coding).**
+Separate from the blog handoff (`Agent/site/handoff/`). Claude writes only here; the Orchestrator relays anything for the blog bot. **This folder is only for coordination between the Growth Orchestrator (Grok) and Claude (coding).**
 
 | Folder | Who writes | Who reads |
 |---|---|---|
