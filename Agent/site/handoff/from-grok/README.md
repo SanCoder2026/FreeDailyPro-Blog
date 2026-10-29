@@ -1,8 +1,8 @@
 ## Latest hero fix pack
 
-- `2026-10-28-2015-hero-image-fixes` — **7 heroes** fixed after full live audit (floating F, abstract, exact/near-duplicate reuse). Prefer this for the listed slugs.
-- Prior: `2026-10-28-1300-hero-image-fixes-topic-relevant` (36) already on live.
-- Locked rule: `HERO-IMAGE-RULE.md` (topic relevance CRITICAL; bottom sticker only via `brand_image.py`).
+- `2026-10-29-0115-hero-topic-relevance-pass` — **15 heroes** (topic-first pass: seating chart, Bates stamp, mail-merge, event suite, etc.)
+- Prior: `2026-10-28-2015-hero-image-fixes` (7), `2026-10-28-1300-hero-image-fixes-topic-relevant` (36)
+- Locked rule: `HERO-IMAGE-RULE.md` — **topic relevance CRITICAL**; brand bar alone is not enough.
 
 
 Grok: add one new folder per batch here, named YYYY-MM-DD-HHMM-short-name, with NOTE.md, posts/ and images/.
