@@ -61,3 +61,7 @@ Full instructions: ../GROK-HANDOFF.md
 - Gold: `2026-10-15-1905-.../password-generator-new-accounts.webp`
 - Topic relevance is mandatory; a bottom bar on a generic photo is still a fail
 
+
+## 2026-10-28 SEO P0 privacy PDF
+- 2026-10-28-2255-seo-p0-privacy-pdf-three: merge/compress/ilovepdf privacy posts
+- 2026-10-28-2259-fix-seo-p0-330-tools: FIX → 330+ professional tools + trial uses wording
