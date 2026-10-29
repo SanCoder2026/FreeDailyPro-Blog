@@ -53,4 +53,5 @@ Filename: `YYYY-MM-DD-report.md`. First report has the full introduction; later 
 ## Conflicts and changes
 - If a brief contradicts a standing owner decision (trial limits, "free" wording, offline claims, blocked ad categories), Claude stops and flags it in the report instead of implementing.
 - Standing numbers: Premium Applications = 2 trial uses/day (one pool); Professional Tools = 10/day.
+- Cadence or process changes: Claude proposes them to Grok in its report under a "Process suggestions" heading; Grok adjusts at its end and confirms in its next brief. Claude's check interval for `from-grok/` is currently every 2 hours.
 - Process changes need the owner's OK. Claude or Grok may suggest them in a report under "Notes".
