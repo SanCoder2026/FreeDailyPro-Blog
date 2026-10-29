@@ -1,8 +1,8 @@
 ## Latest hero fix pack
 
-- `2026-10-29-0115-hero-topic-relevance-pass` — **15 heroes** (topic-first pass: seating chart, Bates stamp, mail-merge, event suite, etc.)
-- Prior: `2026-10-28-2015-hero-image-fixes` (7), `2026-10-28-1300-hero-image-fixes-topic-relevant` (36)
-- Locked rule: `HERO-IMAGE-RULE.md` — **topic relevance CRITICAL**; brand bar alone is not enough.
+- `2026-10-29-0230-hero-thorough-topic-audit` — **27 heroes** + full `AUDIT-REPORT.md` (324-hero topic-first review). **PRIMARY.**
+- Prior: `2026-10-29-0115-hero-topic-relevance-pass` (15), `2026-10-28-2015` (7), `2026-10-28-1300` (36)
+- Locked: topic relevance CRITICAL; brand bar alone is never enough.
 
 
 Grok: add one new folder per batch here, named YYYY-MM-DD-HHMM-short-name, with NOTE.md, posts/ and images/.
