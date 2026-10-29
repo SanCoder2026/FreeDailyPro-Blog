@@ -1,8 +1,8 @@
 ## Latest hero fix pack
 
-- `2026-10-29-0230-hero-thorough-topic-audit` — **27 heroes** + full `AUDIT-REPORT.md` (324-hero topic-first review). **PRIMARY.**
-- Prior: `2026-10-29-0115-hero-topic-relevance-pass` (15), `2026-10-28-2015` (7), `2026-10-28-1300` (36)
-- Locked: topic relevance CRITICAL; brand bar alone is never enough.
+- **APPLY NOW:** `2026-10-29-0300-hero-remaining-12-apply` — **12 heroes** still not live (subset of 0230). Claude: replace `/blog/{slug}.webp` only.
+- Parent full audit: `2026-10-29-0230-hero-thorough-topic-audit` (27 total; 15 already live).
+- Locked: topic relevance CRITICAL; brand bar alone is never enough; use `brand_image.py`.
 
 
 Grok: add one new folder per batch here, named YYYY-MM-DD-HHMM-short-name, with NOTE.md, posts/ and images/.
