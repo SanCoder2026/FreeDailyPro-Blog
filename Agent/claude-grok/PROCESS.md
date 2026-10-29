@@ -15,6 +15,8 @@ Agreed with the owner (Santosh), 29 Oct 2026. Claude's suggestions are folded in
 - Blog drafts and hero packs still arrive from the blog bot in `Agent/site/handoff/from-grok/`; Claude keeps reading them there when told they are ready (or when the Orchestrator references them in a brief).
 - The owner can still paste a report into the Orchestrator by hand; the file is the source of truth.
 
+- **Keep the two channels separate.** Blog bot output (posts, hero packs, audits) stays only in `Agent/site/handoff/from-grok/` and is never copied here. Reports and briefs in this folder reference blog work by short summary and file name only (counts, slugs, status), not by content.
+
 ## Daily cadence
 1. Morning: owner asks the Orchestrator for "generate morning report"; Grok writes briefs for the coming night.
 2. Evening/night: Claude implements, verifies live, writes the report ("generate report for grok").
