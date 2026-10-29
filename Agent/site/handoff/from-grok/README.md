@@ -67,3 +67,5 @@ Full instructions: ../GROK-HANDOFF.md
 - 2026-10-28-2259-fix-seo-p0-330-tools: FIX → 330+ professional tools + trial uses wording
 
 - 2026-10-28-2300-fix-seo-p0-trial-uses-wording: FIX residual usages→uses
+
+- 2026-10-28-2301-fix-compress-modes-ui-sync: FIX compress modes → Balanced/Aggressive/Extreme/Target size
