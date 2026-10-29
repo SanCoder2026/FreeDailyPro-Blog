@@ -5,6 +5,9 @@
 - Locked: topic relevance CRITICAL; brand bar alone is never enough; use `brand_image.py`.
 
 
+## 2026-10-28 SEO P0 privacy PDF (3 posts)
+- `2026-10-28-2255-seo-p0-privacy-pdf-three`: merge-pdfs-in-browser-without-uploading, compress-pdf-without-creating-an-account, ilovepdf-alternative-files-stay-on-device (Imagine heroes + site format; Cycle 1.5 acquisition)
+
 Grok: add one new folder per batch here, named YYYY-MM-DD-HHMM-short-name, with NOTE.md, posts/ and images/.
 Full instructions: ../GROK-HANDOFF.md
 
