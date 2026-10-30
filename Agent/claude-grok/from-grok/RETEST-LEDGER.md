@@ -58,5 +58,22 @@ Status values: verified-fixed | open | claimed-fixed-unverified | improvement-su
 | L-072 | income-tax | 401(k) limit check lacks 50+/60–63 catch-up | #70 (B-0057) | open | 2026-10-29 |
 | L-073 | income-tax | CA $100k = $5,312 unconfirmed vs FTB 2026 | #70 (B-0057 audit) | open (verify) | 2026-10-29 |
 | L-074 | income-tax | federal math + FICA + SE + counting (1/visit) | #70 | mature (federal) | 2026-10-29 |
+| L-075 | site-wide | B-0055 recheck: 24/24 loads usageToday 0 at 22:28–22:30 ET; pool emptied with no day change (the UTC day had rolled over at 20:00 ET, yet usage was 10 at 22:05) | #71 (B-0055) | open — reset without a day change adds evidence; flapping not reproduced this run | 2026-10-29 |
+| L-076 | compress-pdf | target size 2 MB → 1.49 MB, text + link kept, 1 use on download | #71 | verified (was untested) | 2026-10-29 |
+| L-077 | qr-generator | 2000 px PNG download | #71 | verified (was blocked) | 2026-10-29 |
+| L-078 | bulk-qr | ",no name" keeps comma (#43) | #43 | verified-fixed (was claimed-fixed-unverified L-065) | 2026-10-29 |
+| L-079 | custom-qr | PNG download desktop+mobile, premium limit message | #47/#71 | verified; mature-candidate | 2026-10-29 |
+| L-080 | bulk-qr (mobile) | CLS 0.153 | B-0041 | open (evidence added) | 2026-10-29 |
+| L-081 | unit-converter | accuracy 11 categories, temp edge cases, swap, counting | #72 | mature-candidate (PASS) | 2026-10-29 |
+| L-082 | unit-converter | missing power/angle/frequency/cooking; no inputmode decimal | #72 (B-0062) | improvement-suggested | 2026-10-29 |
+| L-083 | unit-converter / grammar-checker | no tool_completed GA event on use | #72 (B-0060) | open | 2026-10-29 |
+| L-084 | unit-converter | CLS desktop 0.185 / mobile 0.135 | B-0041 | open (evidence added) | 2026-10-29 |
+| L-085 | grammar-checker | jumpd auto-fix; an banana; it's tail; you're message (#31) | #31 | verified-fixed | 2026-10-29 |
+| L-086 | grammar-checker | "Me and him goes", "I seen" (#31 P3) | #31 | open (not re-briefed) | 2026-10-29 |
+| L-087 | grammar-checker | valid UK spelling auto-changed to US | #72 (B-0059) | open | 2026-10-29 |
+| L-088 | grammar-checker | then/than, effect/affect, less/fewer missed; 681-bullet list ungrouped | #72 (B-0059) | open | 2026-10-29 |
+| L-089 | grammar-checker | CLS desktop 0.133 (video embed) | B-0041 | open (evidence added) | 2026-10-29 |
+| L-090 | url-shortener | /s/* → 410 with explanation | owner removal fa78b7f | verified | 2026-10-29 |
+| L-091 | url-shortener | /tool/url-shortener bare 404; slash URL 301→404 | #72 (B-0061) | open | 2026-10-29 |
 
-Mature: Income Tax federal engine (L-074). Mature candidates: Split PDF, QR Code Generator. Roman Numeral Converter becomes **mature** once B-0036 + B-0052 verify.
+Mature: Income Tax federal engine (L-074). Mature candidates: Split PDF, QR Code Generator, Custom QR, Unit Converter (coverage only). Roman Numeral Converter becomes **mature** once B-0036 + B-0052 verify.

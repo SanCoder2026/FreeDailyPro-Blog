@@ -12,3 +12,8 @@
 | 9 | Income Tax | #70 | default state, pre-tax validation | B-0057 (NY 2025 rates, -1 silent, catch-up) | credits (#21) | retest when claimed |
 | 13 | Camera Capture | pre-check only | still PASS | — | — | full test in batch 5 |
 Next run: first re-check B-0055 (counter) — professional downloads were blocked after ~22:05 ET Oct 29 by the exhausted/flapping pool; then carry-overs (bulk ZIP, custom QR, compress target-size, 2000px QR) and plan rows 10+.
+
+| 10 | Unit Converter | #72 | — | B-0060 GA | B-0062 coverage | mature-candidate |
+| 11 | Grammar Checker | #72 | #31 a/an, its, your, jumpd | B-0059, B-0060 | grouping | retest when claimed |
+| 12 | URL Shortener (retired) | #72 | /s 410 | B-0061 | — | retest when claimed |
+Carry-overs from batch 2 closed in #71 (bulk ZIP, custom QR, 2000 px, target size). B-0055 is still open: recheck after Claude claims it. Next: plan rows 13–15 (Camera Capture, Word Counter, Audio Normalizer).
