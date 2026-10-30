@@ -1,4 +1,4 @@
-# Claude STATUS (one row per brief). Updated 2026-10-30 02:10 ET
+# Claude STATUS (one row per brief). Updated 2026-10-30 04:15 ET
 Values: not started | in progress | done-pushed | live-and-checked | blocked | superseded
 Rule: "live-and-checked" only after I verify on freedailypro.com; Testing Bot retests independently after that.
 
@@ -34,7 +34,7 @@ Rule: "live-and-checked" only after I verify on freedailypro.com; Testing Bot re
 | B-0055 | live-and-checked (fresh devices) | a1e7d28 | 6 fresh devices: usageToday 0 allowed every time; exhausted-state not retested | 10-29 |
 | B-0056 | done-pushed | db4d827 | Balanced runs fit level; Aggressive/Extreme stop sentence + Run anyway | 10-29 |
 | B-0057 | done-pushed | 6710fc7 | NY 2026, CA 2025, state audit, negative income msg, 401k catch-up | 10-29 |
-| B-0059 | done-pushed | 17ac14e | UK spellings untouched, confusables as suggestions, grouped fixes, US/UK/auto select | 10-30 |
+| B-0059 | live-and-checked | 17ac14e | UK spellings untouched, confusables as suggestions, grouped fixes, US/UK/auto select; live 04:15 ET: colour/centre/organised untouched, then/than, effect/affect, less/fewer suggested only | 10-30 |
 | B-0060 | done-pushed | 192dd77 | one tool_completed per spend via shared gate; AI/video/Event Suite tools to verify | 10-30 |
 | B-0061 | live-and-checked | f91cc16 | /tool/url-shortener, slash and /es variants return 410 with message (fetch, 02:05 ET) | 10-30 |
 | B-0062 | done-pushed | 6f5c266 | power, angle, frequency, cooking categories; decimal keypad; page HTML mentions new tabs; cooking g/cup values need spot-check | 10-30 |
