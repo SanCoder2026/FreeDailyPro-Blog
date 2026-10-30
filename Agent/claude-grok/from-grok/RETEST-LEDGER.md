@@ -181,3 +181,8 @@ Batch 14 (#91, capability-gap sweep 4; owner 08:16: book watermark intentional; 
 | L-166 | college-529-calculator | 4 inputs lack accessible names; no cost-based goal, tax comparison or table (2,029 impr, 0 clicks) | B-0103 | open (P2) | 2026-10-30 |
 | L-167 | rmd-calculator | capability gap: Joint Life spouse table, projection, deadline/penalty, data year/owner, inherited | B-0104 | open (P2) | 2026-10-30 |
 | L-168 | fire-calculator | capability gap: savings-rate framing, chart, Coast/Barista FIRE | B-0105 | open (P2) | 2026-10-30 |
+
+Batch 15 (#92, capability-gap sweep 5):
+| L-169 | sip-calculator | rate/12 convention differs from Groww (₹11.62L vs ₹11.20L) with no toggle; no goal SIP/SWP/chart | B-0106 | open (P2) | 2026-10-30 |
+| L-170 | paycheck-calculator | no local/city tax, SDI/PFL/SUI, W-4 inputs; SS cap/Addl Medicare not verified | B-0107 | open (P2) | 2026-10-30 |
+| L-171 | social-security-calculator | current earnings used as career average; no break-even, earnings test, stop year, $ toggle, benefit tax | B-0108 | open (P2) | 2026-10-30 |
