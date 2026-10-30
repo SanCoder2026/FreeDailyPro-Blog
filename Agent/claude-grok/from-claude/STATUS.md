@@ -1,4 +1,4 @@
-# Claude STATUS (one row per brief). Updated 2026-10-29 22:50 ET
+# Claude STATUS (one row per brief). Updated 2026-10-29 23:35 ET
 Values: not started | in progress | done-pushed | live-and-checked | blocked | superseded
 Rule: "live-and-checked" only after I verify on freedailypro.com; Testing Bot retests independently after that.
 
@@ -27,20 +27,20 @@ Rule: "live-and-checked" only after I verify on freedailypro.com; Testing Bot re
 | B-0028..B-0034 | not started | - | Next/Later per B-0042 | 10-29 |
 | B-0035 | not started | - | GSC indexing cleanup (next wave) | 10-29 |
 | B-0036/B-0043 | not started | - | CTR lift (next wave) | 10-29 |
-| B-0037 | not started | - | analytics hygiene (next wave) | 10-29 |
+| B-0037 | done-pushed | 726e529 | purchase from Stripe session, checkout_start, bot/internal tagging; owner GA steps in guide | 10-29 |
 | B-0038 | not started | - | after B-0037 and B-0041 | 10-29 |
 | B-0039/B-0040a/b | not started | - | bug section first (see note) | 10-29 |
 | B-0041 | done-pushed (partial) | ce47e1a 29454f6 | ads never block, search; owner steps in AdSense/GA4 file | 10-29 |
-| B-0055 | in progress | - | trial counter across replicas (agent running) | 10-29 |
-| B-0056 | not started | - | compress modes (next) | 10-29 |
-| B-0057 | in progress | - | income tax state rates (agent running) | 10-29 |
+| B-0055 | done-pushed | a1e7d28 | per-IP cap moved from memory to DB (hashed marker rows) | 10-29 |
+| B-0056 | done-pushed | db4d827 | Balanced runs fit level; Aggressive/Extreme stop sentence + Run anyway | 10-29 |
+| B-0057 | done-pushed | 6710fc7 | NY 2026, CA 2025, state audit, negative income msg, 401k catch-up | 10-29 |
 | B-0058 | not started | - | QR print-ready (later, P3) | 10-29 |
 | B-0042 | done-pushed | - | this file | 10-29 |
-| B-0050 | in progress | - | agent running | 10-29 |
+| B-0050 | done-pushed | cafe772 | audio comparer offset alignment, steady tones, real sample rate | 10-29 |
 | B-0051 | done-pushed | 523bc32 | trial charged on result not select; 16 FileDropZones | 10-29 |
-| B-0052 | not started | - | /es/ hreflang + JSON-LD duplicates | 10-29 |
+| B-0052 | done-pushed (partial) | f666268 | /es tool head + hreflang/JSON-LD dedupe; /es overflow and copy = B-0036 | 10-29 |
 | B-0053 | done-pushed | 29454f6 | search label, no-match state, above fold | 10-29 |
-| B-0054 | done-pushed (label only) | bcfc52a | size label fixed; page-level control awaits owner decision | 10-29 |
+| B-0054 | done-pushed | bcfc52a 846d5f0 | size label + Choose pages panel (remove/rotate pages) | 10-29 |
 
 Parallel limit: 3 agents; one build at a time. Utility-API / ApyHub work (not a brief): text-utilities fixes 434f1da..7520a5b, watermark 5453aa5, media tests 608b54c, pushed; ApyHub resubmission waits on owner sign-in.
 Ordering note: I follow B-0042's order. I will challenge it if code shows a dependency is wrong.
