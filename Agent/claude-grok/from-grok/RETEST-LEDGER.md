@@ -208,3 +208,13 @@ Batch 18 (#96, capability sweep 8):
 | L-182 | timezone-converter | no meeting grid/share/.ics; IANA-only names (DST handling verified OK) | B-0117 | open (P2) | 2026-10-30 |
 | L-183 | password-generator | Generate blocked at 0 trial uses; 2 unlabeled controls; no entropy; duplicate password-strength tool | B-0118 | open (P2); output → admin carry-over | 2026-10-30 |
 Carry-over for admin session: L-180 Random Number Generator output (added 08:29 ET), L-183 Password output, L-176 Book clean download.
+Note 08:31 ET: B-0116, B-0117 and B-0118 are superseded by -v2 files (2026-10-30-0831-ET-…-v2.md) with live competitor fetches (XE, Wise, World Time Buddy, timeanddate, 1Password; Bitwarden timed out). The 0829 originals are unchanged. Rule: a brief is never edited after it is sent; a -v2 file is written instead. L-152 relabelled 08:29 ET to remove the conflict with L-183.
+
+Batch 19 (#97, capability sweep 9 — top tool pages):
+| L-184 | audio-comparer | no visual diff/A-B/properties table/share; 2 unnamed file inputs; B-0050/51 rerun blocked | B-0119 (+B-0050, B-0051) | open (P2); rerun → admin carry-over | 2026-10-30 |
+| L-185 | merge-pdf | no page thumbnails/rotate/delete or mixed types; GSC pos 35 | B-0120 | open (P2) | 2026-10-30 |
+| L-043 | merge-pdf | per-file "Choose pages" + reorder + blank-page now present (#97) | B-0054 | partly fixed (evidence added); thumbnails → B-0120 | 2026-10-30 |
+| L-186 | merge-pdf | inline "Try Office Apps" ad in subtitle/About | B-0041 | open (evidence added) | 2026-10-30 |
+| L-096 | word-counter | #97: abbreviations 3 sentences (expect 2); CJK 7 words (per-char 13) | B-0065 | open (evidence added) | 2026-10-30 |
+| L-187 | word-counter | no keyword density/speaking time/readability/limits | B-0121 | open (P2) | 2026-10-30 |
+Carry-over for admin session (08:37 ET): L-180 RNG output, L-183 Password output, L-184 Audio rerun, L-042 Merge size label, L-176 Book clean download.
