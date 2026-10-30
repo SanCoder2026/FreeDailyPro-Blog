@@ -1,0 +1,6 @@
+rank,query,clicks,impressions,ctr,position,status,closest_existing_fdp_tool,suggested_action
+1,spell check,1,408,0.2%,6.8,partial,/tool/grammar-checker,Add spell-check mode/landing or retitle grammar-checker to "Spell & Grammar Check"
+2,barcode scanner online,1,31,3.2%,8.8,missing,/tool/qr-scanner (QR only),Build barcode scanner (camera + image; 1D formats) or extend qr-scanner
+3,mla format checker,1,10,10%,5.9,partial,/tool/paper-format-checker,Add MLA preset/landing to paper-format-checker
+4,font match,1,9,11.1%,21.8,missing,none (font-pairing-tool / fancy-font-generator are different intent),Build font identifier from image (in-browser)
+5,pdf file recovery online free,1,2,50%,31.5,missing,none,Low priority: PDF repair tool
