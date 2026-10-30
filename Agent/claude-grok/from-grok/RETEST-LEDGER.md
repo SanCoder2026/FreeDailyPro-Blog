@@ -75,5 +75,75 @@ Status values: verified-fixed | open | claimed-fixed-unverified | improvement-su
 | L-089 | grammar-checker | CLS desktop 0.133 (video embed) | B-0041 | open (evidence added) | 2026-10-29 |
 | L-090 | url-shortener | /s/* → 410 with explanation | owner removal fa78b7f | verified | 2026-10-29 |
 | L-091 | url-shortener | /tool/url-shortener bare 404; slash URL 301→404 | #72 (B-0061) | open | 2026-10-29 |
+| L-092 | camera | full-photo download badged with no prior notice (crop path discloses) | #73 (B-0063) | open | 2026-10-29 |
+| L-093 | camera | capture/JPG/crop/count work at 1280+390 (fake device) | #73 | verified | 2026-10-29 |
+| L-094 | camera | no tool_completed on download | B-0060 | open (evidence added) | 2026-10-29 |
+| L-095 | camera | mobile load CLS 0.173 | B-0041 | open (evidence added) | 2026-10-29 |
+| L-096 | word-counter | abbreviations overcount sentences; CJK words; no speaking time/keyword density | #73 (B-0065) | open | 2026-10-29 |
+| L-097 | word-counter | related-search ad block injected inside stats grid (390) | B-0041 | open (evidence added) | 2026-10-29 |
+| L-098 | word-counter | no tool_completed on Copy stats | B-0060 | open (evidence added) | 2026-10-29 |
+| L-099 | audio-normalizer | Spotify −14 / Podcast −16 split; ACX RMS copy (#45) | #45 | verified | 2026-10-29 |
+| L-100 | audio-normalizer | MP3 out ~110k VBR, no bitrate choice; ACX MP3 non-compliant | #73 (B-0064) | open | 2026-10-29 |
+| L-101 | audio-normalizer | 13×13 limit-peaks checkbox | #45 → B-0064 | open (still fails) | 2026-10-29 |
+| L-102 | audio-normalizer | counter 6→0 mid-session | B-0055 | open (evidence added) | 2026-10-29 |
 
 Mature: Income Tax federal engine (L-074). Mature candidates: Split PDF, QR Code Generator, Custom QR, Unit Converter (coverage only). Roman Numeral Converter becomes **mature** once B-0036 + B-0052 verify.
+Batch 4 (#73): Audio Normalizer loudness engine verified (all presets ±0.05 LU); mature once B-0064 lands. Word Counter mature-candidate after B-0065.
+| L-103 | video-to-gif | corrupt file silent fail + charge (batch-12) | — | verified fixed (#74) | 2026-10-29 |
+| L-104 | video-to-gif | start past end (batch-12) | — | verified fixed (clamped) (#74) | 2026-10-29 |
+| L-105 | video-to-gif | GIF size shown in MiB labelled MB | B-0067 | open | 2026-10-29 |
+| L-106 | compress-video | limit copy 200 MB vs GIF 5 GB | B-0067 | open | 2026-10-29 |
+| L-107 | compress-video | counter 10→0 after one run | B-0055 | open (evidence added) | 2026-10-29 |
+| L-108 | compress-video | post-use CLS 0.10–0.138 desktop | B-0041 | open (evidence added) | 2026-10-29 |
+| L-109 | sign-pdf | SIGN-01 download no-op | — | verified fixed (#74) | 2026-10-29 |
+| L-110 | sign-pdf | SIGN-02 charge on drop | — | verified fixed (#74) | 2026-10-29 |
+| L-111 | sign-pdf | SIGN-03 metadata overwritten | — | verified fixed (#74) | 2026-10-29 |
+| L-112 | sign-pdf | SIGN-04 signature offset | — | verified fixed (#74) | 2026-10-29 |
+| L-113 | sign-pdf | "Tap" hint on desktop | B-0067 | open | 2026-10-29 |
+| L-114 | sign-pdf + video-to-gif | meta description 48/76 chars | B-0068 | open | 2026-10-29 |
+| L-115 | compress-image | Don't change dimensions pre-ticked → target missed | B-0066 | open | 2026-10-29 |
+| L-116 | compress-image + resize-crop | post-use CLS 0.166–0.203 / 0.119 | B-0041 | open (evidence added) | 2026-10-29 |
+| L-117 | resize-crop | plan: fit mode ignored | — | UI pass all 5 modes; API untested (read-only) | 2026-10-29 |
+
+Batch 5 (#74–75): Compress Video, Video to GIF, Sign PDF, Resize & Crop = mature-candidates. Compress Image mature after B-0066.
+| L-118 | barcode-generator | 0.1% CTR pos 7.8; 1× default too small for print; GS1 note; filename | B-0069 | open | 2026-10-29 |
+| L-119 | barcode-generator | validation (check digit, length) | — | verified pass (#77) | 2026-10-29 |
+| L-120 | invoice-generator | payment terms missing on PDF | B-0071 | open | 2026-10-29 |
+| L-121 | invoice-generator | PDF output + totals maths | — | verified pass (#77) | 2026-10-29 |
+| L-122 | compress-image | default ticked (B-0066) – unticked path reaches 186 KB | B-0066 | open (evidence added) | 2026-10-29 |
+| L-123 | word-to-pdf | theme font → Times | B-0070 | open | 2026-10-29 |
+| L-124 | word-to-pdf | meta 75 chars | B-0070 | open | 2026-10-29 |
+| L-125 | universal-file-converter | Original → Download shown/ungated after convert | B-0070 | open | 2026-10-29 |
+| L-126 | pdf-to-word | tables/lists/links/page size/metadata | — | verified pass (#76) | 2026-10-29 |
+| L-127 | multiple | pool 0 on desktop vs 10 on mobile; p2w 10→0 after 1 use | B-0055 | open (evidence added) | 2026-10-29 |
+| L-128 | universal + barcode + compress-image | post-action CLS 0.12–0.28 | B-0041 | open (evidence added) | 2026-10-29 |
+
+Batch 6 (#76–77): PDF to Word mature-candidate; Word to PDF after B-0070; Barcode after B-0069; Invoice after B-0071. Universal converted-download untested (pool), retest.
+| L-129 | mortgage-calculator | mobile load CLS 0.32–0.48 (auto-placed ad + results block) | B-0072 | open | 2026-10-29 |
+| L-130 | /tools | desktop load CLS 0.28–0.37 (tool-chip row) | B-0072 | open | 2026-10-29 |
+| L-131 | bmi-calculator | snippet 0/504 at pos 6.8 | B-0073 | open | 2026-10-29 |
+| L-132 | jwt / uuid / hash | meta descriptions 73–76 chars | B-0074 | open | 2026-10-29 |
+| L-133 | hash-generator | file hashing missing (plan) | — | fixed, verified #79 | 2026-10-29 |
+| L-134 | /developers | false claims / 404 use-cases | B-0020 | fixed, verified #80 | 2026-10-29 |
+| L-135 | categories + sitemap | indexability (B-0035) | B-0035 | site-side clean, #80 | 2026-10-29 |
+| L-136 | calculators | no tool-completion GA event | B-0060 | open (evidence added) | 2026-10-29 |
+| L-137 | uuid mobile | pool 0 → limit dialog | B-0055 | open (evidence added) | 2026-10-29 |
+
+Batch 7 (#78–80): BMI, Loan, JWT, UUID, Hash, /developers, category pages **mature**; Mortgage after B-0072. Carry-over: Barcode UPC-A/ITF-14, Universal converted download, Invoice desktop.
+| L-138 | /tool/book-maker | HTTP 404 + noindex, JS redirect (106 views) | B-0075 | open | 2026-10-30 |
+| L-139 | find-replace | .docx output stored uncompressed, 23× size | B-0076 | open | 2026-10-30 |
+| L-140 | tip / magazine / book-writing-toolbox | mobile load CLS 0.19–0.55; shared container shift | B-0077 | open | 2026-10-30 |
+| L-141 | tip-calculator | invalid input shows "—" without message | B-0078 | open | 2026-10-30 |
+| L-142 | book-writing-toolbox | mobile icon buttons without accessible names | B-0078 | open | 2026-10-30 |
+| L-143 | find-replace / universal | pool: mobile replaced at 0; 2→0 after one download | B-0055 | open (evidence added) | 2026-10-30 |
+| L-144 | universal-file-converter | CSV→XLSX converted download (carry-over) | — | verified OK #81 | 2026-10-30 |
+
+Batch 8 (#81–82): Percentage, Magazine (after B-0077) mature; Tip after B-0077/B-0078; Find & Replace after B-0076; Book toolbox export untested (Google sign-in wall). Carry-over: Barcode UPC-A/ITF-14 (pool 0), Invoice desktop.
+| L-145 | citation-generator | snippet 0/2,448 at pos 8.6; meta 77 chars | B-0079 | open | 2026-10-30 |
+| L-146 | citation-generator | Chicago website drops the year | B-0080 | open | 2026-10-30 |
+| L-147 | random-number-generator | invalid min disables Generate with no reason | B-0080 | open | 2026-10-30 |
+| L-148 | /multitool-apps | HTTP 404 (55 views) → /premium-apps | B-0075 | open (evidence added) | 2026-10-30 |
+| L-149 | citation / password mobile | load CLS 0.24 / 0.23 | B-0077 | open (evidence added) | 2026-10-30 |
+| L-150 | image-to-pdf / password / case-converter | outputs blocked (0 trial uses all run) | — | carry-over | 2026-10-30 |
+
+Batch 9 (#83–85): /workflow-products mature; RNG mature after B-0080; Citation after B-0079/B-0080. Screenshot Tool needs a headed run. Carry-over: Image to PDF, Password, Case Converter outputs, Barcode UPC-A/ITF-14, Invoice desktop.
