@@ -157,3 +157,22 @@ Batch 10 (#86–87, admin session, 30 Oct 07:55 ET carry-overs):
 | L-155 | universal-file-converter | JPG→PNG output real PNG | — | verified | 2026-10-30 |
 | L-156 | universal-file-converter | blob: ERR_FILE_NOT_FOUND; scripted click no download | B-0082 | open | 2026-10-30 |
 Evidence: B-0069 (filenames barcode.png / barcode (1).png). L-125 (B-0070 bypass) untestable in admin session, stays open. L-150 carry-over closed.
+
+Batch 11 (#88, capability-gap sweep 1, owner rule 30 Oct: mature = works AND ≥ best competitor):
+| L-157 | income-tax | capability gap: refund/owed, credits, itemised, other income, tax-year switch, API depth | B-0089 | open (P2) | 2026-10-30 |
+| L-158 | tip-calculator | capability gap: multi-% compare, service/country presets, uneven split, reverse | B-0090 | open (P2) | 2026-10-30 |
+| L-159 | bmi-calculator | capability gap: BMI Prime/PI, WHtR, target mode, CDC child percentile, API | B-0091 | open (P2) | 2026-10-30 |
+| L-074 | income-tax | RE-LABEL: federal engine accurate (re-checked #88) but **not mature** under the new rule (B-0089) | B-0089 | re-labelled | 2026-10-30 |
+| L-072 | income-tax | +evidence #88: 401(k) age groups (under 50 / 50+ / 60–63) now in the UI; limits not re-verified | B-0057 | open (evidence) | 2026-10-30 |
+Re-label: BMI "mature" (batch 7, #78) → **not mature** (B-0091). Percentage and Loan "mature" labels are under review in the next capability batch.
+
+Batch 12 (#89, capability-gap sweep 2):
+| L-160 | mortgage-calculator | capability gap: chart, yearly view, biweekly, DTI 28/36, cost growth, API | B-0086 | open (P2) | 2026-10-30 |
+| L-161 | percentage-calculator | capability gap: solve-any-two, steps, pp vs %, bps, history | B-0087 | open (P2) | 2026-10-30 |
+| L-162 | loan-calculator | capability gap: frequencies, solve-for, APR, deferred/bond, compare | B-0088 | open (P2) | 2026-10-30 |
+Re-labels (#89): Loan "mature" (batch 7) → not mature; Percentage "mature" (batch 8) → not mature (small gap); Unit Converter L-081 mature-candidate → under review (not benchmarked yet).
+
+Batch 13 (#90, capability-gap sweep 3; batch-11 briefs renumbered B-0083/84/85 → B-0089/90/91 on Orchestrator request):
+| L-163 | roth (none) | no Roth tool: /tool/roth-ira-calculator → 404, not in sitemap | B-0100 | open (P2) | 2026-10-30 |
+| L-164 | 401k-calculator | capability gap: $72k total limit, tiered match, early withdrawal, drawdown, Roth 401k, vesting/fees | B-0101 | open (P2) | 2026-10-30 |
+| L-165 | compound-interest | capability gap: chart, rate range, withdrawals, solve-for, continuous; merge API into loan service | B-0102 | open (P2) | 2026-10-30 |
