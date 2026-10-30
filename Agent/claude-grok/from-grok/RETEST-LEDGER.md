@@ -218,3 +218,11 @@ Batch 19 (#97, capability sweep 9 — top tool pages):
 | L-096 | word-counter | #97: abbreviations 3 sentences (expect 2); CJK 7 words (per-char 13) | B-0065 | open (evidence added) | 2026-10-30 |
 | L-187 | word-counter | no keyword density/speaking time/readability/limits | B-0121 | open (P2) | 2026-10-30 |
 Carry-over for admin session (08:37 ET): L-180 RNG output, L-183 Password output, L-184 Audio rerun, L-042 Merge size label, L-176 Book clean download.
+
+Batch 20 (#98, admin-session carry-over results, 08:40 ET):
+| L-180 | random-number-generator | admin session: integer + no-duplicates output OK; decimals rejected (already B-0115 #2); no trial counter in admin | B-0115 | output verified (admin session); capability gap open (P2) | 2026-10-30 |
+| L-183 | password-generator | admin session: passphrase OK (5 words, EFF, 74 bits); still no password on load; entropy already shown in passphrase mode | B-0118-v2 | output verified (admin session); show-on-load open | 2026-10-30 |
+| L-022 | audio-comparer | admin session: +0.25 s offset → 82.6% (was 0.0% at +0.5 s); no offset detection | B-0050 | open (evidence added) | 2026-10-30 |
+| L-188 | audio-comparer | admin session: headline "some differences" 82.6% vs timeline 3/3 "matches" | B-0122 (P1) | open | 2026-10-30 |
+| L-042 | merge-pdf | admin session: "19.2 KB" = 19,711 B (KiB), 2 pages correct | — | checked OK (admin session); never claimed fixed | 2026-10-30 |
+Carry-over closed: L-180, L-183, L-184, L-042. Remaining: L-176 (Book clean download), B-0051 (needs a non-admin session with trial uses).
