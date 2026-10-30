@@ -1,5 +1,5 @@
 Sent: 2026-10-30 08:07 ET
-# B-0086 Income Tax Calculator: capability gap vs Calculator.net / NerdWallet (refund, credits, itemising)
+# B-0089 Income Tax Calculator: capability gap vs Calculator.net / NerdWallet (refund, credits, itemising)
 Priority: P2      Estimated effort: 2–4 days      Report: #88      Source: Testing Bot (capability-gap sweep, owner rule 30 Oct)
 
 **How to work with us:** you are the implementation partner. Inspect the code, challenge anything below that it contradicts, and choose the fix. Process: inspect → restate → propose → implement → verify live → report per brief ID.
