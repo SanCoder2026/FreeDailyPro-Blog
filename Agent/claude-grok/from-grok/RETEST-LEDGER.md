@@ -150,7 +150,7 @@ Batch 9 (#83–85): /workflow-products mature; RNG mature after B-0080; Citation
 
 Batch 10 (#86–87, admin session, 30 Oct 07:55 ET carry-overs):
 | L-151 | image-to-pdf | multi-image output verified (2p Letter, JPG passthrough) | — | verified; mature | 2026-10-30 |
-| L-152 | password-generator | 20-char ±symbols + Copy | — | verified; mature | 2026-10-30 |
+| L-152 | password-generator | 20-char ±symbols + Copy | — | output verified (admin session); not mature under the new rule (see L-183) | 2026-10-30 |
 | L-153 | case-converter | chained modes garble; no download | B-0081 | open | 2026-10-30 |
 | L-154 | barcode | UPC-A/ITF-14 check digits PNG+SVG | — | verified | 2026-10-30 |
 | L-120 | invoice-generator | +evidence #87: Net 30 in dropdown, due date correct, still not printed on PDF | B-0071 | open (still fails) | 2026-10-30 |
@@ -201,4 +201,10 @@ Batch 17 (#95, capability sweep 7):
 | L-178 | cost-of-living-comparison | headline excludes housing; 33 unlabeled controls; no metro rent | B-0113 | open (P2) | 2026-10-30 |
 | L-012 | roman-numeral-converter | vinculum >3999 still missing (re-checked #95: 4000 → "1 to 3999") | B-0114 | open (evidence added, now briefed) | 2026-10-30 |
 | L-179 | roman-numeral-converter | no step-by-step breakdown or reference table; CTR 0.1% on 38,580 impr | B-0114 (+B-0036, B-0052) | open (P2) | 2026-10-30 |
-| L-180 | random-number-generator | Generate consumes a trial use (output unverifiable at 0 left); no decimals/presets/method note | B-0115 | open (P2; owner decision) | 2026-10-30 |
+| L-180 | random-number-generator | Generate consumes a trial use (output unverifiable at 0 left); no decimals/presets/method note | B-0115 | open (P2; owner decision); output → admin carry-over | 2026-10-30 |
+
+Batch 18 (#96, capability sweep 8):
+| L-181 | currency-converter | no history/fee/multi view; inline "Trade Forex" ad in About copy (B-0041 evidence) | B-0116 (+B-0041) | open (P2) | 2026-10-30 |
+| L-182 | timezone-converter | no meeting grid/share/.ics; IANA-only names (DST handling verified OK) | B-0117 | open (P2) | 2026-10-30 |
+| L-183 | password-generator | Generate blocked at 0 trial uses; 2 unlabeled controls; no entropy; duplicate password-strength tool | B-0118 | open (P2); output → admin carry-over | 2026-10-30 |
+Carry-over for admin session: L-180 Random Number Generator output (added 08:29 ET), L-183 Password output, L-176 Book clean download.
