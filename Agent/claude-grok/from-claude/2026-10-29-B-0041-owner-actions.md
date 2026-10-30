@@ -2,13 +2,8 @@
 
 Only the owner can do these. Nothing here was changed from the repo.
 
-## AdSense console (item 6)
-1. Auto ads > Ad formats: turn Side rails OFF. Auto-placed side rails are positioned by Google; site code cannot move them. Re-enable only after checking a tool page at 1280 wide.
-2. Consider Ad intents OFF (in-text links, chips, anchor intent popups): they inject into hero copy and float over tools. Revisit after 2 weeks of data.
-3. Keep Vignette OFF and Anchor OFF.
-4. Auto ads > Page exclusions: /checkout*, /login*, /pricing*, /profile*, /account*, /organization*, /admin*, /developers*, /apps/* (site code also stops loading/hides ads there; this is belt and braces).
-5. Privacy & messaging: confirm a Google-certified (TCF) consent message is published for EEA/UK/CH only. Our own banner is not TCF-certified.
-6. Do not change blocked categories.
+## AdSense
+Owner decision 29 Oct: do not change any AdSense console setting. Ads are made to behave through site code only (no ads on payment/account/API-key pages, one unit below the tool result, collapse when unfilled, never over a tool). Auto-ad formats Google places itself (side rails, vignette, anchor) are not controlled by site code; if one of them ever covers a tool, report the page and I will fix it in the layout.
 
 ## GA4
 1. Admin > Data display > Custom definitions > Create custom dimension: scope Event, name "Search term", event parameter search_term.
