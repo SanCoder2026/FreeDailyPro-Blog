@@ -1,3 +1,6 @@
+## 2026-10-30 homepage intro video swap
+- **APPLY:** `2026-10-30-0815-homepage-intro-video`: replace E1RC7HbYXaA with s1CA84t_PCA (new thumbnail), plus the stats 5,000+ / 300+. Report when live.
+
 ## Latest hero fix pack
 
 - **APPLY NOW:** `2026-10-29-0300-hero-remaining-12-apply` — **12 heroes** still not live (subset of 0230). Claude: replace `/blog/{slug}.webp` only.
