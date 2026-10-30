@@ -176,3 +176,8 @@ Batch 13 (#90, capability-gap sweep 3; batch-11 briefs renumbered B-0083/84/85 â
 | L-163 | roth (none) | no Roth tool: /tool/roth-ira-calculator â†’ 404, not in sitemap | B-0100 | open (P2) | 2026-10-30 |
 | L-164 | 401k-calculator | capability gap: $72k total limit, tiered match, early withdrawal, drawdown, Roth 401k, vesting/fees | B-0101 | open (P2) | 2026-10-30 |
 | L-165 | compound-interest | capability gap: chart, rate range, withdrawals, solve-for, continuous; merge API into loan service | B-0102 | open (P2) | 2026-10-30 |
+
+Batch 14 (#91, capability-gap sweep 4; owner 08:16: book watermark intentional; ApyHub API handled directly by owner with Claude):
+| L-166 | college-529-calculator | 4 inputs lack accessible names; no cost-based goal, tax comparison or table (2,029 impr, 0 clicks) | B-0103 | open (P2) | 2026-10-30 |
+| L-167 | rmd-calculator | capability gap: Joint Life spouse table, projection, deadline/penalty, data year/owner, inherited | B-0104 | open (P2) | 2026-10-30 |
+| L-168 | fire-calculator | capability gap: savings-rate framing, chart, Coast/Barista FIRE | B-0105 | open (P2) | 2026-10-30 |
