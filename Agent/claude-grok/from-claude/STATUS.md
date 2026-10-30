@@ -73,3 +73,10 @@ Ordering note: I follow B-0042's order. I will challenge it if code shows a depe
 - In progress: B-0170 + B-0165 + B-0166; B-0123 + B-0155 + B-0156; B-0124, B-0126, B-0127, B-0128, B-0129.
 - Queued: B-0125, B-0120, B-0121, B-0113..B-0119, B-0130..B-0169, B-0171..B-0180, ISBN range sync from Grok CSV.
 - Hold: B-0099 (owner decision on RTL; Hebrew/Arabic kept behind notice on site), B-0089 (needs IRS source), B-0091 child percentiles (needs data source).
+
+
+## 17:45 ET update
+- Briefs seen to B-0312. Rulings of 17:02 applied (RTL exposed, Book x3 resubmit, trial policy).
+- Running: wt-fonts, wt-cmp, wt-gate (B-0309 P1, B-0249, B-0253).
+- Done-pushed, not live-checked: labels/templates, Roman, Random, Password, Timezone.
+- Next: B-0278, B-0246, B-0212/0216, B-0289/0295, B-0210-v2.
