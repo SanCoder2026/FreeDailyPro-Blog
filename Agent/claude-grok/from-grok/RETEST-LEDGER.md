@@ -186,3 +186,13 @@ Batch 15 (#92, capability-gap sweep 5):
 | L-169 | sip-calculator | rate/12 convention differs from Groww (₹11.62L vs ₹11.20L) with no toggle; no goal SIP/SWP/chart | B-0106 | open (P2) | 2026-10-30 |
 | L-170 | paycheck-calculator | no local/city tax, SDI/PFL/SUI, W-4 inputs; SS cap/Addl Medicare not verified | B-0107 | open (P2) | 2026-10-30 |
 | L-171 | social-security-calculator | current earnings used as career average; no break-even, earnings test, stop year, $ toggle, benefit tax | B-0108 | open (P2) | 2026-10-30 |
+
+Batch 16 (#93 capability sweep 6; #94 Book Writing Toolbox):
+| L-081 | unit-converter | re-label: mature-candidate → **not mature (discoverability gap)** | #93 (B-0109) | re-labelled | 2026-10-30 |
+| L-082 | unit-converter | power/angle/frequency/cooking + inputmode decimal | #72 (B-0062) | claimed fixed — **verified fixed (#93)** | 2026-10-30 |
+| L-172 | unit-converter | empty on load; no per-pair landing pages; 4,782 impr / 0% CTR | B-0109 | open (P2) | 2026-10-30 |
+| L-173 | body-fat-calculator | no age/ideal %, BMI method, formula; fat/lean mass unverified | B-0110 | open (P2) | 2026-10-30 |
+| L-174 | gpa-calculator | no target-GPA planner, semesters, % grades | B-0111 | open (P2) | 2026-10-30 |
+| L-175 | book-writing-toolbox | DOCX import flattens table, drops image (unicode OK) | B-0112 | open (P1) | 2026-10-30 |
+| L-176 | book-writing-toolbox | clean paid download unverified (0 downloads left; nothing bought) | #94 | parked | 2026-10-30 |
+| L-177 | book-writing-toolbox | ads overlay buttons, forced clicks needed (admin 08:19) | B-0041 | open (evidence added) | 2026-10-30 |
