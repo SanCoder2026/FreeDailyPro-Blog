@@ -43,3 +43,5 @@ Next: groups 3–5 (Citation + Image to PDF + Screenshot; Password + Random Numb
  29 | Password + Random Number + Case Converter | #84 
  30 | /workflow-products + /multitool-apps | #85 
 Next: carry-overs after the next trial-use reset (Image to PDF, Password, Case, Barcode, Invoice); Screenshot headed. Proposed new rows: Grammar/Paraphraser follow-ups by GSC, Roman numeral re-snippet check, Income tax snippet, PDF editor / crop-pdf (897/718 impr), Text similarity (1,282 impr), Catalog maker.
+| 31 | Image to PDF / Password / Case (carry-over) | #86 | outputs verified | B-0081 | — | Image to PDF + Password mature |
+| 32 | Barcode / Invoice / Universal (carry-over) | #87 | barcode + universal outputs verified | B-0069, B-0071, B-0070, B-0082 | — | Barcode mature after B-0069 |

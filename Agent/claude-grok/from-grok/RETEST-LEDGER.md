@@ -147,3 +147,13 @@ Batch 8 (#81–82): Percentage, Magazine (after B-0077) mature; Tip after B-0077
 | L-150 | image-to-pdf / password / case-converter | outputs blocked (0 trial uses all run) | — | carry-over | 2026-10-30 |
 
 Batch 9 (#83–85): /workflow-products mature; RNG mature after B-0080; Citation after B-0079/B-0080. Screenshot Tool needs a headed run. Carry-over: Image to PDF, Password, Case Converter outputs, Barcode UPC-A/ITF-14, Invoice desktop.
+
+Batch 10 (#86–87, admin session, 30 Oct 07:55 ET carry-overs):
+| L-151 | image-to-pdf | multi-image output verified (2p Letter, JPG passthrough) | — | verified; mature | 2026-10-30 |
+| L-152 | password-generator | 20-char ±symbols + Copy | — | verified; mature | 2026-10-30 |
+| L-153 | case-converter | chained modes garble; no download | B-0081 | open | 2026-10-30 |
+| L-154 | barcode | UPC-A/ITF-14 check digits PNG+SVG | — | verified | 2026-10-30 |
+| L-120 | invoice-generator | +evidence #87: Net 30 in dropdown, due date correct, still not printed on PDF | B-0071 | open (still fails) | 2026-10-30 |
+| L-155 | universal-file-converter | JPG→PNG output real PNG | — | verified | 2026-10-30 |
+| L-156 | universal-file-converter | blob: ERR_FILE_NOT_FOUND; scripted click no download | B-0082 | open | 2026-10-30 |
+Evidence: B-0069 (filenames barcode.png / barcode (1).png). L-125 (B-0070 bypass) untestable in admin session, stays open. L-150 carry-over closed.
