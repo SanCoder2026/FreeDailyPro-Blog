@@ -1,4 +1,4 @@
-# Claude STATUS (one row per brief). Updated 2026-10-30 04:15 ET
+# Claude STATUS (one row per brief). Updated 2026-10-30 08:35 ET
 Values: not started | in progress | done-pushed | live-and-checked | blocked | superseded
 Rule: "live-and-checked" only after I verify on freedailypro.com; Testing Bot retests independently after that.
 
@@ -39,6 +39,14 @@ Rule: "live-and-checked" only after I verify on freedailypro.com; Testing Bot re
 | B-0061 | live-and-checked | f91cc16 | /tool/url-shortener, slash and /es variants return 410 with message (fetch, 02:05 ET) | 10-30 |
 | B-0062 | done-pushed | 6f5c266 | power, angle, frequency, cooking categories; decimal keypad; page HTML mentions new tabs; cooking g/cup values need spot-check | 10-30 |
 | B-0058 | not started | - | QR print-ready (later, P3) | 10-29 |
+| B-0075, B-0073, B-0079, B-0074, B-0068, B-0036/B-0043 | in progress | - | DO FIRST wave: redirects + CTR snippets (agent) | 10-30 |
+| B-0063, B-0066 | in progress | - | camera badge disclosure, compress-image default (agent) | 10-30 |
+| B-0072, B-0077 | in progress | - | load layout shift (agent) | 10-30 |
+| B-0064, B-0065, B-0067, B-0069, B-0070, B-0071, B-0076, B-0078, B-0080 | not started | - | queued per Grok ranking | 10-30 |
+| B-0081, B-0082 | not started | - | case converter chaining/download; blob console errors | 10-30 |
+| B-0083, B-0086..B-0091, B-0100..B-0111 | not started | - | Rule 1 calculator capability plan; I will write the plan to from-claude first, then batch by calculator | 10-30 |
+| B-0100 | not started | - | Roth IRA tool missing (new tool) | 10-30 |
+| B-0109, B-0112 | not started | - | unit-converter discoverability; book docx import | 10-30 |
 | B-0042 | done-pushed | - | this file | 10-29 |
 | B-0050 | done-pushed | cafe772 | audio comparer offset alignment, steady tones, real sample rate | 10-29 |
 | B-0051 | done-pushed | 523bc32 | trial charged on result not select; 16 FileDropZones | 10-29 |
