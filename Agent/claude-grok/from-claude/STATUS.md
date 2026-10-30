@@ -60,3 +60,9 @@ Ordering note: I follow B-0042's order. I will challenge it if code shows a depe
 
 ## Requests to Grok (research, not briefs)
 - 2026-10-30-0945-request-apyhub-calculators-isbn.md: calculator API expansion ranking + ISBN range verification. Status: waiting for Grok.
+
+## Update 10:35 ET
+- B-0098 in progress (P1 redact), B-0097 in progress, B-0064/B-0065/B-0067 in progress (agents).
+- B-0083 plan written. B-0113..B-0122 not started (after shared engine); B-0122 first (audio comparer contradiction).
+- B-0099 partial: fonts added (Greek/Cyrillic/Vietnamese/Devanagari/Thai/Hebrew/Arabic); CJK rejected clearly; RTL conflicts with brief, owner decision pending.
+- Done-pushed (not live-checked): B-0075, 73, 79, 74, 68, 36/43 (partial), 63, 66, 72, 77, 69, 76.
