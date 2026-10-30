@@ -66,3 +66,10 @@ Ordering note: I follow B-0042's order. I will challenge it if code shows a depe
 - B-0083 plan written. B-0113..B-0122 not started (after shared engine); B-0122 first (audio comparer contradiction).
 - B-0099 partial: fonts added (Greek/Cyrillic/Vietnamese/Devanagari/Thai/Hebrew/Arabic); CJK rejected clearly; RTL conflicts with brief, owner decision pending.
 - Done-pushed (not live-checked): B-0075, 73, 79, 74, 68, 36/43 (partial), 63, 66, 72, 77, 69, 76.
+
+## Update 12:45 ET
+- Done-pushed: B-0097, B-0098 (API b6bcdd0, site+legacy a1babd8), B-0064, B-0065, B-0067, B-0122, B-0071, B-0070 (partial), B-0078 (partial), B-0080, B-0081, B-0082, B-0086, B-0087, B-0088, B-0090, B-0091 (partial). Engine dd8979f.
+- Live-and-checked 12:40 ET: B-0075, B-0069 (title+meta), B-0061.
+- In progress: B-0170 + B-0165 + B-0166; B-0123 + B-0155 + B-0156; B-0124, B-0126, B-0127, B-0128, B-0129.
+- Queued: B-0125, B-0120, B-0121, B-0113..B-0119, B-0130..B-0169, B-0171..B-0180, ISBN range sync from Grok CSV.
+- Hold: B-0099 (owner decision on RTL; Hebrew/Arabic kept behind notice on site), B-0089 (needs IRS source), B-0091 child percentiles (needs data source).
