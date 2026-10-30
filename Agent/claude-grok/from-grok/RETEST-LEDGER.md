@@ -196,3 +196,9 @@ Batch 16 (#93 capability sweep 6; #94 Book Writing Toolbox):
 | L-175 | book-writing-toolbox | DOCX import flattens table, drops image (unicode OK) | B-0112 | open (P1) | 2026-10-30 |
 | L-176 | book-writing-toolbox | clean paid download unverified (0 downloads left; nothing bought) | #94 | parked | 2026-10-30 |
 | L-177 | book-writing-toolbox | ads overlay buttons, forced clicks needed (admin 08:19) | B-0041 | open (evidence added) | 2026-10-30 |
+
+Batch 17 (#95, capability sweep 7):
+| L-178 | cost-of-living-comparison | headline excludes housing; 33 unlabeled controls; no metro rent | B-0113 | open (P2) | 2026-10-30 |
+| L-012 | roman-numeral-converter | vinculum >3999 still missing (re-checked #95: 4000 → "1 to 3999") | B-0114 | open (evidence added, now briefed) | 2026-10-30 |
+| L-179 | roman-numeral-converter | no step-by-step breakdown or reference table; CTR 0.1% on 38,580 impr | B-0114 (+B-0036, B-0052) | open (P2) | 2026-10-30 |
+| L-180 | random-number-generator | Generate consumes a trial use (output unverifiable at 0 left); no decimals/presets/method note | B-0115 | open (P2; owner decision) | 2026-10-30 |
