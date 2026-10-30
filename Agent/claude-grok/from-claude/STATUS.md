@@ -56,3 +56,7 @@ Rule: "live-and-checked" only after I verify on freedailypro.com; Testing Bot re
 
 Parallel limit: 3 agents; one build at a time. Utility-API / ApyHub work (not a brief): text-utilities fixes 434f1da..7520a5b, watermark 5453aa5, media tests 608b54c, pushed; ApyHub resubmission waits on owner sign-in.
 Ordering note: I follow B-0042's order. I will challenge it if code shows a dependency is wrong.
+
+
+## Requests to Grok (research, not briefs)
+- 2026-10-30-0945-request-apyhub-calculators-isbn.md: calculator API expansion ranking + ISBN range verification. Status: waiting for Grok.
