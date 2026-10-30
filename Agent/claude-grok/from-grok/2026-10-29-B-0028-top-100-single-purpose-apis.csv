@@ -1,0 +1,101 @@
+rank,title,category,tags,endpoints,marketplaces,wave,rationale
+1,PDF Redact API – Permanently Remove Text & PII,Data,pdf redaction; redact pdf; pii; gdpr; privacy,POST /v1/redact-pdf,RapidAPI; API.market; Postman,1,"Rapid 'pdf redact' 11 results, we already #8 with a generic title; true redaction is a differentiator"
+2,QR Code Generator API – PNG & SVG,Tools,qr code generator; qr code; qr api; png; svg,POST /v1/security/qr,RapidAPI; API.market; Postman,1,"Rapid 417 results, leaders 9.6 pop/234ms; API.market magicapi QR 23,676 calls/47 subs = biggest demand seen; our call 200 in 0.26s"
+3,PDF Merge API – Combine PDFs,Data,pdf merge; combine pdf; merge pdf; pdf,POST /v1/pdf/merge,RapidAPI; API.market; Postman,1,"Rapid 'pdf merge' 55 results, we rank #51 inside a bundle; single-purpose title should climb"
+4,PDF Compress API – Shrink PDF to Target Size,Data,pdf compress; compress pdf; reduce pdf size; pdf optimizer,POST /v1/pdf/compress; POST /v1/pdf/compress/size; POST /v1/pdf/compress/balanced; POST /v1/pdf/compress/aggressive; POST /v1/pdf/compress/extreme,RapidAPI; API.market; Postman,1,"Rapid 44 results, we #30; 'compress to size' is uncommon"
+5,Loan Amortization Schedule Calculator API,Finance,loan calculator; amortization; emi; loan payment,POST /v1/converters/amortization; POST /v1/converters/loan,RapidAPI; API.market; Postman,1,"Rapid 'loan calculator' 30 results, we #26; leaders single-purpose (9.5 pop)"
+6,JWT Decoder API – Decode & Check Expiry,Tools,jwt decode; jwt; token; auth; expiry,POST /v1/security/jwt-decode,RapidAPI; API.market; Postman,1,"Rapid 23 results, we #13 in a bundle; live test OK (status/expiry returned)"
+7,"Hash Generator API – MD5, SHA-1, SHA-256",Cybersecurity,hash generator; sha256; md5; checksum,POST /v1/security/hash,RapidAPI; API.market; Postman,1,Rapid 18 results and we are not returned at all; weak leaders
+8,UUID Generator API – v4 UUIDs in Bulk,Tools,uuid; uuid generator; guid; unique id,POST /v1/security/uuid,RapidAPI; API.market,1,"Rapid 87 results, leaders popularity 0–0.1 -> easy top 3"
+9,BMI Calculator API,Health and Fitness,bmi calculator; bmi; health; body mass index,POST /v1/converters/bmi,RapidAPI; API.market; Postman,1,"Rapid 25 results, we last (#25); BMI leader 9.3 pop single endpoint"
+10,PDF Watermark API – Text Stamp with Color & Opacity,Data,pdf watermark; watermark pdf; stamp pdf; pdf,POST /v1/pdf/watermark,RapidAPI; API.market; Postman,1,"Rapid 35 results, we #20; color param now live (red verified in audit)"
+11,PDF Split API – Split by Page Ranges,Data,pdf split; split pdf; extract pages; pdf,POST /v1/pdf/split; POST /v1/pdf/extract,RapidAPI; API.market; Postman,1,Core PDF buyer term; pairs with merge
+12,Markdown to PowerPoint API – Generate PPTX,Data,markdown to pptx; pptx; powerpoint; slides; presentation,POST /v1/pptx/from-markdown,RapidAPI; API.market; Postman,1,"Rapid 'markdown to pptx' only 6 results, none a real PPTX generator; no PPTX listing exists today"
+13,JSON to PowerPoint API – PPTX from Data,Data,json to pptx; pptx generator; powerpoint api; report automation,POST /v1/pptx/from-json; POST /v1/pptx/from-csv,RapidAPI; API.market; Postman,1,"Same niche, agent/report automation use case"
+14,"Image Resize API – JPG, PNG, WebP","Video, Images",image resize; resize image; thumbnail; webp,POST /v1/image/resize,RapidAPI; API.market; Postman,1,"Rapid 60 results, we #44 in Media bundle with 20 free calls; leader Bulk Image Converter 9.3"
+15,"Image Converter API – PNG, JPG, WebP, AVIF","Video, Images",image convert; png to jpg; webp; image format,POST /v1/image/convert,RapidAPI; API.market; Postman,1,Rapid 'image convert' 394 results (noisy); exact title needed
+16,Video to GIF API,"Video, Images",video to gif; gif maker; mp4 to gif; animated gif,POST /v1/video/to-gif,RapidAPI; API.market,1,"Rapid 63 results dominated by downloaders, not converters"
+17,"Audio Converter API – MP3, WAV, OGG",Media,audio convert; mp3 converter; wav to mp3; audio,POST /v1/audio/convert,RapidAPI; API.market,1,Rapid 167 results dominated by YouTube downloaders; real converters scarce
+18,EPUB Generator API – Build eBooks,Media,epub; ebook; epub generator; kdp; self publishing,POST /v1/publishing/epub,RapidAPI; API.market; Postman,1,"Rapid 14 results, we #11; API.market #1 for 'epub'"
+19,ISBN Validator & Converter API – ISBN-10/13,Data,isbn; isbn validator; isbn-13; books,POST /v1/publishing/isbn,RapidAPI; API.market,1,API.market 'isbn' we #2; leader skycraft 820 calls
+20,Invoice Totals & Receipt Generator API,Business Software,invoice generator; receipt; invoice; tax,POST /v1/business/receipt; POST /v1/business/invoice-totals,RapidAPI; API.market; Postman,1,"Rapid 48 results, we not in top 50; APIVerve invoice 8.8 pop shows demand"
+21,Mortgage & Loan Payment Calculator API,Finance,mortgage calculator; mortgage; home loan; monthly payment,POST /v1/converters/loan,RapidAPI; API.market,2,"Rapid 'mortgage calculator' 20 results, we absent; API-Ninjas 8.5 pop. No dedicated mortgage route: title must match loan endpoint fields"
+22,PDF Rotate & Reorder Pages API,Data,rotate pdf; reorder pdf; organize pdf; pdf pages,POST /v1/pdf/rotate; POST /v1/pdf/organize,RapidAPI,2,Long-tail PDF; cheap to list once generator exists
+23,PDF Form Filler API – List & Fill AcroForm Fields,Data,pdf form fill; fillable pdf; acroform; pdf forms,POST /v1/fillable-forms/parse; POST /v1/fillable-forms/fill,RapidAPI; API.market; Postman,2,High B2B value (HR/legal); demand not measured
+24,PDF Page Numbers API,Data,pdf page numbers; number pdf pages; pdf footer,POST /v1/pdf/add-page-numbers,RapidAPI,2,Fixed per ApyHub review; long-tail
+25,PDF Repair API – Fix Damaged PDFs,Data,pdf repair; fix pdf; corrupt pdf,POST /v1/pdf/repair,RapidAPI,2,Fixed per ApyHub review; low competition (not measured)
+26,PDF Flatten API,Data,flatten pdf; pdf flatten; lock pdf form,POST /v1/pdf/flatten,RapidAPI,2,Long-tail; pairs with form filler
+27,Scanned PDF Compressor API – Black & White / Greyscale,Data,scanned pdf compress; black and white pdf; greyscale pdf,POST /v1/pdf/compress/lossless-bw; POST /v1/pdf/compress/smallest-bw; POST /v1/pdf/compress/greyscale,RapidAPI,2,Distinct use case (scans); demand not measured
+28,Video Compressor API – Smaller MP4,"Video, Images",video compress; compress mp4; reduce video size,POST /v1/video/compress,RapidAPI; API.market,2,Media demand; respect 55s ffmpeg cap in copy
+29,Video Trim API – Cut MP4 Clips,"Video, Images",video trim; cut video; clip video; mp4,POST /v1/video/trim,RapidAPI,2,Creator tooling; demand not measured
+30,Extract Audio from Video API – MP4 to MP3,Media,mp4 to mp3; extract audio; video to mp3,POST /v1/video/extract-audio,RapidAPI; API.market,2,Common search phrase; downloaders dominate results
+31,Video Thumbnail API – Grab a Frame,"Video, Images",video thumbnail; frame grab; screenshot video,POST /v1/video/thumbnail,RapidAPI,2,"Cheap, popular in CMS pipelines"
+32,Burn Subtitles into Video API – SRT to MP4,"Video, Images",subtitles; burn srt; captions video,POST /v1/video/subtitle,RapidAPI,2,Creator demand; not measured
+33,"Video Converter API – MP4, WebM, MOV","Video, Images",video convert; mp4; webm; mov,POST /v1/video/convert,RapidAPI,2,Broad term
+34,Audio Trim & Merge API,Media,audio trim; cut mp3; merge mp3; join audio,POST /v1/audio/trim; POST /v1/audio/merge,RapidAPI,2,Fixed per ApyHub review
+35,Audio Normalize & Loudness API,Media,normalize audio; loudness; lufs; podcast,POST /v1/audio/normalize,RapidAPI,2,Podcast tooling; fixed per ApyHub
+36,Audio Noise Reduction API,Media,denoise audio; noise reduction; clean audio,POST /v1/audio/denoise,RapidAPI,2,Fixed per ApyHub; competes with AI tools
+37,Remove Silence from Audio API,Media,remove silence; trim silence; podcast edit,POST /v1/audio/remove-silence,RapidAPI,2,"Niche, fixed per ApyHub"
+38,Audio Compressor API – Smaller MP3,Media,compress audio; mp3 bitrate; reduce audio size,POST /v1/audio/compress,RapidAPI,2,Fixed per ApyHub
+39,Audio Speed & Pitch Changer API,Media,audio speed; pitch shift; tempo,POST /v1/audio/speed; POST /v1/audio/pitch,RapidAPI,2,Niche
+40,Image Crop API,"Video, Images",crop image; image crop; thumbnail,POST /v1/image/crop,RapidAPI,2,Pairs with resize
+41,Image Rotate & Flip API,"Video, Images",rotate image; flip image; mirror image,POST /v1/image/rotate; POST /v1/image/flip,RapidAPI,2,Long-tail
+42,"Word Count API – Words, Characters, Reading Time",Text Analysis,word count; character count; reading time; text,POST /v1/text/word-count,RapidAPI; API.market,2,"Rapid 100 results, leaders off-topic (Smodin, World Bank) -> exact title can win"
+43,Readability Score API – Flesch & Grade Level,Text Analysis,readability; flesch; grade level; reading level,POST /v1/text/readability,RapidAPI; API.market,2,Content/SEO tooling; not measured
+44,Text Diff API – Compare Two Texts,Tools,text diff; diff checker; compare text,POST /v1/text/diff; POST /v1/security/diff,RapidAPI; API.market,2,Dev tooling; not measured
+45,Slug Generator API – SEO-Friendly URLs,Tools,slug generator; slugify; url slug; seo,POST /v1/text/slug,RapidAPI; API.market,2,"Cheap utility, dev demand"
+46,"Case Converter API – camelCase, snake_case, Title",Tools,case converter; camelcase; snake case; title case,POST /v1/text/case-convert,RapidAPI,2,Dev utility
+47,Password Generator API – Strong Random Passwords,Cybersecurity,password generator; random password; secure password,POST /v1/text/password,RapidAPI; API.market,2,Rapid 'Random Password Generator' scores 8.4 and ranks for 'mcp' -> demand exists
+48,Password Strength Checker API,Cybersecurity,password strength; password checker; zxcvbn,POST /v1/security/password-strength,RapidAPI,2,Signup forms
+49,Base64 Encode & Decode API,Tools,base64; encode; decode,POST /v1/security/base64,RapidAPI; API.market,2,API.market metaTag already; dev utility
+50,JSON Formatter & Validator API,Tools,json formatter; json validator; pretty print json,POST /v1/security/json-format,RapidAPI; API.market,2,Dev utility
+51,Regex Tester API,Tools,regex tester; regular expression; regex,POST /v1/security/regex,RapidAPI,3,Dev utility
+52,URL Encode & Decode API,Tools,url encode; url decode; percent encoding,POST /v1/security/url,RapidAPI,3,Dev utility
+53,Unix Timestamp Converter API,Tools,timestamp converter; unix time; epoch,POST /v1/security/timestamp,RapidAPI; API.market,3,Dev utility
+54,Cron Expression Builder API,Tools,cron; cron expression; schedule,POST /v1/security/cron,RapidAPI,3,Dev utility
+55,User Agent Parser API,Tools,user agent parser; browser detection; ua,POST /v1/security/user-agent,RapidAPI; API.market,3,Analytics demand; competitive
+56,CSS & JS Minifier API,Tools,minify; css minifier; js minifier,POST /v1/security/minify,RapidAPI,3,Build tooling
+57,Markdown to HTML API,Tools,markdown to html; markdown; md converter,POST /v1/text/markdown-to-html,RapidAPI; API.market,3,Agent/CMS use
+58,CSV to JSON Converter API,Data,csv to json; csv converter; json to csv,POST /v1/text/csv,RapidAPI; API.market,3,Common data task
+59,Email & URL Extractor API,Text Analysis,extract emails; extract urls; email extractor; parser,POST /v1/text/extract-emails; POST /v1/text/extract-urls,RapidAPI; API.market,3,Scraping/lead tooling
+60,HTML Entity Encoder API,Tools,html entities; html encode; escape html,POST /v1/security/html-entities,RapidAPI,3,Dev utility
+61,HTTP Status Code Lookup API,Tools,http status codes; http status; status code,GET /v1/security/http-status/{code}; GET /v1/security/http-status,RapidAPI,3,Cheap reference
+62,Lorem Ipsum Generator API,Tools,lorem ipsum; placeholder text; dummy text,POST /v1/text/lorem,RapidAPI,3,Classic utility
+63,Code 128 Barcode Generator API,Tools,barcode generator; code 128; barcode,POST /v1/security/barcode-code128,RapidAPI; API.market,3,Rapid 'barcode' 182 results mostly lookups; generator niche
+64,Meta Tag Generator API – SEO & Open Graph,Tools,meta tags; open graph; seo; twitter card,POST /v1/seo/meta-tags,RapidAPI; API.market,3,SEO tooling
+65,Robots.txt & Sitemap Generator API,Tools,robots.txt; sitemap; seo,POST /v1/seo/robots-sitemap,RapidAPI,3,SEO tooling
+66,Keyword Density Checker API,Text Analysis,keyword density; seo; content analysis,POST /v1/seo/keyword-density,RapidAPI,3,SEO tooling
+67,Color Converter & Contrast Checker API – WCAG,Tools,color converter; hex to rgb; contrast checker; wcag,POST /v1/design/color-convert; POST /v1/design/contrast,RapidAPI; API.market,3,Design/a11y
+68,Currency Converter API,Finance,currency converter; exchange rate; fx,POST /v1/converters/currency,RapidAPI; API.market,3,High demand but competitive; verify rate source freshness before listing
+69,Compound Interest Calculator API,Finance,compound interest; investment calculator; savings,POST /v1/converters/compound-interest,RapidAPI; API.market,3,Fintech content sites
+70,US Income Tax Calculator API,Finance,income tax calculator; us tax; federal tax,POST /v1/converters/us-income-tax; POST /v1/converters/state-tax,RapidAPI; API.market,3,Payroll/fintech; tax-year accuracy must be stated
+71,Paycheck Calculator API – Take-Home Pay,Finance,paycheck calculator; take home pay; salary,POST /v1/converters/paycheck,RapidAPI; API.market,3,Payroll demand
+72,VAT & GST Calculator API,Finance,vat calculator; gst calculator; sales tax,POST /v1/converters/vat-gst; POST /v1/converters/sales-tax,RapidAPI; API.market,3,E-commerce; JustMobi Sales Tax Calculator shows demand
+73,India Income Tax Calculator API,Finance,india income tax; new regime; old regime; itr,POST /v1/converters/india-income-tax,RapidAPI; API.market,3,"Large dev market, few APIs"
+74,401k & Retirement Calculator API,Finance,401k calculator; retirement; rmd,POST /v1/converters/401k; POST /v1/converters/rmd; POST /v1/converters/fire,RapidAPI,3,Fintech
+75,Self-Employment Tax Calculator API,Finance,self employment tax; freelancer tax; 1099,POST /v1/converters/self-employment-tax,RapidAPI,3,Freelancer tools
+76,SIP Calculator API – Mutual Fund Returns,Finance,sip calculator; mutual fund; india,POST /v1/converters/sip,RapidAPI; API.market,3,India fintech demand
+77,Profit Margin & Break-Even Calculator API,Business Software,profit margin; break even; markup,POST /v1/business/profit-margin; POST /v1/business/break-even; POST /v1/business/product-margin,RapidAPI; API.market,3,SMB tools
+78,"Marketplace Fee Calculator API – Etsy, eBay, Amazon",eCommerce,marketplace fees; etsy fees; ebay fees; seller,POST /v1/business/marketplace-fee,RapidAPI; API.market,3,Seller tools; verify fee tables current
+79,Calorie TDEE & BMR Calculator API,Health and Fitness,tdee calculator; bmr; calories; fitness,POST /v1/converters/tdee; POST /v1/converters/bmr,RapidAPI; API.market,3,Fitness apps; Nutrition Calculator 8.7 shows demand
+80,Body Fat & Ideal Weight Calculator API,Health and Fitness,body fat; ideal weight; fitness,POST /v1/converters/body-fat; POST /v1/converters/ideal-weight,RapidAPI,3,Fitness apps
+81,"Unit Converter API – Length, Weight, Temperature",Tools,unit converter; length; weight; temperature,POST /v1/converters/length; POST /v1/converters/weight; POST /v1/converters/temperature,RapidAPI; API.market,3,Evergreen utility
+82,Age Calculator API,Tools,age calculator; date difference; birthday,POST /v1/converters/age,RapidAPI,3,Evergreen
+83,Timezone Converter API,Tools,timezone converter; utc offset; time zone,POST /v1/converters/timezone-offset,RapidAPI,3,Scheduling apps
+84,Percentage & Discount Calculator API,Tools,percentage calculator; discount; tip calculator,POST /v1/converters/percentage; POST /v1/converters/discount; POST /v1/converters/tip,RapidAPI,3,Evergreen
+85,Pay Stub Generator API – PDF,Business Software,pay stub generator; payslip; payroll,POST /v1/business/pay-stub,RapidAPI; API.market,3,SMB/HR; check legal disclaimer
+86,Bank Statement to CSV API,Business Software,bank statement to csv; bank statement parser; accounting,POST /v1/business/bank-statement-to-csv,RapidAPI; API.market,3,Accounting automation; text input only (no OCR) must be explicit
+87,Business Proposal Generator API,Business Software,proposal generator; business proposal; pdf,POST /v1/business/proposal,RapidAPI,3,SMB
+88,Cover Letter Generator API,Business Software,cover letter; job application; resume,POST /v1/business/cover-letter,RapidAPI,3,Job tools
+89,NDA Generator API,Business Software,nda generator; non disclosure agreement; contract,POST /v1/business/nda-draft,RapidAPI,3,Legal templates; disclaimer
+90,Blind CV Redactor API – Remove Bias Signals,Business Software,blind cv; anonymize resume; hr; dei,POST /v1/business/blind-cv,RapidAPI,3,"HR niche, distinctive"
+91,Book Spine Width & Cover Size Calculator API,Media,spine width; book cover size; kdp; ingramspark,POST /v1/publishing/spine-width,RapidAPI,3,Self-publishing niche
+92,Print Royalty Calculator API – KDP & IngramSpark,Media,kdp royalty; print cost; book royalty,POST /v1/publishing/print-royalty,RapidAPI,3,Self-publishing niche
+93,ONIX Metadata Generator API,Media,onix; book metadata; publishing,POST /v1/publishing/onix,RapidAPI,3,Small-press niche
+94,Book Typesetting API – Print-Ready PDF,Media,typeset book; print ready pdf; manuscript,POST /v1/publishing/typeset-book; POST /v1/publishing/typeset-manuscript,RapidAPI,3,Self-publishing
+95,PowerPoint Compress API – Shrink PPTX,Data,compress pptx; powerpoint compress; reduce pptx size,POST /v1/pptx/compress/default; POST /v1/pptx/compress/size,RapidAPI,3,Office automation niche
+96,PowerPoint Merge & Split API,Data,merge pptx; split pptx; combine powerpoint,POST /v1/pptx/merge; POST /v1/pptx/split,RapidAPI,3,Office automation
+97,PowerPoint Text & Notes Extractor API,Data,pptx to text; extract speaker notes; powerpoint parser,POST /v1/pptx/extract/text; POST /v1/pptx/extract/notes,RapidAPI; API.market,3,RAG/agent ingestion use case
+98,PowerPoint to HTML Slideshow API,Data,pptx to html; powerpoint viewer; slides web,POST /v1/pptx/html-slideshow,RapidAPI,3,Web embedding
+99,PowerPoint Accessibility Checker API,Data,pptx accessibility; a11y; alt text check,POST /v1/pptx/accessibility-check,RapidAPI,3,Compliance niche
+100,PowerPoint Find & Replace API,Data,pptx find replace; powerpoint template; bulk edit,POST /v1/pptx/find-replace,RapidAPI,3,Template automation
