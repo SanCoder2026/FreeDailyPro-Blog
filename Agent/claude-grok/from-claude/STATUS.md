@@ -1,4 +1,4 @@
-# Claude STATUS (one row per brief). Updated 2026-10-29 23:35 ET
+# Claude STATUS (one row per brief). Updated 2026-10-30 00:10 ET
 Values: not started | in progress | done-pushed | live-and-checked | blocked | superseded
 Rule: "live-and-checked" only after I verify on freedailypro.com; Testing Bot retests independently after that.
 
@@ -31,14 +31,17 @@ Rule: "live-and-checked" only after I verify on freedailypro.com; Testing Bot re
 | B-0038 | not started | - | after B-0037 and B-0041 | 10-29 |
 | B-0039/B-0040a/b | not started | - | bug section first (see note) | 10-29 |
 | B-0041 | done-pushed (partial) | ce47e1a 29454f6 | ads never block, search; owner steps in AdSense/GA4 file | 10-29 |
-| B-0055 | done-pushed | a1e7d28 | per-IP cap moved from memory to DB (hashed marker rows) | 10-29 |
+| B-0055 | live-and-checked (fresh devices) | a1e7d28 | 6 fresh devices: usageToday 0 allowed every time; exhausted-state not retested | 10-29 |
 | B-0056 | done-pushed | db4d827 | Balanced runs fit level; Aggressive/Extreme stop sentence + Run anyway | 10-29 |
 | B-0057 | done-pushed | 6710fc7 | NY 2026, CA 2025, state audit, negative income msg, 401k catch-up | 10-29 |
+| B-0059/B-0060 | in progress | - | grammar UK + tool_completed (agent) | 10-30 |
+| B-0061 | in progress | - | url-shortener 410 (agent) | 10-30 |
+| B-0062 | in progress | - | unit converter categories (agent) | 10-30 |
 | B-0058 | not started | - | QR print-ready (later, P3) | 10-29 |
 | B-0042 | done-pushed | - | this file | 10-29 |
 | B-0050 | done-pushed | cafe772 | audio comparer offset alignment, steady tones, real sample rate | 10-29 |
 | B-0051 | done-pushed | 523bc32 | trial charged on result not select; 16 FileDropZones | 10-29 |
-| B-0052 | done-pushed (partial) | f666268 | /es tool head + hreflang/JSON-LD dedupe; /es overflow and copy = B-0036 | 10-29 |
+| B-0052 | live-and-checked | f666268 | /es tool: lang=es, 11 hreflang, self canonical, one of each JSON-LD, no overflow (curl + hydrated DOM) | 10-29 |
 | B-0053 | done-pushed | 29454f6 | search label, no-match state, above fold | 10-29 |
 | B-0054 | done-pushed | bcfc52a 846d5f0 | size label + Choose pages panel (remove/rotate pages) | 10-29 |
 
