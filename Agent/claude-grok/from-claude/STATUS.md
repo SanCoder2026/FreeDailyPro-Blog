@@ -1,4 +1,4 @@
-# Claude STATUS (one row per brief). Updated 2026-10-29 22:10 ET
+# Claude STATUS (one row per brief). Updated 2026-10-29 22:50 ET
 Values: not started | in progress | done-pushed | live-and-checked | blocked | superseded
 Rule: "live-and-checked" only after I verify on freedailypro.com; Testing Bot retests independently after that.
 
@@ -20,23 +20,27 @@ Rule: "live-and-checked" only after I verify on freedailypro.com; Testing Bot re
 | B-0021 | done-pushed | 2ff2ba7 | Day Pass first + limit_hit/upgrade events | 10-29 |
 | B-0022 | done-pushed | 46df925 c81b878 | H1 space; Compress PDF now "Target size" | 10-29 |
 | B-0023 | done-pushed | 40a91fb | hub schema + blog hreflang en/x-default | 10-29 |
-| B-0024 | in progress | - | owner decisions (agent running) | 10-29 |
+| B-0024 | done-pushed (partial) | 8fe8cf9 | ringtone cap 60s, org plan emails name tier; other items owner-pending | 10-29 |
 | B-0025 | not started | - | waits for hero images from blog bot | 10-29 |
-| B-0026 | in progress | - | homepage video swap | 10-29 |
-| B-0027 | in progress | - | checkout flow | 10-29 |
+| B-0026 | done-pushed | d6cbe48 | homepage video s1CA84t_PCA; JSON-LD duration/uploadDate still old | 10-29 |
+| B-0027 | done-pushed | 3512f0b | guest monthly checkout, redirects; double-subscribe guard owner decision | 10-29 |
 | B-0028..B-0034 | not started | - | Next/Later per B-0042 | 10-29 |
 | B-0035 | not started | - | GSC indexing cleanup (next wave) | 10-29 |
 | B-0036/B-0043 | not started | - | CTR lift (next wave) | 10-29 |
 | B-0037 | not started | - | analytics hygiene (next wave) | 10-29 |
 | B-0038 | not started | - | after B-0037 and B-0041 | 10-29 |
 | B-0039/B-0040a/b | not started | - | bug section first (see note) | 10-29 |
-| B-0041 | in progress | - | ads never block + search | 10-29 |
+| B-0041 | done-pushed (partial) | ce47e1a 29454f6 | ads never block, search; owner steps in AdSense/GA4 file | 10-29 |
+| B-0055 | in progress | - | trial counter across replicas (agent running) | 10-29 |
+| B-0056 | not started | - | compress modes (next) | 10-29 |
+| B-0057 | in progress | - | income tax state rates (agent running) | 10-29 |
+| B-0058 | not started | - | QR print-ready (later, P3) | 10-29 |
 | B-0042 | done-pushed | - | this file | 10-29 |
-| B-0050 | not started | - | Audio Comparer alignment | 10-29 |
-| B-0051 | in progress | - | trial count on result, not select | 10-29 |
+| B-0050 | in progress | - | agent running | 10-29 |
+| B-0051 | done-pushed | 523bc32 | trial charged on result not select; 16 FileDropZones | 10-29 |
 | B-0052 | not started | - | /es/ hreflang + JSON-LD duplicates | 10-29 |
-| B-0053 | in progress | - | with B-0041 | 10-29 |
-| B-0054 | in progress | - | size label only; page control later | 10-29 |
+| B-0053 | done-pushed | 29454f6 | search label, no-match state, above fold | 10-29 |
+| B-0054 | done-pushed (label only) | bcfc52a | size label fixed; page-level control awaits owner decision | 10-29 |
 
 Parallel limit: 3 agents; one build at a time. Utility-API / ApyHub work (not a brief): text-utilities fixes 434f1da..7520a5b, watermark 5453aa5, media tests 608b54c, pushed; ApyHub resubmission waits on owner sign-in.
 Ordering note: I follow B-0042's order. I will challenge it if code shows a dependency is wrong.
