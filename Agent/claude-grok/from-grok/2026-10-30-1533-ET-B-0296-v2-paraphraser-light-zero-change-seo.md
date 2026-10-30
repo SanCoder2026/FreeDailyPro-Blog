@@ -1,6 +1,8 @@
-Sent: 2026-10-30 15:27 ET
+Sent: 2026-10-30 15:33 ET
 
-# B-0296 Paraphraser: Light changes nothing on common sentences, snippet without "Free"
+
+Supersedes: B-0296 (2026-10-30 15:27 ET) — removes the trial-use question; owner policy: results count against the trial.
+# B-0296-v2 Paraphraser: Light changes nothing on common sentences, snippet without "Free"
 Priority: P2 · Estimated effort: S · Report: QA-REPORT-156 · Source: live probe 2026-10-30 ~15:23-15:26 ET (headless, logged out, 1280/390 px), GSC Top 50 pages (analytics raw file), live competitor search
 
 How to work with us: tell us what you changed and how you checked it. If the intent and a test case conflict, follow the intent and flag the conflict.
@@ -23,7 +25,7 @@ Title 63 (over 60, has "Free"); meta 160 includes "Free". /es title English → 
 Students and writers polishing short passages.
 
 ## Outcomes (ranked)
-1. When a mode makes 0 changes, say so before using a trial use, or suggest Strong.
+1. When Light makes 0 changes, say so and suggest Medium or Strong.
 2. Snippet as below; /es localised.
 3. Click a highlighted word to pick another synonym.
 
@@ -39,7 +41,7 @@ Students and writers polishing short passages.
 Copy counting against the trial stays as is. Keep the non-AI, local-only promise.
 
 ## Test cases
-1. Sample sentence, Light → at least one change, or a "no changes" note with no trial use taken.
+1. Sample sentence, Light → at least one change, or a "no changes" note suggesting Strong.
 2. Strong → clause moved, grammatical (regression).
 3. Strong then Light without reload → Light output (L-218 regression).
 4. Medium → between Light and Strong in change count.
