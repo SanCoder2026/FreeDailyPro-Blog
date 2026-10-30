@@ -6,40 +6,40 @@ Status values: verified-fixed | open | claimed-fixed-unverified | improvement-su
 |---|---|---|---|---|---|
 | L-001 | homepage | H1 extracts "Task.One" (no space) | homepage-figures brief / B-0022 | verified-fixed | 2026-10-29 |
 | L-002 | homepage | count claims inconsistent (title/footer 300+, cards 250+ tools / 100+ apps) | homepage-figures brief; SW-34 | owner-decision | 2026-10-29 |
-| L-003 | homepage | search box below fold on desktop, no submit/hint/label, no no-results state, suggestions at 2 chars | #66 (B-0053) | open | 2026-10-29 |
-| L-004 | site-wide | auto-ads keyword chips inside headings/labels/results | orch B-0041 (confirmed live in #66) | open | 2026-10-29 |
-| L-005 | site-wide | GA site-search event missing | guidance pack | open (in B-0053) | 2026-10-29 |
+| L-003 | homepage | search box below fold on desktop, no submit/hint/label, no no-results state, suggestions at 2 chars | #66 (B-0053) | verified fixed #99: aria-label, above the fold 1280/390, no-match state | 2026-10-30 |
+| L-004 | site-wide | auto-ads keyword chips inside headings/labels/results | orch B-0041 (confirmed live in #66) | open; +evidence #101: inline "Try Cloud Tools" ad pill on /pricing (pay page); +evidence #100-addendum: ad iframe over Compress PDF level/download buttons (forced clicks, admin session); +evidence #104: "File Taxes" text injected into UK Tax result label (1 of 3 loads); +evidence #105: "Use Calculators" text injected into Break-Even result label (first load only); +evidence #107: intermittent ad box over budget planner "Income name"/"Add Income" at 1280; +evidence #108: "Learn CAD Tools"/"Read Bestsellers"/"Try Cloud Tools" glued into STL/magazine/screenshot copy; +evidence #109: "Learn a Language"/"Edit Photos"/"Get Photo Storage"/"Find Stock Photos" glued into emoji/passport/sprite copy; +evidence #110: "Get Converters"/"Design Graphics"/"Read Economics" glued into audio-speed/mesh/catalog copy; +evidence #111: "Find Song Lyrics"/"Get Writing Tools" glued into ascii/paper copy; +evidence #112: "Try Cloud Tools"/"Learn a Language" glued into job/invisible copy; +evidence #113: "Learn Physics"/"Get Converters" glued into audio tool copy; +evidence #113 addendum: ads + sticky header cover audio-merger merge buttons (admin force-click); #114: "Order Logos"/"Design Graphics" glued into mesh-viewer copy; +evidence #115: "Try Office Apps" glued into crop-pdf copy; +evidence #116: "Order Prints"/"Hire Designers"/"Browse Fonts" glued into color-picker copy and fancy-font style headings; +evidence #117: "Browse Art Prints"/"Hire Designers" glued into color-converter copy; +evidence #118: "Try Office Apps"/"Self-Publish Books"/"Earn a CS Degree" glued into rotate/watermark/remove copy; +evidence #119: "Try Office Apps" glued into repair/redact copy; +evidence #120: inline "Try Office Apps" pill in fillable-forms About + floating bar; "Find Stock Photos" in flip-rotate copy; +evidence #121: "Try Office Apps" in flatten copy, "Store Big Data" in base64 copy; #122 "Find Song Lyrics" injected in diff-checker description; #123 injected ad text in json/contrast/page-numbers tool areas; #124 injected ad text in csv/json-csv/sql tool areas; #123 add.: ads over Add Page Numbers button (admin session, viewport unrecorded; logged-out no overlap) → B-0041; #125 "Binge Hit Series" in subtitle-adder heading; #124 add.: Add Page Numbers 1920×1072 no-upload no ads (inconclusive, open); #126 "Compare Browsers"/"Find Song Lyrics"/"Read Bestsellers" in tool areas; #125 add.: Add Page Numbers 1920×1072 after upload — ads do not cover Add (check closed); #127 "Compare Browsers"×2 audio-to-subtitles, "Books"/"Try Office Apps"; #129 "Compare Browsers"×4, "Compare TVs", "Try Editing Apps"×2, "Get Photo Storage" inside thumbnail-gen About copy +evidence #131: mid-sentence "Audit Security"/"Try Office Apps" in About text on pdf-password/unlock-pdf; +evidence #133: ad pills glued to About text on compare/extract/ocr-pdf ("Browse Reference", "Pick Scanners"); ; +#135: "Store Big Data", "Try Spreadsheets", "Compare Browsers", "Get Templates", "Set Up Email", "Compare SSDs" on excel/html/mail-merge-pdf ; +#137: "Try Office Apps", "Try News Readers", "Compare Browsers", "Automate Work" on bookmarks/pdf-to-excel/pdf-to-powerpoint · #139: "Try Office Apps" glued to copy on powerpoint-to-pdf, bates-numbering · #141: "Try Office Apps" (document-assembler), "Find Media Degrees" (caption-generator) glued to copy · #143: "Compare Browsers" glued to copy (pptx checker, ACX checker) · #145: ad text glued to copy on add-slide-numbers, agenda-builder · #147: "Compare Browsers"/"Edit Photos" glued to copy (audio-scrambler, avatar-builder) · #148: "Learn Mandarin" stuck to copy (emoji-picker) · #149: ad text stuck to copy on badge-pass-maker, bank-statement-to-csv, banner-sign-maker ; +#150 grammar/sprite/tax chips ; +#151 bill/binary/cv chips ; +#152 passport/speed/mesh chips ; +#153 book tools chips ; +#154 catalog "Read Economics", ascii "Find Song Lyrics" ; +#155 booth planner/manager, border-radius chips ; #155-addendum: CLICK-BLOCKING ad over Copy CSS on border-radius-generator at 1280 px (admin 15:21-15:22 ET) ; +#156 paper checker, paraphraser chips ; +#157 box-shadow, brochure chips ; +#158 job-exp, yt-thumbnail, invisible-text chips ; +#159 bulk-image, business-days chips ; +#160 audio-trimmer, silence-remover, audio-merger chips ; +#161 calendar-invite-maker chips | 2026-10-30 |
+| L-005 | site-wide | GA site-search event missing | guidance pack | verified fixed #99: search + search_no_results GA events | 2026-10-30 |
 | L-006 | homepage/site | privacy pop-up sticky (B-0002, claimed done "EEA/UK/CH only") | #46–65 (B-0002) | claimed-fixed-unverified (absent for US visitor; EEA not testable from US IP) | 2026-10-29 |
 | L-010 | roman-numeral-converter | Date mode accepts 30 Feb / 31 Apr | #20 | verified-fixed | 2026-10-29 |
 | L-011 | roman-numeral-converter | US date order option | #20 (improvement) | verified-fixed | 2026-10-29 |
-| L-012 | roman-numeral-converter | vinculum >3999 (all 5 competitors have it) | #20 (improvement) | improvement-suggested (content part in B-0036) | 2026-10-29 |
-| L-013 | roman-numeral-converter | CTR/title/meta/FAQ; /es Spanish content | B-0036 | open (not claimed) | 2026-10-29 |
-| L-014 | roman-numeral-converter (/es + all tool pages) | /es hreflang → homepage set, html lang=en; hreflang + JSON-LD doubled after hydration | #66 (B-0052) | open | 2026-10-29 |
+| L-012 | roman-numeral-converter | vinculum >3999 (all 5 competitors have it) | #20 (improvement) | improvement-suggested (content part in B-0036) ; #162 verified-fixed (4000 → I̅V̅, 3,999,999, V̅ → 5000) | 2026-10-29 |
+| L-013 | roman-numeral-converter | CTR/title/meta/FAQ; /es Spanish content | B-0036 | open (not claimed); #128 SEO recheck: meta 130, no example in snippet; exact title/meta/H2/FAQ in B-0210; /es translated ✓ | 2026-10-29 |
+| L-014 | roman-numeral-converter (/es + all tool pages) | /es hreflang → homepage set, html lang=en; hreflang + JSON-LD doubled after hydration | #66 (B-0052) | verified fixed #100: lang=es, 11 own-page hreflang, 5 unique JSON-LD (SSR + hydrated) | 2026-10-30 |
 | L-015 | roman-numeral-converter | inputs <16px (iOS zoom) | #46–65 class (B-0016) | open | 2026-10-29 |
 | L-016 | roman-numeral-converter | "Free" in title/meta | SW-26 | by-design (owner keeps free in SEO tags) | 2026-10-29 |
 | L-020 | audio-comparer | identical/different scoring | #54 | verified (still PASS) | 2026-10-29 |
 | L-021 | audio-comparer | "Free" in title | #54 / SW-26 | by-design (SEO tags); visible copy in B-0019 open | 2026-10-29 |
-| L-022 | audio-comparer | 0% for same audio with offset or MP3 re-encode; sample-rate label 48 kHz for 44.1 kHz | #66 (B-0050) | open | 2026-10-29 |
-| L-023 | audio-comparer | trial use counted on file select, inconsistent (9 vs 8) | #66 (B-0051) | open | 2026-10-29 |
+| L-022 | audio-comparer | 0% for same audio with offset or MP3 re-encode; sample-rate label 48 kHz for 44.1 kHz | #66 (B-0050) → B-0155 | claimed fixed (B-0050) — still fails | 2026-10-30 |
+| L-023 | audio-comparer | trial use counted on file select, inconsistent (9 vs 8) | #66 (B-0051) → B-0156 | open ; #169 blocked (B-0051): needs non-admin session with trial uses | 2026-10-29 |
 | L-024 | audio-comparer | sample pair, A/B play, spectrogram, share link (competitors) | #66 | improvement-suggested | 2026-10-29 |
 | L-025 | audio-comparer | trial tier 10/day $1/$4.99 | #54 SW-19 | by-design | 2026-10-29 |
-| L-030 | pricing | Day Pass "Sign in to buy" label | Stripe audit / B-0027 | open (not claimed) | 2026-10-29 |
-| L-031 | pricing | monthly needs email gate before Stripe | Stripe audit / B-0027 | open (not claimed) | 2026-10-29 |
-| L-032 | pricing | /account, /workflows 404 | Stripe audit / B-0027 | open (not claimed) | 2026-10-29 |
-| L-033 | pricing | API Upgrade → Google sign-in unexplained; mobile pop-ups over payment dialog | Stripe audit / B-0027 | open (not claimed; not retested) | 2026-10-29 |
+| L-030 | pricing | Day Pass "Sign in to buy" label | Stripe audit / B-0027 | verified fixed #101: "Buy Day Pass" | 2026-10-30 |
+| L-031 | pricing | monthly needs email gate before Stripe | Stripe audit / B-0027 | verified fixed #101: Subscribe Monthly → checkout.stripe.com (1280 + 390) | 2026-10-30 |
+| L-032 | pricing | /account, /workflows 404 | Stripe audit / B-0027 | verified fixed #101: /account → /profile, /workflows → /workflow-products | 2026-10-30 |
+| L-033 | pricing | API Upgrade → Google sign-in unexplained; mobile pop-ups over payment dialog | Stripe audit / B-0027 | verified fixed #101: "Sign in with Google to create your API key"; nothing over the 390 dialog | 2026-10-30 |
 | L-040 | merge-pdf | trial use only on download (not merge, not repeat DL) | B-0001 pattern | verified-fixed/PASS | 2026-10-29 |
-| L-041 | merge-pdf | badge disclosed before download | SW-14 | by-design, disclosed | 2026-10-29 |
+| L-041 | merge-pdf | badge disclosed before download | SW-14 | by-design, disclosed VERIFIED (Admin session ~13:30–13:32 ET): a-merged.pdf 5 pages, no badge/watermark text, 0 images/annots; | 2026-10-29 |
 | L-042 | merge-pdf | result size label 1.7 KB vs 5,548 B file | #67 (B-0054) | open | 2026-10-29 |
 | L-043 | merge-pdf | page thumbnails / per-page remove-rotate / ranges | #67 (B-0054) | improvement-suggested | 2026-10-29 |
 | L-044 | merge-pdf | API ignores page selection | B-0040 | open (not claimed) | 2026-10-29 |
-| L-045 | merge-pdf | guides link off-topic blogs | #17 | open (not retested) | 2026-10-29 |
+| L-045 | merge-pdf | guides link off-topic blogs | #17 | open (not retested); #128 still off-topic guides; fix in B-0212 | 2026-10-29 |
 | L-050 | camera-capture | capture/download PNG/JPG | #49 | verified (still PASS, pre-check) | 2026-10-29 |
-| L-051 | camera-capture | "Free" in title | #49 SW-26 | by-design (SEO tags); visible copy B-0019 open | 2026-10-29 |
+| L-051 | camera-capture | "Free" in title | #49 SW-26 | by-design (SEO tags); visible copy B-0019 open ; +#136: title now 65 chars with Free (B-0235) | 2026-10-29 |
 | L-052 | camera-capture | real iOS/Android permission flow | #49 | open (untested, needs device) | 2026-10-29 |
-| L-053 | site-wide (compress/split/qr/bulk/income-tax) | trial counter differs between server instances (usage.check 0 vs 10 for same IP; fresh visitor sees 0; reload restores uses) | #68 (B-0055) | open | 2026-10-29 |
+| L-053 | site-wide (compress/split/qr/bulk/income-tax) | trial counter differs between server instances (usage.check 0 vs 10 for same IP; fresh visitor sees 0; reload restores uses) | #68 (B-0055) → B-0156 | open | 2026-10-29 |
 | L-054 | compress-pdf | B-0022 "Smallest" mode name in FAQ/help/meta | B-0022 | verified-fixed | 2026-10-29 |
 | L-055 | compress-pdf / paywall | B-0021 Day Pass first + limit_hit/upgrade_cta_view events | B-0021 | verified-fixed (cta_click not triggered — gate rule) | 2026-10-29 |
-| L-056 | compress-pdf | Aggressive = Extreme byte-identical; Extreme never grey/B&W; Balanced skips lossless level 2 | #68 (B-0056) | open | 2026-10-29 |
+| L-056 | compress-pdf | Aggressive = Extreme byte-identical; Extreme never grey/B&W; Balanced skips lossless level 2 | #68 (B-0056) | verified fixed #99 + #100-addendum (admin session downloads: Aggressive L2 97,664 B, Extreme L5 7,110 B JBIG2 B&W) | 2026-10-30 |
 | L-057 | compress-pdf | counting: compress free, 1 use on download | B-0001 | verified-fixed | 2026-10-29 |
 | L-058 | compress-pdf | target-size download, >50 MB file, iOS | #68 | open (untested — pool exhausted/B-0055) | 2026-10-29 |
 | L-059 | split-pdf | multi-range → ZIP of all files (UI) | test-plan row 7 / B-0040 (API part stays open) | verified-fixed (UI) | 2026-10-29 |
@@ -53,12 +53,12 @@ Status values: verified-fixed | open | claimed-fixed-unverified | improvement-su
 | L-067 | custom-qr | #47 PASS — no open items; functional rerun skipped (premium + selector) | #47 | open (rerun next) | 2026-10-29 |
 | L-068 | income-tax | default state Custom 5% | #21 | verified-fixed | 2026-10-29 |
 | L-069 | income-tax | pre-tax > income negative take-home | #21 | verified-fixed | 2026-10-29 |
-| L-070 | income-tax | income -1 silent | #21 | claimed fixed (report #21) — still fails (B-0057) | 2026-10-29 |
-| L-071 | income-tax | NY state uses 2025 rates under 2026 label ($4,952 vs $4,859.75 @100k) | #70 (B-0057) | open | 2026-10-29 |
-| L-072 | income-tax | 401(k) limit check lacks 50+/60–63 catch-up | #70 (B-0057) | open | 2026-10-29 |
-| L-073 | income-tax | CA $100k = $5,312 unconfirmed vs FTB 2026 | #70 (B-0057 audit) | open (verify) | 2026-10-29 |
+| L-070 | income-tax | income -1 silent | #21 | verified fixed #99 (10:16 ET): "Enter an income of 0 or more. It cannot be negative." | 2026-10-30 |
+| L-071 | income-tax | NY state uses 2025 rates under 2026 label ($4,952 vs $4,859.75 @100k) | #70 (B-0057) | verified fixed #99: NY $100k = $4,860 (2026 schedule) | 2026-10-30 |
+| L-072 | income-tax | 401(k) limit check lacks 50+/60–63 catch-up | #70 (B-0057) | verified fixed #99: 24,500 / 32,500 / 35,750 limits by age group | 2026-10-30 |
+| L-073 | income-tax | CA $100k = $5,312 unconfirmed vs FTB 2026 | #70 (B-0057 audit) | verified fixed #99: CA labelled tax year 2025; $5,055 = FTB 2025 hand calc | 2026-10-30 |
 | L-074 | income-tax | federal math + FICA + SE + counting (1/visit) | #70 | mature (federal) | 2026-10-29 |
-| L-075 | site-wide | B-0055 recheck: 24/24 loads usageToday 0 at 22:28–22:30 ET; pool emptied with no day change (the UTC day had rolled over at 20:00 ET, yet usage was 10 at 22:05) | #71 (B-0055) | open — reset without a day change adds evidence; flapping not reproduced this run | 2026-10-29 |
+| L-075 | site-wide | B-0055 recheck: 24/24 loads usageToday 0 at 22:28–22:30 ET; pool emptied with no day change (the UTC day had rolled over at 20:00 ET, yet usage was 10 at 22:05) | #71 (B-0055) | exhausted state verified #101 (24/24 loads: header 0, usageToday 10, 10:31–10:33 ET); R68-CNT-02 spend/reload needs browser ; #169 part 2 blocked: needs non-admin session with trial uses | 2026-10-30 |
 | L-076 | compress-pdf | target size 2 MB → 1.49 MB, text + link kept, 1 use on download | #71 | verified (was untested) | 2026-10-29 |
 | L-077 | qr-generator | 2000 px PNG download | #71 | verified (was blocked) | 2026-10-29 |
 | L-078 | bulk-qr | ",no name" keeps comma (#43) | #43 | verified-fixed (was claimed-fixed-unverified L-065) | 2026-10-29 |
@@ -66,23 +66,23 @@ Status values: verified-fixed | open | claimed-fixed-unverified | improvement-su
 | L-080 | bulk-qr (mobile) | CLS 0.153 | B-0041 | open (evidence added) | 2026-10-29 |
 | L-081 | unit-converter | accuracy 11 categories, temp edge cases, swap, counting | #72 | mature-candidate (PASS) | 2026-10-29 |
 | L-082 | unit-converter | missing power/angle/frequency/cooking; no inputmode decimal | #72 (B-0062) | improvement-suggested | 2026-10-29 |
-| L-083 | unit-converter / grammar-checker | no tool_completed GA event on use | #72 (B-0060) | open | 2026-10-29 |
+| L-083 | unit-converter / grammar-checker | no tool_completed GA event on use | #72 (B-0060) | claimed fixed (B-0060): retest BLOCKED #100 (no spend at 0 uses). Needs browser run ; #169 blocked: needs non-admin session with trial uses | 2026-10-30 |
 | L-084 | unit-converter | CLS desktop 0.185 / mobile 0.135 | B-0041 | open (evidence added) | 2026-10-29 |
 | L-085 | grammar-checker | jumpd auto-fix; an banana; it's tail; you're message (#31) | #31 | verified-fixed | 2026-10-29 |
-| L-086 | grammar-checker | "Me and him goes", "I seen" (#31 P3) | #31 | open (not re-briefed) | 2026-10-29 |
-| L-087 | grammar-checker | valid UK spelling auto-changed to US | #72 (B-0059) | open | 2026-10-29 |
-| L-088 | grammar-checker | then/than, effect/affect, less/fewer missed; 681-bullet list ungrouped | #72 (B-0059) | open | 2026-10-29 |
+| L-086 | grammar-checker | "Me and him goes", "I seen" (#31 P3) | #31 | open (not re-briefed) ; #150 retest blocked (0 trial uses), B-0276 ; #150-addendum 14:54 ET: "I seen", "Me and him likes" still missed (not claimed fixed) | 2026-10-29 |
+| L-087 | grammar-checker | valid UK spelling auto-changed to US | #72 (B-0059) | claimed fixed (B-0059) — still fails: centre's→center's silently in UK, Auto and US modes (admin session 10:35 ET, #100-addendum) ; #150-addendum 14:54 ET: centre/colour kept in UK ✔, recheck "centre's" ; #151-addendum 14:59 ET: claimed fixed but still failing — centre's→center's under "UK spelling (detected)" | 2026-10-30 |
+| L-088 | grammar-checker | then/than, effect/affect, less/fewer missed; 681-bullet list ungrouped | #72 (B-0059) | verified fixed #100-addendum (admin session): then/than, less/fewer as suggestions; grouped list not re-measured | 2026-10-30 |
 | L-089 | grammar-checker | CLS desktop 0.133 (video embed) | B-0041 | open (evidence added) | 2026-10-29 |
 | L-090 | url-shortener | /s/* → 410 with explanation | owner removal fa78b7f | verified | 2026-10-29 |
-| L-091 | url-shortener | /tool/url-shortener bare 404; slash URL 301→404 | #72 (B-0061) | open | 2026-10-29 |
-| L-092 | camera | full-photo download badged with no prior notice (crop path discloses) | #73 (B-0063) | open | 2026-10-29 |
+| L-091 | url-shortener | /tool/url-shortener bare 404; slash URL 301→404 | #72 (B-0061) | open +#132: /tool/url-shortener now 410 (owner removal); ; #156 skipped from SEO backfill 15 (410) ; #169 verified-fixed: both 410 (checked) | 2026-10-29 |
+| L-092 | camera | full-photo download badged with no prior notice (crop path discloses) | #73 (B-0063) | open ; #169 blocked: camera + trial session | 2026-10-29 |
 | L-093 | camera | capture/JPG/crop/count work at 1280+390 (fake device) | #73 | verified | 2026-10-29 |
-| L-094 | camera | no tool_completed on download | B-0060 | open (evidence added) | 2026-10-29 |
+| L-094 | camera | no tool_completed on download | B-0060 | claimed fixed (B-0060): retest BLOCKED #100. Needs browser run ; #169 blocked: needs non-admin session with trial uses | 2026-10-30 |
 | L-095 | camera | mobile load CLS 0.173 | B-0041 | open (evidence added) | 2026-10-29 |
 | L-096 | word-counter | abbreviations overcount sentences; CJK words; no speaking time/keyword density | #73 (B-0065) | open | 2026-10-29 |
 | L-097 | word-counter | related-search ad block injected inside stats grid (390) | B-0041 | open (evidence added) | 2026-10-29 |
-| L-098 | word-counter | no tool_completed on Copy stats | B-0060 | open (evidence added) | 2026-10-29 |
-| L-099 | audio-normalizer | Spotify −14 / Podcast −16 split; ACX RMS copy (#45) | #45 | verified | 2026-10-29 |
+| L-098 | word-counter | no tool_completed on Copy stats | B-0060 | claimed fixed (B-0060): retest BLOCKED #100 (Copy → limit_hit only). Needs browser run ; #169 blocked: needs non-admin session with trial uses | 2026-10-30 |
+| L-099 | audio-normalizer | Spotify −14 / Podcast −16 split; ACX RMS copy (#45) | #45 | verified · #140 B-0246: pos 28.3; LUFS title | 2026-10-29 |
 | L-100 | audio-normalizer | MP3 out ~110k VBR, no bitrate choice; ACX MP3 non-compliant | #73 (B-0064) | open | 2026-10-29 |
 | L-101 | audio-normalizer | 13×13 limit-peaks checkbox | #45 → B-0064 | open (still fails) | 2026-10-29 |
 | L-102 | audio-normalizer | counter 6→0 mid-session | B-0055 | open (evidence added) | 2026-10-29 |
@@ -91,26 +91,26 @@ Mature: Income Tax federal engine (L-074). Mature candidates: Split PDF, QR Code
 Batch 4 (#73): Audio Normalizer loudness engine verified (all presets ±0.05 LU); mature once B-0064 lands. Word Counter mature-candidate after B-0065.
 | L-103 | video-to-gif | corrupt file silent fail + charge (batch-12) | — | verified fixed (#74) | 2026-10-29 |
 | L-104 | video-to-gif | start past end (batch-12) | — | verified fixed (clamped) (#74) | 2026-10-29 |
-| L-105 | video-to-gif | GIF size shown in MiB labelled MB | B-0067 | open | 2026-10-29 |
-| L-106 | compress-video | limit copy 200 MB vs GIF 5 GB | B-0067 | open | 2026-10-29 |
+| L-105 | video-to-gif | GIF size shown in MiB labelled MB | B-0067 | open ; #165 unverified: size readout needs a GIF (trial session) | 2026-10-29 |
+| L-106 | compress-video | limit copy 200 MB vs GIF 5 GB | B-0067 | open · #146: title 64 w/ Free, bare H1, 0/733 pos 6.5 → B-0264 ; #165 verified-fixed: compress-video and video-to-gif both "over 200 MB" | 2026-10-29 |
 | L-107 | compress-video | counter 10→0 after one run | B-0055 | open (evidence added) | 2026-10-29 |
 | L-108 | compress-video | post-use CLS 0.10–0.138 desktop | B-0041 | open (evidence added) | 2026-10-29 |
 | L-109 | sign-pdf | SIGN-01 download no-op | — | verified fixed (#74) | 2026-10-29 |
 | L-110 | sign-pdf | SIGN-02 charge on drop | — | verified fixed (#74) | 2026-10-29 |
 | L-111 | sign-pdf | SIGN-03 metadata overwritten | — | verified fixed (#74) | 2026-10-29 |
 | L-112 | sign-pdf | SIGN-04 signature offset | — | verified fixed (#74) | 2026-10-29 |
-| L-113 | sign-pdf | "Tap" hint on desktop | B-0067 | open | 2026-10-29 |
+| L-113 | sign-pdf | "Tap" hint on desktop | B-0067 | open ; #165 verified-fixed: "click" wording at 1280, "Tap" not seen (checked) | 2026-10-29 |
 | L-114 | sign-pdf + video-to-gif | meta description 48/76 chars | B-0068 | open | 2026-10-29 |
-| L-115 | compress-image | Don't change dimensions pre-ticked → target missed | B-0066 | open | 2026-10-29 |
+| L-115 | compress-image | Don't change dimensions pre-ticked → target missed | B-0066 | open ; #166 verified-fixed: unticked by default + KB presets; resize message → trial session | 2026-10-29 |
 | L-116 | compress-image + resize-crop | post-use CLS 0.166–0.203 / 0.119 | B-0041 | open (evidence added) | 2026-10-29 |
-| L-117 | resize-crop | plan: fit mode ignored | — | UI pass all 5 modes; API untested (read-only) | 2026-10-29 |
+| L-117 | resize-crop | plan: fit mode ignored | — | UI pass all 5 modes; API untested (read-only) · #140 B-0248: meta 137; fit bug still blocks copy | 2026-10-29 |
 
 Batch 5 (#74–75): Compress Video, Video to GIF, Sign PDF, Resize & Crop = mature-candidates. Compress Image mature after B-0066.
-| L-118 | barcode-generator | 0.1% CTR pos 7.8; 1× default too small for print; GS1 note; filename | B-0069 | open | 2026-10-29 |
+| L-118 | barcode-generator | 0.1% CTR pos 7.8; 1× default too small for print; GS1 note; filename | B-0069 | open ; #154 B-0289 still 0.1% CTR pos 7.8 ; #166 B-0069 verified-fixed: 300 dpi 4× default, GS1 note; filenames → trial session | 2026-10-29 |
 | L-119 | barcode-generator | validation (check digit, length) | — | verified pass (#77) | 2026-10-29 |
 | L-120 | invoice-generator | payment terms missing on PDF | B-0071 | open | 2026-10-29 |
 | L-121 | invoice-generator | PDF output + totals maths | — | verified pass (#77) | 2026-10-29 |
-| L-122 | compress-image | default ticked (B-0066) – unticked path reaches 186 KB | B-0066 | open (evidence added) | 2026-10-29 |
+| L-122 | compress-image | default ticked (B-0066) – unticked path reaches 186 KB | B-0066 | open (evidence added) ; #166 see L-115 (verified-fixed) | 2026-10-29 |
 | L-123 | word-to-pdf | theme font → Times | B-0070 | open | 2026-10-29 |
 | L-124 | word-to-pdf | meta 75 chars | B-0070 | open | 2026-10-29 |
 | L-125 | universal-file-converter | Original → Download shown/ungated after convert | B-0070 | open | 2026-10-29 |
@@ -119,23 +119,23 @@ Batch 5 (#74–75): Compress Video, Video to GIF, Sign PDF, Resize & Crop = matu
 | L-128 | universal + barcode + compress-image | post-action CLS 0.12–0.28 | B-0041 | open (evidence added) | 2026-10-29 |
 
 Batch 6 (#76–77): PDF to Word mature-candidate; Word to PDF after B-0070; Barcode after B-0069; Invoice after B-0071. Universal converted-download untested (pool), retest.
-| L-129 | mortgage-calculator | mobile load CLS 0.32–0.48 (auto-placed ad + results block) | B-0072 | open | 2026-10-29 |
-| L-130 | /tools | desktop load CLS 0.28–0.37 (tool-chip row) | B-0072 | open | 2026-10-29 |
-| L-131 | bmi-calculator | snippet 0/504 at pos 6.8 | B-0073 | open | 2026-10-29 |
+| L-129 | mortgage-calculator | mobile load CLS 0.32–0.48 (auto-placed ad + results block) | B-0072 | open ; #167 claimed fixed but still failing: 390 px CLS 0.21/0.41/0.21, shift ~310 ms before ads | 2026-10-29 |
+| L-130 | /tools | desktop load CLS 0.28–0.37 (tool-chip row) | B-0072 | open ; #168 claimed fixed but still failing: /tools 0.77/0.77/0.78 (one load 0) | 2026-10-29 |
+| L-131 | bmi-calculator | snippet 0/504 at pos 6.8 | B-0073 | open · #144: title leads Free/no brand → B-0260 | 2026-10-29 |
 | L-132 | jwt / uuid / hash | meta descriptions 73–76 chars | B-0074 | open | 2026-10-29 |
 | L-133 | hash-generator | file hashing missing (plan) | — | fixed, verified #79 | 2026-10-29 |
 | L-134 | /developers | false claims / 404 use-cases | B-0020 | fixed, verified #80 | 2026-10-29 |
 | L-135 | categories + sitemap | indexability (B-0035) | B-0035 | site-side clean, #80 | 2026-10-29 |
-| L-136 | calculators | no tool-completion GA event | B-0060 | open (evidence added) | 2026-10-29 |
+| L-136 | calculators | no tool-completion GA event | B-0060 | claimed fixed (B-0060): retest BLOCKED #100 (tip/currency Copy → limit_hit only). Needs browser run ; #169 blocked: needs non-admin session with trial uses | 2026-10-30 |
 | L-137 | uuid mobile | pool 0 → limit dialog | B-0055 | open (evidence added) | 2026-10-29 |
 
 Batch 7 (#78–80): BMI, Loan, JWT, UUID, Hash, /developers, category pages **mature**; Mortgage after B-0072. Carry-over: Barcode UPC-A/ITF-14, Universal converted download, Invoice desktop.
 | L-138 | /tool/book-maker | HTTP 404 + noindex, JS redirect (106 views) | B-0075 | open | 2026-10-30 |
-| L-139 | find-replace | .docx output stored uncompressed, 23× size | B-0076 | open | 2026-10-30 |
-| L-140 | tip / magazine / book-writing-toolbox | mobile load CLS 0.19–0.55; shared container shift | B-0077 | open | 2026-10-30 |
+| L-139 | find-replace | .docx output stored uncompressed, 23× size | B-0076 | open ; #169 blocked: download needs trial uses | 2026-10-30 |
+| L-140 | tip / magazine / book-writing-toolbox | mobile load CLS 0.19–0.55; shared container shift | B-0077 | open ; #168 claimed fixed but still failing: tip 0.08/0.32/0.23, magazine 0.22/0.24/0.001 at 390 | 2026-10-30 |
 | L-141 | tip-calculator | invalid input shows "—" without message | B-0078 | open | 2026-10-30 |
-| L-142 | book-writing-toolbox | mobile icon buttons without accessible names | B-0078 | open | 2026-10-30 |
-| L-143 | find-replace / universal | pool: mobile replaced at 0; 2→0 after one download | B-0055 | open (evidence added) | 2026-10-30 |
+| L-142 | book-writing-toolbox | mobile icon buttons without accessible names | B-0078 → B-0155 | open | 2026-10-30 |
+| L-143 | find-replace / universal | pool: mobile replaced at 0; 2→0 after one download | B-0055 | open (evidence added); +evidence #108: magazine-maker header "0 remaining" vs build panel "2 remaining"; +evidence #120: organize-pdf header "2 uses/day · 0 remaining" vs post-save "2 remaining today"; #125 subtitle-adder 2 remaining → 0 after one render (logged out) | 2026-10-30 |
 | L-144 | universal-file-converter | CSV→XLSX converted download (carry-over) | — | verified OK #81 | 2026-10-30 |
 
 Batch 8 (#81–82): Percentage, Magazine (after B-0077) mature; Tip after B-0077/B-0078; Find & Replace after B-0076; Book toolbox export untested (Google sign-in wall). Carry-over: Barcode UPC-A/ITF-14 (pool 0), Invoice desktop.
@@ -143,33 +143,33 @@ Batch 8 (#81–82): Percentage, Magazine (after B-0077) mature; Tip after B-0077
 | L-146 | citation-generator | Chicago website drops the year | B-0080 | open | 2026-10-30 |
 | L-147 | random-number-generator | invalid min disables Generate with no reason | B-0080 | open | 2026-10-30 |
 | L-148 | /multitool-apps | HTTP 404 (55 views) → /premium-apps | B-0075 | open (evidence added) | 2026-10-30 |
-| L-149 | citation / password mobile | load CLS 0.24 / 0.23 | B-0077 | open (evidence added) | 2026-10-30 |
-| L-150 | image-to-pdf / password / case-converter | outputs blocked (0 trial uses all run) | — | carry-over | 2026-10-30 |
+| L-149 | citation / password mobile | load CLS 0.24 / 0.23 | B-0077 | open (evidence added) ; #168 claimed fixed but still failing: citation 0.27×3, password 0.28/0.28/0.38 at 390 | 2026-10-30 |
+| L-150 | image-to-pdf / password / case-converter | outputs blocked (0 trial uses all run) | — → B-0156 | carry-over | 2026-10-30 |
 
 Batch 9 (#83–85): /workflow-products mature; RNG mature after B-0080; Citation after B-0079/B-0080. Screenshot Tool needs a headed run. Carry-over: Image to PDF, Password, Case Converter outputs, Barcode UPC-A/ITF-14, Invoice desktop.
 
 Batch 10 (#86–87, admin session, 30 Oct 07:55 ET carry-overs):
 | L-151 | image-to-pdf | multi-image output verified (2p Letter, JPG passthrough) | — | verified; mature | 2026-10-30 |
-| L-152 | password-generator | 20-char ±symbols + Copy | — | output verified (admin session); not mature under the new rule (see L-183) | 2026-10-30 |
-| L-153 | case-converter | chained modes garble; no download | B-0081 | open | 2026-10-30 |
+| L-152 | password-generator | 20-char ±symbols + Copy | — | output verified (admin session); not mature under the new rule (see L-183) · #140 B-0247: title 62, meta 79; getRandomValues confirmed | 2026-10-30 |
+| L-153 | case-converter | chained modes garble; no download | B-0081 | open · #142 B-0252: meta 97; chain bug blocks copy ; #166 blocked: mode click gated at 0 trial uses; Download .txt seen → trial session for chaining | 2026-10-30 |
 | L-154 | barcode | UPC-A/ITF-14 check digits PNG+SVG | — | verified | 2026-10-30 |
 | L-120 | invoice-generator | +evidence #87: Net 30 in dropdown, due date correct, still not printed on PDF | B-0071 | open (still fails) | 2026-10-30 |
 | L-155 | universal-file-converter | JPG→PNG output real PNG | — | verified | 2026-10-30 |
-| L-156 | universal-file-converter | blob: ERR_FILE_NOT_FOUND; scripted click no download | B-0082 | open | 2026-10-30 |
+| L-156 | universal-file-converter | blob: ERR_FILE_NOT_FOUND; scripted click no download | B-0082 | open ; #169 blocked: download needs trial uses | 2026-10-30 |
 Evidence: B-0069 (filenames barcode.png / barcode (1).png). L-125 (B-0070 bypass) untestable in admin session, stays open. L-150 carry-over closed.
 
 Batch 11 (#88, capability-gap sweep 1, owner rule 30 Oct: mature = works AND ≥ best competitor):
 | L-157 | income-tax | capability gap: refund/owed, credits, itemised, other income, tax-year switch, API depth | B-0089 | open (P2) | 2026-10-30 |
-| L-158 | tip-calculator | capability gap: multi-% compare, service/country presets, uneven split, reverse | B-0090 | open (P2) | 2026-10-30 |
-| L-159 | bmi-calculator | capability gap: BMI Prime/PI, WHtR, target mode, CDC child percentile, API | B-0091 | open (P2) | 2026-10-30 |
+| L-158 | tip-calculator | capability gap: multi-% compare, service/country presets, uneven split, reverse | B-0090 | open (P2) ; #168 passes in part: service presets, uneven split, reverse; country presets not seen (checked) | 2026-10-30 |
+| L-159 | bmi-calculator | capability gap: BMI Prime/PI, WHtR, target mode, CDC child percentile, API | B-0091 | open (P2) · #144: + obesity classes, WHtR, who-not-to-use note (CDC/NHS) → B-0260 | 2026-10-30 |
 | L-074 | income-tax | RE-LABEL: federal engine accurate (re-checked #88) but **not mature** under the new rule (B-0089) | B-0089 | re-labelled | 2026-10-30 |
-| L-072 | income-tax | +evidence #88: 401(k) age groups (under 50 / 50+ / 60–63) now in the UI; limits not re-verified | B-0057 | open (evidence) | 2026-10-30 |
+| L-072 | income-tax | +evidence #88: 401(k) age groups (under 50 / 50+ / 60–63) now in the UI; limits not re-verified | B-0057 | verified fixed #99: 24,500 / 32,500 / 35,750 limits by age group | 2026-10-30 |
 Re-label: BMI "mature" (batch 7, #78) → **not mature** (B-0091). Percentage and Loan "mature" labels are under review in the next capability batch.
 
 Batch 12 (#89, capability-gap sweep 2):
-| L-160 | mortgage-calculator | capability gap: chart, yearly view, biweekly, DTI 28/36, cost growth, API | B-0086 | open (P2) | 2026-10-30 |
-| L-161 | percentage-calculator | capability gap: solve-any-two, steps, pp vs %, bps, history | B-0087 | open (P2) | 2026-10-30 |
-| L-162 | loan-calculator | capability gap: frequencies, solve-for, APR, deferred/bond, compare | B-0088 | open (P2) | 2026-10-30 |
+| L-160 | mortgage-calculator | capability gap: chart, yearly view, biweekly, DTI 28/36, cost growth, API | B-0086 | open (P2) · #146: + PMI under 20% down, HOA, $/% down (top 5) → B-0265 ; #167 verified-fixed (PMI/HOA/$-% down/cost growth/biweekly/income+debts); DTI readout unverified | 2026-10-30 |
+| L-161 | percentage-calculator | capability gap: solve-any-two, steps, pp vs %, bps, history | B-0087 | open (P2) ; #167 passes in part: 6 modes, per mille/bps, steps; percentage-point wording not seen (checked) | 2026-10-30 |
+| L-162 | loan-calculator | capability gap: frequencies, solve-for, APR, deferred/bond, compare | B-0088 | open (P2) ; #167 verified-fixed: frequency, solve-for, APR, deferred, compare | 2026-10-30 |
 Re-labels (#89): Loan "mature" (batch 7) → not mature; Percentage "mature" (batch 8) → not mature (small gap); Unit Converter L-081 mature-candidate → under review (not benchmarked yet).
 
 Batch 13 (#90, capability-gap sweep 3; batch-11 briefs renumbered B-0083/84/85 → B-0089/90/91 on Orchestrator request):
@@ -178,7 +178,7 @@ Batch 13 (#90, capability-gap sweep 3; batch-11 briefs renumbered B-0083/84/85 �
 | L-165 | compound-interest | capability gap: chart, rate range, withdrawals, solve-for, continuous; merge API into loan service | B-0102 | open (P2) | 2026-10-30 |
 
 Batch 14 (#91, capability-gap sweep 4; owner 08:16: book watermark intentional; ApyHub API handled directly by owner with Claude):
-| L-166 | college-529-calculator | 4 inputs lack accessible names; no cost-based goal, tax comparison or table (2,029 impr, 0 clicks) | B-0103 | open (P2) | 2026-10-30 |
+| L-166 | college-529-calculator | 4 inputs lack accessible names; no cost-based goal, tax comparison or table (2,029 impr, 0 clicks) | B-0103 → B-0155 | open (P2) | 2026-10-30 |
 | L-167 | rmd-calculator | capability gap: Joint Life spouse table, projection, deadline/penalty, data year/owner, inherited | B-0104 | open (P2) | 2026-10-30 |
 | L-168 | fire-calculator | capability gap: savings-rate framing, chart, Coast/Barista FIRE | B-0105 | open (P2) | 2026-10-30 |
 
@@ -190,7 +190,7 @@ Batch 15 (#92, capability-gap sweep 5):
 Batch 16 (#93 capability sweep 6; #94 Book Writing Toolbox):
 | L-081 | unit-converter | re-label: mature-candidate → **not mature (discoverability gap)** | #93 (B-0109) | re-labelled | 2026-10-30 |
 | L-082 | unit-converter | power/angle/frequency/cooking + inputmode decimal | #72 (B-0062) | claimed fixed — **verified fixed (#93)** | 2026-10-30 |
-| L-172 | unit-converter | empty on load; no per-pair landing pages; 4,782 impr / 0% CTR | B-0109 | open (P2) | 2026-10-30 |
+| L-172 | unit-converter | empty on load; no per-pair landing pages; 4,782 impr / 0% CTR | B-0109 | open (P2) ; #156 B-0295 still empty on load, no per-pair URL (checked) | 2026-10-30 |
 | L-173 | body-fat-calculator | no age/ideal %, BMI method, formula; fat/lean mass unverified | B-0110 | open (P2) | 2026-10-30 |
 | L-174 | gpa-calculator | no target-GPA planner, semesters, % grades | B-0111 | open (P2) | 2026-10-30 |
 | L-175 | book-writing-toolbox | DOCX import flattens table, drops image (unicode OK) | B-0112 | open (P1) | 2026-10-30 |
@@ -198,15 +198,15 @@ Batch 16 (#93 capability sweep 6; #94 Book Writing Toolbox):
 | L-177 | book-writing-toolbox | ads overlay buttons, forced clicks needed (admin 08:19) | B-0041 | open (evidence added) | 2026-10-30 |
 
 Batch 17 (#95, capability sweep 7):
-| L-178 | cost-of-living-comparison | headline excludes housing; 33 unlabeled controls; no metro rent | B-0113 | open (P2) | 2026-10-30 |
+| L-178 | cost-of-living-comparison | headline excludes housing; 33 unlabeled controls; no metro rent | B-0113 → B-0155 | open (P2) | 2026-10-30 |
 | L-012 | roman-numeral-converter | vinculum >3999 still missing (re-checked #95: 4000 → "1 to 3999") | B-0114 | open (evidence added, now briefed) | 2026-10-30 |
-| L-179 | roman-numeral-converter | no step-by-step breakdown or reference table; CTR 0.1% on 38,580 impr | B-0114 (+B-0036, B-0052) | open (P2) | 2026-10-30 |
-| L-180 | random-number-generator | Generate consumes a trial use (output unverifiable at 0 left); no decimals/presets/method note | B-0115 | open (P2; owner decision); output → admin carry-over | 2026-10-30 |
+| L-179 | roman-numeral-converter | no step-by-step breakdown or reference table; CTR 0.1% on 38,580 impr | B-0114 (+B-0036, B-0052) | open (P2) ; #162 verified-fixed (steps 1994 = M+CM+XC+IV; 1–100 and 1950–2050 tables) | 2026-10-30 |
+| L-180 | random-number-generator | Generate consumes a trial use (output unverifiable at 0 left); no decimals/presets/method note | B-0115 → B-0156 | open (P2; owner decision); output → admin carry-over ; #162 verified-fixed: result shown at 0 trial uses, decimals, dice/coin/lottery/list, seed, method note | 2026-10-30 |
 
 Batch 18 (#96, capability sweep 8):
 | L-181 | currency-converter | no history/fee/multi view; inline "Trade Forex" ad in About copy (B-0041 evidence) | B-0116 (+B-0041) | open (P2) | 2026-10-30 |
-| L-182 | timezone-converter | no meeting grid/share/.ics; IANA-only names (DST handling verified OK) | B-0117 | open (P2) | 2026-10-30 |
-| L-183 | password-generator | Generate blocked at 0 trial uses; 2 unlabeled controls; no entropy; duplicate password-strength tool | B-0118 | open (P2); output → admin carry-over | 2026-10-30 |
+| L-182 | timezone-converter | no meeting grid/share/.ics; IANA-only names (DST handling verified OK) | B-0117 | open (P2) ; #162 verified-fixed: grid, share URL, city names, next clock change; .ics blocked at 0 trial uses (needs trial session); P3 copy-link dialog says "downloading" | 2026-10-30 |
+| L-183 | password-generator | Generate blocked at 0 trial uses; 2 unlabeled controls; no entropy; duplicate password-strength tool | B-0118 → B-0155 → B-0156 | open (P2); output → admin carry-over ; #163 verified-fixed: shown on load + Generate at 0 trial uses, entropy, labels, cross-link | 2026-10-30 |
 Carry-over for admin session: L-180 Random Number Generator output (added 08:29 ET), L-183 Password output, L-176 Book clean download.
 Note 08:31 ET: B-0116, B-0117 and B-0118 are superseded by -v2 files (2026-10-30-0831-ET-…-v2.md) with live competitor fetches (XE, Wise, World Time Buddy, timeanddate, 1Password; Bitwarden timed out). The 0829 originals are unchanged. Rule: a brief is never edited after it is sent; a -v2 file is written instead. L-152 relabelled 08:29 ET to remove the conflict with L-183.
 
@@ -222,7 +222,187 @@ Carry-over for admin session (08:37 ET): L-180 RNG output, L-183 Password output
 Batch 20 (#98, admin-session carry-over results, 08:40 ET):
 | L-180 | random-number-generator | admin session: integer + no-duplicates output OK; decimals rejected (already B-0115 #2); no trial counter in admin | B-0115 | output verified (admin session); capability gap open (P2) | 2026-10-30 |
 | L-183 | password-generator | admin session: passphrase OK (5 words, EFF, 74 bits); still no password on load; entropy already shown in passphrase mode | B-0118-v2 | output verified (admin session); show-on-load open | 2026-10-30 |
-| L-022 | audio-comparer | admin session: +0.25 s offset → 82.6% (was 0.0% at +0.5 s); no offset detection | B-0050 | open (evidence added) | 2026-10-30 |
-| L-188 | audio-comparer | admin session: headline "some differences" 82.6% vs timeline 3/3 "matches" | B-0122 (P1) | open | 2026-10-30 |
+| L-022 | audio-comparer | admin session: +0.25 s offset → 82.6% (was 0.0% at +0.5 s); no offset detection | B-0050 | claimed fixed (B-0050) — still fails | 2026-10-30 |
+| L-188 | audio-comparer | admin session: headline "some differences" 82.6% vs timeline 3/3 "matches" | B-0122 (P1) | open ; #169 not retested: needs admin/trial session | 2026-10-30 |
+| L-189 | locale tool pages (roman, merge, word-counter, body-fat) | English H1/title on es + 8 locales; hydration replaces Spanish server H1 (roman) and title (merge) | #102 (B-0123) | open; #127 text-reverser es/de/ja English title/H1/meta, self-canonical (still open); #128 es audio-comparer English title/H1 (es roman + merge-pdf translated → per-page gap); #129 es convert-image, es convert-video English; #130 es split-pdf English (es compress-pdf, qr-generator translated) +#131: es English on pdf-password, unlock-pdf, pdf-to-jpg; +#132: es English on word-counter, universal-file-converter, sign-pdf; +#133: es English on compare-pdf, extract-pdf, ocr-pdf; +#134: es English on find-replace, book-writing-toolbox, pdf-to-word; ; +#135: excel-to-pdf, html-to-pdf, mail-merge-pdf /es English ; +#136: screenshot-tool, camera-capture, image-to-pdf /es English ; +#137: pdf-bookmarks-editor, pdf-to-excel, pdf-to-powerpoint /es English ; +#138: magazine-maker, random-number-generator /es English; compress-image /es Spanish (reference) · #139: /es English titles on powerpoint-to-pdf, government-forms-hub, bates-numbering · #140: /es English on audio-normalizer, password-generator, resize-crop · #141: /es English on document-assembler, exhibit-stamper, caption-generator · #142: /es English on case-converter, document-scanner, screen-recorder · #143: /es English on accessibility-checker-powerpoint, accommodation-manager, acx-audiobook-checker · #144: /es English on color-picker-image, audio-converter (bmi localised) · #145: /es English on add-slide-numbers, agenda-builder, agenda-cue-sheet-builder · #146: /es English on compress-video, mortgage-calculator, color-converter · #147: /es English on arrivals-departures-board, audio-scrambler, avatar-builder · #148: /es English on user-agent-parser, stl-ascii-binary-converter, emoji-picker · #149: /es English on badge-pass-maker, bank-statement-to-csv, banner-sign-maker ; +#150 grammar, sprite /es English ; +#152 passport, speed, mesh /es English ; +#153 book-interior, page-estimator, spine /es English ; +#154 catalog, ascii /es English (barcode Spanish ✔) ; +#155 booth-layout-planner, booth-manager, border-radius /es English ; +#156 paper-format-checker, text-paraphraser /es English ; +#157 box-shadow-generator, brand-kit, brochure-flyer-maker /es English ; +#158 job-experience-calculator, yt-thumbnail, invisible-text-generator /es English ; +#159 bulk-image, business-card, business-days-calculator /es English ; +#160 audio-trimmer, silence-remover, audio-merger /es English (H1 Spanish) ; +#161 calendar-invite-maker, catering-quantity-calculator, certificate-maker /es fully English | 2026-10-30 |
+| L-190 | state-tax-calculator | note promises "local-tax box" that does not exist; local tax never included | #103 (B-0124) | open | 2026-10-30 |
+| L-191 | marketplace-fee-calculator | per-order fixed fee ($0.20 Etsy) deducted but not shown; cards don't sum to profit | #103 (B-0125) | open | 2026-10-30 |
+| L-192 | marketplace-fee-calculator | price 0 error says "negative / outside 0–100" | #103 (B-0125) | open (minor) | 2026-10-30 |
+| L-193 | sales-tax-calculator | 13/51 state averages differ from Tax Foundation 2026; no rates-as-of date | #103 (B-0126) | open | 2026-10-30 |
+| L-194 | state-tax / sales-tax / marketplace-fee | math hand-checked (CA, NY, MD, PA, TX; TN sales tax; Amazon, Etsy, eBay); no ad overlap at 1280/390 | #103 | verified OK | 2026-10-30 |
+| L-195 | self-employment-tax | math hand-checked (6 cases incl. W-2 cap, Add'l Medicare, $400 rule); gap: no quarterly total incl. income tax | #104 (B-0127) | verified OK; gap brief | 2026-10-30 |
+| L-196 | vat-calculator | math hand-checked (UK, DE, QC split, bounds); gap: no solve-from-VAT, no multi-line | #104 (B-0128) | verified OK; gap brief | 2026-10-30 |
+| L-197 | uk-tax-calculator | math hand-checked 2026/27 (7 cases incl. Scotland, Plan 2, sacrifice); gap: tax code, bonus, pay period | #104 (B-0129) | verified OK; gap brief | 2026-10-30 |
 | L-042 | merge-pdf | admin session: "19.2 KB" = 19,711 B (KiB), 2 pages correct | — | checked OK (admin session); never claimed fixed | 2026-10-30 |
+| L-198 | break-even-calculator | math hand-checked (4 cases); revenue uses rounded units unlabelled; gap: BE price, margin of safety | #105 (B-0130) | verified OK; gap brief | 2026-10-30 |
+| L-199 | profit-margin-calculator | math hand-checked (6 cases incl. loss, 100%+, negative); gap: markup/any-two, selling costs | #105 (B-0131) | verified OK; gap brief | 2026-10-30 |
+| L-200 | discount-calculator | math hand-checked (6 cases incl. stacked, tax, JPY, increase); gap: fixed-amount coupons | #105 (B-0132) | verified OK; gap brief | 2026-10-30 |
+| L-201 | gst-calculator | math hand-checked (5 cases incl. paise split, 40%, IGST); gap: invoice lines, HSN lookup | #106 (B-0133) | verified OK; gap brief | 2026-10-30 |
+| L-202 | india-income-tax | FY26-27 math hand-checked (5 salaries incl. 87A marginal relief, surcharge); gap: HRA/itemised deductions | #106 (B-0134) | verified OK; gap brief | 2026-10-30 |
+| L-203 | student-loan-calculator | amortisation matches script (4 cases); IDR plan names need checking vs studentaid.gov; gap: IDR/refinance | #106 (B-0135) | verified OK; gap brief | 2026-10-30 |
+| L-204 | monthly-budget-planner | totals, 50/30/20 and shortfall hand-checked; trial counter 2→0 after one Export CSV (unconfirmed, needs fresh-IP run); gap: sinking/debt | #107 (B-0136) → B-0156 | verified OK; gap brief; counter to confirm | 2026-10-30 |
+| L-205 | bmr-macro-calculator | Mifflin + macros hand-checked; gap: Katch/body fat | #107 (B-0137) | verified OK; gap brief | 2026-10-30 |
+| L-206 | calorie-calculator | male sample + admin cases A (floor PASS), B (aggressive≈moderate, UX → B-0138-v2), C (imperial rounding OK) hand-checked | #107 + addendum (B-0138-v2) | verified (output, admin session) | 2026-10-30 |
+| L-207 | stl-ascii-binary-converter | non-STL text file detected as ASCII STL; Convert does nothing, no error. Valid ASCII→binary download verified 184 B/2 tris (admin session, #110 addendum) | #108 (B-0139) | open (invalid-file bug); valid download OK | 2026-10-30 |
+| L-208 | magazine-maker | Title/Issue inputs lack accessible name; build 3 pages OK; gap templates | #108 (B-0140) → B-0155 | open (a11y); gap brief ; #163 verified-fixed: labels + 3 templates, "3 pages" shown; PDF page count blocked (trial session) | 2026-10-30 |
+| L-209 | screenshot-tool | real browser (probably signed out): capture, crop, annotate, pixelate, copy, PNG download, cancel toast all OK; gap full-page/share | #108 + addendum (B-0141-v2) | verified (output); gap brief | 2026-10-30 |
+| L-210 | emoji-picker | search OK; single-emoji copy hits paywall at 0 trial uses (like L-183) → owner decision | #109 (B-0142) → B-0156 | limit kept by owner (closed); owner decision 13:12 ET (B-0156-v2): limit kept by owner (closed) | 2026-10-30 |
+| L-211 | sprite-sheet-tool | combine output verified 128×32, frame order f0–f3 (admin session, #110 addendum); split output unchecked; gap JSON atlas | #109 (B-0143) | combine verified; split pending ; #150 B-0277 JSON/CSS atlas ; split verified #150-addendum: 4×256×256 RGBA pixel-exact, alpha kept ; #163 B-0143 verified-fixed: padding/extrude/JSON controls, split "8 frames"; 134×32 + JSON output blocked (trial session) | 2026-10-30 |
+| L-212 | passport-photo | presets + head-% rules correct; 2 unlabeled comboboxes; real-photo/download size needs browser run | #109 (B-0144) → B-0155 | open (a11y); needs browser run ; #152 B-0282 ; #164 verified-fixed: labelled, 600×600 / 413×531 at 300 dpi readout, 12 presets | 2026-10-30 |
+| L-213 | audio-speed-changer | pitch verified (FFT 439.93 Hz, 2.669 s, admin session, #110 addendum); 0:04→0:02 display truncation; slider no accessible name | #110 (B-0145) → B-0155 | open (minor/a11y); output verified ; #152 B-0283 | 2026-10-30 |
+| L-214 | mesh-3d-converter | checks correct; cube2.stl download verified 684 B, 12 tris, vol 8 mm³ (admin session); gap repair/scale | #110 (B-0146) | verified (incl. download); gap brief ; #152 B-0284 | 2026-10-30 |
+| L-215 | catalog-maker | CSV quoted-comma import + price validation + 4-page build OK; 6 layout controls unlabeled | #110 (B-0147) → B-0155 | open (a11y); gap brief ; #154 B-0288 unnamed controls persist ; #164 verified-fixed: 7 controls labelled, 3 templates, CSV ok, "4 pages"; PDF link + template switch states → trial session | 2026-10-30 |
+| L-216 | ascii-art-generator | "Copied to clipboard" toast shown with paywall at 0 trial uses, clipboard empty; output matches FIGlet | #111 (B-0148) → B-0156 | open (bug); also html-entity-converter Copy #122 (13:0x ET): paywall dialog + "Copied to clipboard" toast ; #154 B-0290 retest pending ; +#155 border-radius Copy CSS same false toast (B-0293) ; +#160 audio-trimmer end<start: "Audio trimmed!" shown with the error toast (B-0306) ; +#160-add audio-trimmer success+error toasts confirmed in admin session (B-0306) | 2026-10-30 |
+| L-217 | paper-format-checker | verified (admin session, #113 addendum): all 8 checks pass on apa-good-v2; #111 fails were fixture; no overall pass/fail line; gated at 0 trial uses | #111 (B-0149) → B-0155 → B-0156 | verified (admin session); gating owner decision; owner decision 13:12 ET (B-0156-v2): limit kept by owner (closed) ; #156 B-0294 fixture passes again; FAQ contradicts result note | 2026-10-30 |
+| L-218 | text-paraphraser | output verified (admin session): Light/Medium/Strong grammatical, Strong moves clause; NEW: switching mode without reload returns stale Strong output; controls unlabeled | #111 (B-0150, B-0154) → B-0155 → B-0156 | open (bug B-0154) ; #156 stale mode NOT reproduced (Strong→Light gave Light output) | 2026-10-30 |
+| L-219 | job-experience-calculator | full-day + overlap-union math correct; reversed dates → no result, no error; date inputs unlabeled | #112 (B-0151) → B-0155 | open (minor) ; #158 reversed dates now show error (fixed); date inputs still unnamed (checked) → B-0155 ; CORRECTION (#159): reversed-date error = passes now (unclaimed), not verified-fixed — no Claude fix claim found | 2026-10-30 |
+| L-220 | yt-thumbnail | 5 URL forms + bare ID parse; invalid/unknown messages OK; downloads gated, preview unchecked | #112 (B-0152) → B-0155 | verified (parsing); gap brief ; #158 previews load, 5 sizes with alt (checked) | 2026-10-30 |
+| L-221 | invisible-text-generator | Test box decoding OK; count 0/501/abc validation inconsistent; copy gated (L-210 family) | #112 (B-0153) → B-0155 → B-0156 | open (minor) ; #158 count 0 → 1 silently, 501 → 500 with message | 2026-10-30 |
+| L-222 | audio-trimmer | 0:01–0:03 → 2.000 s (admin session) ✓; end<start → "Enter a valid end time" toast then silently resets end to 0:05; bad-file message OK | #113 (B-0157, B-0155) | output verified; open (minor); → B-0187 (status/no-op) ; #160 2.000 s ✔ again; end<start → success+error toasts, End reset to file end; inputs unnamed → B-0155 ; #160-add admin: End snapped 0:01→0:06, both toasts, result panel shown | 2026-10-30 |
+| L-223 | silence-remover | BUG: defaults ("remove completely") kept 0.3 s pause (1.00–1.30 s) → 2.3 s output, page says 0:02; 44.1→48 kHz unrequested (admin session) | #113 (B-0158, B-0163-v2, B-0155) | open (bug) ; #160 0.3 s kept now documented in FAQ (0.15 s each side) — documented, not marked fixed; 44.1→48 kHz still present (B-0307) | 2026-10-30 |
+| L-224 | audio-merger | 0 trial uses: add files → paywall, silent drop; admin: 44.1+44.1 → 2.000 s ✓, 44.1+48 → 1.919 s (correct, unannounced resample); 0.919 s clip listed "0:00"; both downloads named a1-merged.wav; ads/header cover merge buttons | #113 (B-0159, B-0156, B-0163) | open (bug + minor) ; #160 0.919 s still "0:00", total floored; a4-merged.wav per documented rule (B-0308) | 2026-10-30 |
+| L-225 | paper-format-checker fixture | apa-good-v2.docx passes all 8 checks (admin session) | #113 addendum | verified | 2026-10-30 |
+| L-226 | mesh-3d-viewer | output verified (admin session): cube renders, orbit/zoom, 8 v/12 tri, 2×2×2 mm, watertight, 8 mm³, 24 mm², bed fit; 0 trial uses: drop STL → paywall, never shown | #114 (B-0160, B-0156, B-0155) | output verified; gating open (B-0156) | 2026-10-30 |
+| L-227 | image-quality-enhancer | 2x upscale verified 2400×1600, 23,262 B (admin session); output keeps input filename (overwrite risk); Apply with nothing ticked silent | #114 (B-0161-v2, B-0155) | output verified; open (minor) | 2026-10-30 |
+| L-228 | text-similarity-checker | 100/0/6-word threshold/case-insensitive all correct; copy paywall says "download"; stale highlight on empty | #114 (B-0162, B-0156, B-0155) | verified OK; gap brief | 2026-10-30 |
+| L-229 | audio tools output fidelity | silence-remover 44.1→48 kHz unrequested; duration labels floor (0:00 for 0.919 s, 0:02 for 2.3 s); duplicate merged filenames; silence-remover keeps 0.3 s with defaults (bug, v2) | #113 addendum (B-0163-v2) | open (minor) | 2026-10-30 |
+| L-230 | merge-video | admin session: merged.mp4 5.04 s, 320×240@25, AAC in sync; v2 640×360 letterboxed 30+30 rows (correct, not stretched); 0 trial uses: clips silently dropped behind paywall | #115 (B-0164, B-0156, B-0155) | output verified; gating open (B-0156) ; #164 B-0164 verified-fixed (UI: reorder, shape, crop, crossfade, mismatch note); merge output blocked at 0 trial uses; clips kept with message (old silent drop not seen, checked) | 2026-10-30 |
+| L-231 | pdf-editor | BUG (admin session confirmed red rectangle drawn, "2 items added"): output keeps "QA note" text but drops the rectangle (only fixture's 100 100 200 200 re; no /Annots); invalid PDF → no error | #115 (B-0170, B-0165, B-0155) | open (bug P1) | 2026-10-30 |
+| L-232 | crop-pdf | admin session: CropBox [36.2 52.6 337.0 776.6] on both pages (all pages applied), MediaBox unchanged; invalid PDF → no error | #115 (B-0166, B-0165) | output verified; open (minor) | 2026-10-30 |
+| L-233 | fancy-font-generator | 21 styles correct (digits/accents handled); copy at 0 trial uses → paywall, clipboard unchanged, no false toast | #116 (B-0167, B-0156, B-0155) | verified OK; gap brief | 2026-10-30 |
+| L-234 | document-scanner | Premium tier ($3/$9.99, 2/day); 0 trial uses: paywall before preview; BUG (admin session): solid blue page → all-black PDF with default Grayscale + Remove shadows (pypdf/pdftoppm confirmed) | #116 (B-0168, B-0174, B-0156) | open (bug) · #142 B-0253 (P1): meta 97; black-page bug + preview gate | 2026-10-30 |
+| L-235 | color-picker-image | HEX/RGB/HSL exact (#ff0000, #0080ff; #fe0000 = true JPEG pixel); copy verified "Copied #fe0000" + paste match (admin session) | #116 (B-0169, B-0155) | verified · #144: title 64 w/ Free, meta 117 → B-0258 | 2026-10-30 |
+| L-236 | screen-recorder (+ selection note: GSC list exhausted) | admin session: recording works, camera fallback + 3-2-1; webm VP9 1920×1200 ~29.8 fps, 13.78 s, no audio; "Recorded 00:13" matches file but live timer showed ~00:07 at stop | #116 addendum (B-0174) | output verified; open (minor timer) · #142 B-0254: meta 83; timer + audio · B-0254-v2: title without "Free" | 2026-10-30 |
+| L-237 | audio-converter | WAV→MP3 192 kbps 48.4 KB OK, size estimate OK, download gated; non-audio file accepted without error at load | #117 (B-0171, B-0155) | verified OK; open (minor) · #144: title 64 w/ Free, meta 83 → B-0259 | 2026-10-30 |
+| L-238 | color-converter | all formats + WCAG contrast (incl. alpha) hand-checked; invalid input → blank fields + black swatch, no message; rgb(300) silently clamped | #117 (B-0172, B-0155) | verified OK; open (minor); → B-0187 (status/no-op) · #146: meta 78, Free in title; + CMYK/OKLCH/names → B-0266 | 2026-10-30 |
+| L-239 | user-agent-parser | 7 UAs parsed correctly (incl. bot, tablet, Win10/11 note); junk input no hint | #117 (B-0173, B-0156, B-0155) | verified OK; gap brief · #148 backfill: SEO title 59 w/ Free, meta 98 → B-0270 | 2026-10-30 |
+| L-240 | rotate-pdf | all/odd/even + per-page angle (500°→+140°) + compare view OK; output gated (unverified) | #118 (B-0175, B-0156) | UI verified; gap brief; output verified (admin session: /Rotate 90 ×3) | 2026-10-30 |
+| L-241 | remove-pdf-pages | selector, "remove every page" guard, invalid-entry message all OK; output gated (unverified) | #118 (B-0176, B-0156) | UI verified; gap brief; output verified (admin session: pages 1,3) | 2026-10-30 |
+| L-242 | pdf-watermark | page-range error OK; empty watermark text → button enabled, click silently does nothing | #118 (B-0177, B-0155) | open (minor); output verified (admin session: p2 only, ca 0.4, 45°, 50 pt); no success text; → B-0187 (status/no-op) | 2026-10-30 |
+| L-243 | selection note | GA top-50 and GSC calculator lists exhausted; #118 picked from sitemap within PDF Tools category (371 GA views); 262 sitemap /tool/ URLs have no ledger row; owner to choose ranking rule | #118 | decided by Orchestrator (interim, Oct 30 12:21 ET): 1 website tools behind live paid API endpoints (APYHUB-TRACKER + RapidAPI), 2 Premium/paid-download, 3 categories by GA traffic, 4 alphabetical | 2026-10-30 |
+| L-244 | redact-pdf | admin session: 6/6 values gone from text, raw and streams; rest still text; not rasterised; Helvetica as input; metadata cleared; site clean vs API B-0098 rasterise flaw | #119 + addendum (B-0178) | verified; gap brief | 2026-10-30 |
+| L-245 | repair-pdf | broken xref → 2 pages recovered, opens, text intact (admin session); non-PDF copy "looks like not a PDF" | #119 + addendum (B-0179) | output verified; open (minor copy) | 2026-10-30 |
+| L-246 | extract-audio | v.mp3 3.06 s, 439.9 Hz peak (admin session); no success status text; no-audio video → silent no-op | #119 + addendum (B-0180) | output verified; open (minor); → B-0187 (status/no-op) | 2026-10-30 |
+| L-247 | fillable-forms | 3 fields detected (text/checkbox/choice); required checkbox blank → Fill silently no-op (red outline only); 0-field PDF handled | #120 (B-0181, B-0156) | open (minor); gap brief; output verified (admin session: values set, fields live); no success text; → B-0187 (status/no-op) | 2026-10-30 |
+| L-248 | organize-pdf | Premium ($3/$9.99); reverse/undo labels correct; save → download gated; counter mismatch → L-143 | #120 (B-0182, B-0055) | UI verified; gap brief; output verified (admin session: 3,2,1) | 2026-10-30 |
+| L-249 | flip-rotate-image | 90° CW 300×200 → 200×300 preview; EXIF-strip note; download gated | #120 (B-0183) | UI verified; gap brief; output verified (admin session: 200×300, pixel-exact CW); no success text; → B-0187 (status/no-op) | 2026-10-30 |
+| L-250 | flatten-pdf | "Flattened 3 fields" success; no-field PDF → message + disabled button; annotations not flattened (stated) | #121 (B-0184, B-0156) | UI verified; gap brief; output verified (admin session, add. 1301): no widgets, Jane QA/Pro drawn; empty AcroForm residue (nit) | 2026-10-30 |
+| L-251 | base64 | Encode at 0 trial uses → paywall, no result | #121 (B-0185) → B-0156 | open (owner decision); output untested; output verified (admin session, add. 1301): UTF-8 encode/round-trip, URL-safe no padding, invalid "###" error OK; paywall still → B-0156 | 2026-10-30 |
+| L-252 | markdown-html-converter | GFM table/tasks/code OK; sanitises onerror/script/javascript:; 390 px overflow (scrollWidth 728) | #121 (B-0186, B-0155) | open (bug); output verified (admin session, add. 1301): MD↔HTML + Copy OK; download is 40 B fragment → B-0186 gap; overflow still open; Full HTML on → 199 B full doc (add. 1321; fragment gap withdrawn); overflow → B-0194 (site-wide) | 2026-10-30 |
+| L-253 | diff-checker | line diff, ignore ws/case, identical message all correct; no file input, no inline word highlights | #122 (B-0188, B-0155, B-0187) | UI verified; gap brief; output verified (admin session, add. 1321): diff, "Result copied", .txt 158 B w/ footer | 2026-10-30 |
+| L-254 | url-encoder | Encode at 0 trial uses → paywall dialog, no output | #122 (B-0189) → B-0156 | open (owner decision); output untested; output verified (admin session, add. 1321): encode/decode + malformed-escape error OK; stale output on error → B-0189 (B-0154 pattern) | 2026-10-30 |
+| L-255 | html-entity-converter | encode/decode spec-correct incl. emoji, &bogus;, out-of-range→U+FFFD; Copy gated (see L-216) | #122 (B-0190) | UI verified; gap brief; output verified (admin session, add. 1321): encode + clipboard match | 2026-10-30 |
+| L-256 | json-formatter | Format at 0 trial uses → paywall dialog, no output | #123 (B-0191) → B-0156 | open (owner decision); output untested; output verified (admin session, #123 add.): Format/Minify/big int OK, line/col caret error; JSON→YAML dead → B-0198 | 2026-10-30 |
+| L-257 | contrast-checker | ratios correct (4.47/4.54), invalid msg clear; suggestion #747474 not nearest (#767676) | #123 (B-0192, B-0155) | UI verified; gap brief; output verified (admin session, #123 add.): Copy "Result copied", Save .txt 295 B | 2026-10-30 |
+| L-258 | add-page-numbers | submit-time validation clear (start/size/out-of-range) but no inline feedback, one error at a time; Add works at 0 trial uses w/ badge | #123 (B-0193, B-0156) | UI verified; gap brief; output verified (admin session, #123 add.): skip-first 3 pages OK; "5-2"/"abc" false corrupted toast → B-0199 | 2026-10-30 |
+| L-259 | csv-converter | CSV upload detection + preview correct (quotes, newline, 007, É); downloads untested at 0 | #124 (B-0195) | UI verified; gap brief; output verified (admin session, #124 add.): on 68 B BOM/CRLF/quoting/007, off 65 B; formula protection untested; formula: '=,'+,-3 unprefixed,'@ → label overstates (B-0195 note); -cmd open check; -cmd prefixed (OWASP-consistent); B-0195 note softened; "1 columns" grammar | 2026-10-30 |
+| L-260 | json-csv-converter | conversions correct both ways; unclosed quote silently merges rows; BOM in textarea/Copy; "1 rows" | #124 (B-0196, B-0187) | open (bug); output verified (admin session, #124 add.): download 13 B with BOM (OK for Excel); BOM/"1 rows" in UI confirmed | 2026-10-30 |
+| L-261 | sql-formatter | Format at 0 → paywall; 390 px scrollWidth 408 (Download .sql) | #124 (B-0197, B-0194) → B-0156 | open (bug); output verified (admin session, #124 add.): Format keeps comment, Minify honest, Copied; .sql = last output (label → B-0197) | 2026-10-30 |
+| L-262 | subtitle-adder | render completes (Download gated); no success text; bad-timing line error clear; counter 2→0 after one render | #125 (B-0200, B-0187) → B-0156 | UI verified; gap brief; output verified (admin session, #125 add.): burned bottom/white, timings OK, É OK; emoji tofu + no italics → B-0200 | 2026-10-30 |
+| L-263 | rotate-video | Turn right + Apply → honest rotation-flag message; download gated | #125 (B-0201) → B-0156 | UI verified; output untested; output verified (admin session, #125 add.): ffprobe rotation -90, no re-encode | 2026-10-30 |
+| L-264 | text-cleaner | default cleaning correct at 0 trial uses; no change summary; no dedupe | #125 (B-0202, B-0187) | UI verified; gap brief | 2026-10-30 |
+| L-265 | text-sorter | Sort at 0 trial uses → paywall dialog, no output | #126 (B-0203) → B-0156 | open (owner decision); output untested; limit kept by owner (13:12 ET); output untested, not a gap; output verified (admin session, #126 add.): sort correct, "9 lines → 8"; Copy no toast (B-0187); input empty after sort (open check); input-empty question closed: in-place sort by design, "Sorted!" toast + Undo (admin session, ~13:18–13:21 ET) | 2026-10-30 |
+| L-266 | video-speed-changer | 2× completes, Download gated; no result text / new duration | #126 (B-0204, B-0187) → B-0156 | UI verified; output untested; output verified (admin session, #126 add.): 1.52 s, pitch 439.8 Hz kept | 2026-10-30 |
+| L-267 | audio-compressor | WAV Medium 258.5→119.4 KB (54% vs "25-30%" promise); format/bitrate not shown; download gated | #126 (B-0205) → B-0156 | UI verified; output untested; output verified (admin session, #126 add.): MP3 mono 320 kbps — Medium uses max bitrate → B-0205 | 2026-10-30 |
+| L-268 | text-reverser | Reverse at 0 → trial-uses dialog (limit kept); output untested; SEO meta 87 chars, generic H2s | #127 (B-0206, B-0209) | UI verified; output untested; output verified (admin session, ~13:18–13:21 ET): 4 modes correct, emoji skin tone and accents intact; no success state → B-0187 | 2026-10-30 |
+| L-269 | audio-to-subtitles | file select at 0 trial uses → dialog, file dropped (B-0156 dropped-input); English only | #127 (B-0207) → B-0156 | open (bug, wait B-0156 done); see L-274 for the separate P1 (button does nothing) | 2026-10-30 |
+| L-270 | image-splitter | upload + presets + tile-size readout correct; ZIP gated (limit kept) | #127 (B-0208, B-0209) | UI verified; output untested; verified (admin session, ~13:18–13:21 ET): 3×2 ZIP 6 PNGs 427/426/427 × 1811, sums 1280×3622 ✓ | 2026-10-30 |
+| L-271 | site-wide SEO | og-default.png on all tools; template/footer H2s; boilerplate short meta; empty video alt | #127 (B-0209) | open | 2026-10-30 |
+| L-272 | audio-comparer | SEO: meta 130, no "what % means" content, /es English | #128 (B-0211, B-0209, B-0123) | open | 2026-10-30 |
+| L-273 | merge-pdf | SEO: meta 83 boilerplate, bare H1, GSC pos 35 | #128 (B-0212, B-0209) | open +(admin session ~13:30–13:32 ET) password dialog verified → B-0212 FAQ text in #128 addendum; | 2026-10-30 |
+| L-274 | audio-to-subtitles | P1: "Download model… and make subtitles" does nothing (no progress/error/output), admin session, unlimited | #127 addendum (B-0207 outcome 0) | open (P1) | 2026-10-30 |
+| L-275 | thumbnail-gen | capture works, download gated (owner); Suggest frames/text styling gaps; H1 lacks "video", meta 77 | #129 (B-0213, B-0209) | UI verified; output untested | 2026-10-30 |
+| L-276 | convert-image | result "2 KB (original 1 KB) 3.8x" label mismatch; no HEIC/batch; title 64 chars | #129 (B-0214, B-0209, B-0123) | open | 2026-10-30 |
+| L-277 | convert-video | sizes "0.0 MB" for small files; H1 "Format Converter"; meta 99 | #129 (B-0215, B-0209, B-0123) | open | 2026-10-30 |
+| L-278 | compress-pdf | SEO: meta 123 boilerplate; bare H1; GSC pos 14.4 | #130 (B-0216, B-0209) | open +(Admin session ~13:30–13:32 ET) 1 KB target → clear message, 8-page 4,700 B output ✓; | 2026-10-30 |
+| L-279 | split-pdf | SEO: bare H1, meta 137, /es English | #130 (B-0217, B-0209, B-0123) | open | 2026-10-30 |
+| L-280 | qr-generator | SEO: title 65 >60, meta 84; no types table/expiry H2 | #130 (B-0218, B-0209) | open +(Admin session ~13:30–13:32 ET) SVG confirmed; SVG decodes to https://freedailypro.com (no www): confirm input; CLOSED (admin session ~13:37–13:38 ET): svg+png both decode to https://www.freedailypro.com/test-www; earlier decode = default/prefill; no P1; | 2026-10-30 |
+| L-281 | pdf-password | works + self-check; gaps: generator, sharing tip, weak confirm; SEO meta 76, H1 | #131 (B-0219, B-0209) | open +(admin session ~13:37–13:38 ET) AES-256 (V5/R6) verified, opens only with test123; eye toggle exists → gap dropped; | 2026-10-30 |
+| L-282 | unlock-pdf | dialog/wrong-pw/success good; restriction-only PDFs unstated; SEO meta 82, bare H1, no video | #131 (B-0220) | open; restriction-only fixture needs admin run +(admin session ~13:37–13:38 ET) unlocked copy no encryption, 3 pages ✓; eye toggle exists → gap dropped; | 2026-10-30 |
+| L-283 | pdf-to-jpg | works (A4 144 dpi default); gaps: px per quality, default unmarked, WebP; SEO meta 101, no brand in title | #131 (B-0221) | open +(admin session ~13:37–13:38 ET) 300 dpi → 3× 2480×3507 ✓; JPGs lack DPI tag (minor); | 2026-10-30 |
+| L-284 | word-counter | SEO: "Free" in title, no brand; GSC "word count characters" 0/2,320 pos 9.1 | #132 (B-0222-v2, B-0209) | open | 2026-10-30 |
+| L-285 | universal-file-converter | SEO: title 65 >60, meta 107 | #132 (B-0223-v2, B-0209) | open | 2026-10-30 |
+| L-286 | sign-pdf | SEO: title has "Daily Trial", no brand; bare H1; no legal FAQ | #132 (B-0224-v2, B-0209) | open | 2026-10-30 |
+| L-287 | compare-pdf | works (1 edited change found); text-only by design (disclosed); gaps: visual compare, OCR, redline; SEO meta 113, Free in title | #133 (B-0225, B-0209) | open ; +admin ~13:46–13:48: PDF+TXT reports correct; flaky first Original upload | 2026-10-30 |
+| L-288 | extract-pdf | text mode keeps 1-page selection vs "leave empty for all" label (admin confirm); badge disclosed; SEO meta 91 | #133 (B-0226) | open ; +admin ~13:46–13:48 CONFIRMED: Text mode defaults to page "1" on fresh load; B-0226 outcome 1 → default empty | 2026-10-30 |
+| L-289 | ocr-pdf | works (5/5 words); gaps: text preview, 8 languages, page range; SEO meta 123, bare H1 | #133 (B-0227) | open ; +admin ~13:46–13:48: text layer exact, image unchanged (0 px diff) | 2026-10-30 |
+| L-290 | find-replace | SEO: title 64 >60 with Free; meta 79 boilerplate; GSC pos 26.6 | #134 (B-0228, B-0209) | open | 2026-10-30 |
+| L-291 | book-writing-toolbox | SEO: meta 134; H1 not search intent; book-maker 301 ok | #134 (B-0229) | open ; +#135: 0 of English sitemap pages link to /tool/book-maker | 2026-10-30 |
+| L-292 | pdf-to-word | SEO: title 64 >60 with Free; bare H1; GSC 1/1,089 pos 32 | #134 (B-0230, B-0209) | open | 2026-10-30 |
+| L-293 | excel-to-pdf | works (2 sheets, formula note); gaps: fit/scaling, sheet picking, print area; SEO meta 95, Free in title | #135 (B-0231) | open ; +admin ~13:53–13:55: 2 sheets, values match xlsx, page X of Y footer | 2026-10-30 |
+| L-294 | html-to-pdf | works; gaps: print-CSS toggle, A3/A5, live preview; SEO meta 79 | #135 (B-0232) | open ; +admin ~13:53–13:55: text selectable, red H1 (image layer), no footer seen (admin confirm setting), first download timed out at 20 s ; +admin ~13:57–13:58: footer off by default (not a bug); ticked → "Page 1 of 1" | 2026-10-30 |
+| L-295 | mail-merge-pdf | 0 trial uses: popover on CSV drop, CSV not loaded, no preview (admin verify merge); gaps: xlsx, PDF template; title no brand | #135 (B-0233) | open ; +admin ~13:53–13:55: 3 records merged, 3 pages correct, unknown-field warning OK; {{missing}} kept literally; ZIP names record-N not from column (gap) ; +admin ~13:57–13:58: ZIP naming works when column typed (Asha/Ben/Cara.pdf); gap now: column dropdown instead of free text | 2026-10-30 |
+| L-296 | screenshot-tool | SEO: meta 100; H1 product name; GSC pos 55 | #136 (B-0234) | open | 2026-10-30 |
+| L-297 | camera-capture | SEO: title 65 + Free; meta 131; H1 product name; GSC 2,439 impr pos 13.5 | #136 (B-0235) | open ; +admin ~13:55–13:57: no front/back switch before start; B-0235 FAQ softened; switch-after-start needs camera permission | 2026-10-30 |
+| L-298 | image-to-pdf | SEO: meta 92 boilerplate; no JPG in title/H1; Free in title | #136 (B-0236) | open ; +admin ~13:55–13:57: page sizes A4/Letter/original/custom, reorder via arrows (drag unverified), 3-page output OK; B-0236 meta amended to "reorder" | 2026-10-30 |
+| L-299 | pdf-bookmarks-editor | 0 trial uses: popover on file drop, outline never shown (admin verify editing); title 65, meta 110; gaps: import/export, keep destinations | #137 (B-0237) | open · admin ~14:00–14:01: editor works; outline Intro Renamed>Child verified (pypdf); no toast (B-0187); existing-bookmarks PDF untested; favourite added+reverted | 2026-10-30 |
+| L-300 | pdf-to-excel | works (31x4, 90 real numbers); meta 84 boilerplate; gaps: edit cells, CSV per table | #137 (B-0238) | open · admin ~14:00–14:01: tbl.xlsx 31×4, Qty/Price/Total numeric (openpyxl) ✔ | 2026-10-30 |
+| L-301 | pdf-to-powerpoint | works (3 slides, A4, 2 modes); gaps: OCR for scans, 16:9 fit; Free in title | #137 (B-0239) | open · admin ~14:00–14:01: both modes 3 slides A4; editable has text boxes; picture uses slide background; both named p.pptx → add -editable/-picture suffix | 2026-10-30 |
+| L-302 | compress-image | SEO: title leads with % not KB, Free, no brand; H1; GSC 810 impr 0.2% CTR | #138 (B-0240) | open | 2026-10-30 |
+| L-303 | magazine-maker | SEO: title lacks 'maker'; H1; GSC pos 53.6 | #138 (B-0241) | open | 2026-10-30 |
+| L-304 | random-number-generator | SEO: meta 139; Free, no brand; fairness FAQ; GSC pos 11.2 | #138 (B-0242) | open ; +14:01 JS check: crypto.getRandomValues (1), Math.random (0), rejection sampling; fairness FAQ OK · 14:08 live re-check: getRandomValues 1 (random-DRWu2o-X.js), Math.random 0 in generator code (ToolPage hit = FAQ text, vendor = React IDs) | 2026-10-30 |
+| L-305 | powerpoint-to-pdf | options + preview before gate (good); meta 97; .pptx only; no paper fit | #139 | B-0243; admin output check pending · admin ~14:07–14:09: t.pdf 3 pages 720×540 = slide size, text layer ✔, named t.pdf (Outcome 1 met) | 2026-10-30 |
+| L-306 | government-forms-hub | link directory shows trial counter + $3/$9.99 passes (Bates $1/$4.99); title 64; meta 68; no search | #139 | B-0244; owner to confirm pricing · admin ~14:07–14:09: NEW: Fill in PDF Editor opens editor empty (no preload) → B-0244 outcome added | 2026-10-30 |
+| L-307 | bates-numbering | gate on file drop hides settings/preview at 0 trial uses; meta 131 | #139 | B-0245; admin run pending · admin ~14:07–14:09: ABC000001–3 on p1–3 ✔, index CSV ✔; preview/continuous/white box/2nd line exist (trimmed from gaps); range naming gap stays | 2026-10-30 |
+| L-308 | document-assembler | Assemble Document: no download/gate/error in 20 s (logged out); counter 0 vs 2 remaining; guest-pass copy; title 62; meta 93 | #141 | B-0249; admin run pending · admin ~14:15–14:17: no-title Assemble silent confirmed bug; with title QA_Doc.pdf 7pp, TOC+bookmarks+page numbers OK | 2026-10-30 |
+| L-309 | exhibit-stamper | gate on file drop hides settings/preview at 0 trial uses; title no brand | #141 | B-0250; admin run pending · admin ~14:15–14:17: zip OK, Exhibit A/B on p1 only, index CSV OK; trim label/index gaps | 2026-10-30 |
+| L-310 | caption-generator | gate on Generate, no sample; meta 79 template; ApyHub flagged output shallow | #141 | B-0251; admin quality check pending · admin ~14:15–14:17: 12 captions verbatim templates, lowercase, junk hashtags — quality fail confirmed · admin ~14:17: full 12 captions in ADDENDUM-2 (1420) | 2026-10-30 |
+| L-311 | accessibility-checker-powerpoint | report + inline title fix before gate (good); CSV gated; title ends Free, no brand | #143 | B-0255; admin fixed-file check pending · admin: CSV only, fix disabled, no fixed .pptx → gap (set doc title + fixed-pptx download) | 2026-10-30 |
+| L-312 | accommodation-manager | 4-step workflow usable on load; title 64; meta 95; no hotel-list reconciliation | #143 | B-0256; admin downloads pending · admin: CSV 15 cols/8 rows, XLSX + summary OK, 5160 labels align; button says 8, PDF has 7 (declined omitted) | 2026-10-30 |
+| L-313 | acx-audiobook-checker | gate on file drop hides measurements at 0 trial uses | #143 | B-0257; admin run pending · admin: Fix→192 CBR passes; room tone 6.0 s/0.0 s and noise −21.0 dB still fail; gap: trim/pad + noise reduction; confirm closed once (watch) | 2026-10-30 |
+| L-314 | add-slide-numbers | settings + before/after preview before gate (good); download gated; title ends Free, no brand | #145 | B-0261; admin download check pending · admin: slidenum fields OK on all 3 slides; "3 / 12" style not yet downloaded | 2026-10-30 |
+| L-315 | agenda-builder | no preview before gated PDF; dialog says 10 trial uses vs sibling 2/day; overlaps agenda-cue-sheet-builder; title 61, meta 127 | #145 | B-0262 (P2), B-0156 · admin: Letter + A4 PDFs OK (1 p each); track never printed, no presenter/room/track toggles → new gap | 2026-10-30 |
+| L-316 | agenda-cue-sheet-builder | schedule usable before gate; no duration-driven times, cue/AV columns or show mode; meta 93 | #145 | B-0263; admin steps 2–4 pending · admin: CSV 11 cols/6 rows; XLSX 8 cols drops Track/Link/TZ; run-of-show 2 pp landscape OK ("1h" vs "1 h"); stage timer features noted, gaps: speaker view link, next-session key | 2026-10-30 |
+| L-317 | arrivals-departures-board | board works on sample; Save project gated at 0 trial uses; dates only (no time/flight/grouping) | #147 | B-0267; admin CSV/PDF pending · #147 add.: CSV 8 rows / PDF 1p Letter OK; project JSON holds passKey in plain text + guest emails → optional passphrase-encryption gap | 2026-10-30 |
+| L-318 | audio-scrambler | pitch-only disguise, page admits easy to undo; no formant/A-B; title 63 w/ Free, meta 86 | #147 | B-0268 (P2); admin download pending · #147 add.: no truncation (6.087 s vs 6.034), −8.01 st confirmed, VBR 36.8 kbps avg on tone (recheck with speech) | 2026-10-30 |
+| L-319 | avatar-builder | PNG download OK (2→1); unnamed option buttons; few parts; title 61, meta 75 | #147 | B-0269, B-0155 · #147 add.: PNG corners alpha 0 ✔; SVG valid, viewBox 0 0 200 200 | 2026-10-30 |
+| L-320 | user-agent-parser | SEO backfill: title 59 w/ Free, meta 98; no JSON/bulk/Client Hints | #148 | B-0270 | 2026-10-30 |
+| L-321 | stl-ascii-binary-converter | 7.2% CTR pos 10.2; title 61 w/ Free, meta 88; no batch/% saved | #148 | B-0271; admin 134-byte check | 2026-10-30 |
+| L-322 | emoji-picker | single-emoji copy gated at 0 trial uses (owner's call); 'cat'→🪝; meta 71 | #148 | B-0272 (P2) · #148 add.: B-0272 superseded by B-0272-v2 (copy-limit framing withdrawn per owner rule B-0142/B-0149; no false "Copied" toast at 0; P3 relevance + SEO only) | 2026-10-30 |
+| L-323 | badge-pass-maker | sample flow OK (5 badges/1 sheet, door scan); no field merge/role colours; title 64, meta 122 | #149 | B-0273 · #149 add.: PDF Letter 2×3, 5 badges, 5/5 QR decode (signed id, no PII); guest CSV/XLSX identical to #143 | 2026-10-30 |
+| L-324 | bank-statement-to-csv | balance check passes and flags bad row ✔; no flags column in export | #149 | B-0274; admin export pending · #149 add.: CSV ISO+BOM, XLSX real dates/numbers ✔; table cells are inputs (not blank); gap: ambiguous DD/MM silently month-first | 2026-10-30 |
+| L-325 | banner-sign-maker | DPI warning ✔; no guides/text size; counter 2→0 between sessions (B-0156); meta 75 | #149 | B-0275, B-0156, B-0155 · #149 add.: PNG 3600×5400 ✔; PDF 24.25×36.25 in, trim 24×36 ✔; gap: no 24×36 poster preset | 2026-10-30 |
+| L-326 | grammar-checker | CTR 0.1% at 8,397 impr; meta has Free | #150 | open (B-0276) | 2026-10-30 |
+| L-327 | sprite-sheet-tool | meta 76; no atlas metadata export | #150 | open (B-0277) | 2026-10-30 |
+| L-328 | income-tax-calculator | CA SDI 1.3% not deducted (~$975 at $75k); CTR 0.1% at pos 7.5 | #150 | open (B-0278) | 2026-10-30 |
+| L-329 | bill-of-sale-generator | no sale date/addresses/VIN check; meta 51 | #151 | open (B-0279) ; #151-addendum: date auto-filled (not selectable), addresses absent, [State] placeholder printed, 1 of 3 odometer certifications ; #153-addendum: placeholder only when State blank (MA prints Massachusetts); finding stands | 2026-10-30 |
+| L-330 | binary-ascii-converter | 7-bit group silently decoded; title 65 | #151 | open (B-0280) | 2026-10-30 |
+| L-331 | blind-cv-redactor | .txt-only output; counter 0 yet runs (B-0156); title 63 | #151 | open (B-0281) ; #151-addendum: name auto-detect gap | 2026-10-30 |
+| L-332 | passport-photo | CTR 0.5% pos 18.9; title Free no brand; meta 139; 4x6 sheet/guides | #152 | open (B-0282) | 2026-10-30 |
+| L-333 | audio-speed-changer | meta 93; range/presets/format gap | #152 | open (B-0283) | 2026-10-30 |
+| L-334 | mesh-3d-converter | meta 133; verify-after-export, repair/scale gap | #152 | open (B-0284) | 2026-10-30 |
+| L-335 | book-interior-maker | gutter note ✔; no EPUB/preflight; title 65 | #153 | open (B-0285) ; #153-addendum: check panel exists (B-0285-v2); PDF 6x9, fonts embedded, recto chapters, inside/outside margins verified; no sample button | 2026-10-30 |
+| L-336 | book-page-estimator | 256 pp at 80k/6x9 (374 wpp) low vs benchmarks; title Free | #153 | open (B-0286) | 2026-10-30 |
+| L-337 | book-spine-calculator | math verified ✔; <79-page spine-text warning gap; title Free | #153 | open (B-0287) ; #153-addendum: <79-page warning exists (B-0287-v2); templates 12.385x9.25 in / 3716x2775 verified; gap spine safe area, PNG DPI tag | 2026-10-30 |
+| L-338 | catalog-maker | pos 61.4; meta 120; XLSX/photo-match gap (checked live) | #154 | open (B-0288) ; #154-addendum: xlsx not accepted (CSV/TSV/TXT); no template/style/PDF-quality control (checked); Letter/A4/trim sizes, back-page QR/barcode exist | 2026-10-30 |
+| L-339 | barcode-generator | CTR 0.1% pos 7.8; no list input/human-readable toggle (checked live) | #154 | open (B-0289) ; #154-addendum: PNG/SVG decode 5901234123457 (zxing) ✔; check-digit 8 rejected ✔; stale "ready!" toast with error; bulk absent (checked) | 2026-10-30 |
+| L-340 | ascii-art-generator | meta 74; title Free; no .txt download (checked live) | #154 | open (B-0290) ; #154-addendum: .txt download absent (checked); 12 fonts, B-0290 said 14 (correction note) | 2026-10-30 |
+| L-341 | booth-layout-planner | fill/overlap/outside ✔; item fields unnamed; no backdrop upload (checked) | #155 | open (B-0291) ; #155-addendum: snap present, fixed 0.5 m/1 ft, no control (corrects B-0291 unverified note); price field confirmed absent; floor-plan PDF 23.5 pt/m, PNG ~53.3 px/m, CSV 20 rows/180 sq m verified | 2026-10-30 |
+| L-342 | booth-manager | sample totals ✔; floor layout shows 0 of 2 assigned booths | #155 | open (B-0292) ; #155-addendum: CONFIRMED by admin, layout not linked to assignments (P2 bug stands) | 2026-10-30 |
+| L-343 | border-radius-generator | false Copied toast at 0 uses; elliptical not offered (checked); title 62 Free | #155 | open (B-0293) ; #155-addendum: copy path works with trial uses (clipboard "border-radius: 20px;"); 0-use false toast stands | 2026-10-30 |
+| L-344 | paper-format-checker | FAQ/JSON-LD says Normal style only vs result note reads direct formatting; no overall verdict | #156 | open (B-0294) | 2026-10-30 |
+| L-345 | unit-converter | 0% CTR at pos 7.4; URL fixed on category change (checked); empty on load | #156 | open (B-0295) | 2026-10-30 |
+| L-346 | text-paraphraser | Light 0 changes on sample text; title 63 Free | #156 | open (B-0296) ; admin 15:34: Medium also 0 changes; word lock/click synonyms confirmed absent; /tool/paraphraser 404 not linked anywhere (checked) | 2026-10-30 |
+| L-347 | box-shadow-generator | single layer only (checked); meta 82 | #157 | open (B-0297) | 2026-10-30 |
+| L-348 | brand-kit | 4.2:1 Fail without large-text pass; scale 500 #1F5FEA vs primary #2563EB; title no brand | #157 | open (B-0298) ; admin: Editorial pairing carried to PDF/CSS/JSON; PDF fonts Helvetica only, not embedded; CSS no @import, sans fallback for Merriweather | 2026-10-30 |
+| L-349 | brochure-flyer-maker | PDF one raster image, text not selectable; no fold layouts (checked); title 62 | #157 | open (B-0299) ; admin: offsite PDF image-only, 2626x3376 at 300 ppi, Trim 9pt inset, Bleed=Media | 2026-10-30 |
+| L-350 | job-experience-calculator | pos 54; overlap/gap not listed; new jobs default to Currently working | #158 | open (B-0300) | 2026-10-30 |
+| L-351 | yt-thumbnail | pos 9 at 0.5% CTR; title 64 Free; no ZIP/copy URL (checked) | #158 | open (B-0301) ; #159-add: admin Max-res Download no file/no message; logged-out headless download OK 1280x720 + CORS ok (checked) — possible P1 admin-path silent no-op (download gate), unconfirmed, admin DevTools check ; #160-add: CONFIRMED admin (15:47, 16:01 ET) Max-res+Standard: no request/usage.log/file/toast/console error; logged out OK → P1 B-0309 (shared download gate, paid-session sweep) | 2026-10-30 |
+| L-352 | invisible-text-generator | count 0 silently → 1; title/meta Free | #158 | open (B-0302) | 2026-10-30 |
+| L-353 | bulk-image | WebP output 2.3x larger than PNG input; title 65 Free | #159 | open (B-0303) ; #159-add: real 21 KB PNG→6 KB WebP (shrinks); growth only on tiny flat PNGs; warn/skip gap kept; warning = unverified absence; AVIF unavailable = browser env limit | 2026-10-30 |
+| L-354 | business-card | print PDF TrimBox=MediaBox, crop marks checked: none; text rasterized; '..' filenames | #159 | open (B-0304) ; #159-add: badge on logged-out front only (admin front/back pg-2 no badge, checked) — owner question (trial branding), not bug ; +#161 same trial badge on certificate-maker PDF (owner question) | 2026-10-30 |
+| L-355 | business-days-calculator | US-only holiday preset (checked); title no brand | #159 | open (B-0305) | 2026-10-30 |
+| L-356 | audio-trimmer | pos 9.2 at 0.7% CTR; end<start success toast with error; title 64 Free, meta 95 | #160 | open (B-0306) ; #160-add: admin confirmed End 0:01→0:06 + "Audio trimmed!" + end-time error + result panel | 2026-10-30 |
+| L-357 | silence-remover | pos 35.9; 44.1→48 kHz; padding control checked: none; title 52 no brand | #160 | open (B-0307) | 2026-10-30 |
+| L-358 | audio-merger | pos 15.9; 0:00 label/floored total; crossfade checked: none; title 63 Free | #160 | open (B-0308) | 2026-10-30 |
+| L-359 | calendar-invite-maker | .ics ✔; no Google/Outlook add links (checked); unnamed inputs → B-0155; title no brand | #161 | open (B-0310) | 2026-10-30 |
+| L-360 | catering-quantity-calculator | Copy/CSV enabled at 0 people; coffee flat with hours vs FAQ; no kids split (checked) | #161 | open (B-0311) | 2026-10-30 |
+| L-361 | certificate-maker | half-empty layout; Helvetica not embedded; no logo/signature (checked); trial badge | #161 | open (B-0312) | 2026-10-30 |
 Carry-over closed: L-180, L-183, L-184, L-042. Remaining: L-176 (Book clean download), B-0051 (needs a non-admin session with trial uses).
+
+
+Batch 21 (#99–#101, claimed-fixed retest debt, 10:35 ET): existing rows updated in place (no new IDs). Verified fixed: L-070–L-073, L-056, L-003, L-005, L-014, L-030–L-033; L-075 exhausted state verified. Blocked (needs browser with trial uses): L-087, L-088, L-083, L-094, L-098, L-136, L-075 part 2. L-022 relabelled "claimed fixed (B-0050) — still fails".
+Superseded (10:35 ET): 2026-10-30-0829-ET-B-0116/B-0117/B-0118 originals → their 2026-10-30-0831-ET-…-v2.md files (only the -v2 files are current).
+B-0119 scope (10:35 ET): capability gaps only. Bugs are tracked in B-0050 (offset), B-0051 (trial on file select) and B-0122 (score/timeline). Current text: 2026-10-30-1035-ET-B-0119-audio-comparer-capability-v2.md (supersedes the 0837 file).
+
+Addendum 10:39 ET (#100-addendum, admin session): L-056 verified incl. downloads; L-087 claimed fixed — still fails (centre's); L-088 verified; L-004 evidence added.
