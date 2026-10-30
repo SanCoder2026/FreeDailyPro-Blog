@@ -36,5 +36,27 @@ Status values: verified-fixed | open | claimed-fixed-unverified | improvement-su
 | L-050 | camera-capture | capture/download PNG/JPG | #49 | verified (still PASS, pre-check) | 2026-10-29 |
 | L-051 | camera-capture | "Free" in title | #49 SW-26 | by-design (SEO tags); visible copy B-0019 open | 2026-10-29 |
 | L-052 | camera-capture | real iOS/Android permission flow | #49 | open (untested, needs device) | 2026-10-29 |
+| L-053 | site-wide (compress/split/qr/bulk/income-tax) | trial counter differs between server instances (usage.check 0 vs 10 for same IP; fresh visitor sees 0; reload restores uses) | #68 (B-0055) | open | 2026-10-29 |
+| L-054 | compress-pdf | B-0022 "Smallest" mode name in FAQ/help/meta | B-0022 | verified-fixed | 2026-10-29 |
+| L-055 | compress-pdf / paywall | B-0021 Day Pass first + limit_hit/upgrade_cta_view events | B-0021 | verified-fixed (cta_click not triggered — gate rule) | 2026-10-29 |
+| L-056 | compress-pdf | Aggressive = Extreme byte-identical; Extreme never grey/B&W; Balanced skips lossless level 2 | #68 (B-0056) | open | 2026-10-29 |
+| L-057 | compress-pdf | counting: compress free, 1 use on download | B-0001 | verified-fixed | 2026-10-29 |
+| L-058 | compress-pdf | target-size download, >50 MB file, iOS | #68 | open (untested — pool exhausted/B-0055) | 2026-10-29 |
+| L-059 | split-pdf | multi-range → ZIP of all files (UI) | test-plan row 7 / B-0040 (API part stays open) | verified-fixed (UI) | 2026-10-29 |
+| L-060 | split-pdf | range validation messages, overlap warning, combine order | #68 | mature-candidate (PASS) | 2026-10-29 |
+| L-061 | split-pdf | desktop docW 1840 once (not reproducible, likely ad) | #68 | watch (orch B-0041) | 2026-10-29 |
+| L-062 | split-pdf | visual page picker / split by bookmarks/size | #68 | improvement-suggested | 2026-10-29 |
+| L-063 | qr-generator | all content types encode correctly, logo→H, contrast warning | #69 | mature-candidate (PASS) | 2026-10-29 |
+| L-064 | qr group | PDF/EPS export, frames, scan check, CSV upload, custom-qr meta 54 chars, tel normalise | #69 (B-0058) | improvement-suggested | 2026-10-29 |
+| L-065 | bulk-qr | ",no name" keeps comma (#43) | #43 | claimed-fixed-unverified (ZIP blocked by B-0055) | 2026-10-29 |
+| L-066 | bulk-qr | 13×13 checkbox / inputs <16px mobile (#43) | #43 | verified-fixed | 2026-10-29 |
+| L-067 | custom-qr | #47 PASS — no open items; functional rerun skipped (premium + selector) | #47 | open (rerun next) | 2026-10-29 |
+| L-068 | income-tax | default state Custom 5% | #21 | verified-fixed | 2026-10-29 |
+| L-069 | income-tax | pre-tax > income negative take-home | #21 | verified-fixed | 2026-10-29 |
+| L-070 | income-tax | income -1 silent | #21 | claimed fixed (report #21) — still fails (B-0057) | 2026-10-29 |
+| L-071 | income-tax | NY state uses 2025 rates under 2026 label ($4,952 vs $4,859.75 @100k) | #70 (B-0057) | open | 2026-10-29 |
+| L-072 | income-tax | 401(k) limit check lacks 50+/60–63 catch-up | #70 (B-0057) | open | 2026-10-29 |
+| L-073 | income-tax | CA $100k = $5,312 unconfirmed vs FTB 2026 | #70 (B-0057 audit) | open (verify) | 2026-10-29 |
+| L-074 | income-tax | federal math + FICA + SE + counting (1/visit) | #70 | mature (federal) | 2026-10-29 |
 
-Mature: none yet. Roman Numeral Converter becomes **mature** once B-0036 + B-0052 verify.
+Mature: Income Tax federal engine (L-074). Mature candidates: Split PDF, QR Code Generator. Roman Numeral Converter becomes **mature** once B-0036 + B-0052 verify.
