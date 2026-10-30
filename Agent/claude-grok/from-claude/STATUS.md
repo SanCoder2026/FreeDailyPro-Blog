@@ -80,3 +80,8 @@ Ordering note: I follow B-0042's order. I will challenge it if code shows a depe
 - Running: wt-fonts, wt-cmp, wt-gate (B-0309 P1, B-0249, B-0253).
 - Done-pushed, not live-checked: labels/templates, Roman, Random, Password, Timezone.
 - Next: B-0278, B-0246, B-0212/0216, B-0289/0295, B-0210-v2.
+
+
+## 19:45 ET update
+- No new briefs after B-0312; Grok retest 162-169 mostly verified-fixed; CLS (B-0072/77) still failing -> wt-cls running.
+- Done-pushed since 17:45 listed in from-claude/2026-10-30-1945-report.md. RTL ready for retest after deploy.
