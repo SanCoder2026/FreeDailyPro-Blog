@@ -1,0 +1,886 @@
+# Wave-1 task-level entries for listings.yaml (B-0028 schema + status/weight/parent_listing).
+# One entry per endpoint; the generator groups them under parent_listing for marketplace listings.
+# Titles/descriptions are drafts; Claude may normalise. No secrets.
+listings:
+  - id: redact-pdf
+    parent_listing: redact-pdf
+    wave: 1
+    status: exists
+    title: "Redact PDF areas (boxes) API"
+    category: "Data"
+    tags: [pdf redaction, redact pdf, pii, gdpr, privacy]
+    endpoints: ["POST /v1/redact-pdf"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 2   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Redact PDF areas (boxes) — one call, in memory, nothing stored."
+    example_capture: live
+  - id: pdf-redact-find
+    parent_listing: redact-pdf
+    wave: 1
+    status: NEW
+    title: "Find redactable text (no file change) API"
+    category: "Data"
+    tags: [pdf redaction, redact pdf, pii, gdpr, privacy]
+    endpoints: ["POST /v1/pdf/redact/find"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Find redactable text (no file change) — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: pdf-redact-search
+    parent_listing: redact-pdf
+    wave: 1
+    status: NEW
+    title: "Redact by search terms & PII detectors (one call) API"
+    category: "Data"
+    tags: [pdf redaction, redact pdf, pii, gdpr, privacy]
+    endpoints: ["POST /v1/pdf/redact/search"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 2   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Redact by search terms & PII detectors (one call) — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: pdf-redact-pii
+    parent_listing: redact-pdf
+    wave: 1
+    status: NEW
+    title: "Auto-redact PII (preset only) API"
+    category: "Data"
+    tags: [pdf redaction, redact pdf, pii, gdpr, privacy]
+    endpoints: ["POST /v1/pdf/redact/pii"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 2   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Auto-redact PII (preset only) — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: security-qr
+    parent_listing: qr-generator
+    wave: 1
+    status: exists – fix/extend
+    title: "QR code (text → SVG in JSON) API"
+    category: "Tools"
+    tags: [qr code generator, qr code, qr api, png, svg, wifi qr, vcard qr]
+    endpoints: ["POST /v1/security/qr"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "QR code (text → SVG in JSON) — one call, in memory, nothing stored."
+    example_capture: live
+  - id: qr-png
+    parent_listing: qr-generator
+    wave: 1
+    status: NEW
+    title: "QR code as PNG image API"
+    category: "Tools"
+    tags: [qr code generator, qr code, qr api, png, svg, wifi qr, vcard qr]
+    endpoints: ["POST /v1/qr/png"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "QR code as PNG image — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: qr-svg
+    parent_listing: qr-generator
+    wave: 1
+    status: NEW
+    title: "QR code as SVG file API"
+    category: "Tools"
+    tags: [qr code generator, qr code, qr api, png, svg, wifi qr, vcard qr]
+    endpoints: ["POST /v1/qr/svg"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "QR code as SVG file — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: qr-wifi
+    parent_listing: qr-generator
+    wave: 1
+    status: NEW
+    title: "WiFi QR code API"
+    category: "Tools"
+    tags: [qr code generator, qr code, qr api, png, svg, wifi qr, vcard qr]
+    endpoints: ["POST /v1/qr/wifi"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "WiFi QR code — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: qr-vcard
+    parent_listing: qr-generator
+    wave: 1
+    status: NEW
+    title: "Contact (vCard) QR code API"
+    category: "Tools"
+    tags: [qr code generator, qr code, qr api, png, svg, wifi qr, vcard qr]
+    endpoints: ["POST /v1/qr/vcard"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Contact (vCard) QR code — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: qr-message
+    parent_listing: qr-generator
+    wave: 1
+    status: NEW
+    title: "Email / SMS / Phone QR code API"
+    category: "Tools"
+    tags: [qr code generator, qr code, qr api, png, svg, wifi qr, vcard qr]
+    endpoints: ["POST /v1/qr/message"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Email / SMS / Phone QR code — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: qr-logo
+    parent_listing: qr-generator
+    wave: 1
+    status: NEW
+    title: "QR code with centred logo API"
+    category: "Tools"
+    tags: [qr code generator, qr code, qr api, png, svg, wifi qr, vcard qr]
+    endpoints: ["POST /v1/qr/logo"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "QR code with centred logo — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: pdf-merge
+    parent_listing: merge-pdf
+    wave: 1
+    status: exists – fix/extend
+    title: "Merge PDFs API"
+    category: "Data"
+    tags: [pdf merge, combine pdf, merge pdf, join pdf]
+    endpoints: ["POST /v1/pdf/merge"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Merge PDFs — one call, in memory, nothing stored."
+    example_capture: live
+  - id: pdf-merge-urls
+    parent_listing: merge-pdf
+    wave: 1
+    status: NEW
+    title: "Merge PDFs from URLs API"
+    category: "Data"
+    tags: [pdf merge, combine pdf, merge pdf, join pdf]
+    endpoints: ["POST /v1/pdf/merge/urls"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Merge PDFs from URLs — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: pdf-compress
+    parent_listing: compress-pdf
+    wave: 1
+    status: exists
+    title: "Compress PDF (auto) API"
+    category: "Data"
+    tags: [pdf compress, compress pdf, reduce pdf size, pdf optimizer]
+    endpoints: ["POST /v1/pdf/compress"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 2   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Compress PDF (auto) — one call, in memory, nothing stored."
+    example_capture: live
+  - id: pdf-compress-balanced
+    parent_listing: compress-pdf
+    wave: 1
+    status: exists
+    title: "Compress PDF – Balanced (text stays selectable) API"
+    category: "Data"
+    tags: [pdf compress, compress pdf, reduce pdf size, pdf optimizer]
+    endpoints: ["POST /v1/pdf/compress/balanced"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 2   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Compress PDF – Balanced (text stays selectable) — one call, in memory, nothing stored."
+    example_capture: live
+  - id: pdf-compress-aggressive
+    parent_listing: compress-pdf
+    wave: 1
+    status: exists
+    title: "Compress PDF – Aggressive (pages rasterised) API"
+    category: "Data"
+    tags: [pdf compress, compress pdf, reduce pdf size, pdf optimizer]
+    endpoints: ["POST /v1/pdf/compress/aggressive"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 2   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Compress PDF – Aggressive (pages rasterised) — one call, in memory, nothing stored."
+    example_capture: live
+  - id: pdf-compress-extreme
+    parent_listing: compress-pdf
+    wave: 1
+    status: exists
+    title: "Compress PDF – Extreme (grey → B/W) API"
+    category: "Data"
+    tags: [pdf compress, compress pdf, reduce pdf size, pdf optimizer]
+    endpoints: ["POST /v1/pdf/compress/extreme"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 2   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Compress PDF – Extreme (grey → B/W) — one call, in memory, nothing stored."
+    example_capture: live
+  - id: pdf-compress-size
+    parent_listing: compress-pdf
+    wave: 1
+    status: exists
+    title: "Compress PDF to a target size API"
+    category: "Data"
+    tags: [pdf compress, compress pdf, reduce pdf size, pdf optimizer]
+    endpoints: ["POST /v1/pdf/compress/size"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 2   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Compress PDF to a target size — one call, in memory, nothing stored."
+    example_capture: live
+  - id: converters-loan
+    parent_listing: loan-calculator
+    wave: 1
+    status: exists – fix/extend
+    title: "Loan / EMI payment API"
+    category: "Finance"
+    tags: [loan calculator, amortization, emi, loan payment, mortgage]
+    endpoints: ["POST /v1/converters/loan"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Loan / EMI payment — one call, in memory, nothing stored."
+    example_capture: live
+  - id: converters-amortization
+    parent_listing: loan-calculator
+    wave: 1
+    status: exists – fix/extend
+    title: "Full amortization schedule API"
+    category: "Finance"
+    tags: [loan calculator, amortization, emi, loan payment, mortgage]
+    endpoints: ["POST /v1/converters/amortization"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Full amortization schedule — one call, in memory, nothing stored."
+    example_capture: live
+  - id: finance-emi
+    parent_listing: loan-calculator
+    wave: 1
+    status: NEW
+    title: "EMI calculator (India keyword alias) API"
+    category: "Finance"
+    tags: [loan calculator, amortization, emi, loan payment, mortgage]
+    endpoints: ["POST /v1/finance/emi"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "EMI calculator (India keyword alias) — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: security-jwt-decode
+    parent_listing: jwt-decoder
+    wave: 1
+    status: exists
+    title: "Decode JWT & check exp/nbf API"
+    category: "Tools"
+    tags: [jwt decode, jwt, token, auth, expiry]
+    endpoints: ["POST /v1/security/jwt-decode"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Decode JWT & check exp/nbf — one call, in memory, nothing stored."
+    example_capture: live
+  - id: security-jwt-verify
+    parent_listing: jwt-decoder
+    wave: 1
+    status: NEW
+    title: "Verify JWT signature (HS/RS/ES) API"
+    category: "Tools"
+    tags: [jwt decode, jwt, token, auth, expiry]
+    endpoints: ["POST /v1/security/jwt-verify"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Verify JWT signature (HS/RS/ES) — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: security-hash
+    parent_listing: hash-generator
+    wave: 1
+    status: exists – fix/extend
+    title: "Hash text (one algorithm) API"
+    category: "Cybersecurity"
+    tags: [hash generator, sha256, md5, checksum, sha512]
+    endpoints: ["POST /v1/security/hash"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Hash text (one algorithm) — one call, in memory, nothing stored."
+    example_capture: live
+  - id: security-hash-all
+    parent_listing: hash-generator
+    wave: 1
+    status: NEW
+    title: "Hash text with all 5 algorithms API"
+    category: "Cybersecurity"
+    tags: [hash generator, sha256, md5, checksum, sha512]
+    endpoints: ["POST /v1/security/hash/all"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Hash text with all 5 algorithms — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: security-hash-file
+    parent_listing: hash-generator
+    wave: 1
+    status: NEW
+    title: "File checksum (MD5/SHA) API"
+    category: "Cybersecurity"
+    tags: [hash generator, sha256, md5, checksum, sha512]
+    endpoints: ["POST /v1/security/hash/file"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 2   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "File checksum (MD5/SHA) — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: security-hash-verify
+    parent_listing: hash-generator
+    wave: 1
+    status: NEW
+    title: "Verify a checksum API"
+    category: "Cybersecurity"
+    tags: [hash generator, sha256, md5, checksum, sha512]
+    endpoints: ["POST /v1/security/hash/verify"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart|json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Verify a checksum — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: security-uuid
+    parent_listing: uuid-generator
+    wave: 1
+    status: exists – fix/extend
+    title: "Generate UUIDs API"
+    category: "Tools"
+    tags: [uuid, uuid generator, guid, unique id, uuid v7]
+    endpoints: ["POST /v1/security/uuid"]
+    marketplaces: [RapidAPI, API.market]
+    content_type: json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Generate UUIDs — one call, in memory, nothing stored."
+    example_capture: live
+  - id: converters-bmi
+    parent_listing: bmi-calculator
+    wave: 1
+    status: exists – fix/extend
+    title: "BMI API"
+    category: "Health and Fitness"
+    tags: [bmi calculator, bmi, health, body mass index]
+    endpoints: ["POST /v1/converters/bmi"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "BMI — one call, in memory, nothing stored."
+    example_capture: live
+  - id: pdf-watermark
+    parent_listing: pdf-watermark
+    wave: 1
+    status: exists – fix/extend
+    title: "Text watermark API"
+    category: "Data"
+    tags: [pdf watermark, watermark pdf, stamp pdf, confidential stamp]
+    endpoints: ["POST /v1/pdf/watermark"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Text watermark — one call, in memory, nothing stored."
+    example_capture: live
+  - id: pdf-watermark-image
+    parent_listing: pdf-watermark
+    wave: 1
+    status: NEW
+    title: "Image / logo watermark API"
+    category: "Data"
+    tags: [pdf watermark, watermark pdf, stamp pdf, confidential stamp]
+    endpoints: ["POST /v1/pdf/watermark/image"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Image / logo watermark — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: pdf-stamp
+    parent_listing: pdf-watermark
+    wave: 1
+    status: NEW
+    title: "Status stamp (CONFIDENTIAL/DRAFT/PAID…) API"
+    category: "Data"
+    tags: [pdf watermark, watermark pdf, stamp pdf, confidential stamp]
+    endpoints: ["POST /v1/pdf/stamp"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Status stamp (CONFIDENTIAL/DRAFT/PAID…) — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: pdf-split
+    parent_listing: split-pdf
+    wave: 1
+    status: exists – fix/extend
+    title: "Split PDF by ranges API"
+    category: "Data"
+    tags: [pdf split, split pdf, extract pages, pdf pages]
+    endpoints: ["POST /v1/pdf/split"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Split PDF by ranges — one call, in memory, nothing stored."
+    example_capture: live
+  - id: pdf-split-every-page
+    parent_listing: split-pdf
+    wave: 1
+    status: NEW
+    title: "Split PDF into single pages API"
+    category: "Data"
+    tags: [pdf split, split pdf, extract pages, pdf pages]
+    endpoints: ["POST /v1/pdf/split/every-page"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Split PDF into single pages — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: pdf-split-every
+    parent_listing: split-pdf
+    wave: 1
+    status: NEW
+    title: "Split PDF every N pages API"
+    category: "Data"
+    tags: [pdf split, split pdf, extract pages, pdf pages]
+    endpoints: ["POST /v1/pdf/split/every"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Split PDF every N pages — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: pdf-extract
+    parent_listing: split-pdf
+    wave: 1
+    status: exists
+    title: "Extract pages into one PDF API"
+    category: "Data"
+    tags: [pdf split, split pdf, extract pages, pdf pages]
+    endpoints: ["POST /v1/pdf/extract"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Extract pages into one PDF — one call, in memory, nothing stored."
+    example_capture: live
+  - id: pptx-from-markdown
+    parent_listing: markdown-to-powerpoint
+    wave: 1
+    status: exists
+    title: "Markdown → PPTX API"
+    category: "Data"
+    tags: [markdown to pptx, pptx, powerpoint, slides, presentation]
+    endpoints: ["POST /v1/pptx/from-markdown"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json|multipart
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Markdown → PPTX — one call, in memory, nothing stored."
+    example_capture: live
+  - id: pptx-from-json
+    parent_listing: excel-to-powerpoint
+    wave: 1
+    status: exists
+    title: "JSON slides → PPTX API"
+    category: "Data"
+    tags: [json to pptx, csv to pptx, excel to powerpoint, pptx generator, report automation]
+    endpoints: ["POST /v1/pptx/from-json"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "JSON slides → PPTX — one call, in memory, nothing stored."
+    example_capture: live
+  - id: pptx-from-csv
+    parent_listing: excel-to-powerpoint
+    wave: 1
+    status: exists – fix/extend
+    title: "CSV → PPTX table slides API"
+    category: "Data"
+    tags: [json to pptx, csv to pptx, excel to powerpoint, pptx generator, report automation]
+    endpoints: ["POST /v1/pptx/from-csv"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json|multipart
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "CSV → PPTX table slides — one call, in memory, nothing stored."
+    example_capture: live
+  - id: pptx-from-excel
+    parent_listing: excel-to-powerpoint
+    wave: 1
+    status: NEW
+    title: "Excel → PPTX table slides API"
+    category: "Data"
+    tags: [json to pptx, csv to pptx, excel to powerpoint, pptx generator, report automation]
+    endpoints: ["POST /v1/pptx/from-excel"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Excel → PPTX table slides — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: image-resize
+    parent_listing: resize-crop
+    wave: 1
+    status: exists – fix/extend
+    title: "Resize image API"
+    category: "Video, Images"
+    tags: [image resize, resize image, thumbnail, crop image, webp]
+    endpoints: ["POST /v1/image/resize"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Resize image — one call, in memory, nothing stored."
+    example_capture: live
+  - id: image-crop
+    parent_listing: resize-crop
+    wave: 1
+    status: NEW
+    title: "Crop image API"
+    category: "Video, Images"
+    tags: [image resize, resize image, thumbnail, crop image, webp]
+    endpoints: ["POST /v1/image/crop"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Crop image — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: image-thumbnail
+    parent_listing: resize-crop
+    wave: 1
+    status: NEW
+    title: "Square/fixed thumbnail API"
+    category: "Video, Images"
+    tags: [image resize, resize image, thumbnail, crop image, webp]
+    endpoints: ["POST /v1/image/thumbnail"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Square/fixed thumbnail — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: image-convert
+    parent_listing: convert-image
+    wave: 1
+    status: exists
+    title: "Convert image format API"
+    category: "Video, Images"
+    tags: [image convert, png to jpg, heic to jpg, webp, avif, ico]
+    endpoints: ["POST /v1/image/convert"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Convert image format — one call, in memory, nothing stored."
+    example_capture: live
+  - id: image-heic-to-jpg
+    parent_listing: convert-image
+    wave: 1
+    status: NEW
+    title: "HEIC → JPG API"
+    category: "Video, Images"
+    tags: [image convert, png to jpg, heic to jpg, webp, avif, ico]
+    endpoints: ["POST /v1/image/heic-to-jpg"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "HEIC → JPG — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: image-png-to-jpg
+    parent_listing: convert-image
+    wave: 1
+    status: NEW
+    title: "PNG → JPG API"
+    category: "Video, Images"
+    tags: [image convert, png to jpg, heic to jpg, webp, avif, ico]
+    endpoints: ["POST /v1/image/png-to-jpg"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "PNG → JPG — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: image-to-webp
+    parent_listing: convert-image
+    wave: 1
+    status: NEW
+    title: "Any image → WebP API"
+    category: "Video, Images"
+    tags: [image convert, png to jpg, heic to jpg, webp, avif, ico]
+    endpoints: ["POST /v1/image/to-webp"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Any image → WebP — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: image-to-ico
+    parent_listing: convert-image
+    wave: 1
+    status: NEW
+    title: "Image → ICO favicon API"
+    category: "Video, Images"
+    tags: [image convert, png to jpg, heic to jpg, webp, avif, ico]
+    endpoints: ["POST /v1/image/to-ico"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: multipart
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Image → ICO favicon — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: video-to-gif
+    parent_listing: video-to-gif
+    wave: 1
+    status: exists – fix/extend
+    title: "Video → GIF API"
+    category: "Video, Images"
+    tags: [video to gif, gif maker, mp4 to gif, animated gif]
+    endpoints: ["POST /v1/video/to-gif"]
+    marketplaces: [RapidAPI, API.market]
+    content_type: multipart
+    weight: 10   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Video → GIF — one call, in memory, nothing stored."
+    example_capture: live
+  - id: video-clip-to-gif
+    parent_listing: video-to-gif
+    wave: 1
+    status: NEW
+    title: "Clip a moment to GIF (start+duration required) API"
+    category: "Video, Images"
+    tags: [video to gif, gif maker, mp4 to gif, animated gif]
+    endpoints: ["POST /v1/video/clip-to-gif"]
+    marketplaces: [RapidAPI, API.market]
+    content_type: multipart
+    weight: 10   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Clip a moment to GIF (start+duration required) — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: audio-convert
+    parent_listing: audio-converter
+    wave: 1
+    status: exists – fix/extend
+    title: "Convert audio API"
+    category: "Media"
+    tags: [audio convert, mp3 converter, wav to mp3, m4a to mp3, flac]
+    endpoints: ["POST /v1/audio/convert"]
+    marketplaces: [RapidAPI, API.market]
+    content_type: multipart
+    weight: 5   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Convert audio — one call, in memory, nothing stored."
+    example_capture: live
+  - id: audio-wav-to-mp3
+    parent_listing: audio-converter
+    wave: 1
+    status: NEW
+    title: "WAV → MP3 API"
+    category: "Media"
+    tags: [audio convert, mp3 converter, wav to mp3, m4a to mp3, flac]
+    endpoints: ["POST /v1/audio/wav-to-mp3"]
+    marketplaces: [RapidAPI, API.market]
+    content_type: multipart
+    weight: 5   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "WAV → MP3 — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: audio-m4a-to-mp3
+    parent_listing: audio-converter
+    wave: 1
+    status: NEW
+    title: "M4A → MP3 API"
+    category: "Media"
+    tags: [audio convert, mp3 converter, wav to mp3, m4a to mp3, flac]
+    endpoints: ["POST /v1/audio/m4a-to-mp3"]
+    marketplaces: [RapidAPI, API.market]
+    content_type: multipart
+    weight: 5   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "M4A → MP3 — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: audio-to-wav
+    parent_listing: audio-converter
+    wave: 1
+    status: NEW
+    title: "Any audio → WAV API"
+    category: "Media"
+    tags: [audio convert, mp3 converter, wav to mp3, m4a to mp3, flac]
+    endpoints: ["POST /v1/audio/to-wav"]
+    marketplaces: [RapidAPI, API.market]
+    content_type: multipart
+    weight: 5   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Any audio → WAV — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: publishing-epub
+    parent_listing: epub-maker
+    wave: 1
+    status: exists – fix/extend
+    title: "Build EPUB (structured) API"
+    category: "Media"
+    tags: [epub, ebook, epub generator, kdp, self publishing]
+    endpoints: ["POST /v1/publishing/epub"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json
+    weight: 2   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Build EPUB (structured) — one call, in memory, nothing stored."
+    example_capture: live
+  - id: publishing-epub-from-markdown
+    parent_listing: epub-maker
+    wave: 1
+    status: NEW
+    title: "Markdown → EPUB API"
+    category: "Media"
+    tags: [epub, ebook, epub generator, kdp, self publishing]
+    endpoints: ["POST /v1/publishing/epub/from-markdown"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json|multipart
+    weight: 2   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Markdown → EPUB — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: publishing-epub-validate
+    parent_listing: epub-maker
+    wave: 1
+    status: NEW
+    title: "Check an EPUB build request (no file) API"
+    category: "Media"
+    tags: [epub, ebook, epub generator, kdp, self publishing]
+    endpoints: ["POST /v1/publishing/epub/validate"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Check an EPUB build request (no file) — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: publishing-isbn
+    parent_listing: isbn-checker
+    wave: 1
+    status: exists
+    title: "Validate/convert one ISBN API"
+    category: "Data"
+    tags: [isbn, isbn validator, isbn-13, isbn converter, books]
+    endpoints: ["POST /v1/publishing/isbn"]
+    marketplaces: [RapidAPI, API.market]
+    content_type: json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Validate/convert one ISBN — one call, in memory, nothing stored."
+    example_capture: live
+  - id: publishing-isbn-bulk
+    parent_listing: isbn-checker
+    wave: 1
+    status: NEW
+    title: "Validate ISBNs in bulk API"
+    category: "Data"
+    tags: [isbn, isbn validator, isbn-13, isbn converter, books]
+    endpoints: ["POST /v1/publishing/isbn/bulk"]
+    marketplaces: [RapidAPI, API.market]
+    content_type: json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Validate ISBNs in bulk — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: business-invoice-totals
+    parent_listing: invoice-generator
+    wave: 1
+    status: exists – fix/extend
+    title: "Invoice totals (JSON) API"
+    category: "Business Software"
+    tags: [invoice generator, invoice pdf, receipt, receipt generator, tax]
+    endpoints: ["POST /v1/business/invoice-totals"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Invoice totals (JSON) — one call, in memory, nothing stored."
+    example_capture: live
+  - id: business-receipt
+    parent_listing: invoice-generator
+    wave: 1
+    status: exists – fix/extend
+    title: "Receipt totals (JSON) API"
+    category: "Business Software"
+    tags: [invoice generator, invoice pdf, receipt, receipt generator, tax]
+    endpoints: ["POST /v1/business/receipt"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json
+    weight: 1   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Receipt totals (JSON) — one call, in memory, nothing stored."
+    example_capture: live
+  - id: business-invoice-pdf
+    parent_listing: invoice-generator
+    wave: 1
+    status: NEW
+    title: "Invoice PDF generator API"
+    category: "Business Software"
+    tags: [invoice generator, invoice pdf, receipt, receipt generator, tax]
+    endpoints: ["POST /v1/business/invoice/pdf"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json
+    weight: 2   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Invoice PDF generator — one call, in memory, nothing stored."
+    example_capture: after-deploy
+  - id: business-receipt-pdf
+    parent_listing: invoice-generator
+    wave: 1
+    status: NEW
+    title: "Receipt PDF generator API"
+    category: "Business Software"
+    tags: [invoice generator, invoice pdf, receipt, receipt generator, tax]
+    endpoints: ["POST /v1/business/receipt/pdf"]
+    marketplaces: [RapidAPI, API.market, Postman]
+    content_type: json
+    weight: 2   # billing units per call (see B-0039 pricing)
+    free_quota_note: "Basic 20,000 units/mo"
+    short: "Receipt PDF generator — one call, in memory, nothing stored."
+    example_capture: after-deploy

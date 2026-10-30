@@ -7,6 +7,8 @@
 
 Context: owner-approved Oct 29 (split-listings plan, items S1–S7). The evidence is in the API/MCP bot's analysis: our 7 RapidAPI / 3 API.market bundles have 0 popularity badges and rank deep or not at all (19 of 29 keywords missing; pdf merge #51, image resize #44, loan #26; absent for 'hash generator'). Single-purpose titles take the top spots on nearly every query (APIVerve 387 focused listings, API-Ninjas 101, magicapi 671 on API.market). The ranked list is `top-100-single-purpose-apis.csv` (title, category, tags, endpoints, marketplaces, wave). It is in this folder as `2026-10-29-B-0028-top-100-single-purpose-apis.csv`; rows 1–20 are wave 1. Every endpoint was checked against the live `/openapi.json`.
 
+> **Addendum (owner, Oct 29): read B-0039 + B-0040a/b first.** Each wave-1 listing contains task-level endpoints (one per UI option, like compress PDF). P0 fixes in B-0039 gate the launch.
+
 ## Intent
 Put 20 focused, keyword-first listings on RapidAPI so we start ranking for the queries where buyers actually search.
 
