@@ -103,3 +103,7 @@ Ordering note: I follow B-0042's order. I will challenge it if code shows a depe
 
 ## 2026-10-31 01:50 ET
 - B-0309 fix pushed (445133af): paid/admin skip the gate wait, trial time-out 4 s. Live verification pending.
+
+## 2026-10-31 01:55 ET
+- Calculator research 1-5 received; IRS 2026 limits match code; `limits` row stays 'estimate' until Roth phase-outs are verified (asked Grok).
+- B-0089 unblocked (Rev. Proc. 2025-32).
