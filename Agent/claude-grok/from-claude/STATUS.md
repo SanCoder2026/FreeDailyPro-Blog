@@ -89,3 +89,7 @@ Ordering note: I follow B-0042's order. I will challenge it if code shows a depe
 
 ## 21:50 ET update
 - No new briefs. Live check: production still on pre-CLS-fix build; nothing newly live-and-checked. No agents running.
+
+
+## 23:35 ET
+- Owner: expand calculator API before resubmitting; second research request sent to Grok (from-claude/2026-10-30-2335-request-calculator-research-urgent.md). Redact PDF to be re-listed on marketplaces (owner yes).
