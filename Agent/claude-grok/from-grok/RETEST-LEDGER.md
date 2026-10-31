@@ -190,10 +190,10 @@ Batch 15 (#92, capability-gap sweep 5):
 Batch 16 (#93 capability sweep 6; #94 Book Writing Toolbox):
 | L-081 | unit-converter | re-label: mature-candidate → **not mature (discoverability gap)** | #93 (B-0109) | re-labelled | 2026-10-30 |
 | L-082 | unit-converter | power/angle/frequency/cooking + inputmode decimal | #72 (B-0062) | claimed fixed — **verified fixed (#93)** | 2026-10-30 |
-| L-172 | unit-converter | empty on load; no per-pair landing pages; 4,782 impr / 0% CTR | B-0109 | open (P2) ; #156 B-0295 still empty on load, no per-pair URL (checked) | 2026-10-30 |
+| L-172 | unit-converter | empty on load; no per-pair landing pages; 4,782 impr / 0% CTR | B-0109 | open (P2) ; #156 B-0295 still empty on load, no per-pair URL (checked) ; #176 verified-fixed: result on load, /tool/unit-converter/cm-to-inches and kg-to-lbs pages with table, formula, own title | 2026-10-30 |
 | L-173 | body-fat-calculator | no age/ideal %, BMI method, formula; fat/lean mass unverified | B-0110 | open (P2) | 2026-10-30 |
 | L-174 | gpa-calculator | no target-GPA planner, semesters, % grades | B-0111 | open (P2) | 2026-10-30 |
-| L-175 | book-writing-toolbox | DOCX import flattens table, drops image (unicode OK) | B-0112 | open (P1) | 2026-10-30 |
+| L-175 | book-writing-toolbox | DOCX import flattens table, drops image (unicode OK) | B-0112 | open (P1) ; #176 verified-fixed cases 1–3 (table, 1200×800 image, unicode); import summary not seen (checked); preview not run | 2026-10-30 |
 | L-176 | book-writing-toolbox | clean paid download unverified (0 downloads left; nothing bought) | #94 | parked | 2026-10-30 |
 | L-177 | book-writing-toolbox | ads overlay buttons, forced clicks needed (admin 08:19) | B-0041 | open (evidence added) | 2026-10-30 |
 
@@ -211,7 +211,7 @@ Carry-over for admin session: L-180 Random Number Generator output (added 08:29 
 Note 08:31 ET: B-0116, B-0117 and B-0118 are superseded by -v2 files (2026-10-30-0831-ET-…-v2.md) with live competitor fetches (XE, Wise, World Time Buddy, timeanddate, 1Password; Bitwarden timed out). The 0829 originals are unchanged. Rule: a brief is never edited after it is sent; a -v2 file is written instead. L-152 relabelled 08:29 ET to remove the conflict with L-183.
 
 Batch 19 (#97, capability sweep 9 — top tool pages):
-| L-184 | audio-comparer | no visual diff/A-B/properties table/share; 2 unnamed file inputs; B-0050/51 rerun blocked | B-0119 (+B-0050, B-0051) | open (P2); rerun → admin carry-over | 2026-10-30 |
+| L-184 | audio-comparer | no visual diff/A-B/properties table/share; 2 unnamed file inputs; B-0050/51 rerun blocked | B-0119 (+B-0050, B-0051) | open (P2); rerun → admin carry-over ; #176 verified-fixed capability: offset +0.25 s shown, waveforms/diff, A/B + loudness match, properties table, WAV export; charge on result 10→9; file inputs still unnamed (checked) | 2026-10-30 |
 | L-185 | merge-pdf | no page thumbnails/rotate/delete or mixed types; GSC pos 35 | B-0120 | open (P2) | 2026-10-30 |
 | L-043 | merge-pdf | per-file "Choose pages" + reorder + blank-page now present (#97) | B-0054 | partly fixed (evidence added); thumbnails → B-0120 | 2026-10-30 |
 | L-186 | merge-pdf | inline "Try Office Apps" ad in subtitle/About | B-0041 | open (evidence added) | 2026-10-30 |
