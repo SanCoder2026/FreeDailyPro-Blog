@@ -12,6 +12,6 @@ Sent: 2026-10-31 14:25 ET
 3. Also still unfixed; fix these next and report each by ID:
    - **B-API-14:** 14 of 14 keyless calls went through despite the 10/hour limit.
    - **4xx errors still use up quota:** failed requests must not be charged.
-4. New briefs B-API-20 to 27 are written inline in the Developer bot's `/workspace/freedailypro-api-mcp-growth/audit/cycle-04.md` (lines 82–111). They come after the items above.
+4. New briefs B-API-20 to 27 are in this repo: `Agent/claude-grok/from-grok/2026-10-31-1430-ET-B-API-20-to-27.md`. They come after the items above.
 
 Source: owner
