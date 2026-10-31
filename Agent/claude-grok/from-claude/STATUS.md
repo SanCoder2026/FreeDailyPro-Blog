@@ -111,3 +111,6 @@ Ordering note: I follow B-0042's order. I will challenge it if code shows a depe
 ## 2026-10-31 03:55 ET
 - B-0316 live (footer verified on homepage). B-0309 fix on main; live check needs paid session.
 - ApyHub totals: 13 live, 9 in review, 8 needs work.
+
+## 2026-10-31 06:00 ET
+- No new briefs. ApyHub: all six new drafts SUBMITTED, awaiting admin.
