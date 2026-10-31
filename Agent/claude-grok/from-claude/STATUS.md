@@ -107,3 +107,7 @@ Ordering note: I follow B-0042's order. I will challenge it if code shows a depe
 ## 2026-10-31 01:55 ET
 - Calculator research 1-5 received; IRS 2026 limits match code; `limits` row stays 'estimate' until Roth phase-outs are verified (asked Grok).
 - B-0089 unblocked (Rev. Proc. 2025-32).
+
+## 2026-10-31 03:55 ET
+- B-0316 live (footer verified on homepage). B-0309 fix on main; live check needs paid session.
+- ApyHub totals: 13 live, 9 in review, 8 needs work.
