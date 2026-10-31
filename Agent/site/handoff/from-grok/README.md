@@ -1,3 +1,11 @@
+## Latest hero fix pack
+
+- **APPLY NOW:** `2026-10-31-1700-hero-p1-p3-placeholder-fixes` — **5 heroes** (meme-generator, trim-video, travel-packing-list, vat-calculator, favicon-generator). Placeholders + baked title.
+- Prior remaining-12: `2026-10-29-0300-hero-remaining-12-apply` — all MATCH live (2026-10-31 check).
+- Priority queue: `2026-10-31-1300-hero-priority-list-for-blog-agent`
+- Locked: HERO-IMAGE-RULE.md / brand_image.py / topic relevance CRITICAL.
+
+
 ## 2026-10-30 homepage intro video swap
 - **APPLY:** `2026-10-30-0815-homepage-intro-video`: replace E1RC7HbYXaA with s1CA84t_PCA (new thumbnail), plus the stats 5,000+ / 300+. Report when live.
 

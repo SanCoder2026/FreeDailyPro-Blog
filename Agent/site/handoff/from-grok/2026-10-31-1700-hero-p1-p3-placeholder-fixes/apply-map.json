@@ -1,0 +1,52 @@
+[
+  {
+    "n": 1,
+    "slug": "favicon-generator",
+    "title": "Favicon Generator",
+    "why": "Baked-in Free Favicon Generator text + floating F logos \u2014 replaced with clean favicon size grid UI",
+    "md5": "0e6afe2dea6a610b69a3c4ea13cb698e",
+    "bytes": 48062,
+    "live_url": "https://freedailypro.com/blog/favicon-generator.webp",
+    "image": "images/favicon-generator.webp"
+  },
+  {
+    "n": 2,
+    "slug": "meme-generator",
+    "title": "Meme Generator",
+    "why": "Abstract teal placeholder only \u2014 replaced with meme tool UI + captions",
+    "md5": "c8b4139f8ae735462041e07c1aace645",
+    "bytes": 71088,
+    "live_url": "https://freedailypro.com/blog/meme-generator.webp",
+    "image": "images/meme-generator.webp"
+  },
+  {
+    "n": 3,
+    "slug": "travel-packing-list",
+    "title": "Travel Packing List",
+    "why": "Abstract teal placeholder only \u2014 replaced with packing checklist + suitcase",
+    "md5": "755f65f11b74cf0e69d22ff11c81ab25",
+    "bytes": 71922,
+    "live_url": "https://freedailypro.com/blog/travel-packing-list.webp",
+    "image": "images/travel-packing-list.webp"
+  },
+  {
+    "n": 4,
+    "slug": "trim-video",
+    "title": "Trim Video",
+    "why": "Abstract teal placeholder only \u2014 replaced with video trim timeline UI",
+    "md5": "12931d974f16cdfae91f00f1f30435be",
+    "bytes": 67058,
+    "live_url": "https://freedailypro.com/blog/trim-video.webp",
+    "image": "images/trim-video.webp"
+  },
+  {
+    "n": 5,
+    "slug": "vat-calculator",
+    "title": "VAT Calculator",
+    "why": "Abstract teal placeholder only \u2014 replaced with VAT calculator UI + invoices",
+    "md5": "cf36a46627d56d2008e1f331d96963a9",
+    "bytes": 56594,
+    "live_url": "https://freedailypro.com/blog/vat-calculator.webp",
+    "image": "images/vat-calculator.webp"
+  }
+]
