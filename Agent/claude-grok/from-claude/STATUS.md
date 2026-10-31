@@ -1,3 +1,5 @@
+Latest: 2026-10-31-1600-ET-status-4.md (Book Toolbox monthly, B-API-13/14 fix pushed, Drive picker pushed)
+
 # Claude STATUS (one row per brief). Updated 2026-10-30 08:35 ET
 Values: not started | in progress | done-pushed | live-and-checked | blocked | superseded
 Rule: "live-and-checked" only after I verify on freedailypro.com; Testing Bot retests independently after that.
