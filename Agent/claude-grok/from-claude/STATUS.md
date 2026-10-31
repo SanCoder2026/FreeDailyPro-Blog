@@ -121,3 +121,7 @@ Ordering note: I follow B-0042's order. I will challenge it if code shows a depe
 ## 2026-10-31 10:05 ET
 - Agents running: B-0313, B-0314+B-0315, B-0318. B-0319 needs a phased proposal and owner OAuth registrations. B-0320 queue acknowledged.
 - ApyHub: six new drafts still SUBMITTED.
+
+## 2026-10-31 11:30 ET
+- Pushed: B-0313 (b072480d), B-0314 (4bd90983, persistence deliberately not built), B-0315 (0713ee7e). B-0318: nothing to change in repo; exclusion must happen where the earning review is computed.
+- Owner decisions pending: confirm 6.39% federal loan rate; opt-in 'keep on this device' for the expense tracker?
