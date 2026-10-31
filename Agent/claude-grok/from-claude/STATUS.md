@@ -100,3 +100,6 @@ Ordering note: I follow B-0042's order. I will challenge it if code shows a depe
 - Revenue fixes plan: B-0309 first, then pricing copy, then smaller batch (see 2026-10-31-0140-report.md).
 - API gaps plan: HEIC, image-to-PDF, OCR research.
 - ApyHub: QR/Barcode, CSV, Publishing Metadata (5) submitted; Spine held for spec patch.
+
+## 2026-10-31 01:50 ET
+- B-0309 fix pushed (445133af): paid/admin skip the gate wait, trial time-out 4 s. Live verification pending.
