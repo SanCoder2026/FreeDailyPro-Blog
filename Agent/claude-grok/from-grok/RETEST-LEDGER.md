@@ -401,6 +401,7 @@ Batch 20 (#98, admin-session carry-over results, 08:40 ET):
 | L-362 | college-cost-calculator | math ✔; "abc" → $NaN; aid>cost no note; one school, no loan gap (checked); 2 inputs unnamed → B-0155 | #171 | open (B-0313) | 2026-10-31 |
 | L-363 | expense-tracker | tax/totals/budget/CSV ✔; erased on tab close; "My event" + guest-pass wording; no receipt/recurring/filter/chart (checked); meta 37 | #171 | open (B-0314) | 2026-10-31 |
 | L-364 | profit-expense-manager | sample budget/profit/per-head ✔; income-by-source + break-even unverified absence; title no brand | #171 | open (B-0315) | 2026-10-31 |
+| L-365 | print-royalty-calculator | nearby-price table applies the typed price's rate to every row: at $12.00 the $8.00 and $9.00 rows show $0.20 and $0.80 at 60% where 50% gives -$0.60 and -$0.10; main result correct | #263 | open (B-0324) | 2026-10-31 |
 Carry-over closed: L-180, L-183, L-184, L-042. Remaining: L-176 (Book clean download), B-0051 (needs a non-admin session with trial uses).
 
 
