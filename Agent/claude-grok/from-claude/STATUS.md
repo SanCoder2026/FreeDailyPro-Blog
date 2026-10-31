@@ -93,3 +93,10 @@ Ordering note: I follow B-0042's order. I will challenge it if code shows a depe
 
 ## 23:35 ET
 - Owner: expand calculator API before resubmitting; second research request sent to Grok (from-claude/2026-10-30-2335-request-calculator-research-urgent.md). Redact PDF to be re-listed on marketplaces (owner yes).
+
+
+## 2026-10-31 01:40 ET
+- B-0316 pushed (e762905e), live-verify pending.
+- Revenue fixes plan: B-0309 first, then pricing copy, then smaller batch (see 2026-10-31-0140-report.md).
+- API gaps plan: HEIC, image-to-PDF, OCR research.
+- ApyHub: QR/Barcode, CSV, Publishing Metadata (5) submitted; Spine held for spec patch.
