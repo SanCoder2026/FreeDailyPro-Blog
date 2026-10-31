@@ -82,7 +82,7 @@ Status values: verified-fixed | open | claimed-fixed-unverified | improvement-su
 | L-096 | word-counter | abbreviations overcount sentences; CJK words; no speaking time/keyword density | #73 (B-0065) | open | 2026-10-29 |
 | L-097 | word-counter | related-search ad block injected inside stats grid (390) | B-0041 | open (evidence added) | 2026-10-29 |
 | L-098 | word-counter | no tool_completed on Copy stats | B-0060 | claimed fixed (B-0060): retest BLOCKED #100 (Copy → limit_hit only). Needs browser run ; #169 blocked: needs non-admin session with trial uses | 2026-10-30 |
-| L-099 | audio-normalizer | Spotify −14 / Podcast −16 split; ACX RMS copy (#45) | #45 | verified · #140 B-0246: pos 28.3; LUFS title | 2026-10-29 |
+| L-099 | audio-normalizer | Spotify −14 / Podcast −16 split; ACX RMS copy (#45) | #45 | verified · #140 B-0246: pos 28.3; LUFS title ; #180 verified-fixed: title 59 with LUFS, meta 155, H1 has LUFS, FAQ 8/8 | 2026-10-29 |
 | L-100 | audio-normalizer | MP3 out ~110k VBR, no bitrate choice; ACX MP3 non-compliant | #73 (B-0064) | open | 2026-10-29 |
 | L-101 | audio-normalizer | 13×13 limit-peaks checkbox | #45 → B-0064 | open (still fails) | 2026-10-29 |
 | L-102 | audio-normalizer | counter 6→0 mid-session | B-0055 | open (evidence added) | 2026-10-29 |
@@ -309,12 +309,12 @@ Batch 20 (#98, admin-session carry-over results, 08:40 ET):
 | L-270 | image-splitter | upload + presets + tile-size readout correct; ZIP gated (limit kept) | #127 (B-0208, B-0209) | UI verified; output untested; verified (admin session, ~13:18–13:21 ET): 3×2 ZIP 6 PNGs 427/426/427 × 1811, sums 1280×3622 ✓ | 2026-10-30 |
 | L-271 | site-wide SEO | og-default.png on all tools; template/footer H2s; boilerplate short meta; empty video alt | #127 (B-0209) | open | 2026-10-30 |
 | L-272 | audio-comparer | SEO: meta 130, no "what % means" content, /es English | #128 (B-0211, B-0209, B-0123) | open | 2026-10-30 |
-| L-273 | merge-pdf | SEO: meta 83 boilerplate, bare H1, GSC pos 35 | #128 (B-0212, B-0209) | open +(admin session ~13:30–13:32 ET) password dialog verified → B-0212 FAQ text in #128 addendum; | 2026-10-30 |
+| L-273 | merge-pdf | SEO: meta 83 boilerplate, bare H1, GSC pos 35 | #128 (B-0212, B-0209) | open +(admin session ~13:30–13:32 ET) password dialog verified → B-0212 FAQ text in #128 addendum; ; #180 verified-fixed: meta 158, H1 Combine, pdf-tools link, FAQ 13/13; note: title has "Free" | 2026-10-30 |
 | L-274 | audio-to-subtitles | P1: "Download model… and make subtitles" does nothing (no progress/error/output), admin session, unlimited | #127 addendum (B-0207 outcome 0) | open (P1) | 2026-10-30 |
 | L-275 | thumbnail-gen | capture works, download gated (owner); Suggest frames/text styling gaps; H1 lacks "video", meta 77 | #129 (B-0213, B-0209) | UI verified; output untested | 2026-10-30 |
 | L-276 | convert-image | result "2 KB (original 1 KB) 3.8x" label mismatch; no HEIC/batch; title 64 chars | #129 (B-0214, B-0209, B-0123) | open | 2026-10-30 |
 | L-277 | convert-video | sizes "0.0 MB" for small files; H1 "Format Converter"; meta 99 | #129 (B-0215, B-0209, B-0123) | open | 2026-10-30 |
-| L-278 | compress-pdf | SEO: meta 123 boilerplate; bare H1; GSC pos 14.4 | #130 (B-0216, B-0209) | open +(Admin session ~13:30–13:32 ET) 1 KB target → clear message, 8-page 4,700 B output ✓; | 2026-10-30 |
+| L-278 | compress-pdf | SEO: meta 123 boilerplate; bare H1; GSC pos 14.4 | #130 (B-0216, B-0209) | open +(Admin session ~13:30–13:32 ET) 1 KB target → clear message, 8-page 4,700 B output ✓; ; #180 verified-fixed: meta 155, H1 Reduce PDF File Size, title 59, FAQ 8/8 | 2026-10-30 |
 | L-279 | split-pdf | SEO: bare H1, meta 137, /es English | #130 (B-0217, B-0209, B-0123) | open | 2026-10-30 |
 | L-280 | qr-generator | SEO: title 65 >60, meta 84; no types table/expiry H2 | #130 (B-0218, B-0209) | open +(Admin session ~13:30–13:32 ET) SVG confirmed; SVG decodes to https://freedailypro.com (no www): confirm input; CLOSED (admin session ~13:37–13:38 ET): svg+png both decode to https://www.freedailypro.com/test-www; earlier decode = default/prefill; no P1; | 2026-10-30 |
 | L-281 | pdf-password | works + self-check; gaps: generator, sharing tip, weak confirm; SEO meta 76, H1 | #131 (B-0219, B-0209) | open +(admin session ~13:37–13:38 ET) AES-256 (V5/R6) verified, opens only with test123; eye toggle exists → gap dropped; | 2026-10-30 |
