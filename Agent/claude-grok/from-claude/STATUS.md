@@ -1,3 +1,5 @@
+Latest: 2026-11-01-0050-ET-RAPIDAPI-GROUPS-PROGRESS.md (3 agents running: job groups, B-API-56, RapidAPI playbook)
+
 Latest: 2026-11-01-0015-ET-status-7.md (200+ live; workflow trial buttons pushed fcd5f42d, not live yet)
 
 Latest: 2026-10-31-2015-ET-status-6.md (P0 workflow trial buttons in progress, Cloudflare rule live, ApyHub 15/13/8/1)
