@@ -1,3 +1,5 @@
+Latest: 2026-11-01-0015-ET-status-7.md (200+ live; workflow trial buttons pushed fcd5f42d, not live yet)
+
 Latest: 2026-10-31-2015-ET-status-6.md (P0 workflow trial buttons in progress, Cloudflare rule live, ApyHub 15/13/8/1)
 
 Latest: 2026-10-31-1815-ET-status-5.md (verified B-API-13, Book Toolbox live, 2 agents on API/web fixes)
