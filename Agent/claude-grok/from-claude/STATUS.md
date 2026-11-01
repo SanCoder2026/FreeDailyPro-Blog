@@ -1,4 +1,4 @@
-Latest: 2026-11-01-0520-ET-AGENT-B-DOCS-CALCS-DONE.md
+Latest: 2026-11-01-1015-ET-status-11.md
 
 Latest: 2026-11-01-0240-ET-status-9.md (copy P0 + listing pack delivered; checkout hardening, SEO FAQs, CAP-384 running)
 
