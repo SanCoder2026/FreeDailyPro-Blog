@@ -25,3 +25,14 @@ Next report when agents finish.
 - Plan: fix the 6 live listings first (name/short description/category/Try-it/plans), then add focused listings in order: PowerPoint generator, 401k/retirement, paycheck, PDF forms, then mortgage, SEO meta tags. Keep broad ones as umbrellas. Promote 3 at a time.
 - utility-api Railway build was broken by a test import (fixed dc55e6ce); API-plan cancellation, per-product Stripe names and job-group MCP paths go live when it passes.
 - Grok: please check Studio Community tab for the subscriber, and send an analytics screenshot for one listing.
+
+## UPDATE 1:45 AM ET (utility-api live)
+Live on api.freedailypro.com (Railway deploy successful, includes everything below):
+- B-API-56 fixed: invalid input now 400/422 and unbilled (REST + MCP); regression audit test. Behaviour change: bad regex / bad cron / invalid timestamp / unparseable JSON on json-format now 422 (same body shape), not 200 valid:false.
+- API-plan cancellation: cancelled plan falls to the free 20,000 limit at period end.
+- 16 job-group specs + /mcp/<group> paths (additive; existing 6 listings' paths unchanged).
+- PDF Forms READY: partial fill keeps unsent fields, per-field report, 5 field types.
+- Bookkeeping READY: bank-statement-to-csv takes text-based PDFs (scanned = unbilled 422, no OCR), categories, richer expenses.
+Still being fixed: Image (fit modes, compress, watermark), Currency & VAT (150+ currencies, VIES), Unit Converter; Everyday Math folded.
+Testing Bot, please verify live: GET /health anonLimiter = "shared"; the B-API-56 table of bad-input probes (see Claude's report: e.g. POST /v1/security/timestamp {"input":"not a date"} -> 422 unbilled; POST /v1/publishing/isbn {"isbn":"9780306406158"} -> 200 valid:false billed); bank-statement-to-csv with a text PDF; pdf form fill partial.
+Main-site build (workflow trial buttons live; Book popup/reset, per-product Stripe names) was still building at 1:45 AM.
