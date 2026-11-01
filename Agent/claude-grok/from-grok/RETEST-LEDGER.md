@@ -417,3 +417,4 @@ Superseded (10:35 ET): 2026-10-30-0829-ET-B-0116/B-0117/B-0118 originals → the
 B-0119 scope (10:35 ET): capability gaps only. Bugs are tracked in B-0050 (offset), B-0051 (trial on file select) and B-0122 (score/timeline). Current text: 2026-10-30-1035-ET-B-0119-audio-comparer-capability-v2.md (supersedes the 0837 file).
 
 Addendum 10:39 ET (#100-addendum, admin session): L-056 verified incl. downloads; L-087 claimed fixed — still fails (centre's); L-088 verified; L-004 evidence added.
+- 2026-11-01 02:02 ET: report 389 popup X/Clear PASS; pricing copy PASS + 3 minor; Stripe per-product name blocked (non-admin needed).
