@@ -13,7 +13,7 @@ Status values: verified-fixed | open | claimed-fixed-unverified | improvement-su
 | L-010 | roman-numeral-converter | Date mode accepts 30 Feb / 31 Apr | #20 | verified-fixed | 2026-10-29 |
 | L-011 | roman-numeral-converter | US date order option | #20 (improvement) | verified-fixed | 2026-10-29 |
 | L-012 | roman-numeral-converter | vinculum >3999 (all 5 competitors have it) | #20 (improvement) | improvement-suggested (content part in B-0036) ; #162 verified-fixed (4000 → I̅V̅, 3,999,999, V̅ → 5000) | 2026-10-29 |
-| L-013 | roman-numeral-converter | CTR/title/meta/FAQ; /es Spanish content | B-0036 | open (not claimed); #128 SEO recheck: meta 130, no example in snippet; exact title/meta/H2/FAQ in B-0210; /es translated ✓ ; #182 B-0210-v2: title 55, meta 158 with example PASS; FAQ 11/11 visible; claimed fixed but still failing: 0 question H2s in main (checked) ; #376 01:17 PM ET: claimed fixed but still failing — 0 question H2s in main (checked); FAQ as <dt> + FAQPage JSON-LD (seen); owner to decide spec ; #378 04:26 PM ET: still failing — 11 FAQ <dt>, 0 question H3/summary (checked) | 2026-10-31 |
+| L-013 | roman-numeral-converter | CTR/title/meta/FAQ; /es Spanish content | B-0036 | open (not claimed); #128 SEO recheck: meta 130, no example in snippet; exact title/meta/H2/FAQ in B-0210; /es translated ✓ ; #182 B-0210-v2: title 55, meta 158 with example PASS; FAQ 11/11 visible; claimed fixed but still failing: 0 question H2s in main (checked) ; #376 01:17 PM ET: claimed fixed but still failing — 0 question H2s in main (checked); FAQ as <dt> + FAQPage JSON-LD (seen); owner to decide spec ; #378 04:26 PM ET: still failing — 11 FAQ <dt>, 0 question H3/summary (checked) ; #388 01:15 AM ET: same FAQ pattern on /tool/401k-calculator — 3 dt, 0 H3/summary (checked) | 2026-11-01 |
 | L-014 | roman-numeral-converter (/es + all tool pages) | /es hreflang → homepage set, html lang=en; hreflang + JSON-LD doubled after hydration | #66 (B-0052) | verified fixed #100: lang=es, 11 own-page hreflang, 5 unique JSON-LD (SSR + hydrated) | 2026-10-30 |
 | L-015 | roman-numeral-converter | inputs <16px (iOS zoom) | #46–65 class (B-0016) | open | 2026-10-29 |
 | L-016 | roman-numeral-converter | "Free" in title/meta | SW-26 | by-design (owner keeps free in SEO tags) | 2026-10-29 |
@@ -405,6 +405,10 @@ Batch 20 (#98, admin-session carry-over results, 08:40 ET):
 | L-366 | marketplace-fee-calculator | capability gap: multi-marketplace compare, full Etsy/eBay/Amazon fee stacks with verified dates, ROI/break-even, monthly volume, share URL; SEO title/meta/FAQ (GSC 288 impr pos 1.6 0 clicks) | #384 (CAP-384-1) | open (P2) | 2026-11-01 |
 | L-367 | sales-tax-calculator | capability gap: ZIP/address rate with jurisdiction breakdown, multi-line cart, official state lookup link; title 62 "Online - Free", meta 91 | #384 (CAP-384-2) | open (P2) | 2026-11-01 |
 | L-368 | state-tax-calculator | capability gap: city/county income tax, state payroll programs (SDI/PFL), all-states vs-your-state table, credits, two-state; CA $75k math verified; title 62, meta 76, H1 lacks "income" | #384 (CAP-384-3) | open (P2) | 2026-11-01 |
+| L-369 | gpa-calculator | math ✔; 3.405 shows 3.40 rounding; meta 98; cap gap CAP-388-1 | #388 | open (minor/P2) | 2026-11-01 |
+| L-370 | 401k-calculator | math/IRS cap ✔; no validation (age -5 → $20.98M, neg salary → -$1,036,777, blank → $0 from age 0); -5% return growth shows $0; meta 134; cap gap CAP-388-2 | #388 | open (P2) | 2026-11-01 |
+| L-371 | final-grade-calculator | math ✔; ">100%" not exact 101.7%; no validation (current 150 → 127.5%, negatives); default shows Not possible; meta 126; cap gap CAP-388-3 | #388 | open (P2) | 2026-11-01 |
+| L-372 | gpa/401k/final-grade (shared) | 375 px ~16 px overflow; copy/save text includes trial footnote/date help; desktop ad rails cover tool (as #387) | #388 | open | 2026-11-01 |
 Carry-over closed: L-180, L-183, L-184, L-042. Remaining: L-176 (Book clean download), B-0051 (needs a non-admin session with trial uses).
 
 
@@ -413,7 +417,3 @@ Superseded (10:35 ET): 2026-10-30-0829-ET-B-0116/B-0117/B-0118 originals → the
 B-0119 scope (10:35 ET): capability gaps only. Bugs are tracked in B-0050 (offset), B-0051 (trial on file select) and B-0122 (score/timeline). Current text: 2026-10-30-1035-ET-B-0119-audio-comparer-capability-v2.md (supersedes the 0837 file).
 
 Addendum 10:39 ET (#100-addendum, admin session): L-056 verified incl. downloads; L-087 claimed fixed — still fails (centre's); L-088 verified; L-004 evidence added.
-- 2026-10-31 23:47 ET: L-381/report 383: trial CTA->sign-in PASS x3; Stripe untestable with admin; 100+ Premium copy still FAIL on / de ja es.
-- 2026-11-01 00:53 ET: report 385 bank-statement-to-csv PASS; fillable-forms partial fill PASS (blank untested); /tool/fill-pdf-form 404.
-- 2026-11-01 00:58 ET: report 386 sign-pdf PASS, noise-remover PASS+gaps, pdf-to-word PASS (narrow table), ocr-pdf PASS.
-- 2026-11-01 01:59 ET: report 387 developers PASS; workflow-products desktop ad overlap FAIL; expense opt-in mostly PASS, no private msg.
