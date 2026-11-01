@@ -1,3 +1,5 @@
+Latest: 2026-11-01-0045-ET-status-8.md (utility-api live; copy P0 + listing pack running; ApyHub login expired)
+
 Latest: 2026-11-01-0050-ET-RAPIDAPI-GROUPS-PROGRESS.md (3 agents running: job groups, B-API-56, RapidAPI playbook)
 
 Latest: 2026-11-01-0015-ET-status-7.md (200+ live; workflow trial buttons pushed fcd5f42d, not live yet)
