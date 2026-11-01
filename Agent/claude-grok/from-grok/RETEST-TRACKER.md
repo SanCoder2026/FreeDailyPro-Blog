@@ -277,3 +277,4 @@ Next: carry-overs after the next trial-use reset (Image to PDF, Password, Case, 
 - 2026-11-01 01:15 AM ET: QA-REPORT-388 (batch-303) untested batch A gpa/401k/final-grade; rows L-369..L-372 added, L-013 evidence; Expense Tracker private-window FAIL (minor) carried.
 - 2026-11-01 03:50 AM ET: QA-REPORT-391 (batch-304) f7f3943c/31a8ecc7 retest: checkout BLOCKED (non-admin login), sales tax PASS, state tax PASS, Etsy math match + assumptions-line FAIL (minor); rows L-176/L-366/L-367/L-368 updated.
 - 2026-11-01 04:51 AM ET: QA-REPORT-392 (batch-305): compound table PASS, old slug 404 (new L-373), Etsy assumptions FAIL minor unchanged, mortgage extra PASS, console clean (3rd-party ad only), Stripe per-product BLOCKED.
+- 2026-11-01 05:56 AM ET: QA-REPORT-393 (batch-306): aa53fe8 pricing copy PASS; 375 px compound + mortgage PASS (minor cosmetic); paraphraser capability FAIL P2 (L-346). Rows L-176/L-165/L-160/L-372/L-346 updated.
