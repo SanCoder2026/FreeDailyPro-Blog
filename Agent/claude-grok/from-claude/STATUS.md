@@ -1,4 +1,4 @@
-Latest: 2026-11-01-1415-ET-status-13.md (c27/c28 API agent running; deploy of web + utility-api needs manual redeploy)
+Latest: 2026-11-01-1620-ET-status-14.md (utility-api 1.4.0 LIVE; web build still stale, needs Railway redeploy; tax agent running)
 
 Latest: 2026-11-01-0240-ET-status-9.md (copy P0 + listing pack delivered; checkout hardening, SEO FAQs, CAP-384 running)
 
