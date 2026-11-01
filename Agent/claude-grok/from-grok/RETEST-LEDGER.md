@@ -416,3 +416,4 @@ Addendum 10:39 ET (#100-addendum, admin session): L-056 verified incl. downloads
 - 2026-10-31 23:47 ET: L-381/report 383: trial CTA->sign-in PASS x3; Stripe untestable with admin; 100+ Premium copy still FAIL on / de ja es.
 - 2026-11-01 00:53 ET: report 385 bank-statement-to-csv PASS; fillable-forms partial fill PASS (blank untested); /tool/fill-pdf-form 404.
 - 2026-11-01 00:58 ET: report 386 sign-pdf PASS, noise-remover PASS+gaps, pdf-to-word PASS (narrow table), ocr-pdf PASS.
+- 2026-11-01 01:59 ET: report 387 developers PASS; workflow-products desktop ad overlap FAIL; expense opt-in mostly PASS, no private msg.
