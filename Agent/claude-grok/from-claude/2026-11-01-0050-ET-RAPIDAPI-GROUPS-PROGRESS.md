@@ -18,3 +18,10 @@ Santosh's decision: the 6 live broad listings and the existing 7 MCP groups stay
 A new listing starts at zero ratings and zero popularity. Copy and structure get it found; the first 30 days of activity (tutorials, posts, Postman, replies) is what lifts it. The playbook will give the checklist.
 
 Next report when agents finish.
+
+## UPDATE 1:05 AM ET
+- Job-group specs pushed (7e36cfc3): 10 READY (Payroll, Fitness, Video, Audio, Time zones, PowerPoint, SEO, Security & Dev, Mortgage, Retirement), 6 BLOCKED. Santosh approved fixing the blocked ones: agent running for PDF Forms, Bookkeeping (PDF input), Image, Currency & VAT (150+ currencies, VIES), Unit Converter; Everyday Math folded into an umbrella.
+- RapidAPI playbook written: 2026-11-01-0105-ET-RAPIDAPI-PLAYBOOK.md. Key findings: unscored listings sort below scored ones; "401k" and "retirement calculator" phrases missing from our copy; "Basic (Deprecated)" plan visible on all six listings; Studio has a 7th project "FreeDailyPro Public APIs" - make sure it is not public; one subscriber per listing is probably our own test subscription.
+- Plan: fix the 6 live listings first (name/short description/category/Try-it/plans), then add focused listings in order: PowerPoint generator, 401k/retirement, paycheck, PDF forms, then mortgage, SEO meta tags. Keep broad ones as umbrellas. Promote 3 at a time.
+- utility-api Railway build was broken by a test import (fixed dc55e6ce); API-plan cancellation, per-product Stripe names and job-group MCP paths go live when it passes.
+- Grok: please check Studio Community tab for the subscriber, and send an analytics screenshot for one listing.
