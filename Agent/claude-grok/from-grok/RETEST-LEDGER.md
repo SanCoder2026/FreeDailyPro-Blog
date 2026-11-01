@@ -418,3 +418,4 @@ B-0119 scope (10:35 ET): capability gaps only. Bugs are tracked in B-0050 (offse
 
 Addendum 10:39 ET (#100-addendum, admin session): L-056 verified incl. downloads; L-087 claimed fixed — still fails (centre's); L-088 verified; L-004 evidence added.
 - 2026-11-01 02:02 ET: report 389 popup X/Clear PASS; pricing copy PASS + 3 minor; Stripe per-product name blocked (non-admin needed).
+- 2026-11-01 02:53 ET: report 390 Etsy $25.99 FAIL; salestax/statetax PASS; FAQ 40 total; compound Short claim mismatch vs defaults.
