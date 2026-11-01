@@ -167,7 +167,7 @@ Batch 11 (#88, capability-gap sweep 1, owner rule 30 Oct: mature = works AND ≥
 Re-label: BMI "mature" (batch 7, #78) → **not mature** (B-0091). Percentage and Loan "mature" labels are under review in the next capability batch.
 
 Batch 12 (#89, capability-gap sweep 2):
-| L-160 | mortgage-calculator | capability gap: chart, yearly view, biweekly, DTI 28/36, cost growth, API | B-0086 | open (P2) · #146: + PMI under 20% down, HOA, $/% down (top 5) → B-0265 ; #167 verified-fixed (PMI/HOA/$-% down/cost growth/biweekly/income+debts); DTI readout unverified | 2026-10-30 |
+| L-160 | mortgage-calculator | capability gap: chart, yearly view, biweekly, DTI 28/36, cost growth, API | B-0086 | open (P2) · #146: + PMI under 20% down, HOA, $/% down (top 5) → B-0265 ; #167 verified-fixed (PMI/HOA/$-% down/cost growth/biweekly/income+debts); DTI readout unverified ; #392 04:51 AM ET: extra $300/mo PASS — P&I 2,022.62; interest 408,142.36→269,696.46; payoff Nov 2056→Jan 2048; "8 years 10 months sooner, $138,446 less interest"; URL ?xm=300 | 2026-11-01 |
 | L-161 | percentage-calculator | capability gap: solve-any-two, steps, pp vs %, bps, history | B-0087 | open (P2) ; #167 passes in part: 6 modes, per mille/bps, steps; percentage-point wording not seen (checked) | 2026-10-30 |
 | L-162 | loan-calculator | capability gap: frequencies, solve-for, APR, deferred/bond, compare | B-0088 | open (P2) ; #167 verified-fixed: frequency, solve-for, APR, deferred, compare | 2026-10-30 |
 Re-labels (#89): Loan "mature" (batch 7) → not mature; Percentage "mature" (batch 8) → not mature (small gap); Unit Converter L-081 mature-candidate → under review (not benchmarked yet).
@@ -175,7 +175,7 @@ Re-labels (#89): Loan "mature" (batch 7) → not mature; Percentage "mature" (ba
 Batch 13 (#90, capability-gap sweep 3; batch-11 briefs renumbered B-0083/84/85 → B-0089/90/91 on Orchestrator request):
 | L-163 | roth (none) | no Roth tool: /tool/roth-ira-calculator → 404, not in sitemap | B-0100 | open (P2) | 2026-10-30 |
 | L-164 | 401k-calculator | capability gap: $72k total limit, tiered match, early withdrawal, drawdown, Roth 401k, vesting/fees | B-0101 | open (P2) | 2026-10-30 |
-| L-165 | compound-interest | capability gap: chart, rate range, withdrawals, solve-for, continuous; merge API into loan service | B-0102 | open (P2) | 2026-10-30 |
+| L-165 | compound-interest | capability gap: chart, rate range, withdrawals, solve-for, continuous; merge API into loan service | B-0102 | open (P2) ; #392 04:51 AM ET: year-by-year table PASS (click/Enter/Space; Y1 7,839.97, Y2 10,885.24, Y30 284,576.69 = summary); button below fold, not covered; 375 px untested | 2026-11-01 |
 
 Batch 14 (#91, capability-gap sweep 4; owner 08:16: book watermark intentional; ApyHub API handled directly by owner with Claude):
 | L-166 | college-529-calculator | 4 inputs lack accessible names; no cost-based goal, tax comparison or table (2,029 impr, 0 clicks) | B-0103 → B-0155 | open (P2) | 2026-10-30 |
@@ -184,7 +184,7 @@ Batch 14 (#91, capability-gap sweep 4; owner 08:16: book watermark intentional; 
 
 Batch 15 (#92, capability-gap sweep 5):
 | L-169 | sip-calculator | rate/12 convention differs from Groww (₹11.62L vs ₹11.20L) with no toggle; no goal SIP/SWP/chart | B-0106 | open (P2) | 2026-10-30 |
-| L-170 | paycheck-calculator | no local/city tax, SDI/PFL/SUI, W-4 inputs; SS cap/Addl Medicare not verified | B-0107 | open (P2) | 2026-10-30 |
+| L-170 | paycheck-calculator | no local/city tax, SDI/PFL/SUI, W-4 inputs; SS cap/Addl Medicare not verified | B-0107 | open (P2) ; #392 04:51 AM ET: console — 2 third-party ad iframe unload violations + aborted doubleclick on first load only, none after hard reload; $60k biweekly NC $1,865.57 | 2026-11-01 |
 | L-171 | social-security-calculator | current earnings used as career average; no break-even, earnings test, stop year, $ toggle, benefit tax | B-0108 | open (P2) | 2026-10-30 |
 
 Batch 16 (#93 capability sweep 6; #94 Book Writing Toolbox):
@@ -194,7 +194,7 @@ Batch 16 (#93 capability sweep 6; #94 Book Writing Toolbox):
 | L-173 | body-fat-calculator | no age/ideal %, BMI method, formula; fat/lean mass unverified | B-0110 | open (P2) | 2026-10-30 |
 | L-174 | gpa-calculator | no target-GPA planner, semesters, % grades | B-0111 | open (P2) | 2026-10-30 |
 | L-175 | book-writing-toolbox | DOCX import flattens table, drops image (unicode OK) | B-0112 | open (P1) ; #176 verified-fixed cases 1–3 (table, 1200×800 image, unicode); import summary not seen (checked); preview not run | 2026-10-30 |
-| L-176 | book-writing-toolbox | clean paid download unverified (0 downloads left; nothing bought) | #94 | parked ; #379 04:26 PM ET: /pricing + tool page now say $29.99/month subscription, 7-day trial; no $6.99/$17.99/$49.99 packs (checked); 4 blog posts still claim $3.99 24h pass (seen); owner to confirm model ; 2026-10-31 07:08 PM ET recheck after 4d9ba808: 4 posts (overview, vs-vellum, ebook-only, shunn-onix) PASS — 0 matches for $3.99/$6.99/$17.99/$49.99 (checked); each states $29.99 a month with 7-day trial (seen) ; #391 03:50 AM ET: f7f3943c workflow checkout (Book/Seller/Legal $29.99 + 7-day, same cs_) BLOCKED — needs non-admin signed-in account, only admin login on box | 2026-11-01 |
+| L-176 | book-writing-toolbox | clean paid download unverified (0 downloads left; nothing bought) | #94 | parked ; #379 04:26 PM ET: /pricing + tool page now say $29.99/month subscription, 7-day trial; no $6.99/$17.99/$49.99 packs (checked); 4 blog posts still claim $3.99 24h pass (seen); owner to confirm model ; 2026-10-31 07:08 PM ET recheck after 4d9ba808: 4 posts (overview, vs-vellum, ebook-only, shunn-onix) PASS — 0 matches for $3.99/$6.99/$17.99/$49.99 (checked); each states $29.99 a month with 7-day trial (seen) ; #391 03:50 AM ET: f7f3943c workflow checkout (Book/Seller/Legal $29.99 + 7-day, same cs_) BLOCKED — needs non-admin signed-in account, only admin login on box ; #392 04:51 AM ET: per-product Stripe check still BLOCKED (no non-admin login) | 2026-11-01 |
 | L-177 | book-writing-toolbox | ads overlay buttons, forced clicks needed (admin 08:19) | B-0041 | open (evidence added) | 2026-10-30 |
 
 Batch 17 (#95, capability sweep 7):
@@ -234,8 +234,8 @@ Batch 20 (#98, admin-session carry-over results, 08:40 ET):
 | L-196 | vat-calculator | math hand-checked (UK, DE, QC split, bounds); gap: no solve-from-VAT, no multi-line | #104 (B-0128) | verified OK; gap brief | 2026-10-30 |
 | L-197 | uk-tax-calculator | math hand-checked 2026/27 (7 cases incl. Scotland, Plan 2, sacrifice); gap: tax code, bonus, pay period | #104 (B-0129) | verified OK; gap brief | 2026-10-30 |
 | L-042 | merge-pdf | admin session: "19.2 KB" = 19,711 B (KiB), 2 pages correct | — | checked OK (admin session); never claimed fixed | 2026-10-30 |
-| L-198 | break-even-calculator | math hand-checked (4 cases); revenue uses rounded units unlabelled; gap: BE price, margin of safety | #105 (B-0130) | verified OK; gap brief | 2026-10-30 |
-| L-199 | profit-margin-calculator | math hand-checked (6 cases incl. loss, 100%+, negative); gap: markup/any-two, selling costs | #105 (B-0131) | verified OK; gap brief | 2026-10-30 |
+| L-198 | break-even-calculator | math hand-checked (4 cases); revenue uses rounded units unlabelled; gap: BE price, margin of safety | #105 (B-0130) | verified OK; gap brief ; #392 04:51 AM ET: console no errors (seen); 500 units / $25,000 | 2026-11-01 |
+| L-199 | profit-margin-calculator | math hand-checked (6 cases incl. loss, 100%+, negative); gap: markup/any-two, selling costs | #105 (B-0131) | verified OK; gap brief ; #392 04:51 AM ET: console no errors (seen); 60% margin / 150% markup | 2026-11-01 |
 | L-200 | discount-calculator | math hand-checked (6 cases incl. stacked, tax, JPY, increase); gap: fixed-amount coupons | #105 (B-0132) | verified OK; gap brief | 2026-10-30 |
 | L-201 | gst-calculator | math hand-checked (5 cases incl. paise split, 40%, IGST); gap: invoice lines, HSN lookup | #106 (B-0133) | verified OK; gap brief | 2026-10-30 |
 | L-202 | india-income-tax | FY26-27 math hand-checked (5 salaries incl. 87A marginal relief, surcharge); gap: HRA/itemised deductions | #106 (B-0134) | verified OK; gap brief | 2026-10-30 |
@@ -402,13 +402,14 @@ Batch 20 (#98, admin-session carry-over results, 08:40 ET):
 | L-363 | expense-tracker | tax/totals/budget/CSV ✔; erased on tab close; "My event" + guest-pass wording; no receipt/recurring/filter/chart (checked); meta 37 | #171 | open (B-0314) | 2026-10-31 |
 | L-364 | profit-expense-manager | sample budget/profit/per-head ✔; income-by-source + break-even unverified absence; title no brand | #171 | open (B-0315) | 2026-10-31 |
 | L-365 | print-royalty-calculator | nearby-price table applies the typed price's rate to every row: at $12.00 the $8.00 and $9.00 rows show $0.20 and $0.80 at 60% where 50% gives -$0.60 and -$0.10; main result correct | #263 | open (B-0324) | 2026-10-31 |
-| L-366 | marketplace-fee-calculator | capability gap: multi-marketplace compare, full Etsy/eBay/Amazon fee stacks with verified dates, ROI/break-even, monthly volume, share URL; SEO title/meta/FAQ (GSC 288 impr pos 1.6 0 clicks) | #384 (CAP-384-1) | open (P2) ; #391 03:50 AM ET: Etsy $48/12/5 math matches (fee 3.45, fixed 0.20, proc 1.84, kept 31.01 [31.015 rounds down], returned −11.04, expected 28.91, 57.4%, ROI 188%); FAIL minor: default assumptions (ship $4.50, 5% returns, $4.50 return postage, 0% unsellable) not shown near profit (seen); Etsy defaults 29.99/10 same as Amazon; brief expected 25.99 | 2026-11-01 |
+| L-366 | marketplace-fee-calculator | capability gap: multi-marketplace compare, full Etsy/eBay/Amazon fee stacks with verified dates, ROI/break-even, monthly volume, share URL; SEO title/meta/FAQ (GSC 288 impr pos 1.6 0 clicks) | #384 (CAP-384-1) | open (P2) ; #391 03:50 AM ET: Etsy $48/12/5 math matches (fee 3.45, fixed 0.20, proc 1.84, kept 31.01 [31.015 rounds down], returned −11.04, expected 28.91, 57.4%, ROI 188%); FAIL minor: default assumptions (ship $4.50, 5% returns, $4.50 return postage, 0% unsellable) not shown near profit (seen); Etsy defaults 29.99/10 same as Amazon; brief expected 25.99 ; #392 04:51 AM ET: assumptions line still not shown near Expected profit (seen), FAIL minor unchanged; outputs same $28.91 | 2026-11-01 |
 | L-367 | sales-tax-calculator | capability gap: ZIP/address rate with jurisdiction breakdown, multi-line cart, official state lookup link; title 62 "Online - Free", meta 91 | #384 (CAP-384-2) | open (P2) ; #391 03:50 AM ET: CAP-384 PASS — 97201 OR 0% + note; 80015 sets CO only, inputs unchanged, not-guessed note; cart $3.20 / $4.00 shipping taxed | 2026-11-01 |
 | L-368 | state-tax-calculator | capability gap: city/county income tax, state payroll programs (SDI/PFL), all-states vs-your-state table, credits, two-state; CA $75k math verified; title 62, meta 76, H1 lacks "income" | #384 (CAP-384-3) | open (P2) ; #391 03:50 AM ET: PASS — CA $75k Single SDI $975.00, income tax $2,774.57; NY city list NYC + Yonkers | 2026-11-01 |
 | L-369 | gpa-calculator | math ✔; 3.405 shows 3.40 rounding; meta 98; cap gap CAP-388-1 | #388 | open (minor/P2) | 2026-11-01 |
 | L-370 | 401k-calculator | math/IRS cap ✔; no validation (age -5 → $20.98M, neg salary → -$1,036,777, blank → $0 from age 0); -5% return growth shows $0; meta 134; cap gap CAP-388-2 | #388 | open (P2) | 2026-11-01 |
 | L-371 | final-grade-calculator | math ✔; ">100%" not exact 101.7%; no validation (current 150 → 127.5%, negatives); default shows Not possible; meta 126; cap gap CAP-388-3 | #388 | open (P2) | 2026-11-01 |
 | L-372 | gpa/401k/final-grade (shared) | 375 px ~16 px overflow; copy/save text includes trial footnote/date help; desktop ad rails cover tool (as #387) | #388 | open | 2026-11-01 |
+| L-373 | compound-interest-calculator (old slug) | HTTP 404 "Tool Not Found", no redirect; recommend 301 to /tool/compound-interest | #392 | open (SEO) | 2026-11-01 |
 Carry-over closed: L-180, L-183, L-184, L-042. Remaining: L-176 (Book clean download), B-0051 (needs a non-admin session with trial uses).
 
 
