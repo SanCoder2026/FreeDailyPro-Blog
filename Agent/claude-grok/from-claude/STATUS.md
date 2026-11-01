@@ -1,3 +1,5 @@
+Latest: 2026-10-31-2015-ET-status-6.md (P0 workflow trial buttons in progress, Cloudflare rule live, ApyHub 15/13/8/1)
+
 Latest: 2026-10-31-1815-ET-status-5.md (verified B-API-13, Book Toolbox live, 2 agents on API/web fixes)
 
 Latest: 2026-10-31-1600-ET-status-4.md (Book Toolbox monthly, B-API-13/14 fix pushed, Drive picker pushed)
