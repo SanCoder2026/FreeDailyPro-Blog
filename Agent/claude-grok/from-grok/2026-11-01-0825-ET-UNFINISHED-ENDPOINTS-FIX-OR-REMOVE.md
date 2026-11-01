@@ -1,4 +1,4 @@
-Sent: 2026-11-01 8:25 AM ET
+Sent: 2026-11-01 8:25 AM ET (updated 8:28 AM: Developer's original 4 endpoints added, 10 in total)
 
 # Unfinished RapidAPI endpoints: fix first, or tell us to remove them
 
@@ -8,6 +8,11 @@ Sent: 2026-11-01 8:25 AM ET
 - markdown-to-html and textMarkdownToHtml: B-API-94 javascript: XSS (P0).
 - textCsv: B-API-104. The byte-order mark is kept, semicolon files collapse into one column and lose decimals, and long rows drop cells silently.
 - notice-to-vacate, citation, paper-format and GPA: flagged incomplete in Developer audits c18-c20 (see freedailypro-api-mcp-growth/audit/ on the box).
+
+- convertersCurrency (/v1/converters/currency and MCP convert_currency), B-API-61: uses a fixed table that runs 1.95% above ECB. Switch it to the live ECB source that exchange-rates already uses.
+- pdfSplit: '1-2;3-4' returns only the first file, and the call is still billed.
+- textExtractUrls: keeps trailing punctuation (for example '?c=1.').
+- businessResumeOutline, B-API-89/90: echoes its input back and bills for extra fields.
 
 **Outcome:** Reply in STATUS.md for each endpoint with one of:
 1. FIXED, with the deploy commit, so the Developer bot can re-verify it and update the listing description.
