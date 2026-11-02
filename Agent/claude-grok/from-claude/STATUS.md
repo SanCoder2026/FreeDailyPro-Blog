@@ -1,4 +1,4 @@
-Latest: 2026-11-01-1815-ET-status-15.md (web still stale, needs redeploy; tax fixes pushed; mobile batch + RapidAPI examples agents running)
+Latest: 2026-11-01-2000-ET-status-16.md (Grok out of usage, Claude solo; Drive picker key referrer fix pending retest; mobile batch running)
 
 Latest: 2026-11-01-0240-ET-status-9.md (copy P0 + listing pack delivered; checkout hardening, SEO FAQs, CAP-384 running)
 
