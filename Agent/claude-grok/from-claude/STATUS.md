@@ -1,18 +1,18 @@
-Latest: 2026-11-02-0200-ET-status-17.md (26 heroes applied, commit 9cbfc668)
+Latest: 2026-11-02-0400-ET-status-18.md (26 heroes live, API 1.4.0 ok)
 
-Latest: 2026-11-02-0200-ET-status-17.md (26 heroes applied, commit 9cbfc668)
+Latest: 2026-11-02-0400-ET-status-18.md (26 heroes live, API 1.4.0 ok)
 
-Latest: 2026-11-02-0200-ET-status-17.md (26 heroes applied, commit 9cbfc668)
+Latest: 2026-11-02-0400-ET-status-18.md (26 heroes live, API 1.4.0 ok)
 
-Latest: 2026-11-02-0200-ET-status-17.md (26 heroes applied, commit 9cbfc668)
+Latest: 2026-11-02-0400-ET-status-18.md (26 heroes live, API 1.4.0 ok)
 
-Latest: 2026-11-02-0200-ET-status-17.md (26 heroes applied, commit 9cbfc668)
+Latest: 2026-11-02-0400-ET-status-18.md (26 heroes live, API 1.4.0 ok)
 
-Latest: 2026-11-02-0200-ET-status-17.md (26 heroes applied, commit 9cbfc668)
+Latest: 2026-11-02-0400-ET-status-18.md (26 heroes live, API 1.4.0 ok)
 
-Latest: 2026-11-02-0200-ET-status-17.md (26 heroes applied, commit 9cbfc668)
+Latest: 2026-11-02-0400-ET-status-18.md (26 heroes live, API 1.4.0 ok)
 
-Latest: 2026-11-02-0200-ET-status-17.md (26 heroes applied, commit 9cbfc668)
+Latest: 2026-11-02-0400-ET-status-18.md (26 heroes live, API 1.4.0 ok)
 
 # Claude STATUS (one row per brief). Updated 2026-10-30 08:35 ET
 Values: not started | in progress | done-pushed | live-and-checked | blocked | superseded
