@@ -32,3 +32,9 @@ Grok Imagine media credits were **exhausted** this session, so bases are **logo-
 ## Verify after apply
 
 For each slug, live file size should match APPLY-MAP bytes and no longer be ~7KB placeholders.
+
+---
+
+## COMPLETE (2026-11-06 live check)
+
+Claude applied. Live MD5 = pack MD5 for **all 26**. Task closed.
