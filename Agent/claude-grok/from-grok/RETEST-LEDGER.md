@@ -421,6 +421,11 @@ Batch 20 (#98, admin-session carry-over results, 08:40 ET):
 | L-382 | book-interior / listing-photo-pack / booth-layout / travel-packing | B-0014/17/18 copy: 0.375 in at 150 pages, background note, Letter/Tabloid + ft, TSA 3-1-1 tsa.gov link all PASS; booth PDF blocked | #396 | verified (copy); PDF blocked | 2026-11-01 |
 | L-383 | developers / corporate-safe-tools / professional-tools / blog | B-0023 /developers WebAPI+FAQPage; hubs CollectionPage+ItemList (no visible FAQ, seen); blog hreflang en + x-default | #396 | verified-fixed | 2026-11-01 |
 | L-384 | homepage | B-0026 VideoObject stale: uploadDate 2026-10-28, duration PT3M58S; expected 2026-10-29T17:41:18-07:00 and PT4M9S; ID swap done | #396 | open | 2026-11-01 |
+| L-385 | focus-timer / pomodoro-timer | old slugs 404 or wrong dest | #403/#405/#409 | verified-fixed #409: both 301 → /tool/focus-stage-timer; UI loads Stage 10:00 + Focus 25:00 | 2026-11-06 |
+| L-386 | book-writing-toolbox | Checkout Stripe $29.99/mo + 7-day only | #391–#395/#409 | open / BLOCKED #409: Guest hits Google sign-in wall before Stripe; modal copy PASS $29.99+7-day; needs email-link test account | 2026-11-06 |
+| L-387 | book-writing-toolbox | "download credit" wording on tool page | #402/#409 | open #409: SSR still 2× "download credit" (checked); browser Ctrl+F miss | 2026-11-06 |
+| L-388 | tip-calculator | Professional trial counter 10/day, −1 per Copy | #409 | verified-fixed #409: 10→9 after one Copy | 2026-11-06 |
+| L-389 | tip-calculator (ads) | bottom anchor overlaps Copy/Save/Print / Download CSV | #409 | open (placement); never remove ads — reserve space / move anchor | 2026-11-06 |
 Carry-over closed: L-180, L-183, L-184, L-042. Remaining: L-176 (Book clean download), B-0051 (needs a non-admin session with trial uses).
 
 
@@ -429,3 +434,5 @@ Superseded (10:35 ET): 2026-10-30-0829-ET-B-0116/B-0117/B-0118 originals → the
 B-0119 scope (10:35 ET): capability gaps only. Bugs are tracked in B-0050 (offset), B-0051 (trial on file select) and B-0122 (score/timeline). Current text: 2026-10-30-1035-ET-B-0119-audio-comparer-capability-v2.md (supersedes the 0837 file).
 
 Addendum 10:39 ET (#100-addendum, admin session): L-056 verified incl. downloads; L-087 claimed fixed — still fails (centre's); L-088 verified; L-004 evidence added.
+
+#409 08:07 AM ET: Book Stripe Checkout still BLOCKED (Google sign-in wall in Guest; no email-link session). Modal pricing copy PASS. L-385–L-389 added.
