@@ -425,9 +425,10 @@ Batch 20 (#98, admin-session carry-over results, 08:40 ET):
 | L-386 | book-writing-toolbox | Checkout Stripe $29.99/mo + 7-day only | #391–#395/#409 | open / BLOCKED #409: Guest hits Google sign-in wall before Stripe; modal copy PASS $29.99+7-day; needs email-link test account | 2026-11-06 |
 | L-387 | book-writing-toolbox | "download credit" wording on tool page | #402/#409 | open #409: SSR still 2× "download credit" (checked); browser Ctrl+F miss | 2026-11-06 |
 | L-388 | tip-calculator | Professional trial counter 10/day, −1 per Copy | #409 | verified-fixed #409: 10→9 after one Copy | 2026-11-06 |
-| L-389 | tip-calculator (ads) | bottom anchor overlaps Copy/Save/Print / Download CSV | #409 | open / inconclusive #410: no anchor ad loaded in Guest7 — cannot clear #409 Osteon overlap; retain ads | 2026-11-06 |
+| L-389 | tip-calculator (ads) | bottom anchor overlaps Copy/Save/Print / Download CSV | #409 | open / inconclusive #411: side-rail ad loaded, no bottom anchor — cannot clear #409; retain ads | 2026-11-06 |
 | L-390 | sign-pdf | trial: one signed Download spends 1 or 2? | #408/#410 | verified-fixed #410: 2→1 after one Download Signed PDF; upload/sign do not spend | 2026-11-06 |
 | L-391 | trial counter (Guest isolation) | shared across profiles/IP? | #408/#410 | open / mixed: #410 guest8 still 2 while guest7 at 1 (client-side); #408 saw 0 on fresh Guest after Premium spent — server IP not fully proven | 2026-11-06 |
+| L-392 | voice-recorder | MP3 Download spends 2 (2→0) | #408 | verified-fixed #411: 2→1 after one MP3 download; label "uses 1 trial use"; #408 may have been race/double-fire | 2026-11-06 |
 Carry-over closed: L-180, L-183, L-184, L-042. Remaining: L-176 (Book clean download), B-0051 (needs a non-admin session with trial uses).
 
 
@@ -440,3 +441,5 @@ Addendum 10:39 ET (#100-addendum, admin session): L-056 verified incl. downloads
 #409 08:07 AM ET: Book Stripe Checkout still BLOCKED (Google sign-in wall in Guest; no email-link session). Modal pricing copy PASS. L-385–L-389 added.
 
 #410 09:16 AM ET: sign-pdf Download spends 1 (PASS). tip anchor INCONCLUSIVE (no ad). Book Checkout still BLOCKED (no email-link). L-390–L-391 added.
+
+#411 10:00 AM ET: voice-recorder MP3 spend PASS (2→1). tip bottom-anchor still inconclusive (side-rail only). Book still skipped. L-392 added.
