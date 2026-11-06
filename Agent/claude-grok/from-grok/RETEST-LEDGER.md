@@ -140,7 +140,7 @@ Batch 7 (#78–80): BMI, Loan, JWT, UUID, Hash, /developers, category pages **ma
 
 Batch 8 (#81–82): Percentage, Magazine (after B-0077) mature; Tip after B-0077/B-0078; Find & Replace after B-0076; Book toolbox export untested (Google sign-in wall). Carry-over: Barcode UPC-A/ITF-14 (pool 0), Invoice desktop.
 | L-145 | citation-generator | snippet 0/2,448 at pos 8.6; meta 77 chars | B-0079 | open ; #396 08:18 AM ET: B-0079 PASS — title 57, meta 146 | 2026-11-01 |
-| L-146 | citation-generator | Chicago website drops the year | B-0080 | open | 2026-10-30 |
+| L-146 | citation-generator | Chicago website drops the year | B-0080 | verified-fixed #412: Chicago website includes year 2023 with Full publication date empty (seen) | 2026-11-06 |
 | L-147 | random-number-generator | invalid min disables Generate with no reason | B-0080 | open | 2026-10-30 |
 | L-148 | /multitool-apps | HTTP 404 (55 views) → /premium-apps | B-0075 | open (evidence added) | 2026-10-30 |
 | L-149 | citation / password mobile | load CLS 0.24 / 0.23 | B-0077 | open (evidence added) ; #168 claimed fixed but still failing: citation 0.27×3, password 0.28/0.28/0.38 at 390 ; #172 verified-fixed: citation 0/0.018/0, password 0/0/0 at 390 | 2026-10-30 |
@@ -180,7 +180,7 @@ Batch 13 (#90, capability-gap sweep 3; batch-11 briefs renumbered B-0083/84/85 �
 Batch 14 (#91, capability-gap sweep 4; owner 08:16: book watermark intentional; ApyHub API handled directly by owner with Claude):
 | L-166 | college-529-calculator | 4 inputs lack accessible names; no cost-based goal, tax comparison or table (2,029 impr, 0 clicks) | B-0103 → B-0155 | open (P2) | 2026-10-30 |
 | L-167 | rmd-calculator | capability gap: Joint Life spouse table, projection, deadline/penalty, data year/owner, inherited | B-0104 | open (P2) | 2026-10-30 |
-| L-168 | fire-calculator | capability gap: savings-rate framing, chart, Coast/Barista FIRE | B-0105 | open (P2) ; #394 06:54 AM ET: 138b8d8d FAQ PASS — 15 Q, visible = JSON-LD; 40,000/4% = 1,000,000, real 3.88% | 2026-11-01 |
+| L-168 | fire-calculator | capability gap: savings-rate framing, chart, Coast/Barista FIRE | B-0105 | open (P2) ; #394 FAQ/math PASS; #412 happy-path $1M/25y11m PASS, Lean/Regular/Fat present, still no chart/Coast/Barista; see also L-394 | 2026-11-06 |
 
 Batch 15 (#92, capability-gap sweep 5):
 | L-169 | sip-calculator | rate/12 convention differs from Groww (₹11.62L vs ₹11.20L) with no toggle; no goal SIP/SWP/chart | B-0106 | open (P2) ; #394 06:54 AM ET: 138b8d8d FAQ PASS — 15 Q, visible = JSON-LD; 12% → 1% monthly, ~12.68% effective; step-up 5,000→5,500 | 2026-11-01 |
@@ -429,6 +429,10 @@ Batch 20 (#98, admin-session carry-over results, 08:40 ET):
 | L-390 | sign-pdf | trial: one signed Download spends 1 or 2? | #408/#410 | verified-fixed #410: 2→1 after one Download Signed PDF; upload/sign do not spend | 2026-11-06 |
 | L-391 | trial counter (Guest isolation) | shared across profiles/IP? | #408/#410 | open / mixed: #410 guest8 still 2 while guest7 at 1 (client-side); #408 saw 0 on fresh Guest after Premium spent — server IP not fully proven | 2026-11-06 |
 | L-392 | voice-recorder | MP3 Download spends 2 (2→0) | #408 | verified-fixed #411: 2→1 after one MP3 download; label "uses 1 trial use"; #408 may have been race/double-fire | 2026-11-06 |
+| L-393 | citation-generator | empty fields → junk citation; Copy still enabled | #412 | open (P2) | 2026-11-06 |
+| L-394 | fire-calculator | return 100% accepted with no warning | #412 | open (P2) | 2026-11-06 |
+| L-395 | email-signature-generator | Copy signature enabled on invalid email while Copy HTML disabled | #412 | open (P2) | 2026-11-06 |
+| L-396 | citation-generator | title ends with "- Trial", no FreeDailyPro brand | #412 | open (SEO) | 2026-11-06 |
 Carry-over closed: L-180, L-183, L-184, L-042. Remaining: L-176 (Book clean download), B-0051 (needs a non-admin session with trial uses).
 
 
@@ -443,3 +447,5 @@ Addendum 10:39 ET (#100-addendum, admin session): L-056 verified incl. downloads
 #410 09:16 AM ET: sign-pdf Download spends 1 (PASS). tip anchor INCONCLUSIVE (no ad). Book Checkout still BLOCKED (no email-link). L-390–L-391 added.
 
 #411 10:00 AM ET: voice-recorder MP3 spend PASS (2→1). tip bottom-anchor still inconclusive (side-rail only). Book still skipped. L-392 added.
+
+#412 10:25 AM ET: fire/citation/email-signature batch. L-146 verified-fixed. L-393–L-396 added. L-168 still open.
