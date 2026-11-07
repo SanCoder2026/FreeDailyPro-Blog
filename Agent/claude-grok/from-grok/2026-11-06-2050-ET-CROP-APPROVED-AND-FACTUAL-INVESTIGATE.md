@@ -1,14 +1,15 @@
 Sent: 2026-11-06 8:50 PM ET (America/New_York) — confirmed retry after GitHub access returned.
 Update: 2026-11-06 10:29 PM EST — same file. Web Design relayed two owner replies (10:28 PM and 10:29 PM EST). Those replies are owner answers passed through Web Design, not direct parent observation. The 8:46 PM and 8:48 PM quotes stay what the parent observed directly.
+Update: 2026-11-06 10:30 PM EST — same file. Web Design relayed owner message t72u, “Approved,” in reply to proposal t52s2. That approval is also passed through Web Design, not directly observed by the parent. It adds PDF Password and HTML to PDF sticky actions only. Crop and the seven factual items are unchanged.
 This file is the handoff. Local “UNSENT / SCM blocked / do not push” lines in the source drafts are stale and do not limit this send.
 
-# Crop PDF reachability (approved) and seven factual checks
+# Crop PDF, PDF Password, and HTML to PDF reachability (approved) and seven factual checks
 
 ## How to work with us
 Inspect the live FreeDailyPro page and the source that actually renders it. Restate what you find, challenge anything weak, and choose the implementation that fits existing tool patterns. Suggested markup and mockup pixels are evidence of intent, not a spec. If a claim below does not match the code, stop that item and say so.
 
 ## Intent
-On a phone, Crop PDF’s primary action stays in reach: Apply Crop while the file is ready, then Download after the crop exists, with margin / Auto-trim / scope options folded and still available. Separately, seven bot observations need a look: two desktop ad-coverage cases on the existing L-004 / B-0041 family, and five help-copy contradictions. Confirm each one before changing copy or layout.
+On a phone, Crop PDF’s primary action stays in reach: Apply Crop while the file is ready, then Download after the crop exists, with margin / Auto-trim / scope options folded and still available. The same reachability pattern is approved for two more tools, and only as a pin: PDF Password’s Protect, then Download, and HTML to PDF’s Convert, then Download. Separately, seven bot observations need a look: two desktop ad-coverage cases on the existing L-004 / B-0041 family, and five help-copy contradictions. Confirm each one before changing copy or layout.
 
 ## Why this is in from-grok now
 Santosh, Nov 6 2026, 8:46 PM ET, observed directly by the parent: “Approve Crop PDF’s sticky Apply/Download controls and folded options.”
@@ -22,13 +23,20 @@ Web Design, Nov 6 2026, passed two further owner replies on the Crop mockups. Th
 
 The 10:29 PM sentence is a mandatory condition on the 8:46 PM scope. It does not widen that scope into a broader redesign, new capabilities, or other tools. The 10:28 PM ad sentence is OWNER-REPORTED and not independently verified. Detail is in the approved section.
 
+Web Design, Nov 6 2026, 10:30 PM EST, passed owner message t72u: “Approved.” The parent did not observe this reply. It answers Web Design proposal t52s2, which asked for a yes or no on this pattern and whether to send one tool, both, or hold:
+
+> PDF Password is ready for your yes or no. Protect sits below the fold behind the optional Printing / Copying / Editing rows, and Download isn't pinned after Protect. I'd pin both, with Download saying it uses 1 trial use. Pricing is correct, and ads stay with the bars above the bottom ad. I also checked HTML to PDF. Convert drops about two screens down after you paste HTML. Same pattern: pin Convert, then pin Download. Crop PDF is still waiting on you. Want me to send PDF Password, HTML to PDF, both, or hold?
+
+“Approved” here is the yes for that PDF Password pin and that HTML to PDF pin. Proposal t52s2 still said Crop was waiting. That sentence is stale. Crop stays on the 8:46 PM approval and the 10:29 PM feature condition already in this file. Folded options stay Crop-only. The 10:28 PM Crop ad report does not move to these two tools.
+
 An earlier brief, `2026-11-06-0857-ET-QA409-TIP-ADS-BOOK-WORDING-CROP-JSONLD.md`, told you to leave Crop sticky bars alone until Santosh decided. That hold is lifted for sticky Apply, then Download, and folded margin / Auto-trim / scope options only. The JSON-LD price work in that brief stays where it is. Do not redo it here.
 
 ## Outcomes
 1. Approved Crop reachability is implemented and checked at 375 and 390, with desktop left intact, and every existing Crop feature and setting still available and usable.
-2. Each factual item is either confirmed on the current page and fixed with the smallest change, or reported as unconfirmed. An unconfirmed ad overlap stays open. The 10:28 PM Crop ad report does not close L-004 / B-0041, the minifier, or Reverse Video.
-3. Held items below are untouched.
-4. Ads, prices, tiers, trial charging, crop output, and existing capabilities stay as they are today.
+2. PDF Password pins Protect, then Download, and HTML to PDF pins Convert, then Download, after a current-page check. Every existing feature and option on those two tools stays usable. Bars sit above the bottom ad. Ads, tier, pricing, and runtime metering stay as they are.
+3. Each factual item is either confirmed on the current page and fixed with the smallest change, or reported as unconfirmed. An unconfirmed ad overlap stays open. The 10:28 PM Crop ad report does not close L-004 / B-0041, the minifier, or Reverse Video.
+4. Held items below are untouched, including the unapproved rows in the Nov 6 morning PDF Password and HTML to PDF audits.
+5. Ads, prices, tiers, trial charging, crop output, and existing capabilities stay as they are today.
 
 ## Approved — Crop PDF sticky Apply, then Download, and folded options
 Source of the audit measurements and mockups: Web Design local Crop PDF mobile draft, Nov 6 2026. Santosh’s 8:46 PM ET approval of sticky Apply/Download and folded options was observed directly by the parent. The 10:29 PM EST feature condition and the 10:28 PM EST ad sentence were passed through Web Design, not observed directly by the parent. Web Design had not independently re-verified the mockups when that draft was written. The mockups are schematic composites, not live code, and they are not in this commit.
@@ -55,6 +63,46 @@ Done when:
 - Desktop is unchanged or clearer.
 - Cropped PDF output matches today’s crop for the same margins and scope.
 - Trial pool, prices, and the moment a use is consumed are unchanged. Visible copy stays Professional Tools / trial uses: Trial 10/day, $1 day pass, $4.99/month, and whatever “uses 1 trial use” line is already live.
+
+## Approved — PDF Password sticky Protect, then Download
+Source of the measurements: Web Design audit “PDF Password (Add PDF Password) mobile,” Nov 6 2026 about 8:35–9:00 AM ET, 375×812 and 390×844, sample `sample-Q3-2026-memo-Morrisville.pdf`. That file is background. Its header still says proposals only and nothing sent. The send is this subsection, and only the pin t52s2 described. Approval is owner message t72u, “Approved,” passed through Web Design at 10:30 PM EST. The parent did not observe it. Mockups named in the audit (`fix1-sticky-protect-before-after.png`, `fix2-sticky-download-before-after.png`) are local composites, not live code, and they are not in this commit.
+
+What the morning audit recorded, for you to remeasure: after the passwords were filled, Protect PDF was about 111×36 at y922 on both 375 and 390, a short distance below the fold, behind the optional Printing / Copying / Editing rows and a warning card, and disabled until the passwords matched. At 390, protect finished (“Checked: opens with your password · 3 pages · 5.6 KB · AES-256”) and Download appeared; Download was about 115×44 at y1004 with the page scrolled to 518. At 375 a consent overlay blocked the Protect click. That overlay note is an evidence limit, not work to do. The page already showed “Download uses 1 trial use” beside Download. The audit also wrote that Protect left the counter at 10 and that Download is the billable step. That counter reading is UI-only. It is not backend proof.
+
+Intent on `/tool/pdf-password`, phone widths 375 and 390: once the password is set, Protect is visible without scrolling. After Protect, Download is the pinned primary. Keep the existing trial-use disclosure. Put it on the Download bar only if you have read the current charge point and the words still match that runtime. If they do not match, stop and report. Do not invent a charge split from the morning 10→10 note.
+
+Every current feature and option stays available and usable: password and confirm, show-password, one file / several files, the Printing / Copying / Editing rows, the warning, New, and Save to Google Drive. Do not fold those rows. Folding was an audit proposal, and it was not in t52s2. Crop’s folded options do not transfer here. Do not resize controls to 44px, change Drive, add a strength meter, batch progress, share, or remembered defaults, fix JSON-LD `price "0"`, or remediate header, Feedback, or consent.
+
+Ads stay, including the bottom ad. The sticky bars sit above that bottom ad and do not cover it. Do not implement the audit’s A1–A6 slot map or its other ad-plan moves. The 10:28 PM Crop sentence is not a finding about this page. Pricing stays the live Professional tier. The morning page showed Trial 10/day and Ad-free $1 day pass · $4.99/month. Confirm what is live now. Do not change it. Desktop stays intact.
+
+This audit is a Nov 6 morning snapshot. Inspect the current page before implementing. Do not assume that build is still what is deployed.
+
+Done when:
+- At 375 and 390, with a password set, Protect is on screen without scrolling, and the permission rows still work.
+- After Protect, Download is on screen, with the existing trial-use disclosure only if it matches the runtime you read.
+- The protected PDF behavior matches today’s protect for the same password and permissions.
+- Every ad type still loads, and the bars sit above the bottom ad.
+- No option, Drive action, price, tier, or charge point was removed or retimed.
+
+## Approved — HTML to PDF sticky Convert, then Download
+Source of the measurements: Web Design audit “HTML to PDF mobile,” Nov 6 2026 about 9:10–9:20 AM ET, 375×812 and 390×844, `https://www.freedailypro.com/tool/html-to-pdf` (HTTP 200 that morning). Pasted `sample-q3-2026-memo.html`; an `.html` drop was accepted. That file is background. Its header still says proposals only and nothing sent. The send is this subsection, and only the pin t52s2 described. Approval is the same t72u “Approved,” passed through Web Design, not observed by the parent. Mockups named in the audit (`fix1-sticky-convert-before-after.png`, `fix2-sticky-download-before-after.png`) are local composites, not live code, and they are not in this commit.
+
+What the morning audit recorded, for you to remeasure: empty-state Convert was about 132×36 at y1350 (375) and y1334 (390). After paste, the textarea grew to about 871px and Convert dropped to y1841 (375) and y1739 (390). The audit called that about 2.3 screens; t52s2 said about two screens. After Convert at 375, Download was about 115×44 at y1841. Convert succeeded, and Download showed “Download uses 1 trial use” plus the trial-badge disclosure already on the page. The audit also wrote that Convert left the counter at 10. That counter reading is UI-only. It is not backend proof.
+
+Intent on `/tool/html-to-pdf`, phone widths 375 and 390: after HTML is pasted or dropped, Convert is visible without a two-screen hunt. After Convert, Download is the pinned primary. Keep the existing trial-use disclosure and the existing badge disclosure. Carry them onto the Download bar only if they still match the runtime charge point. If they do not match, stop and report.
+
+Every current feature and option stays available and usable: the HTML editor, Open from Google Drive, page size, page numbers, landscape, margin, Preview, Save to Drive, and Edit. Do not cap the textarea. Do not fold page setup or collapse the editor. Those were audit proposals, and they were not in t52s2. Crop’s folded options do not transfer here. Do not resize controls to 44px, change Drive, add URL fetch, remembered page setup, share, or a page-count estimate, fix JSON-LD `price "0"`, or remediate header or Feedback.
+
+Ads stay, including the bottom ad. The sticky bars sit above that bottom ad and do not cover it. Do not implement the audit’s A1–A6 slot map. The 10:28 PM Crop sentence is not a finding about this page. Pricing stays the live Professional tier. The morning page showed Trial 10/day and Ad-free $1 day pass · $4.99/month. Confirm what is live now. Do not change it. The page’s existing “no live URL fetching” behavior stays. Desktop stays intact.
+
+This audit is a Nov 6 morning snapshot. Inspect the current page before implementing. Do not assume that build is still what is deployed.
+
+Done when:
+- At 375 and 390, after pasted or dropped HTML, Convert is on screen. Page setup still works. The editor is not capped or folded.
+- After Convert, Download is on screen, with the existing trial disclosure only if it matches the runtime you read.
+- The PDF matches today’s convert for the same HTML and page setup.
+- Every ad type still loads, and the bars sit above the bottom ad.
+- No option, Drive action, price, tier, or charge point was removed or retimed.
 
 ## Factual — investigate, then the smallest fix only if it is real
 These seven are not owner instructions. Standing rules still apply: every ad and ad type stays enabled; protect controls by reserving or relocating space; Professional Tools and trial-uses wording; no price, tier, or charging change.
@@ -127,6 +175,7 @@ Do not implement any of these from this file:
 - Older API backlog. It was not in the eight source drafts.
 - The five factual items already sent in `61451d748f15afd2ec45513aecbde83e040ffed9` (`2026-11-06-1412-ET-FACTUAL-TIP-FAQ-L-M-SECTION-A.md`): email-extractor tip, audio-to-subtitles plain-text export, extract-pdf FAQ Q5 order, pdf-watermark logo formats, pdf-watermark Hindi/script. Leave them to that brief.
 - Crop work outside sticky Apply / Download and the folded margin, Auto-trim, and scope options: 44px resizing, Feedback floater, JSON-LD / schema price, header overflow, new crop capabilities. Touch-drag (`2026-11-01-1511-ET-CROP-PDF-TOUCH-DRAG.md`) and the auto-trim FAQ accuracy brief (`2026-11-01-1456-ET-PDF-FAQ-ACCURACY-CROP-SPLIT-ROTATE.md`) are different briefs.
+- From the Nov 6 morning PDF Password and HTML to PDF audits, everything except the two pins above: JSON-LD `price "0"`, 44px resizing, new capabilities, Drive changes, header / Feedback / consent remediation, the A1–A6 ad plan, textarea caps, and folding. Crop’s folded options stay on Crop only.
 
 ## Conflicts in the source drafts
 Read these before treating a draft sentence as fact.
@@ -138,9 +187,10 @@ Read these before treating a draft sentence as fact.
 5. QA-421 has no report and no URL in the eight drafts. Use it only as: a later clear load does not retire intermittent coverage.
 6. Several drafts forbade git push because CloudAgent SCM was blocked. That block is over for this handoff. It does not add scope.
 7. The 10:28 PM and 10:29 PM owner sentences are Web Design relays, not direct parent observation. The ad sentence is OWNER-REPORTED and unverified. It is Crop-only. It does not retire minifier, Reverse Video, or the rest of L-004 / B-0041.
+8. Proposal t52s2 said Crop was still waiting, and both morning audits said nothing had been sent. Crop was already approved at 8:46 PM, with the 10:29 PM feature condition. The 10:30 PM “Approved” (t72u, via Web Design) adds the two pins only. Audit lines that Protect or Convert “does not spend a trial” are UI readings, not a metering spec.
 
 ## Dedup
-All eight source items are new to `from-grok/` as of this file. None of them are the five L+M items in commit `61451d7`. Minifier and Reverse Video join existing L-004 / B-0041. They do not get new bug ids. Minifier and Reverse Video are separate pages.
+All eight source items in rows 1–8 are new to `from-grok/` as of this file. None of them are the five L+M items in commit `61451d7`. Minifier and Reverse Video join existing L-004 / B-0041. They do not get new bug ids. Minifier and Reverse Video are separate pages. Rows 9 and 10 are the 10:30 PM pins. They were not part of that original eight.
 
 | # | Item | In this file | Already on main |
 |---|---|---|---|
@@ -152,14 +202,17 @@ All eight source items are new to `from-grok/` as of this file. None of them are
 | 6 | Base64 FAQ vs Encode a file | Factual, verify support then copy | B-0185 is charset/detect, not this FAQ |
 | 7 | Lorem FAQ 3–7 vs Short/Medium/Long | Factual, help copy | No matching FAQ brief |
 | 8 | Crop PDF sticky Apply/Download + folded options | Approved, plus mandatory feature preservation (10:29 PM EST via Web Design). 10:28 PM ad sentence is owner-reported, not verified, and does not clear L-004 | 0857 held sticky; this file lifts that hold only |
+| 9 | PDF Password sticky Protect, then Download | Approved 10:30 PM EST via Web Design (t72u). Pin only. Morning audit is background | Not a prior from-grok brief |
+| 10 | HTML to PDF sticky Convert, then Download | Approved 10:30 PM EST via Web Design (t72u). Pin only. Morning audit is background | Not a prior from-grok brief |
 
 ## Constraints
 - Keep every ad and every ad type enabled. Reserve or relocate so controls stay clear only after you inspect the current page. Anchor ads stay off sticky action bars. Do not redo ad remediation from an older overlap audit alone. The 10:28 PM Crop report does not clear other pages.
-- On Crop PDF, keep every existing feature and setting available and usable. Folded options stay discoverable and selectable. No capability removal. No metering removal.
+- On Crop PDF, keep every existing feature and setting available and usable. Folded options stay discoverable and selectable. No capability removal. No metering removal. That fold is Crop-only.
+- On PDF Password and HTML to PDF, pin the approved primary actions and keep every current feature and option. Keep the existing trial-use disclosure only where it matches runtime. Bars sit above the bottom ad. Do not fold, cap the textarea, resize to 44px, change Drive, or ship the morning audits’ other rows.
 - Professional Tools: 10 trial uses/day, $1 day pass, $4.99/month. Say trial uses. Do not say “free tools.”
 - Do not change pricing, tier, Premium, Workflows, or when a trial use is consumed.
 - Do not treat a button label or a mockup as proof of backend charging.
 - No title, meta, or H1 edits in this file. No AI. No uploads or publication. No database work.
 
 ## Process
-Inspect the live page and source, including current Crop ads, before changing layout → restate the item → challenge the weak parts, including the conflicts above → implement only the approved Crop outcome, with every existing feature and setting still usable, and any factual fix you confirmed on the current page → verify Crop at 375 and 390 with a margin-heavy PDF (load → open the folded options → Apply → Download), ads still present, crop bytes and trial behavior unchanged → for the minifier and Reverse Video, inspect a current desktop load with ads on; leave L-004 / B-0041 open if you do not reproduce coverage, and do not clear either page from the Crop owner report → write what you did, and what you refused, in the next from-claude status. This handoff does not claim you have read it.
+Inspect the live page and source, including current ads, before changing layout. The Nov 6 morning PDF Password and HTML to PDF numbers are a snapshot, not a deployment assumption → restate the item → challenge the weak parts, including the conflicts above → implement only the approved Crop outcome, with every existing feature and setting still usable, the PDF Password pin, the HTML to PDF pin, and any factual fix you confirmed on the current page → verify Crop at 375 and 390 with a margin-heavy PDF (load → open the folded options → Apply → Download), ads still present, crop bytes and trial behavior unchanged → verify PDF Password (password set → Protect → Download) and HTML to PDF (paste → Convert → Download) at 375 and 390, options still usable, bars above the bottom ad, disclosure matched to the runtime charge point → for the minifier and Reverse Video, inspect a current desktop load with ads on; leave L-004 / B-0041 open if you do not reproduce coverage, and do not clear either page from the Crop owner report → write what you did, and what you refused, in the next from-claude status. This handoff does not claim you have read it.
