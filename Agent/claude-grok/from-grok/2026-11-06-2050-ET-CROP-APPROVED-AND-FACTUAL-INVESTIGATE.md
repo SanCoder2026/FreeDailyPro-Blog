@@ -1,4 +1,5 @@
 Sent: 2026-11-06 8:50 PM ET (America/New_York) — confirmed retry after GitHub access returned.
+Update: 2026-11-06 10:29 PM EST — same file. Web Design relayed two owner replies (10:28 PM and 10:29 PM EST). Those replies are owner answers passed through Web Design, not direct parent observation. The 8:46 PM and 8:48 PM quotes stay what the parent observed directly.
 This file is the handoff. Local “UNSENT / SCM blocked / do not push” lines in the source drafts are stale and do not limit this send.
 
 # Crop PDF reachability (approved) and seven factual checks
@@ -10,20 +11,29 @@ Inspect the live FreeDailyPro page and the source that actually renders it. Rest
 On a phone, Crop PDF’s primary action stays in reach: Apply Crop while the file is ready, then Download after the crop exists, with margin / Auto-trim / scope options folded and still available. Separately, seven bot observations need a look: two desktop ad-coverage cases on the existing L-004 / B-0041 family, and five help-copy contradictions. Confirm each one before changing copy or layout.
 
 ## Why this is in from-grok now
-Santosh, Nov 6 2026, 8:46 PM ET: “Approve Crop PDF’s sticky Apply/Download controls and folded options.”
-Santosh, Nov 6 2026, 8:48 PM ET: “Yes, retry sending the pending briefs and approved Crop PDF changes to Claude now.”
-Those two statements are the only owner approval in this file. Every other finding is a named bot observation. The 8:48 PM statement authorizes sending the pending factual briefs. It does not approve held SEO, AI, pricing, or trial-policy work.
+Santosh, Nov 6 2026, 8:46 PM ET, observed directly by the parent: “Approve Crop PDF’s sticky Apply/Download controls and folded options.”
+Santosh, Nov 6 2026, 8:48 PM ET, observed directly by the parent: “Yes, retry sending the pending briefs and approved Crop PDF changes to Claude now.”
+Those two quotes are the parent’s direct observations. Scope stays sticky Apply, then Download, and folded options. The 8:48 PM statement authorizes sending the pending factual briefs. It does not approve held SEO, AI, pricing, or trial-policy work. Bot findings in this file are not owner instructions.
+
+Web Design, Nov 6 2026, passed two further owner replies on the Crop mockups. The parent did not observe these two directly:
+
+- 10:28 PM EST: “I have fixed the ad issue. I liked the idea approved.”
+- 10:29 PM EST: “Approved. Just ensure you will still keep all the features we are providing while redesign.”
+
+The 10:29 PM sentence is a mandatory condition on the 8:46 PM scope. It does not widen that scope into a broader redesign, new capabilities, or other tools. The 10:28 PM ad sentence is OWNER-REPORTED and not independently verified. Detail is in the approved section.
 
 An earlier brief, `2026-11-06-0857-ET-QA409-TIP-ADS-BOOK-WORDING-CROP-JSONLD.md`, told you to leave Crop sticky bars alone until Santosh decided. That hold is lifted for sticky Apply, then Download, and folded margin / Auto-trim / scope options only. The JSON-LD price work in that brief stays where it is. Do not redo it here.
 
 ## Outcomes
-1. Approved Crop reachability is implemented and checked at 375 and 390, with desktop left intact.
-2. Each factual item is either confirmed and fixed with the smallest change, or reported as unconfirmed. An unconfirmed ad overlap stays open.
+1. Approved Crop reachability is implemented and checked at 375 and 390, with desktop left intact, and every existing Crop feature and setting still available and usable.
+2. Each factual item is either confirmed on the current page and fixed with the smallest change, or reported as unconfirmed. An unconfirmed ad overlap stays open. The 10:28 PM Crop ad report does not close L-004 / B-0041, the minifier, or Reverse Video.
 3. Held items below are untouched.
-4. Ads, prices, tiers, trial charging, and crop output stay as they are today.
+4. Ads, prices, tiers, trial charging, crop output, and existing capabilities stay as they are today.
 
 ## Approved — Crop PDF sticky Apply, then Download, and folded options
-Source of the audit measurements and mockups: Web Design local Crop PDF mobile draft, Nov 6 2026. Santosh approved the outcome. Web Design had not independently re-verified the mockups when that draft was written. The mockups are schematic composites, not live code, and they are not in this commit.
+Source of the audit measurements and mockups: Web Design local Crop PDF mobile draft, Nov 6 2026. Santosh’s 8:46 PM ET approval of sticky Apply/Download and folded options was observed directly by the parent. The 10:29 PM EST feature condition and the 10:28 PM EST ad sentence were passed through Web Design, not observed directly by the parent. Web Design had not independently re-verified the mockups when that draft was written. The mockups are schematic composites, not live code, and they are not in this commit.
+
+**Feature preservation is mandatory** (owner, via Web Design, 10:29 PM EST: “Approved. Just ensure you will still keep all the features we are providing while redesign.”). Every feature and setting Crop PDF already provides stays available and usable after the sticky Apply / Download work. Folded options stay discoverable and selectable: margins, Auto-trim, apply-to scope, and any other live control the fold would otherwise hide. Do not remove a capability. Do not remove or change metering. Folding is a way to reach the same settings, not a cut. The word “redesign” in that sentence does not add header, Feedback, schema, resizing, or new crop features.
 
 Intent on `/tool/crop-pdf`, phone widths 375 and 390: after a file loads, Apply Crop is visible without scrolling. Margin inputs, Auto-trim, and apply-to scope (all pages / this page / page range) sit in one compact disclosure that shows the current summary and still works when opened. Defaults and Auto-trim stay the fast path. After Apply, the result is what the user sees, and Download is the sticky primary. Options collapse to a short “applied” summary.
 
@@ -31,13 +41,15 @@ The draft’s measurements, for you to remeasure: ready-state Apply Crop (about 
 
 Mockup files named in the draft, not shipped here: `fix1-sticky-apply-before-after.png`, `fix2-download-first-before-after.png`. They illustrate a sticky Apply bar and a sticky Download bar above an advertisement area. One “before” panel shows a control labeled New and a Save to Google Drive action. The “after” panel shows “Crop another” and does not show Save to Google Drive. That label drift is mockup noise. Keep the live secondary actions. Do not rename New, and do not drop Save to Google Drive, as part of this work.
 
-A line in the local draft said Apply does not spend a trial use and Download does. That was read off the UI. It is not backend proof. Read the current charge point and leave it. Keep the live trial disclosure that already exists. Do not add a badge that appears only on the mockup, and do not change the button into a new metering promise.
+A line in the local draft said Apply does not spend a trial use and Download does. That was read off the UI. It is not backend proof. Read the current charge point and leave it. Keep the live trial disclosure that already exists. Do not add a badge that appears only on the mockup, and do not change the button into a new metering promise. The 10:29 PM condition forbids metering removal.
+
+**Crop ads, OWNER-REPORTED, not independently verified.** Owner via Web Design, 10:28 PM EST: “I have fixed the ad issue. I liked the idea approved.” “The idea” is the approved sticky Apply/Download and folded options. This file has not rechecked the live Crop page, and the sentence is not a test result. Do not redo Crop ad remediation just because an older audit says overlap. Keep every ad and ad type. Before any Crop layout work, inspect the current page and preserve the ads that are actually there. This Crop-only report does not clear the cross-page L-004 / B-0041 family, the minifier evidence, or the Reverse Video evidence.
 
 Suggested direction, yours to discard: a disclosure of about one row for the options, and a sticky action bar sitting above the ad anchor with page padding so the bar and the anchor both remain visible. Reuse a sticky-action pattern from a sibling PDF tool if one already exists. Smallpdf was the audit’s benchmark for a bottom action, not a layout to copy.
 
 Done when:
 - At 375 and 390, after load, Apply Crop is on screen without scrolling, with the folded options summary visible.
-- Opening the disclosure still changes margins, Auto-trim, and scope, and the crop uses those choices.
+- Opening the disclosure still changes margins, Auto-trim, scope, and every other setting that was on the page. Each folded control is discoverable and selectable. No capability and no metering path is removed.
 - After Apply, Download is on screen without a hunt, and the options read as applied.
 - Sticky UI sits clear of the ad anchor and does not cover the last page content. Anchor, auto-ads, in-content, and “Discover more” still load. Keep `.tool-area.google-auto-ads-ignore` if that is the current exclusion.
 - Desktop is unchanged or clearer.
@@ -46,6 +58,8 @@ Done when:
 
 ## Factual — investigate, then the smallest fix only if it is real
 These seven are not owner instructions. Standing rules still apply: every ad and ad type stays enabled; protect controls by reserving or relocating space; Professional Tools and trial-uses wording; no price, tier, or charging change.
+
+The 10:28 PM EST line “I have fixed the ad issue,” passed through Web Design about Crop, is OWNER-REPORTED and not independently verified. It does not clear L-004 / B-0041, the minifier evidence, or the Reverse Video evidence. Inspect the current page before any ad layout work. Do not rebuild a layout only because an older screenshot shows overlap, and do not mark the family fixed from the Crop sentence or from one clear load.
 
 ### 1. Passport Photo FAQ Q4 vs the live preset list
 Source: Programmatic SEO bot, SEO N Section A, live check ~1:52 PM ET Nov 6 (`freedailypro-seo-engine/hourly/2026-11-06-1400-four-page-upgrades-n.md`).
@@ -117,12 +131,13 @@ Do not implement any of these from this file:
 ## Conflicts in the source drafts
 Read these before treating a draft sentence as fact.
 
-1. The Crop draft’s status line said direct owner approval was still pending, and it said “keep it private/on-device and free-first.” Approval is the two Santosh quotes above. Positioning stays Professional Tools and trial uses. “Free tools” and free-first wording stay out. Preserve on-device behavior only where the tool already works that way.
+1. The Crop draft’s status line said direct owner approval was still pending, and it said “keep it private/on-device and free-first.” The parent’s direct approval is the 8:46 PM quote, unchanged in scope. The 10:29 PM feature condition arrived through Web Design. Positioning stays Professional Tools and trial uses. “Free tools” and free-first wording stay out. Preserve on-device behavior only where the tool already works that way.
 2. The same draft’s Apply-versus-Download trial split is an unverified UI reading. Preserve the runtime charge point you find in code.
 3. Crop “after” mockups disagree with the “before” panel on secondary labels (New versus “Crop another”; Save to Google Drive visible in one before panel). Approved scope does not rename or remove those controls, and it does not add a mockup-only trial badge.
 4. QA-419 “ads absent” is the reason given in this retry’s evidence update. The QA-420 addendum only calls that minifier retest inconclusive. Both agree the overlap is not cleared. The screenshot file itself is not in this commit.
 5. QA-421 has no report and no URL in the eight drafts. Use it only as: a later clear load does not retire intermittent coverage.
 6. Several drafts forbade git push because CloudAgent SCM was blocked. That block is over for this handoff. It does not add scope.
+7. The 10:28 PM and 10:29 PM owner sentences are Web Design relays, not direct parent observation. The ad sentence is OWNER-REPORTED and unverified. It is Crop-only. It does not retire minifier, Reverse Video, or the rest of L-004 / B-0041.
 
 ## Dedup
 All eight source items are new to `from-grok/` as of this file. None of them are the five L+M items in commit `61451d7`. Minifier and Reverse Video join existing L-004 / B-0041. They do not get new bug ids. Minifier and Reverse Video are separate pages.
@@ -136,14 +151,15 @@ All eight source items are new to `from-grok/` as of this file. None of them are
 | 5 | Reverse Video desktop ad coverage | Factual, L-004 / B-0041 | No QA-420 brief on main |
 | 6 | Base64 FAQ vs Encode a file | Factual, verify support then copy | B-0185 is charset/detect, not this FAQ |
 | 7 | Lorem FAQ 3–7 vs Short/Medium/Long | Factual, help copy | No matching FAQ brief |
-| 8 | Crop PDF sticky Apply/Download + folded options | Approved | 0857 held sticky; this file lifts that hold only |
+| 8 | Crop PDF sticky Apply/Download + folded options | Approved, plus mandatory feature preservation (10:29 PM EST via Web Design). 10:28 PM ad sentence is owner-reported, not verified, and does not clear L-004 | 0857 held sticky; this file lifts that hold only |
 
 ## Constraints
-- Keep every ad and every ad type enabled. Reserve or relocate so controls stay clear. Anchor ads stay off sticky action bars.
+- Keep every ad and every ad type enabled. Reserve or relocate so controls stay clear only after you inspect the current page. Anchor ads stay off sticky action bars. Do not redo ad remediation from an older overlap audit alone. The 10:28 PM Crop report does not clear other pages.
+- On Crop PDF, keep every existing feature and setting available and usable. Folded options stay discoverable and selectable. No capability removal. No metering removal.
 - Professional Tools: 10 trial uses/day, $1 day pass, $4.99/month. Say trial uses. Do not say “free tools.”
 - Do not change pricing, tier, Premium, Workflows, or when a trial use is consumed.
 - Do not treat a button label or a mockup as proof of backend charging.
 - No title, meta, or H1 edits in this file. No AI. No uploads or publication. No database work.
 
 ## Process
-Inspect the live page and source → restate the item → challenge the weak parts, including the conflicts above → implement only the approved Crop outcome and any factual fix you confirmed → verify Crop at 375 and 390 with a margin-heavy PDF (load → Apply → Download), ads still present, crop bytes and trial behavior unchanged → for the two ad pages, check a desktop width with ads on and leave a clear single load marked open → write what you did, and what you refused, in the next from-claude status. This handoff does not claim you have read it.
+Inspect the live page and source, including current Crop ads, before changing layout → restate the item → challenge the weak parts, including the conflicts above → implement only the approved Crop outcome, with every existing feature and setting still usable, and any factual fix you confirmed on the current page → verify Crop at 375 and 390 with a margin-heavy PDF (load → open the folded options → Apply → Download), ads still present, crop bytes and trial behavior unchanged → for the minifier and Reverse Video, inspect a current desktop load with ads on; leave L-004 / B-0041 open if you do not reproduce coverage, and do not clear either page from the Crop owner report → write what you did, and what you refused, in the next from-claude status. This handoff does not claim you have read it.
