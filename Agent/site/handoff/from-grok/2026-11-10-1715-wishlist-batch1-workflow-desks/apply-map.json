@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "convert-any-file-without-switching-tools",
+    "title": "Convert Any File Without Switching Tools",
+    "topic": "file-tools",
+    "tools": "[file-conversion-studio, universal-file-converter, convert-image, convert-video]",
+    "words": 1242,
+    "image": "convert-any-file-without-switching-tools.webp",
+    "image_bytes": 60892
+  },
+  {
+    "slug": "from-manuscript-files-to-a-print-ready-catalog-or-book",
+    "title": "From Manuscript Files to a Print-Ready Catalog or Book",
+    "topic": "design-tools",
+    "tools": "[print-publication-studio, catalog-maker, magazine-maker, document-assembler]",
+    "words": 1569,
+    "image": "from-manuscript-files-to-a-print-ready-catalog-or-book.webp",
+    "image_bytes": 82602
+  },
+  {
+    "slug": "lease-application-and-notice-for-a-rental-unit",
+    "title": "Lease, Application and Notice for a Rental Unit",
+    "topic": "business-tools",
+    "tools": "[landlord-desk, lease-agreement-generator, invoice-generator]",
+    "words": 1041,
+    "image": "lease-application-and-notice-for-a-rental-unit.webp",
+    "image_bytes": 76552
+  },
+  {
+    "slug": "logo-colours-and-print-files-from-one-brand-kit",
+    "title": "Logo, Colours and Print Files From One Brand Kit",
+    "topic": "design-tools",
+    "tools": "[brand-studio, brand-kit, business-card, brochure-flyer-maker]",
+    "words": 1135,
+    "image": "logo-colours-and-print-files-from-one-brand-kit.webp",
+    "image_bytes": 61634
+  },
+  {
+    "slug": "offer-letter-handbook-and-onboarding-pack-for-a-new-hire",
+    "title": "Offer Letter, Handbook and Onboarding Pack for a New Hire",
+    "topic": "business-tools",
+    "tools": "[hr-desk, employment-offer-letter, invoice-generator]",
+    "words": 1518,
+    "image": "offer-letter-handbook-and-onboarding-pack-for-a-new-hire.webp",
+    "image_bytes": 76950
+  },
+  {
+    "slug": "quote-invoice-and-mileage-for-a-solo-client-job",
+    "title": "Quote, Invoice and Mileage for a Solo Client Job",
+    "topic": "business-tools",
+    "tools": "[freelancer-desk, invoice-generator, quote-generator, shipping-cost-estimator]",
+    "words": 1519,
+    "image": "quote-invoice-and-mileage-for-a-solo-client-job.webp",
+    "image_bytes": 73304
+  },
+  {
+    "slug": "seller-studio-listing-photos-prices-and-text-in-one-pass",
+    "title": "Seller Studio: Listing Photos, Prices and Text in One Pass",
+    "topic": "ecommerce-tools",
+    "tools": "[seller-studio, seller-pricing-desk, marketplace-fee-calculator, profit-margin-calculator]",
+    "words": 1619,
+    "image": "seller-studio-listing-photos-prices-and-text-in-one-pass.webp",
+    "image_bytes": 94686
+  },
+  {
+    "slug": "stamp-number-and-hand-off-a-document-batch",
+    "title": "Stamp, Number and Hand Off a Document Batch",
+    "topic": "business-tools",
+    "tools": "[document-operations-desk, ocr-pdf, redact-pdf, merge-pdf]",
+    "words": 1482,
+    "image": "stamp-number-and-hand-off-a-document-batch.webp",
+    "image_bytes": 60694
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "date": "2026-11-11",
+    "slug": "convert-any-file-without-switching-tools",
+    "title": "Convert Any File Without Switching Tools",
+    "primary_tool": "file-conversion-studio",
+    "words": 1283,
+    "md5": "6b2c29141003eb5d77de530903439d73",
+    "bytes": 60892,
+    "image": "images/convert-any-file-without-switching-tools.webp"
+  },
+  {
+    "date": "2026-11-15",
+    "slug": "from-manuscript-files-to-a-print-ready-catalog-or-book",
+    "title": "From Manuscript Files to a Print-Ready Catalog or Book",
+    "primary_tool": "print-publication-studio",
+    "words": 1591,
+    "md5": "b53ea7222315b84de142ce96f1b559af",
+    "bytes": 82602,
+    "image": "images/from-manuscript-files-to-a-print-ready-catalog-or-book.webp"
+  },
+  {
+    "date": "2026-11-13",
+    "slug": "lease-application-and-notice-for-a-rental-unit",
+    "title": "Lease, Application and Notice for a Rental Unit",
+    "primary_tool": "landlord-desk",
+    "words": 1079,
+    "md5": "2d70b5347d88ded27b8b760d87ecccc4",
+    "bytes": 76552,
+    "image": "images/lease-application-and-notice-for-a-rental-unit.webp"
+  },
+  {
+    "date": "2026-11-12",
+    "slug": "logo-colours-and-print-files-from-one-brand-kit",
+    "title": "Logo, Colours and Print Files From One Brand Kit",
+    "primary_tool": "brand-studio",
+    "words": 1175,
+    "md5": "2b4d530e49aabade29dcc01a7c63fa91",
+    "bytes": 61634,
+    "image": "images/logo-colours-and-print-files-from-one-brand-kit.webp"
+  },
+  {
+    "date": "2026-11-17",
+    "slug": "offer-letter-handbook-and-onboarding-pack-for-a-new-hire",
+    "title": "Offer Letter, Handbook and Onboarding Pack for a New Hire",
+    "primary_tool": "hr-desk",
+    "words": 1559,
+    "md5": "c8a07a254d9a0e4b2ad34fa7d3b7907b",
+    "bytes": 76950,
+    "image": "images/offer-letter-handbook-and-onboarding-pack-for-a-new-hire.webp"
+  },
+  {
+    "date": "2026-11-16",
+    "slug": "quote-invoice-and-mileage-for-a-solo-client-job",
+    "title": "Quote, Invoice and Mileage for a Solo Client Job",
+    "primary_tool": "freelancer-desk",
+    "words": 1555,
+    "md5": "7eb8f0891d4af3488a81301b6058709c",
+    "bytes": 73304,
+    "image": "images/quote-invoice-and-mileage-for-a-solo-client-job.webp"
+  },
+  {
+    "date": "2026-11-18",
+    "slug": "seller-studio-listing-photos-prices-and-text-in-one-pass",
+    "title": "Seller Studio: Listing Photos, Prices and Text in One Pass",
+    "primary_tool": "seller-studio",
+    "words": 1661,
+    "md5": "2d1f54d95afae7156bc515aa8926f974",
+    "bytes": 94686,
+    "image": "images/seller-studio-listing-photos-prices-and-text-in-one-pass.webp"
+  },
+  {
+    "date": "2026-11-14",
+    "slug": "stamp-number-and-hand-off-a-document-batch",
+    "title": "Stamp, Number and Hand Off a Document Batch",
+    "primary_tool": "document-operations-desk",
+    "words": 1523,
+    "md5": "8f4c3ca221bc9f7866fe18ff51a8a45a",
+    "bytes": 60694,
+    "image": "images/stamp-number-and-hand-off-a-document-batch.webp"
+  }
+]

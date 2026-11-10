@@ -1,0 +1,11 @@
+# Workflow product ids live on freedailypro.com/tool/* but are not yet all in site-blog-pack/tool-ids.txt
+# Claude: append these to tool-ids.txt before validator import of this batch.
+file-conversion-studio
+brand-studio
+landlord-desk
+document-operations-desk
+print-publication-studio
+freelancer-desk
+hr-desk
+seller-studio
+legal-production-desk

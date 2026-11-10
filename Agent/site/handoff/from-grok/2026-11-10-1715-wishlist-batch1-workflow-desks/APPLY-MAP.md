@@ -1,0 +1,18 @@
+# APPLY-MAP — wishlist batch 1 workflow desks
+
+| slug | primary tool | topic | words | image | bytes |
+|---|---|---|---:|---|---:|
+| convert-any-file-without-switching-tools | file-conversion-studio | file-tools | 1242 | convert-any-file-without-switching-tools.webp | 60892 |
+| from-manuscript-files-to-a-print-ready-catalog-or-book | print-publication-studio | design-tools | 1569 | from-manuscript-files-to-a-print-ready-catalog-or-book.webp | 82602 |
+| lease-application-and-notice-for-a-rental-unit | landlord-desk | business-tools | 1041 | lease-application-and-notice-for-a-rental-unit.webp | 76552 |
+| logo-colours-and-print-files-from-one-brand-kit | brand-studio | design-tools | 1135 | logo-colours-and-print-files-from-one-brand-kit.webp | 61634 |
+| offer-letter-handbook-and-onboarding-pack-for-a-new-hire | hr-desk | business-tools | 1518 | offer-letter-handbook-and-onboarding-pack-for-a-new-hire.webp | 76950 |
+| quote-invoice-and-mileage-for-a-solo-client-job | freelancer-desk | business-tools | 1519 | quote-invoice-and-mileage-for-a-solo-client-job.webp | 73304 |
+| seller-studio-listing-photos-prices-and-text-in-one-pass | seller-studio | ecommerce-tools | 1619 | seller-studio-listing-photos-prices-and-text-in-one-pass.webp | 94686 |
+| stamp-number-and-hand-off-a-document-batch | document-operations-desk | business-tools | 1482 | stamp-number-and-hand-off-a-document-batch.webp | 60694 |
+
+Deploy:
+- Append ADD-TO-tool-ids.txt into site-blog-pack/tool-ids.txt
+- Copy posts/*.md → site posts folder
+- Copy images/*.webp → site images folder
+- Validate frontmatter + internal links + 1000 words
