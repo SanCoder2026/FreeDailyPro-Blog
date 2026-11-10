@@ -1,8 +1,9 @@
 ## Hero fix packs — apply queue
 
-1. **APPLY NOW (photoreal topic upgrade 26):** `2026-11-10-0325-hero-photoreal-upgrade-owner-26` — **26** photoreal people + topic tool UI. Prefer over 2026-11-01 composite pack.
-2. Prior composites (superseded for these 26): `2026-11-01-2315-hero-owner-26-failing-list`
-3. Locked: `HERO-IMAGE-RULE.md` / brand_image.py / topic relevance CRITICAL
+1. **APPLY NOW (topic audit 25 abstract fails):** `2026-11-10-1245-hero-topic-audit-25-abstract-fails` — **25** photoreal topic heroes for remaining abstract/wrong-topic live fails.
+2. Prior photoreal 26 (already live): `2026-11-10-0325-hero-photoreal-upgrade-owner-26`
+3. Prior composites superseded: `2026-11-01-2315-hero-owner-26-failing-list`
+4. Locked: `HERO-IMAGE-RULE.md` / brand_image.py / topic relevance CRITICAL
 
 
 ## 2026-10-30 homepage intro video swap

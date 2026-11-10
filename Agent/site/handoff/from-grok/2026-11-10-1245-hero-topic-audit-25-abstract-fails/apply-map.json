@@ -1,0 +1,202 @@
+[
+  {
+    "slug": "audio-comparer",
+    "title": "Are These Two Audio Files the Same Recording? How to Check",
+    "reason": "waveforms_only_no_person",
+    "md5": "7d3ab2928c86485701932431b8e61885",
+    "bytes": 46652,
+    "url": "https://www.freedailypro.com/blog/audio-comparer"
+  },
+  {
+    "slug": "build-aisle-sorted-grocery-list",
+    "title": "Build a Grocery List Sorted by Aisle",
+    "reason": "list_ui_only_no_person",
+    "md5": "0f634c79b89237eb69daf13c13356962",
+    "bytes": 60300,
+    "url": "https://www.freedailypro.com/blog/build-aisle-sorted-grocery-list"
+  },
+  {
+    "slug": "convert-curl-to-fetch-and-python",
+    "title": "Convert cURL to fetch and Python Requests",
+    "reason": "pure_code_no_person",
+    "md5": "70d7386b2451185bbf06233b869a475b",
+    "bytes": 52394,
+    "url": "https://www.freedailypro.com/blog/convert-curl-to-fetch-and-python"
+  },
+  {
+    "slug": "convert-json-api-data-to-csv-tables",
+    "title": "Convert JSON API Data to CSV Tables and Back",
+    "reason": "pure_code_no_person",
+    "md5": "067567907f15ba37e5b78b58cd4de103",
+    "bytes": 49836,
+    "url": "https://www.freedailypro.com/blog/convert-json-api-data-to-csv-tables"
+  },
+  {
+    "slug": "corporate-safe-tools",
+    "title": "Getting Document Work Done When Chat Assistants Are Blocked",
+    "reason": "abstract_teal_no_person",
+    "md5": "86eee436c2502f13c8c6327c6d0bcedd",
+    "bytes": 41390,
+    "url": "https://www.freedailypro.com/blog/corporate-safe-tools"
+  },
+  {
+    "slug": "create-email-signature-for-gmail-and-outlook",
+    "title": "Create an Email Signature for Gmail and Outlook",
+    "reason": "generic_meeting_no_signature_ui",
+    "md5": "e71074110ae8cdd3ad207839a2ae78fc",
+    "bytes": 46810,
+    "url": "https://www.freedailypro.com/blog/create-email-signature-for-gmail-and-outlook"
+  },
+  {
+    "slug": "cron-builder",
+    "title": "Read a Cron Schedule Before It Runs Your Job at the Wrong Hour",
+    "reason": "pure_ui_no_person",
+    "md5": "761d154820cc6615afab58ef285e827d",
+    "bytes": 41838,
+    "url": "https://www.freedailypro.com/blog/cron-builder"
+  },
+  {
+    "slug": "css-js-minifier",
+    "title": "Minify a Stylesheet and Script Safely, and Read the Gzip Number",
+    "reason": "pure_code_no_person",
+    "md5": "d984242b475d14493434a40d7364dc87",
+    "bytes": 48806,
+    "url": "https://www.freedailypro.com/blog/css-js-minifier"
+  },
+  {
+    "slug": "delete-unwanted-pages-from-pdf",
+    "title": "Delete Unwanted Pages From a PDF",
+    "reason": "abstract_teal_no_person",
+    "md5": "48d3a1d7df18f6beab12af786654b340",
+    "bytes": 48052,
+    "url": "https://www.freedailypro.com/blog/delete-unwanted-pages-from-pdf"
+  },
+  {
+    "slug": "download-site-launch-kit-zip",
+    "title": "Download a Site Launch Kit ZIP",
+    "reason": "abstract_zip_only",
+    "md5": "dc91dd7a8ce76551a0586dd05c85c009",
+    "bytes": 47370,
+    "url": "https://www.freedailypro.com/blog/download-site-launch-kit-zip"
+  },
+  {
+    "slug": "find-final-exam-score-needed-for-target-grade",
+    "title": "Find the Final Exam Score You Need for a Target Grade",
+    "reason": "abstract_teal_no_person",
+    "md5": "c0e9396d10778a4e7969c3eff8dadca7",
+    "bytes": 48258,
+    "url": "https://www.freedailypro.com/blog/find-final-exam-score-needed-for-target-grade"
+  },
+  {
+    "slug": "format-sql-queries-for-readable-review",
+    "title": "Format SQL Queries for Readable Review",
+    "reason": "pure_code_abstract",
+    "md5": "d156498bb8653b5ee29e2cdd1e1765e3",
+    "bytes": 53334,
+    "url": "https://www.freedailypro.com/blog/format-sql-queries-for-readable-review"
+  },
+  {
+    "slug": "json-formatter",
+    "title": "Format and Validate JSON Before You Paste It Into Production",
+    "reason": "pure_code_no_person",
+    "md5": "7b3fdbe427e95fa2d98a8b6ff226913c",
+    "bytes": 47574,
+    "url": "https://www.freedailypro.com/blog/json-formatter"
+  },
+  {
+    "slug": "jwt-decoder-debug-tokens",
+    "title": "Decode JWTs Instantly in Your Browser for Auth Debugging",
+    "reason": "pure_tokens_no_person",
+    "md5": "f1152fcbed6e06fbbc525bb7a802199d",
+    "bytes": 55004,
+    "url": "https://www.freedailypro.com/blog/jwt-decoder-debug-tokens"
+  },
+  {
+    "slug": "make-srt-vtt-subtitles-from-audio",
+    "title": "Make SRT and VTT Subtitles From Audio",
+    "reason": "abstract_teal_no_person",
+    "md5": "760cf571831480f1bff0534aa56fb7a7",
+    "bytes": 55308,
+    "url": "https://www.freedailypro.com/blog/make-srt-vtt-subtitles-from-audio"
+  },
+  {
+    "slug": "manage-hotel-rooming-list-and-arrivals",
+    "title": "Manage Hotel Rooming Lists and Arrivals",
+    "reason": "abstract_teal_no_person",
+    "md5": "cade1b88efe78cbd6b6d82cf37c2139c",
+    "bytes": 59114,
+    "url": "https://www.freedailypro.com/blog/manage-hotel-rooming-list-and-arrivals"
+  },
+  {
+    "slug": "mesh-3d-viewer",
+    "title": "Read an STL",
+    "reason": "abstract_mesh_only",
+    "md5": "2e4273dff2221cb820489ecc45b6089f",
+    "bytes": 69678,
+    "url": "https://www.freedailypro.com/blog/mesh-3d-viewer"
+  },
+  {
+    "slug": "password-strength",
+    "title": "Why \"Welcome2026!\" Scores Fair and How to Do Better",
+    "reason": "abstract_lock_only",
+    "md5": "8457beea0aebe79a503845e4e760ed49",
+    "bytes": 48598,
+    "url": "https://www.freedailypro.com/blog/password-strength"
+  },
+  {
+    "slug": "plan-guest-arrivals-and-departures",
+    "title": "Plan Guest Arrivals and Departures for Shuttles",
+    "reason": "abstract_teal_no_person",
+    "md5": "273e0e6f395ef7356445bd5040982b4a",
+    "bytes": 64552,
+    "url": "https://www.freedailypro.com/blog/plan-guest-arrivals-and-departures"
+  },
+  {
+    "slug": "play-video-clip-backwards-for-effects",
+    "title": "Play a Video Clip Backwards for Effects",
+    "reason": "flat_abstract_ui",
+    "md5": "43c08c02fd22a3b1d716cbf3970b38bd",
+    "bytes": 48014,
+    "url": "https://www.freedailypro.com/blog/play-video-clip-backwards-for-effects"
+  },
+  {
+    "slug": "remove-audio-track-from-video-file",
+    "title": "Remove the Audio Track From a Video File",
+    "reason": "flat_abstract_ui",
+    "md5": "ab69fc4a97f5e18749cdba206e613a14",
+    "bytes": 46542,
+    "url": "https://www.freedailypro.com/blog/remove-audio-track-from-video-file"
+  },
+  {
+    "slug": "run-prize-draw-and-event-merch",
+    "title": "Run a Fair Prize Draw and Event Merch Plan",
+    "reason": "abstract_teal_no_person",
+    "md5": "55f91405151d5b4b23587160ecbecaf6",
+    "bytes": 47880,
+    "url": "https://www.freedailypro.com/blog/run-prize-draw-and-event-merch"
+  },
+  {
+    "slug": "run-stage-countdown-and-focus-rounds",
+    "title": "Run a Stage Countdown or Focus Work Rounds",
+    "reason": "abstract_numbers_only",
+    "md5": "f15d9db035d59fe61874e299b237b605",
+    "bytes": 44250,
+    "url": "https://www.freedailypro.com/blog/run-stage-countdown-and-focus-rounds"
+  },
+  {
+    "slug": "sprite-sheet-tool",
+    "title": "Pack 12 UI Icons Into One Sprite Sheet and Split It Again",
+    "reason": "abstract_icons_only",
+    "md5": "d7bf09271b0d9777793fc7ebbf6a4be1",
+    "bytes": 58372,
+    "url": "https://www.freedailypro.com/blog/sprite-sheet-tool"
+  },
+  {
+    "slug": "timestamp-converter",
+    "title": "Read Unix Timestamps in Logs: Seconds, Milliseconds, UTC",
+    "reason": "abstract_ui_no_person",
+    "md5": "cead7428ed6aeefa98caaccf751daa66",
+    "bytes": 62672,
+    "url": "https://www.freedailypro.com/blog/timestamp-converter"
+  }
+]
