@@ -1,10 +1,8 @@
 ## Hero fix packs — apply queue
 
-1. **APPLY NOW (owner 26 fails):** `2026-11-01-2315-hero-owner-26-failing-list` — **26** logos/stock/placeholder heroes. Prefer over older packs for these slugs. (May already be live — recheck MD5.)
-2. **APPLY (topic-relevant 36):** `2026-10-28-1345-hero-image-fixes-topic-relevant` — **36** topic-specific live blog heroes + APPLY-MAP (slug + title + MD5 + bytes). Live still mismatched vs this pack as of 2026-11-06.
-3. Prior: `2026-10-31-1700-hero-p1-p3-placeholder-fixes` (5)
-
-Locked: `HERO-IMAGE-RULE.md` / topic relevance CRITICAL / bottom sticker only / unique per slug / no third-party logos.
+1. **APPLY NOW (photoreal topic upgrade 26):** `2026-11-10-0325-hero-photoreal-upgrade-owner-26` — **26** photoreal people + topic tool UI. Prefer over 2026-11-01 composite pack.
+2. Prior composites (superseded for these 26): `2026-11-01-2315-hero-owner-26-failing-list`
+3. Locked: `HERO-IMAGE-RULE.md` / brand_image.py / topic relevance CRITICAL
 
 
 ## 2026-10-30 homepage intro video swap
