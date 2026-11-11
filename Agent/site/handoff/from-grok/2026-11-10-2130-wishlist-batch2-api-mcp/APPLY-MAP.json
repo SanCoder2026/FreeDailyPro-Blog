@@ -1,0 +1,52 @@
+[
+  {
+    "date": "2026-11-10",
+    "slug": "call-the-freedailypro-api-from-postman-in-two-minutes",
+    "title": "Call the FreeDailyPro API From Postman in Two Minutes",
+    "primary_tool": "word-counter",
+    "words": 1081,
+    "md5": "1656e1d450dfa7bce1975ff5a7b25c07",
+    "bytes": 63916,
+    "image": "images/call-the-freedailypro-api-from-postman-in-two-minutes.webp"
+  },
+  {
+    "date": "2026-11-10",
+    "slug": "connect-the-freedailypro-mcp-server-to-claude-desktop",
+    "title": "Connect the FreeDailyPro MCP Server to Claude Desktop",
+    "primary_tool": "word-counter",
+    "words": 1019,
+    "md5": "fc8b75c5fb61d3d629c8a52ceae82c3e",
+    "bytes": 50158,
+    "image": "images/connect-the-freedailypro-mcp-server-to-claude-desktop.webp"
+  },
+  {
+    "date": "2026-11-10",
+    "slug": "paycheck-calculator-api-with-2026-tax-tables",
+    "title": "Paycheck Calculator API With 2026 Tax Tables",
+    "primary_tool": "paycheck-calculator",
+    "words": 1030,
+    "md5": "cf70736b65c7707b2cc4501ad966fe63",
+    "bytes": 60010,
+    "image": "images/paycheck-calculator-api-with-2026-tax-tables.webp"
+  },
+  {
+    "date": "2026-11-10",
+    "slug": "text-to-speech-api-weighted-calls-and-trial-limits-explained",
+    "title": "Text to Speech API: Weighted Calls and Trial Limits Explained",
+    "primary_tool": "text-to-speech",
+    "words": 1070,
+    "md5": "e45a8181be7ffeedf0174fba219ad37e",
+    "bytes": 51096,
+    "image": "images/text-to-speech-api-weighted-calls-and-trial-limits-explained.webp"
+  },
+  {
+    "date": "2026-11-10",
+    "slug": "validate-iban-vin-and-gtin-with-one-api-call",
+    "title": "Validate IBAN, VIN and GTIN With One API Call",
+    "primary_tool": "password-generator",
+    "words": 1231,
+    "md5": "8f7b934d6b73f82fa4421cda8d2539b6",
+    "bytes": 56338,
+    "image": "images/validate-iban-vin-and-gtin-with-one-api-call.webp"
+  }
+]
