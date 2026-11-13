@@ -1,0 +1,52 @@
+[
+  {
+    "date": "2026-11-13",
+    "slug": "build-a-clean-slide-deck-from-an-outline",
+    "title": "Build a Clean Slide Deck From an Outline",
+    "primary_tool": "slide-deck-maker",
+    "topic": "design-tools",
+    "words": 1122,
+    "md5": "2a67d67428932bed2248620972045efd",
+    "bytes": 42588
+  },
+  {
+    "date": "2026-11-13",
+    "slug": "convert-between-document-and-image-formats-in-one-app",
+    "title": "Convert Between Document and Image Formats in One App",
+    "primary_tool": "universal-file-converter",
+    "topic": "file-tools",
+    "words": 1505,
+    "md5": "5c7862cb2a6a819cc80906ff00bf04a1",
+    "bytes": 49418
+  },
+  {
+    "date": "2026-11-13",
+    "slug": "edit-text-whiteout-and-add-shapes-in-a-pdf-in-the-browser",
+    "title": "Edit Text, Whiteout and Add Shapes in a PDF in the Browser",
+    "primary_tool": "pdf-editor",
+    "topic": "pdf-tools",
+    "words": 1253,
+    "md5": "8c61857d7e7c59dedd1aa6fc1cfaa0c4",
+    "bytes": 37282
+  },
+  {
+    "date": "2026-11-13",
+    "slug": "finish-a-deck-for-sending-fonts-size-and-notes",
+    "title": "Finish a Deck for Sending: Fonts, Size and Notes",
+    "primary_tool": "presentation-studio",
+    "topic": "design-tools",
+    "words": 1099,
+    "md5": "90089b8d54cce6a56601469b248616c4",
+    "bytes": 44056
+  },
+  {
+    "date": "2026-11-13",
+    "slug": "turn-a-flat-pdf-into-a-fillable-form-with-checkboxes-and-dropdowns",
+    "title": "Turn a Flat PDF Into a Fillable Form With Checkboxes and Dropdowns",
+    "primary_tool": "create-fillable-pdf",
+    "topic": "pdf-tools",
+    "words": 1197,
+    "md5": "ee953c1e098c59df3007ddb4bbe4cfbb",
+    "bytes": 41462
+  }
+]

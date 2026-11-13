@@ -1,0 +1,8 @@
+# Premium / related tool ids that may be missing from site-blog-pack/tool-ids.txt
+# Claude: append any missing lines before validator import.
+create-fillable-pdf
+slide-deck-maker
+presentation-studio
+brand-studio
+file-conversion-studio
+compress-powerpoint

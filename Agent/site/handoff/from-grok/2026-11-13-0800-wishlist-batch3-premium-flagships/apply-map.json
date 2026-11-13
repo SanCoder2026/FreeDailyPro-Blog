@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "build-a-clean-slide-deck-from-an-outline",
+    "title": "Build a Clean Slide Deck From an Outline",
+    "primary_tool": "slide-deck-maker",
+    "tools": "[slide-deck-maker, presentation-studio, brand-kit, brand-studio]",
+    "topic": "design-tools",
+    "date": "2026-11-13",
+    "words": 1042,
+    "image": "build-a-clean-slide-deck-from-an-outline.webp",
+    "bytes": 42588,
+    "url": "https://www.freedailypro.com/blog/build-a-clean-slide-deck-from-an-outline"
+  },
+  {
+    "slug": "convert-between-document-and-image-formats-in-one-app",
+    "title": "Convert Between Document and Image Formats in One App",
+    "primary_tool": "universal-file-converter",
+    "tools": "[universal-file-converter, convert-image, pdf-to-word, file-conversion-studio]",
+    "topic": "file-tools",
+    "date": "2026-11-13",
+    "words": 1407,
+    "image": "convert-between-document-and-image-formats-in-one-app.webp",
+    "bytes": 49418,
+    "url": "https://www.freedailypro.com/blog/convert-between-document-and-image-formats-in-one-app"
+  },
+  {
+    "slug": "edit-text-whiteout-and-add-shapes-in-a-pdf-in-the-browser",
+    "title": "Edit Text, Whiteout and Add Shapes in a PDF in the Browser",
+    "primary_tool": "pdf-editor",
+    "tools": "[pdf-editor, redact-pdf, sign-pdf, create-fillable-pdf]",
+    "topic": "pdf-tools",
+    "date": "2026-11-13",
+    "words": 1150,
+    "image": "edit-text-whiteout-and-add-shapes-in-a-pdf-in-the-browser.webp",
+    "bytes": 37282,
+    "url": "https://www.freedailypro.com/blog/edit-text-whiteout-and-add-shapes-in-a-pdf-in-the-browser"
+  },
+  {
+    "slug": "finish-a-deck-for-sending-fonts-size-and-notes",
+    "title": "Finish a Deck for Sending: Fonts, Size and Notes",
+    "primary_tool": "presentation-studio",
+    "tools": "[presentation-studio, slide-deck-maker, compress-powerpoint, powerpoint-to-pdf]",
+    "topic": "design-tools",
+    "date": "2026-11-13",
+    "words": 1009,
+    "image": "finish-a-deck-for-sending-fonts-size-and-notes.webp",
+    "bytes": 44056,
+    "url": "https://www.freedailypro.com/blog/finish-a-deck-for-sending-fonts-size-and-notes"
+  },
+  {
+    "slug": "turn-a-flat-pdf-into-a-fillable-form-with-checkboxes-and-dropdowns",
+    "title": "Turn a Flat PDF Into a Fillable Form With Checkboxes and Dropdowns",
+    "primary_tool": "create-fillable-pdf",
+    "tools": "[create-fillable-pdf, fillable-forms, sign-pdf, flatten-pdf]",
+    "topic": "pdf-tools",
+    "date": "2026-11-13",
+    "words": 1089,
+    "image": "turn-a-flat-pdf-into-a-fillable-form-with-checkboxes-and-dropdowns.webp",
+    "bytes": 41462,
+    "url": "https://www.freedailypro.com/blog/turn-a-flat-pdf-into-a-fillable-form-with-checkboxes-and-dropdowns"
+  }
+]
