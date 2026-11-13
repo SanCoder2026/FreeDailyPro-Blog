@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "audio-comparer",
+    "title": "Are These Two Audio Files the Same Recording? How to Check",
+    "bytes": 54918,
+    "url": "https://www.freedailypro.com/blog/audio-comparer"
+  },
+  {
+    "slug": "convert-curl-to-fetch-and-python",
+    "title": "Convert cURL to fetch and Python Requests",
+    "bytes": 76692,
+    "url": "https://www.freedailypro.com/blog/convert-curl-to-fetch-and-python"
+  },
+  {
+    "slug": "css-js-minifier",
+    "title": "Minify a Stylesheet and Script Safely, and Read the Gzip Number",
+    "bytes": 63684,
+    "url": "https://www.freedailypro.com/blog/css-js-minifier"
+  },
+  {
+    "slug": "free-audio-tools-voice-memos-podcast-cleanup",
+    "title": "Audio Tools: From Voice Memos to Podcast Cleanup",
+    "bytes": 62458,
+    "url": "https://www.freedailypro.com/blog/free-audio-tools-voice-memos-podcast-cleanup"
+  },
+  {
+    "slug": "http-status-reference",
+    "title": "Triage a Burst of 429, 502 and 401 Errors With a Lookup",
+    "bytes": 50432,
+    "url": "https://www.freedailypro.com/blog/http-status-reference"
+  },
+  {
+    "slug": "image-filters",
+    "title": "Brighten Product Photos Without Blowing Out Your Brand Color",
+    "bytes": 45866,
+    "url": "https://www.freedailypro.com/blog/image-filters"
+  },
+  {
+    "slug": "make-srt-vtt-subtitles-from-audio",
+    "title": "Make SRT and VTT Subtitles From Audio",
+    "bytes": 74866,
+    "url": "https://www.freedailypro.com/blog/make-srt-vtt-subtitles-from-audio"
+  },
+  {
+    "slug": "mesh-3d-viewer",
+    "title": "Read an STL's Open Edges, Volume and Bed Fit Before Slicing",
+    "bytes": 70446,
+    "url": "https://www.freedailypro.com/blog/mesh-3d-viewer"
+  },
+  {
+    "slug": "play-video-clip-backwards-for-effects",
+    "title": "Play a Video Clip Backwards for Effects",
+    "bytes": 56196,
+    "url": "https://www.freedailypro.com/blog/play-video-clip-backwards-for-effects"
+  },
+  {
+    "slug": "regex-tester",
+    "title": "Test a Log-Parsing Regex Before It Drops Real Rows",
+    "bytes": 67006,
+    "url": "https://www.freedailypro.com/blog/regex-tester"
+  },
+  {
+    "slug": "run-stage-countdown-and-focus-rounds",
+    "title": "Run a Stage Countdown or Focus Work Rounds",
+    "bytes": 33274,
+    "url": "https://www.freedailypro.com/blog/run-stage-countdown-and-focus-rounds"
+  },
+  {
+    "slug": "sprite-sheet-tool",
+    "title": "Pack 12 UI Icons Into One Sprite Sheet and Split It Again",
+    "bytes": 75114,
+    "url": "https://www.freedailypro.com/blog/sprite-sheet-tool"
+  }
+]
