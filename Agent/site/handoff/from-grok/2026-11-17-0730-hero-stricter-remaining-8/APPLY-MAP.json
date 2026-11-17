@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "audio-compressor",
+    "title": "Squeeze a 28-Minute Recording Under a 25 MB Upload Limit",
+    "bytes": 47848,
+    "md5": "fe87a2fc077ad62f103ef22ffef1add4",
+    "url": "https://www.freedailypro.com/blog/audio-compressor",
+    "imageAlt": "Audio producer compressing a long recording with waveform and size meter"
+  },
+  {
+    "slug": "bates-stamp-production-zip-legal-desk",
+    "title": "Build a Bates-Stamped Production ZIP",
+    "bytes": 68918,
+    "md5": "cc3153a2774be224237d5849176f171a",
+    "url": "https://www.freedailypro.com/blog/bates-stamp-production-zip-legal-desk",
+    "imageAlt": "Legal assistant reviewing Bates-stamped pages and production ZIP files"
+  },
+  {
+    "slug": "build-run-of-show-cue-sheet-and-timer",
+    "title": "Build a Run-of-Show Cue Sheet and Stage Timer",
+    "bytes": 57508,
+    "md5": "9a2782869bafe22a6ed0e6d1bd10ff30",
+    "url": "https://www.freedailypro.com/blog/build-run-of-show-cue-sheet-and-timer",
+    "imageAlt": "Production manager building a run-of-show cue sheet beside a stage timer"
+  },
+  {
+    "slug": "color-converter",
+    "title": "Convert a Brand Teal From HEX to RGB, HSL and CMYK",
+    "bytes": 61966,
+    "md5": "ba136f62d8a2043ecd08dbafdb9d85b8",
+    "url": "https://www.freedailypro.com/blog/color-converter",
+    "imageAlt": "Designer converting a teal brand colour across HEX RGB HSL and CMYK swatches"
+  },
+  {
+    "slug": "jwt-decoder",
+    "title": "Read a JWT's Claims and Expiry From a Staging 401",
+    "bytes": 62650,
+    "md5": "288d4d335f78ea45a78f7b80084f9b81",
+    "url": "https://www.freedailypro.com/blog/jwt-decoder",
+    "imageAlt": "Developer reading JWT header payload and signature panels after an auth error"
+  },
+  {
+    "slug": "run-prize-draw-and-event-merch",
+    "title": "Run a Fair Prize Draw and Event Merch Plan",
+    "bytes": 49812,
+    "md5": "8de7e3e90e1940bf648b026b66233867",
+    "url": "https://www.freedailypro.com/blog/run-prize-draw-and-event-merch",
+    "imageAlt": "Event coordinator running a prize-draw wheel with merch samples on the desk"
+  },
+  {
+    "slug": "run-stage-countdown-and-focus-rounds",
+    "title": "Run a Stage Countdown or Focus Work Rounds",
+    "bytes": 55108,
+    "md5": "ded85675788a8874e8b5a66683910123",
+    "url": "https://www.freedailypro.com/blog/run-stage-countdown-and-focus-rounds",
+    "imageAlt": "Stage manager with headset watching a large countdown timer and focus-round bars"
+  },
+  {
+    "slug": "strip-gps-and-exif-from-photos",
+    "title": "Strip GPS and EXIF Data From Photos",
+    "bytes": 63824,
+    "md5": "6450b782879beccb701438666c1718eb",
+    "url": "https://www.freedailypro.com/blog/strip-gps-and-exif-from-photos",
+    "imageAlt": "Photographer removing GPS and EXIF metadata from a photo grid on a laptop"
+  }
+]
