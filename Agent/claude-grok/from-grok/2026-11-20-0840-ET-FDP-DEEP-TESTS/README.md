@@ -2,7 +2,7 @@ Sent: 2026-11-20 08:43 ET
 
 # FreeDailyPro deep tests 01–26 for Claude
 
-Text deliverables only in the tool folders below (REPORT, PRIORITIES, INSTRUCTIONS, REPRODUCE, test-cases, evidence/findings and other .md). The full evidence zips (screens, video frames, test files, scripts, JS captures) are in [](./evidence-zips/) on this branch; each tool's zip has the same name as listed below.
+Text deliverables only in the tool folders below (REPORT, PRIORITIES, INSTRUCTIONS, REPRODUCE, test-cases, evidence/findings and other .md). The full evidence zips (screens, video frames, test files, scripts, JS captures) are in [`evidence-zips/`](./evidence-zips/) on this branch; each tool's zip has the same name as listed below.
 
 Treat these as evidence and judgment, not orders: inspect the code, push back where we're wrong.
 
@@ -39,38 +39,38 @@ Older bundle for 01–06 (same content, earlier send): `2026-11-19-1204-ET-FDP-D
 
 ## Evidence zips
 
-All 28 evidence zips for tests #01–#25 live in [](./evidence-zips/) on .
+All 28 evidence zips for tests #01–#25 live in [`evidence-zips/`](./evidence-zips/) on `main`.
 
 | Zip | Size |
 |---|---|
-|  | 17.85 MiB (18,714,071 bytes) |
-|  | 16.49 MiB (17,296,128 bytes) |
-|  | 12.58 MiB (13,193,921 bytes) |
-|  | 39.42 MiB (41,329,742 bytes) |
-|  | 14.03 MiB (14,712,012 bytes) |
-|  | 18.33 MiB (19,217,746 bytes) |
-|  | 16.90 MiB (17,716,261 bytes) |
-|  | 11.98 MiB (12,564,210 bytes) |
-|  | 12.31 MiB (12,913,206 bytes) |
-|  | 15.60 MiB (16,359,366 bytes) |
-|  | 10.04 MiB (10,527,879 bytes) |
-|  | 11.64 MiB (12,208,455 bytes) |
-|  | 15.34 MiB (16,090,081 bytes) |
-|  | 10.29 MiB (10,794,012 bytes) |
-|  | 10.39 MiB (10,898,097 bytes) |
-|  | 14.01 MiB (14,695,436 bytes) |
-|  | 9.09 MiB (9,527,977 bytes) |
-|  | 8.73 MiB (9,151,240 bytes) |
-|  | 13.22 MiB (13,865,081 bytes) |
-|  | 15.21 MiB (15,949,789 bytes) |
-|  | 18.33 MiB (19,222,338 bytes) |
-|  | 10.77 MiB (11,292,108 bytes) |
-|  | 11.03 MiB (11,564,622 bytes) |
-|  | 7.93 MiB (8,313,679 bytes) |
-|  | 22.33 MiB (23,410,455 bytes) |
-|  | 12.29 MiB (12,883,671 bytes) |
-|  | 15.23 MiB (15,965,025 bytes) |
-|  | 8.54 MiB (8,949,735 bytes) |
+| `FDP-01-roman-numeral-converter-2026-11-19.zip` | 17.85 MiB (18,714,071 bytes) |
+| `FDP-02-audio-comparer-2026-11-19-report.zip` | 16.49 MiB (17,296,128 bytes) |
+| `FDP-02-audio-comparer-2026-11-19-testfiles.zip` | 12.58 MiB (13,193,921 bytes) |
+| `FDP-02-audio-comparer-2026-11-19.zip` | 39.42 MiB (41,329,742 bytes) |
+| `FDP-03-merge-pdf-2026-11-19.zip` | 14.03 MiB (14,712,012 bytes) |
+| `FDP-04-compress-pdf-2026-11-19-testfiles.zip` | 18.33 MiB (19,217,746 bytes) |
+| `FDP-04-compress-pdf-2026-11-19.zip` | 16.90 MiB (17,716,261 bytes) |
+| `FDP-05-split-pdf-2026-11-19.zip` | 11.98 MiB (12,564,210 bytes) |
+| `FDP-06-qr-generator-2026-11-19.zip` | 12.31 MiB (12,913,206 bytes) |
+| `FDP-07-custom-qr-2026-11-19.zip` | 15.60 MiB (16,359,366 bytes) |
+| `FDP-08-bulk-qr-2026-11-19.zip` | 10.04 MiB (10,527,879 bytes) |
+| `FDP-09-income-tax-calculator-2026-11-19.zip` | 11.64 MiB (12,208,455 bytes) |
+| `FDP-10-state-tax-calculator-2026-11-19.zip` | 15.34 MiB (16,090,081 bytes) |
+| `FDP-11-paycheck-calculator-2026-11-19.zip` | 10.29 MiB (10,794,012 bytes) |
+| `FDP-12-unit-converter-2026-11-19.zip` | 10.39 MiB (10,898,097 bytes) |
+| `FDP-13-grammar-checker-2026-11-19.zip` | 14.01 MiB (14,695,436 bytes) |
+| `FDP-14-camera-capture-2026-11-19.zip` | 9.09 MiB (9,527,977 bytes) |
+| `FDP-15-word-counter-2026-11-19.zip` | 8.73 MiB (9,151,240 bytes) |
+| `FDP-16-audio-normalizer-2026-11-19.zip` | 13.22 MiB (13,865,081 bytes) |
+| `FDP-17-compress-video-2026-11-19.zip` | 15.21 MiB (15,949,789 bytes) |
+| `FDP-18-video-to-gif-2026-11-19.zip` | 18.33 MiB (19,222,338 bytes) |
+| `FDP-19-resize-crop-2026-11-19.zip` | 10.77 MiB (11,292,108 bytes) |
+| `FDP-20-compress-image-2026-11-19.zip` | 11.03 MiB (11,564,622 bytes) |
+| `FDP-21-sign-pdf-2026-11-19.zip` | 7.93 MiB (8,313,679 bytes) |
+| `FDP-22-universal-file-converter-2026-11-19.zip` | 22.33 MiB (23,410,455 bytes) |
+| `FDP-23-pdf-to-word-2026-11-19.zip` | 12.29 MiB (12,883,671 bytes) |
+| `FDP-24-word-to-pdf-2026-11-19.zip` | 15.23 MiB (15,965,025 bytes) |
+| `FDP-25-barcode-generator-2026-11-19.zip` | 8.54 MiB (8,949,735 bytes) |
 
 **Total:** 399.90 MiB (419,326,343 bytes) across 28 files.
 
