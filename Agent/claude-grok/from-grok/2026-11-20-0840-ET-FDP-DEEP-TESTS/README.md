@@ -33,7 +33,7 @@ Treat these as evidence and judgment, not orders: inspect the code, push back wh
 | 23 | PDF to Word | `FDP-23-pdf-to-word/` | **P1** Numbered-list numbers ("1.", "2.", "3.") dropped: no text, no Word numbering; page says they're kept as typed text<br>**P1** Video: "Free Step-by-Step Walkthrough", "Try PDF to Word free", "10 free uses daily", "0 free uses remaining today" banner, old UI, never opens the .docx<br>**P1** WebKit page crash during OCR of a 2-page 150-dpi scan (3/3); Chromium/Firefox fine | FDP-23-pdf-to-word-2026-11-19.zip |
 | 24 | Word to PDF | `FDP-24-word-to-pdf/` | **P1** Devanagari broken in Keep formatting and Text only ("हिन्दी" → "हि  दी", runs into next word); copy says Hindi is drawn as pictures | FDP-24-word-to-pdf-2026-11-19.zip |
 | 25 | Barcode Generator | `FDP-25-barcode-generator/` | **P1** Print specs: quiet zones 5X on all formats (need 7–10X); ITF-14 no bearer bars; fixed bar height (truncated); FAQ size advice ≈212% (> GS1 200% max) and "don't shrink below"<br>**P1** One trial use per page visit unlocks unlimited different downloads incl. 200-barcode ZIPs; reload charges again | FDP-25-barcode-generator-2026-11-19.zip |
-| 26 | Invoice Generator | `FDP-26-invoice-generator/` | IN PROGRESS: no REPORT/PRIORITIES yet, findings notes only | none yet (in progress) |
+| 26 | Invoice Generator | `FDP-26-invoice-generator/` (added Nov 20 22:15 ET) | **P1** "Page 1 of 2" footer drawn over Balance due on a 23-line / 4-tax-rate A4 invoice; totals never break to a new page<br>**P1** PDF then Word of the same invoice get different numbers (INV-001.pdf, INV-002.docx)<br>**P1** Video says "free" ×4 and shows the old form<br>Trial-count item 4 is a policy question for Santosh, not a fix request | FDP-26-invoice-generator-2026-11-20.zip |
 
 Older bundle for 01–06 (same content, earlier send): `2026-11-19-1204-ET-FDP-DEEP-TESTS/`.
 
@@ -71,6 +71,7 @@ All 28 evidence zips for tests #01–#25 live in [`evidence-zips/`](./evidence-z
 | `FDP-23-pdf-to-word-2026-11-19.zip` | 12.29 MiB (12,883,671 bytes) |
 | `FDP-24-word-to-pdf-2026-11-19.zip` | 15.23 MiB (15,965,025 bytes) |
 | `FDP-25-barcode-generator-2026-11-19.zip` | 8.54 MiB (8,949,735 bytes) |
+| `FDP-26-invoice-generator-2026-11-20.zip` | 9.45 MiB (9,907,521 bytes) |
 
-**Total:** 399.90 MiB (419,326,343 bytes) across 28 files.
+**Total:** 409.35 MiB (429,233,864 bytes) across 29 files.
 

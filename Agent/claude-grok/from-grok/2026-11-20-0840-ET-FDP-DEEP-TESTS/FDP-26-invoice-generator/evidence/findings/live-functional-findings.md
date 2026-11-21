@@ -1,8 +1,8 @@
-Sent: 2026-11-20 08:40 ET
+Sent: 2026-11-20 22:15 ET
 
 # FDP-26 Invoice Generator: live functional findings (Chromium unless noted; box times ET)
 
-Starting counts: most fresh contexts load at 2/2 used ("0 remaining today", e.g. 18:43:08 EST); about 1 in 7 loads with 2 left (18:48, 18:49, 18:50, 18:53, 18:54 EST). Counters are display-only evidence. Trial uses spent by this test: 6 (A 1, B 2, C 1, D 1, WebKit 1).
+Starting counts: most fresh contexts load at 2/2 used ("0 remaining today", e.g. 18:43:08 EST); about 1 in 7 loads with 2 left (18:48, 18:49, 18:50, 18:53, 18:54 EST). Counters are display-only evidence. Trial uses spent by this test: 6 on Nov 19 (A 1, B 2, C 1, D 1, WebKit 1) + 4 on Nov 20 (A 1, B 2, Firefox 1).
 
 ## Calculations (Total box, no trial use) — `json/ui-AB.log` / `json/ui.json`
 All 12 scenarios match hand calculations: sample $1,754.46 / balance $1,654.46; three tax rates with 10% discount $243.44; credit line $70.00; credit larger than work −$33.00; EU decimals "1,5" × "1.234,56" = 1,851.84; ¥100.4 × 2 → ¥201; paid > total → balance −$50.00; discount 150% → $0.00 (capped); late fee 1.5% + $25 after 10 days → "(2026-12-29) … $40.00"; 3 × 0.335 → $1.01; ₹1,180.00; CA$1,234,567.89.
@@ -37,3 +37,11 @@ Generate makes only `usage.log` (POST 123 B), `usage.check`, `insight.hit` (162 
 
 ## Accessibility / keyboard
 Tab order follows the form; axe on `main`: only ad-label contrast (site-wide); matrix axe: label-content-name-mismatch, region. Phones: Pixel 7 clean; iPhone SE 9 px overflow (site-wide header).
+
+## Re-verified after the trial reset (2026-11-20, 22:06–22:09 EST) — `json/spend-1120/`
+The run was cut off on Nov 19 before packaging. The site was rebuilt overnight (`InvoiceGenerator-6vPLHGvC` → `InvoiceGenerator-CcQb7dIX`, `ProfileBar`, `invoiceAssets`, `logoFile` renamed); a prettified diff shows only import/chunk-name changes, no logic change (`js/` now holds the current chunks). Fresh contexts now load with 2 of 2 left (22:06:49 EST). Re-ran the money paths live (4 trial uses: A 1, B 2, Firefox A 1):
+- **Number mismatch still live:** A (22:08:13 EST) PDF = INV-001.pdf (0 → 1), Word right after = INV-002.docx (1 → 1) for the same invoice; toast "Invoice INV-002 downloaded. Next number: INV-003."
+- **Footer over Balance due still live:** B (22:08:38 EST) 23 lines / 4 rates, A4 → "Page 1 of 2" drawn over "$471.55" (`screens/live/balance-overlap-1120.png`).
+- **Usage per visit still live:** B Excel 0 → 1; after a reload the long PDF 1 → 2; then at the cap PDF → "You've used today's trial uses … Monthly $9.99 … Day Pass $3" → Buy Day Pass → "Premium Day Pass, $3 | Enter your email…" (stopped; nothing typed) (`screens/live/cap-dialog-1120.png`, `daypass-email-1120.png`).
+- **Firefox (new, 22:07:53 EST):** rich PDF identical to Chromium — every total, Hindi drawn as pictures, logo, QR, badge — and the same notes reorder ("IFSC HDFC · شكرا · 0000001Ευχαριστώ") (`screens/live/chromium-vs-firefox-pdf-1120.png`). So the bidi issue is in all three engines.
+- Calculations, privacy (only `usage.log` 123 B / `usage.check` / `insight.hit` 162 B, no typed text) unchanged.

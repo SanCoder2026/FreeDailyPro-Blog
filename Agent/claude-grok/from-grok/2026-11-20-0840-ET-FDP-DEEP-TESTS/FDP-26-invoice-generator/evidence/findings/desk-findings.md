@@ -1,8 +1,8 @@
-Sent: 2026-11-20 08:40 ET
+Sent: 2026-11-20 22:15 ET
 
 # FDP-26 Invoice Generator: desk findings (2026-11-19, ET)
 
-Sources: `html/tool.html`, `html/tool-expanded.txt` (all sections expanded), JSON-LD, /es, /ar, /blog/invoice-generator, /category/business-tools; code `InvoiceGenerator-6vPLHGvC` (form, validation, PDF layout `Gt`, download flow `be`), `invoiceCalc`, `invoiceAssets` (tax groups, late fee, pay link), `numberInput`, `money`, `pdfText`/`pdfFonts`, `ProfileBar`.
+Sources: `html/tool.html`, `html/tool-expanded.txt` (all sections expanded), JSON-LD, /es, /ar, /blog/invoice-generator, /category/business-tools; code `InvoiceGenerator-CcQb7dIX` (Nov 20 build; same logic as `-6vPLHGvC` reviewed Nov 19 — form, validation, PDF layout `Gt`, download flow `be`), `invoiceCalc`, `invoiceAssets` (tax groups, late fee, pay link), `numberInput`, `money`, `pdfText`/`pdfFonts`, `ProfileBar`.
 
 - **Positioning:** title "Create a Professional Invoice Online - PDF | FreeDailyPro"; H1 "Invoice Generator — Create a Professional PDF Invoice"; Premium application · 2 trial uses a day · $3 day pass or $9.99 a month (shown on page). JSON-LD SoftwareApplication (Offer 9.99), FAQPage, VideoObject. Self-canonical, 200, 10 hreflang. GSC data is not available.
 - **No preview:** the only result is the downloaded file; Generate/Word/Excel each pass through `logUsageNow()` (gated at generate — not flagged).
