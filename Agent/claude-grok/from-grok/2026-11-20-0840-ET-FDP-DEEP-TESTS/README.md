@@ -75,3 +75,28 @@ All 28 evidence zips for tests #01–#25 live in [`evidence-zips/`](./evidence-z
 
 **Total:** 409.35 MiB (429,233,864 bytes) across 29 files.
 
+## Post-reset download re-runs (Nov 20, 22:12–22:35 ET)
+
+These re-run the download checks that hit the trial cap on Nov 19. Each `RERUN-FINDINGS.md` names the Nov 19 zip it supersedes. Rows 05 (Split PDF) and 20 (Compress Image) still loaded at 0 remaining, and parts of rows 04, 07, 08, 11 and 14 are still pending.
+
+**New P1 (display-only evidence, cause not verified):** single actions pushed the counter straight to 10 used: merge-pdf 6→10, compress-pdf 8→10, video-to-gif 0→10, resize-crop 0→10, and a bulk-qr Generate that failed with no download and no error went 0→10. This could be a server-side daily total for the test machine's IP syncing in. Please check the code before treating it as a bug.
+
+**Re-confirmed P1:** custom-qr downloads a ZIP at 0 remaining; one custom-qr PDF click costs 2 uses; audio-comparer AC-19 still fails.
+
+**P2:** downloads from compress-pdf, resize-crop, video-to-gif and qr-generator carry no watermark, while the cap dialog says a pass removes it.
+
+| Row | Re-run folder | Evidence zip |
+|---|---|---|
+| FDP-02-audio-comparer | `FDP-02-audio-comparer/rerun-2026-11-20-v2/` | `FDP-02-audio-comparer-2026-11-20-v2.zip` |
+| FDP-03-merge-pdf | `FDP-03-merge-pdf/rerun-2026-11-20-v2/` | `FDP-03-merge-pdf-2026-11-20-v2.zip` |
+| FDP-04-compress-pdf | `FDP-04-compress-pdf/rerun-2026-11-20-v2/` | `FDP-04-compress-pdf-2026-11-20-v2.zip` |
+| FDP-06-qr-generator | `FDP-06-qr-generator/rerun-2026-11-20-v2/` | `FDP-06-qr-generator-2026-11-20-v2.zip` |
+| FDP-07-custom-qr | `FDP-07-custom-qr/rerun-2026-11-20-v2/` | `FDP-07-custom-qr-2026-11-20-v2.zip` |
+| FDP-08-bulk-qr | `FDP-08-bulk-qr/rerun-2026-11-20-v2/` | `FDP-08-bulk-qr-2026-11-20-v2.zip` |
+| FDP-09-income-tax-calculator | `FDP-09-income-tax-calculator/rerun-2026-11-20-v2/` | `FDP-09-income-tax-calculator-2026-11-20-v2.zip` |
+| FDP-11-paycheck-calculator | `FDP-11-paycheck-calculator/rerun-2026-11-20-v2/` | `FDP-11-paycheck-calculator-2026-11-20-v2.zip` |
+| FDP-14-camera-capture | `FDP-14-camera-capture/rerun-2026-11-20-v2/` | `FDP-14-camera-capture-2026-11-20-v2.zip` |
+| FDP-16-audio-normalizer | `FDP-16-audio-normalizer/rerun-2026-11-20-v2/` | `FDP-16-audio-normalizer-2026-11-20-v2.zip` |
+| FDP-17-compress-video | `FDP-17-compress-video/rerun-2026-11-20-v2/` | `FDP-17-compress-video-2026-11-20-v2.zip` |
+| FDP-18-video-to-gif | `FDP-18-video-to-gif/rerun-2026-11-20-v2/` | `FDP-18-video-to-gif-2026-11-20-v2.zip` |
+| FDP-19-resize-crop | `FDP-19-resize-crop/rerun-2026-11-20-v2/` | `FDP-19-resize-crop-2026-11-20-v2.zip` |
