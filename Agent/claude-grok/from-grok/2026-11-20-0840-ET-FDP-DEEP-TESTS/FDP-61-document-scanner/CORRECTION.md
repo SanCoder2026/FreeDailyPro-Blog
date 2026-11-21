@@ -1,16 +1,9 @@
-Sent: 2026-11-21 13:21 ET
+Sent: 2026-11-21 14:11 ET
 
-# FDP-61 Document Scanner — correction (-v2), 2026-11-21 13:18 EST
+# FDP-61 Document Scanner — correction (-v3), 2026-11-21 13:37 EST
 
-The original zip (FDP-61-document-scanner-2026-11-21.zip) is unchanged. This -v2 replaces REPORT.md and PRIORITIES.md only.
+**This -v3 supersedes -v2** (FDP-61-document-scanner-2026-11-21-v2.zip). It puts "full-resolution scan preview at 0 trial uses" back as an **Owner question**, per the Orchestrator at Nov 21 1:19 PM. Santosh hasn't ruled on whether a full-quality result or preview at 0 trial uses is a gate gap. Only a real save or download at 0 uses counts as P1, and none was found for this tool: the PDF/PNG files are gated.
 
-**What changed:**
-- "Preview at 0 trial uses" moves from **P2 (owner question)** to **P1**.
-  - The original followed the FDP-50/51 wording. The Nov 21 owner rule is that full-quality results/previews at 0 trial uses are a P1 gate gap.
-  - At the cap the finished scan shows on the page at full resolution (canvas 1002×1131) without the mark. Only the files are gated.
-- REPORT.md: new P1 item 4. The P2 bullet was removed. Check 16 notes it.
-- PRIORITIES.md: new P1 (-v2) row. The P2 owner-question row was removed.
-
-**No new testing.** The evidence is the original zip's zero.json (Z01, Z05) and screens/cases/Z01-enhance.png.
-
-All other findings stand: Edit as Word/Excel 404, EXIF double rotation, per-page-load charging.
+- The original zip (FDP-61-document-scanner-2026-11-21.zip) is unchanged. This -v3 replaces REPORT.md and PRIORITIES.md.
+- REPORT.md / PRIORITIES.md are the original text with three changes: these opening lines, the updated owner-context line, and the preview item labelled "Owner question" instead of "P2 (owner question)" / "P1 (-v2)".
+- **No new testing.** Everything else stays the same: Edit as Word/Excel 404, EXIF double rotation, per-page-load charging (all P1).

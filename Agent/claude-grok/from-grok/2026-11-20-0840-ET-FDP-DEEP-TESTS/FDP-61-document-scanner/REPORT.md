@@ -1,8 +1,10 @@
-Sent: 2026-11-21 13:21 ET
+Sent: 2026-11-21 14:11 ET
 
 # FDP-61 Document Scanner (document-scanner): deep test report for Claude
 
-- **Written:** 2026-11-21 12:59 EST; **-v2 correction:** 2026-11-21 13:18 EST (box `date`, ET). Testing ran 2026-11-21 12:33–12:57 EST.
+> **-v3 (2026-11-21 13:37 EST): supersedes -v2.** Puts "full-resolution scan preview at 0 trial uses" back as an **Owner question** (not P1), per the Orchestrator at Nov 21 1:19 PM: Santosh hasn't ruled on full-quality results/previews at 0 uses. Everything else is unchanged from the original report.
+
+- **Written:** 2026-11-21 12:59 EST; **-v3 correction:** 2026-11-21 13:37 EST (box `date`, ET). Testing ran 2026-11-21 12:33–12:57 EST.
 - **Tool:** https://www.freedailypro.com/tool/document-scanner
   - TEST-ORDER row 61: **Premium Application**. tools.csv category Image Tools; breadcrumb "Premium Applications". Plan note "test-plan (unranked): SEO backfill 8 (GA top)". Duplicate group C06 (the map already says it is distinct from the OCR family).
   - Premium terms on the page: 2 trial uses a day, $3 Day Pass or $9.99 a month.
@@ -40,7 +42,7 @@ Sent: 2026-11-21 13:21 ET
 
 You know this codebase. Treat this as evidence and judgment, not orders. Each item says why it matters for a person who just photographed a page and needs a clean PDF now — and whether the scan makes them want the Premium pass.
 
-**Owner context:** copy and results count as trial uses (Oct 30). Barcode/Invoice charge on every Download (Nov 20). Per-page-load charging and full-quality results at 0 trial uses are P1 gate gaps (Nov 21). The "Created with FreeDailyPro.com" mark is intentional.
+**Owner context:** copy and results count as trial uses (Oct 30). Barcode/Invoice charge on every Download (Nov 20). Per-page-load charging is a P1 gate gap; a full-quality result or preview at 0 trial uses is a pending owner question; a real save or download at 0 uses is P1 (Nov 21, corrected by the Orchestrator at 1:19 PM).
 
 **P1 — where to look:**
 
@@ -62,8 +64,6 @@ You know this codebase. Treat this as evidence and judgment, not orders. Each it
    - Matches the Nov 21 rule (per-page-load charging = P1). In `nr()` the first `tryUse` logs once per tool per load, and later calls return allowed.
    - Decide the unit: one use per new result (PDF/PNG/searchable of the same scan stay one use). Today PDF + PNG + searchable PDF of the same scan cost 1 use (left.json L05–L07), which seems right.
 
-4. **Full-quality scan preview at 0 trial uses (corrected in -v2, was P2 owner question).** At the cap the whole crop/straighten/enhance flow runs and the finished scan is shown on the page at full resolution, without the "Created with FreeDailyPro.com" mark (zero.json Z05: canvas 1002×1131; Z01-enhance.png). Only the PDF/PNG files are gated. Per the Nov 21 owner rule, full-quality results/previews at 0 trial uses are a P1 gate gap. Suggest a scaled-down or marked preview at 0 (the step-by-step flow can stay).
-
 **P2 — where to look:**
 - **Copy contradicts the tool:**
   - FAQ "Does this automatically detect and straighten the document's edges? **No** — the straighten step needs the four corners placed manually". Live: "Page found automatically. Check the corners…" on every test photo, with handles on the page corners (straighten-handles.png, mobile-straighten-webkit.png).
@@ -79,6 +79,7 @@ You know this codebase. Treat this as evidence and judgment, not orders. Each it
 - **The tool starts below the fold on desktop.** On 1366×768 the hero picture plus the step strip push the drop zone to ~1,150 px (desktop full screenshot).
   - The hero (`/blog/document-scanner-launch.webp`, alt "Document Scanner preview") shows a filter strip (Original/Auto/Black & White/Grayscale) and "Edge detected" that the tool doesn't have.
   - Suggest a smaller hero or the drop zone first.
+- **Owner question — full-resolution scan preview at 0 trial uses (pending Santosh's ruling, as in FDP-50/51):** at the cap the whole crop/straighten/enhance flow runs and shows the full-resolution scan on the page (zero.json Z05: canvas 1002×1131). Only the files are gated.
 - **Locale pages:** H1, badges and the trial strip are translated. The subtitle, "Premium application · 2 trial uses a day · $3 day pass or $9.99 a month", "Day pass / Monthly", the breadcrumb "Premium Applications" and all tool controls stay English (es, ja screenshots). The EU consent banner shows in de-DE/fr-FR (screenshots).
 - **Competitive gaps:** one photo per pick (`multiple=false`), so a 10-page stack means 10 round trips. No "magic colour" auto-enhance. No file-size choice. Grayscale pages are stored as RGB JPEG at ~126 ppi on Letter.
 
@@ -137,7 +138,7 @@ Someone has a receipt, signed form, ID card or notebook page and only a phone. T
 | 13 | Storage | N/A | No save/history in this tool (verified). Drive import is sign-in only. |
 | 14 | Sharing | N/A (tool link) | "Share this tool" shares the page link; no result share. |
 | 15 | Downloads | PASS | PDF (multi-page, Letter/A4/Fit), PNG, searchable PDF, ID PDF all valid. |
-| 16 | Usage count | FAIL (P1) | Charged once per page load: later new scans download free and with no cap (perload.json). Full-resolution preview at 0 (-v2). |
+| 16 | Usage count | FAIL (P1) | Charged once per page load: later new scans download free and with no cap (perload.json). |
 | 17 | Categorization in section | PASS | Premium Applications; tools.csv Image Tools. |
 | 18 | Correct section of site | PASS | Premium hub + Document Operations Desk ladder; next step OCR PDF. |
 | 19 | AI need and demand | PASS | High demand ("scan document to PDF", phone scanner apps). In-browser, no-upload is a strong angle. |
