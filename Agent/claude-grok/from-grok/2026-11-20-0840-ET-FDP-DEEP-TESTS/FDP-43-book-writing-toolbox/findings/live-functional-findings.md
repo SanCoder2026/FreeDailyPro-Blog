@@ -1,4 +1,4 @@
-Sent: 2026-11-21 04:56 ET
+Sent: 2026-11-21 05:21 ET
 
 # FDP-43 Book Writing Toolbox: live functional findings (guest, 2026-11-21 04:25–04:49 EST)
 
@@ -14,14 +14,14 @@ Sent: 2026-11-21 04:56 ET
 - ONIX export is advertised as "no subscription needed".
 
 ## Gate and trial uses
-1. **P1: watermarked previews are close to full quality at 0 trial uses.**
+1. **Owner question (v2; not a bug, the watermark is intentional per owner rule): how strong the Book preview watermark should be.** The facts are below.
    - **Book PDF preview** (B01/B02/C01, at 0 = counter 10/10): the full typeset book, with fonts embedded and exactly the paid render.
      - The "PREVIEW" mark is a single tiling-pattern fill painted *under* the page content. It isn't text or an annotation.
      - Emptying that one pattern object gives a clean book (`evidence/screens/cases/B01-pattern-emptied-pages.png`, made offline from our own preview, not distributed).
      - The same mechanism is used on the manuscript PDF preview and the print-cover preview (`verify.json`: every preview PDF is `tiling_pattern_pages == pages`, with no "PREVIEW" text).
      - In Chromium the preview PDF is also a blob in an iframe, and headless Chromium saved it as a file (`B05-pdf-….pdf`). Ordinary users can save it from the viewer.
    - **Manuscript .docx preview:** a complete Shunn manuscript in an editable Word file. The only watermark is one red line in the page header ("PREVIEW COPY -- download the full, watermark-free edition at FreeDailyPro.com"), which is deleted in one step (`verify.json`: `word/header1.xml`, `word/header2.xml`; body clean).
-   - **Fix direction (server):** draw the mark *over* the content as part of each page's content stream, rasterise previews (or lower their resolution), and put the docx mark in the body (e.g. a diagonal text box in every section, plus a short sample instead of the full manuscript).
+   - **Options if Santosh wants it stronger:** draw the mark *over* the content as part of each page's content stream, rasterise previews (or lower their resolution), and put the docx mark in the body (e.g. a diagonal text box in every section, plus a short sample instead of the full manuscript).
 2. **P1: per-page-load charging of "unlimited" previews.**
    - The manuscript .docx preview and the ONIX export save through ToolPage's shared download helper (`ToolPage d → vt → Sa`), which takes a **Professional trial use** once per page load.
    - D02 (with uses left, 04:47–04:49 EST): preview #1 went 0→1/10, preview #2 and ONIX in the same load stayed 1/10, then after a reload the next preview went 1→2/10. C08 confirms (0→1 on the manuscript preview; `POST usage.log`).

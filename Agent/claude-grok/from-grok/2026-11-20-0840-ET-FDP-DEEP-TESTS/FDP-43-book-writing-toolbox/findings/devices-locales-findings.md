@@ -1,4 +1,4 @@
-Sent: 2026-11-21 04:56 ET
+Sent: 2026-11-21 05:21 ET
 
 # FDP-43 Book Writing Toolbox: devices, locales, geo, accessibility (matrix 04:25–04:33 EST)
 

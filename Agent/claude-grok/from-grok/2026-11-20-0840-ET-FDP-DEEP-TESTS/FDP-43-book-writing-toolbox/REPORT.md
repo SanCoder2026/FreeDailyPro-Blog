@@ -1,6 +1,8 @@
-Sent: 2026-11-21 04:56 ET
+Sent: 2026-11-21 05:21 ET
 
-# FDP-43 Book Writing Toolbox (book-writing-toolbox): deep test report for Claude
+# FDP-43 Book Writing Toolbox (book-writing-toolbox): deep test report for Claude (v2)
+
+> **v2 correction (2026-11-21, EST):** per the owner rule, the Book preview watermark is intentional. Its strength is now an **owner question**, not a bug or P1. See CORRECTIONS-v2.md. Everything else is unchanged from v1.
 
 - **Written:** 2026-11-21 04:55 EST (box `date`, ET). Testing ran 2026-11-21 04:17–04:49 EST.
 - **Tool:** https://www.freedailypro.com/tool/book-writing-toolbox. Row 43 of TEST-ORDER.md: **Workflow Product**, Publishing & Print Makers, plan note "GA top-traffic".
@@ -36,7 +38,7 @@ You know this codebase. Treat this as evidence and judgment, not orders. Push ba
 
 **Owner context:**
 - Santosh treats per-page-load charging and full-quality results at 0 trial uses as P1 gate gaps.
-- This is a paid Workflow Product whose whole conversion lever is "watermarked previews, clean files with the subscription". The lever only works if the watermark holds and the previews themselves work.
+- This is a paid Workflow Product whose whole conversion lever is "watermarked previews, clean files with the subscription". The watermark is intentional (owner rule); how strong it should be is Santosh's call (owner question below). The lever also needs the previews themselves to work.
 
 **Code to look at:**
 - **Server preview renderers** (`bookMaker.renderBook/renderManuscript/renderCoverWrap/renderManuscriptDocx`, `preview:true`): the PDF mark is one tiling-pattern fill drawn *under* the content; the docx mark is one header paragraph.
@@ -58,7 +60,7 @@ The editor, typesetting, import, Pre-flight print checks, covers, RTL and the sc
 - Correct Shunn format.
 
 Four things undercut both the "wow" and the move to paid:
-- **Previews that are nearly the paid file:** a removable background mark on the PDF, and a header line in an editable .docx.
+- **Owner question, not a bug:** how strong the intentional preview watermark should be (PDF background mark; .docx header line).
 - **The ebook half is broken:** the EPUB build returns 500 every time, and Pre-flight hides it.
 - **"Unlimited" previews that aren't:**
   - The manuscript preview and ONIX take a Professional trial use per page load.
@@ -67,7 +69,7 @@ Four things undercut both the "wow" and the move to paid:
 
 ## Why: what the evidence says
 
-- **P1, full-quality result at 0 trial uses (gate gap).**
+- **Owner question (not a bug): preview watermark strength.** The watermark is intentional per owner rule; these are facts for Santosh to decide on.
   - At 0 (counter 10/10), Preview returns the exact paid typeset PDF; the only difference is one tiling-pattern fill under the content.
   - Emptying that single object leaves a clean book (`screens/cases/B01-pattern-emptied-pages.png`). The same holds for the manuscript PDF and print-cover previews.
   - The manuscript .docx preview (with uses left) is the full manuscript with a single editable header line.
@@ -99,7 +101,7 @@ Four things undercut both the "wow" and the move to paid:
 
 ## Outcomes we want
 
-1. Previews stay useful for checking but can't become the product. The mark is drawn over the content on every page (or the preview is rasterised/lower-resolution), and the .docx preview carries the mark in the body or is a sample.
+1. Santosh decides whether the intentional preview watermark is strong enough. Options if he wants it stronger: mark over the content, rasterised previews, or a docx mark in the body or a sample.
 2. EPUB builds succeed. Pre-flight shows the EPUB checks, or says plainly that they couldn't run.
 3. Previews and ONIX never take Professional trial uses and never fail silently at 0, matching "unlimited" and "no subscription needed".
 4. A new video of the current Toolbox on a clean profile, with correct offer wording.
@@ -134,6 +136,7 @@ Four things undercut both the "wow" and the move to paid:
 
 ## Severity summary
 - **P0:** 0. (The EPUB failure may affect paying subscribers; confirm signed in and raise it to P0 if export fails too.)
-- **P1:** 4 (removable preview watermark / full quality at 0; per-page-load charging; silent block at 0; EPUB 500).
+- **P1:** 3 (per-page-load charging; silent block at 0; EPUB 500).
+- **Owner question:** 1 (how strong the intentional Book preview watermark should be).
 - **P2:** 3 (video; Indic-script copy; project file isn't a backup).
 - **P3:** several.

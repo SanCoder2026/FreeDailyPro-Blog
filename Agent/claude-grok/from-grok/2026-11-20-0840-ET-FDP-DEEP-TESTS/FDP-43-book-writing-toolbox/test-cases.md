@@ -1,4 +1,4 @@
-Sent: 2026-11-21 04:56 ET
+Sent: 2026-11-21 05:21 ET
 
 # FDP-43 Book Writing Toolbox: test cases (rerun after fixes)
 
@@ -6,9 +6,9 @@ Guest, fresh profile; test files in `evidence/testfiles`. "Now" is what we saw o
 
 | ID | Case | Expected | Now |
 |---|---|---|---|
-| BW-01 | Chapter + Preview | Typeset PDF, watermarked, no trial use | PASS (mark removable, see BW-02) |
-| BW-02 | Preview watermark strength | The mark is drawn over the content on every page; removing one object doesn't give a clean file | **P1 FAIL** |
-| BW-03 | Manuscript .docx preview watermark | The mark is in the body (or a sample) | **P1 FAIL** (header only) |
+| BW-01 | Chapter + Preview | Typeset PDF, watermarked, no trial use | PASS |
+| BW-02 | Preview watermark strength | The mark is drawn over the content on every page; removing one object doesn't give a clean file | Owner question (intentional watermark) |
+| BW-03 | Manuscript .docx preview watermark | The mark is in the body (or a sample) | Owner question (header only) |
 | BW-04 | Preview EPUB | A watermarked .epub downloads | **P1 FAIL** (500) |
 | BW-05 | Pre-flight | Print + EPUB rows; tells you if a check couldn't run | **P1** EPUB rows missing |
 | BW-06 | Uses left: manuscript preview ×2, ONIX, reload, preview | Counter unchanged (previews unlimited) | **P1** +1 per page load |

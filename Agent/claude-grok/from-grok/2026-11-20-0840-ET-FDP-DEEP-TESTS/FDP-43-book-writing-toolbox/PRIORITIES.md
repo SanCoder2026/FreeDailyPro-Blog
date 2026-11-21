@@ -1,10 +1,10 @@
-Sent: 2026-11-21 04:56 ET
+Sent: 2026-11-21 05:21 ET
 
 # FDP-43 Book Writing Toolbox: priorities (2026-11-21 EST)
 
 | Pri | Item | Evidence | Suggested direction |
 |---|---|---|---|
-| P1 | Previews are close to full quality at 0 trial uses. The PDF mark is one tiling-pattern fill **under** the content (removable); the .docx mark is one header line | verify.json, screens/cases/B01-pattern-emptied-pages.png, outputs/*preview* | Draw the mark over the content in every page's stream (or rasterise/lower-resolution previews); put the docx mark in the body, or make it a sample |
+| Owner question | (Not a bug: the watermark is intentional per owner rule.) Is the Book preview watermark strong enough? The PDF mark is one tiling-pattern fill **under** the content (removable); the .docx mark is one header line | verify.json, screens/cases/B01-pattern-emptied-pages.png, outputs/*preview* | Santosh decides. Options if stronger is wanted: mark over the content, rasterise, docx mark in the body or a sample |
 | P1 | `renderEpub` returns 500 on 11/11 calls; Pre-flight drops the EPUB checks silently | json/responses/*renderEpub*.json, C01/C07 | Fix the EPUB build; Pre-flight shows "EPUB check couldn't run". Confirm the signed-in Export (possible P0) |
 | P1 | Per-page-load charging: manuscript .docx preview and ONIX take a Professional trial use once per page load | cases3 D02, cases2 C08 | Save previews/ONIX with `{free:true}` (or the product's own rule) |
 | P1 | At 0 trial uses, manuscript .docx preview and ONIX silently do nothing | cases3 D01, D01.png | The same fix; never fail without a message |
