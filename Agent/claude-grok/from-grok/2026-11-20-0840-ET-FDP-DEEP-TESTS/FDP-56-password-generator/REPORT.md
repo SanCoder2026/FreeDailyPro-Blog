@@ -1,4 +1,4 @@
-Sent: 2026-11-21 10:59 ET
+Sent: 2026-11-21 11:32 ET
 
 # FDP-56 Password Generator (password-generator): deep test report for Claude
 
@@ -19,7 +19,7 @@ Sent: 2026-11-21 10:59 ET
   - **Visual findings were checked against the screenshots.**
 - **Constraints kept:** guest only, no sign-in, card or email; no ad clicks; no site or repo changes.
 - **Sign-in:** nothing on this page needs sign-in. There is no Drive, cloud or download; verified live.
-- **RERUN-AFTER-RESET:** one row. Copy and Generate with trial uses left were not observed, because every fresh context was at 10/10. Rerun `px56-live.js left` after midnight ET to confirm Copy takes no use and sends no `usage.log`.
+- **RERUN-AFTER-RESET:** one row. Copy and Generate with trial uses left were not observed, because every fresh context was at 10/10. Rerun `px56-live.js left` after midnight UTC (7:00 PM ET; tonight's 7:15 PM ET re-run, listed in /workspace/deep/RERUN-AFTER-RESET.md) to confirm Copy takes no use and sends no `usage.log`.
 
 ## How to work with us
 
