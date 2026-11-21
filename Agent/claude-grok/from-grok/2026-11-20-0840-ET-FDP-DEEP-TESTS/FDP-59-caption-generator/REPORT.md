@@ -1,8 +1,8 @@
-Sent: 2026-11-21 12:15 ET
+Sent: 2026-11-21 12:34 ET
 
 # FDP-59 Social Caption Generator (caption-generator): deep test report for Claude
 
-- **Written:** 2026-11-21 12:14 EST (box `date`, ET). Testing ran 2026-11-21 11:52–12:12 EST.
+- **Written:** 2026-11-21 12:14 EST; **-v2 correction 2026-11-21 12:15 EST** (P1 usage items moved to Owner questions) (box `date`, ET). Testing ran 2026-11-21 11:52–12:12 EST.
 - **Tool:** https://www.freedailypro.com/tool/caption-generator
   - TEST-ORDER row 59: **Professional Tool**, Design & Marketing. Plan note "test-plan (unranked): L-243 live ApyHub API" — the live tool makes **no** external API call; captions come from fixed templates in the page JS.
   - Site-map tag `absorbable:text`. Duplicate group C42 (social-media-formatter, social-carousel-maker, hashtag-generator, yt-thumbnail, thumbnail-gen, ai-social-publisher).
@@ -23,10 +23,10 @@ Sent: 2026-11-21 12:15 ET
 
 You know this codebase. Treat this as evidence and judgment, not orders.
 
-**Owner context (Nov 20):** copy and results count as trial uses. Only Unit Converter, Grammar Checker and Word Counter are uncounted on purpose; any other uncounted tool is a policy question. Full-quality results at 0 trial uses are a P1 gate gap.
+**Owner context (Nov 20):** copy and results count as trial uses. Only Unit Converter, Grammar Checker and Word Counter are uncounted on purpose. A tool that takes no trial use and isn't one of those three is a **policy question held for Santosh, not a P1 fix order** (corrected in -v2).
 
 **Where to look:**
-- **The tool never charges and never stops (P1 + policy question).**
+- **The tool never charges and never stops (owner policy question, held for Santosh; see Owner questions 1–2). Don't change charging until he decides.**
   - At 10/10 (probe.json, Chromium): Generate gave all three drafts, both Copy clicks gave "Copied!" and the right text on the clipboard; no cap dialog, no `usage.log` POST, count stayed 10/10.
   - With uses left: cases.json (Chromium, 14 generations) stayed 0/10 with no `usage.log` POST; left-firefox.json (6 generations, 4 copies, a reload) stayed 0/10, no `usage.log` POST.
   - The page has **no trial strip and no Quick Buy** (verified live in both states), so there is also no route to a pass from this tool.
@@ -76,7 +76,7 @@ A small-business owner or social media manager has a post idea and needs a first
 | 13 | Storage | N/A | None (verified live). |
 | 14 | Sharing | PASS | Copy works; "Share this tool" present. |
 | 15 | Downloads | N/A | Text only. |
-| 16 | Usage count | **FAIL (P1)** | Never charges; full results and Copy at 10/10; no strip. |
+| 16 | Usage count | Owner question | Takes no trial use at all (Generate and Copy, with uses left and at 10/10); no strip. Not on the exempt list, so held for Santosh. |
 | 17 | Categorization in section | PASS | Design & Marketing. |
 | 18 | Correct section of site | PASS (minor) | Breadcrumb Design & Marketing; blog still says SEO tools. |
 | 19 | AI need/demand | High | Users expect AI captions; templates feel generic. Route to AI Social Publisher. |
@@ -86,6 +86,6 @@ A small-business owner or social media manager has a post idea and needs a first
 
 ## Owner questions
 
-1. Is caption-generator meant to be uncounted? It's not on the Nov 20 uncounted list, and today it never charges or stops.
-2. Should the page show the trial strip/Quick Buy like other Professional Tools?
+1. **Policy (held for Santosh):** caption-generator takes no trial use — Generate and Copy work with uses left (20 generations + 4 copies = 0 uses) and at 10/10, with no cap dialog and no `usage.log` POST. It isn't one of the three exempt tools. Count it, or add it to the exempt list? Either way the blog line "counts as one of your 10 trial usages" and the Privacy "count daily uses" line must match the decision.
+2. **Follows from 1:** the page shows no trial strip or Quick Buy (verified live). If counted, show the standard strip; if exempt, consider an AI Social Publisher or pass CTA so the page still leads somewhere paid.
 3. Keep "AI" in the video/JSON-LD titles, or reserve "AI" for AI Studio tools?

@@ -1,11 +1,10 @@
-Sent: 2026-11-21 12:15 ET
+Sent: 2026-11-21 12:34 ET
 
-# FDP-59 Social Caption Generator: priorities (2026-11-21 EST)
+# FDP-59 Social Caption Generator: priorities (2026-11-21 EST, -v2 12:15 EST)
 
 | Pri | Item | Why it matters | Suggested fix |
 |---|---|---|---|
-| P1 | Never charges and never stops: full drafts and Copy at 10/10; 20 generations + 4 copies with uses left = 0 uses; no `usage.log` POST | Owner rule: full results at 0 trial uses = P1 gate gap; uncounted tools outside the Nov 20 list are a policy question | Owner decides: count it (charge Generate and Copy, cap dialog) or list it as uncounted on purpose and fix the copy. |
-| P1 | No trial strip or Quick Buy on the page | No path to a pass from this tool; the business goal can't happen here | Show the standard strip, or (if uncounted) an AI Social Publisher / pass CTA. |
+| — | (-v2) No P1 items. The "never charges / works at 10/10" and "no trial strip or Quick Buy" items moved to REPORT.md Owner questions 1–2: policy question held for Santosh (not one of the three exempt tools). | | |
 | P2 | "AI" on a template tool: thumbnail "AI CAPTIONS", VideoObject + blog clip "How to Generate AI Social Media Captions", old "AI-powered" subtitle in the video | Misleading vs the FAQ "Nothing is composed from scratch" | Retitle; keep "AI" for AI Studio and link AI Social Publisher for AI drafts. |
 | P2 | Video outdated (old UI, "SEO Tools", "10 free uses daily", "Pro", fixed #fyp #viral #trending, "Free Step-by-Step", "PDF tools"/"#SEOTools" tags; personal bookmarks bar visible) | Shows features that changed; "free" wording | Re-record on the current UI with Professional Tools / trial-use wording. |
 | P2 | Hindi/Indic hashtags broken (`#दवलसलशर #दव…`) | Unusable output for the hi audience | Include `\p{M}` in the `h()` word regex. |
