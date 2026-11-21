@@ -1,4 +1,4 @@
-Sent: 2026-11-21 02:49 ET
+Sent: 2026-11-21 03:05 ET
 
 # FDP-38 PDF to JPG: live functional findings (guest, headless Playwright, 2026-11-21 02:36–02:46 EST)
 

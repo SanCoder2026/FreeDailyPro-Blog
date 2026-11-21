@@ -1,4 +1,4 @@
-Sent: 2026-11-21 02:49 ET
+Sent: 2026-11-21 03:05 ET
 
 # FDP-38 PDF to JPG: desk findings (2026-11-21 EST)
 
@@ -15,7 +15,7 @@ Sent: 2026-11-21 02:49 ET
   - The badge is added at Download time, not at render, which is why the preview is clean.
 - **Blog** `/blog/pdf-to-jpg` (Oct 17, 2026, 200), "Turn a Claim PDF Into JPG Pages a Portal Will Accept". It's accurate on dpi, pixel sizes (918×1188 … 2550×3300, live-verified), range syntax, 12 thumbnails, names (`-page-05`), folders and "(2)". Two errors:
   - It says password PDFs "fail with an error message"; live they get an unlock dialog.
-  - It says "300+ professional tools", while the header search says "Search 200+ tools…". Count consistency, P3.
+  - It says "300+ professional tools", matching the live header "Search 300+ tools". Only the video shows the old "200+" (v2 correction).
   - It embeds the same video. A second blog, /blog/pdf-to-jpg-slides-from-packet, exists.
 - **Next-step cards:** Universal File Converter (Premium, "2 trial uses a day · $3/$9.99") and File Conversion Studio.
 - **Locales:** es…id 200; /ar 404. Titles and meta stay English under hreflang; the ja H1 is translated ("PDFをJPGに変換"), but section labels stay English.

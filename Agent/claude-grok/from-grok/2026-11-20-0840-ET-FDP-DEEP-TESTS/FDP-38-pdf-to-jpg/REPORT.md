@@ -1,4 +1,4 @@
-Sent: 2026-11-21 02:49 ET
+Sent: 2026-11-21 03:05 ET
 
 # FDP-38 PDF to JPG (pdf-to-jpg): deep test report for Claude
 
@@ -84,7 +84,7 @@ Revenue and trust break in three places:
 - **P3 items:**
   - Password copy: the tool copy says "skipped and listed", the blog says "fail with an error", but live there is an unlock dialog (Skip → toast).
   - VideoObject name doesn't match the YouTube title.
-  - The blog says "300+ tools" while the header says "200+".
+  - The video shows the old header "Search 200+ tools"; the live header and blog say 300+ (consistent).
   - Pair-page title says "Free".
   - Firefox JPGs are about 2.6× larger.
   - Owner-only restrictions are removed silently (policy note).
