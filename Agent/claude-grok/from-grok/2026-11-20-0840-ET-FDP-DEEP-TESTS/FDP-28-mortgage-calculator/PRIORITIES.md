@@ -1,0 +1,19 @@
+Sent: 2026-11-20 23:25 ET
+
+# FDP-28 Mortgage Calculator: priorities
+
+| # | Pri | Item | Evidence | Suggested outcome |
+|---|---|---|---|---|
+| 1 | **P0** | Non-default inputs incl. **gross monthly income and other debts** are mirrored into the URL (`?price=&inc=&debts=`). They go to Google Analytics with no reload, and on reload or a shared link to the server, 5 × doubleclick ad requests and GA. The copy says "Nothing you type is sent to a server or stored". | `json/privacy.json` (23:05 EST) | Don't mirror inputs into the query by default; never put income or debts in a URL. Offer an explicit "Copy link with my numbers" (fragment, stripped from analytics `page_location`). Make the privacy copy exact. |
+| 2 | P1 (policy question) | At 0 remaining, all 6 exports work with no cap dialog (10 → 10). No strip or pass on the page. Tagged `absorbable`; not in the Nov 20 uncounted list. With uses left: pending. | `json/gate.json`; RERUN row 28 | Santosh decides: count results/exports per the Oct 30 policy, or declare it uncounted (then show that, and fix the JSON-LD Offer). |
+| 3 | P1 | "Print or save as PDF" / Print: page 1 has only the donut, collapsed steps and history with "Clear"; pages 2–4 are blank. No inputs, loan, totals, payoff, 15/30 or schedule (even when open). | `screens/live/printprev-1.png`, `testfiles/outputs/print-preview*.pdf` | A one-page summary sheet plus an optional schedule appendix; hide controls; no blank pages. |
+| 4 | P1 | Video shows the old 6-field UI with "10 free uses daily" badges and an impossible demo ($40,043 price, $80,034 down → $400.00; $2,953/mo tax → $3,053.00). Titles mismatch; 2 views. | `findings/video-findings.md`, `video/z54.png`, `video/zr-stack.png` | Re-record on the current tool with the blog's $450k / 10% scenario; align YouTube title, embed title and VideoObject name; say "trial uses". |
+| 5 | P2 | Locales: es/pt/fr/de/ja/hi/zh/ko/id are English pages with a foreign `lang` plus hreflang; /ar 404. | `findings/devices-locales-findings.md`, `html/` | Translate, or drop hreflang/noindex for untranslated variants. |
+| 6 | P2 | "400.000" (European thousands) → a $400 home, $102.39/month, no warning. | `json/cases.json` M31 | Warn when the price is implausibly small, or ask the user to confirm ambiguous separators. |
+| 7 | P2 | The 15-vs-30 table ignores the user's own term (term 20 → still 15/30). | M32 | Compare the user's term against 15 and 30 (or let the user pick). |
+| 8 | P2 | CSV: yearly rows have no date and use loan years (the screen uses calendar years); no tax, insurance, HOA or total columns; no input summary. | `testfiles/outputs/Z_at_zero-mortgage-schedule.csv` | Add an inputs header block and cost columns; label years consistently. |
+| 9 | P2 | Two export bars; Copy result and Copy report copy different texts. | `json/gate.json` | One export bar; every format carries inputs, result and date. |
+| 10 | P2 | Copy: Limitations says costs are "flat… do not rise" while the tool models growth; "Files never stored" badge; FAQ has 4 of 5 questions about the payment date. | `html/tool-expanded.txt` | Fix Limitations; add FAQs on PMI vs MIP, FHA/VA/USDA, DTI, extra/biweekly. |
+| 11 | P2 | Desktop uses a narrow single column with wide empty margins; on phones the breakdown sits below about 20 inputs. | `screens/live/probe.png`, `screens/devices/` | Two-column desktop (inputs / sticky results); collapse optional groups on phones. |
+| 12 | P2 | Paid-tier hooks missing vs competitors (desk): affordability, points/APR, ARM, refinance break-even, rent-vs-buy. | `findings/desk-findings.md` | Candidates for Premium Applications. |
+| 13 | P3 | JSON-LD Offer 4.99; thumbnail alt; iPhone SE +9 px, ja +3 px overflow; axe label-content-name-mismatch, ad-caption contrast, heading-order, empty-table-header; share drops biweekly; total $2,489.28 vs parts $2,489.29. | matrix, axe, share.json | Polish (keep ad slots; fix caption contrast). |
