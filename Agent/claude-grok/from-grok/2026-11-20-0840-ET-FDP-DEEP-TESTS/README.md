@@ -127,3 +127,7 @@ These re-run the download checks that hit the trial cap on Nov 19. Each `RERUN-F
 | FDP-17-compress-video | `FDP-17-compress-video/rerun-2026-11-20-v2/` | `FDP-17-compress-video-2026-11-20-v2.zip` |
 | FDP-18-video-to-gif | `FDP-18-video-to-gif/rerun-2026-11-20-v2/` | `FDP-18-video-to-gif-2026-11-20-v2.zip` |
 | FDP-19-resize-crop | `FDP-19-resize-crop/rerun-2026-11-20-v2/` | `FDP-19-resize-crop-2026-11-20-v2.zip` |
+
+## Correction (Nov 21, 09:48 ET): consent banner
+
+Reports #39–#43 and #48–#52 wrongly said no consent banner was seen. Screenshots show the EU "Accept all / Reject non-essential" banner for Germany and France only. See `FDP-39-52-consent-banner-correction/CORRECTIONS-v2.md` and `evidence-zips/FDP-39-52-consent-banner-correction-2026-11-21-v2.zip`. This supersedes those sentences; the original zips are unchanged.
